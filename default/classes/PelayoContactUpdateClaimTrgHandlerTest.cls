@@ -7,7 +7,7 @@
  * @group             : Pelayo Integration
 **/
 @IsTest
-private class PelayoContactUpdateClaimTriggerHandlerTest {
+private class PelayoContactUpdateClaimTrgHandlerTest {
 
     private static final String PELAYO_GRAND_ACCOUNT = 'PLYO';
 
@@ -146,20 +146,20 @@ private class PelayoContactUpdateClaimTriggerHandlerTest {
     @IsTest
     static void run_bulk200Updates_enqueuesAtMostOnce() {
         Account acc = [SELECT Id FROM Account LIMIT 1];
-        List<Contact> bulk = new List<Contact>();
+        List<Contact> bulkRecords = new List<Contact>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Contact(
+            bulkRecords.add(new Contact(
                 FirstName = 'Bulk',
                 LastName = 'Contact-' + i,
                 AccountId = acc.Id,
                 Email = 'bulk' + i + '@test.com'
             ));
         }
-        insert bulk;
+        insert bulkRecords;
 
         // Attach each Contact to a Pelayo Case
         List<Case> cases = new List<Case>();
-        for (Contact c : bulk) {
+        for (Contact c : bulkRecords) {
             cases.add(new Case(
                 Subject = 'Bulk Case ' + c.LastName,
                 Status = 'Opening',
@@ -174,8 +174,8 @@ private class PelayoContactUpdateClaimTriggerHandlerTest {
         PelayoUpdateClaimTriggerLogic.treatCurrentUserAsIntegrationUser = false;
 
         Test.startTest();
-        for (Contact c : bulk) c.LastName = c.LastName + '-X';
-        update bulk;
+        for (Contact c : bulkRecords) c.LastName = c.LastName + '-X';
+        update bulkRecords;
         Integer queued = Limits.getQueueableJobs();
         Test.stopTest();
 

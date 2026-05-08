@@ -28,8 +28,8 @@ private class ProviderAssignmentEngineFlowModelsTest {
 
         Test.startTest();
         // Round-trip through serialization to confirm the public shape is JSON-stable
-        String json = JSON.serialize(snap);
-        Map<String, Object> parsed = (Map<String, Object>) JSON.deserializeUntyped(json);
+        String serialized = JSON.serialize(snap);
+        Map<String, Object> parsed = (Map<String, Object>) JSON.deserializeUntyped(serialized);
         Test.stopTest();
 
         System.assertEquals(a.Id, snap.providerId, 'providerId should round-trip');
@@ -65,12 +65,12 @@ private class ProviderAssignmentEngineFlowModelsTest {
         fb.reason = 'Manual override reason';
 
         Test.startTest();
-        String json = JSON.serialize(fb);
+        String serialized = JSON.serialize(fb);
         Test.stopTest();
 
         System.assertEquals(a.Id, fb.providerId, 'providerId should be set');
         System.assertEquals('Manual override reason', fb.reason, 'reason should be set');
-        System.assert(json.contains('Manual override reason'),
+        System.assert(serialized.contains('Manual override reason'),
             'Serialized payload should include the reason field');
     }
 }

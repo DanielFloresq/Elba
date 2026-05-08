@@ -368,9 +368,9 @@ private class MKISElbaInterventionHandlerTest {
         Case c = getCase();
         Stakeholders__c sh = getStakeholder();
 
-        List<Service__c> bulk = new List<Service__c>();
+        List<Service__c> bulkRecords = new List<Service__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Service__c(
+            bulkRecords.add(new Service__c(
                 Order__c = ord.Id,
                 Claim__c = c.Id,
                 Stakeholder__c = sh.Id,
@@ -383,11 +383,11 @@ private class MKISElbaInterventionHandlerTest {
         Test.startTest();
         // Insertion fires the trigger which calls createInterventionAsync (@future).
         // Test.stopTest() will run the @future once.
-        insert bulk;
+        insert bulkRecords;
         Test.stopTest();
 
         Integer countWithMkisId = [
-            SELECT COUNT() FROM Service__c WHERE Id IN :bulk AND MKISId__c != null
+            SELECT COUNT() FROM Service__c WHERE Id IN :bulkRecords AND MKISId__c != null
         ];
         // Best-effort: the bulk path must not throw governor-limit failures
         System.assert(countWithMkisId >= 0,

@@ -231,14 +231,14 @@ private class PelayoEmailMessageTriggerLogicTest {
     @IsTest
     static void processEmailMessages_bulk200_singleEnqueue() {
         Case c = getCase();
-        List<EmailMessage> bulk = new List<EmailMessage>();
+        List<EmailMessage> bulkRecords = new List<EmailMessage>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(buildEmail(c.Id, '3', false));
+            bulkRecords.add(buildEmail(c.Id, '3', false));
         }
-        insert bulk;
+        insert bulkRecords;
         Map<Id, EmailMessage> newMap = new Map<Id, EmailMessage>([
             SELECT Id, ParentId, RelatedToId, Incoming, Status, Recipient__c
-            FROM EmailMessage WHERE Id IN :bulk
+            FROM EmailMessage WHERE Id IN :bulkRecords
         ]);
 
         PelayoEmailMessageTriggerLogic.bypassExternalActions = false;

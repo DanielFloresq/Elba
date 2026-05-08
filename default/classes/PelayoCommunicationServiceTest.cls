@@ -384,7 +384,6 @@ private class PelayoCommunicationServiceTest {
     static void buildEmailContext_caseNonPelayo_returnsNull() {
         Case c = new Case(
             Id = getNonPelayoCase().Id,
-            CaseNumber = '00010001',
             GrandAccount__c = 'OTHER'
         );
 

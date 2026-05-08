@@ -107,7 +107,7 @@ private class PelayoCommentServiceTest {
         return [
             SELECT Id FROM Comments__c
             WHERE Case__c IN (SELECT Id FROM Case WHERE GrandAccount__c = :PELAYO_GRAND_ACCOUNT)
-            AND Comment__c = 'Hito - Pelayo case comment'
+            AND Message__c = 'Body of comment'
             LIMIT 1
         ];
     }
@@ -116,7 +116,7 @@ private class PelayoCommentServiceTest {
         return [
             SELECT Id FROM Comments__c
             WHERE Order__c != null
-            AND Comment__c = 'Hito - Pelayo order comment'
+            AND Message__c = 'Order body'
             LIMIT 1
         ];
     }
@@ -124,14 +124,14 @@ private class PelayoCommentServiceTest {
     private static Comments__c getNonPelayoComment() {
         return [
             SELECT Id FROM Comments__c
-            WHERE Comment__c = 'Hito - Non Pelayo' LIMIT 1
+            WHERE Message__c = 'No Pelayo' LIMIT 1
         ];
     }
 
     private static Comments__c getSmsHitoComment() {
         return [
             SELECT Id FROM Comments__c
-            WHERE Comment__c LIKE 'Hito - Envío de SMS%' LIMIT 1
+            WHERE Message__c = 'SMS' LIMIT 1
         ];
     }
 
@@ -404,18 +404,18 @@ private class PelayoCommentServiceTest {
     static void enqueueCreate_bulk200_singleQueueable() {
         Case c = [SELECT Id FROM Case WHERE GrandAccount__c = :PELAYO_GRAND_ACCOUNT LIMIT 1];
 
-        List<Comments__c> bulk = new List<Comments__c>();
+        List<Comments__c> bulkRecords = new List<Comments__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Comments__c(
+            bulkRecords.add(new Comments__c(
                 Case__c = c.Id,
                 Comment__c = 'Hito - Bulk ' + i,
                 Message__c = 'm' + i
             ));
         }
-        insert bulk;
+        insert bulkRecords;
 
         List<Id> ids = new List<Id>();
-        for (Comments__c cm : bulk) {
+        for (Comments__c cm : bulkRecords) {
             ids.add(cm.Id);
         }
 

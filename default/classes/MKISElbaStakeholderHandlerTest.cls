@@ -239,18 +239,18 @@ private class MKISElbaStakeholderHandlerTest {
         );
         insert o;
 
-        List<Stakeholders__c> bulk = new List<Stakeholders__c>();
+        List<Stakeholders__c> bulkRecords = new List<Stakeholders__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Stakeholders__c(
+            bulkRecords.add(new Stakeholders__c(
                 Name = 'Bulk Stk ' + i,
                 Case__c = bulkCase.Id,
                 StakeholderType__c = 'Asegurado'
             ));
         }
-        insert bulk;
+        insert bulkRecords;
 
         List<Id> ids = new List<Id>();
-        for (Stakeholders__c s : bulk) ids.add(s.Id);
+        for (Stakeholders__c s : bulkRecords) ids.add(s.Id);
 
         // Provide enough mocked responses to cover 200 callouts
         List<HttpResponse> responses = new List<HttpResponse>();

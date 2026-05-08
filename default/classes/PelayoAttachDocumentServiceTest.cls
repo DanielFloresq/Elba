@@ -221,7 +221,7 @@ private class PelayoAttachDocumentServiceTest {
         Order o = getOrder();
 
         // 50 file attachments in one enqueue invocation — one Queueable handles them all
-        List<PelayoAttachDocumentOutBoundStructure.FileAttachmentInput> bulk =
+        List<PelayoAttachDocumentOutBoundStructure.FileAttachmentInput> bulkRecords =
             new List<PelayoAttachDocumentOutBoundStructure.FileAttachmentInput>();
         Id cvId = getContentVersion().Id;
         for (Integer i = 0; i < 50; i++) {
@@ -230,11 +230,11 @@ private class PelayoAttachDocumentServiceTest {
             input.contentVersionId = cvId;
             input.familiaDoc = 'F' + i;
             input.tipoDoc = 'T' + i;
-            bulk.add(input);
+            bulkRecords.add(input);
         }
 
         Test.startTest();
-        PelayoAttachDocumentService.enqueue(c.Id, o.Id, bulk);
+        PelayoAttachDocumentService.enqueue(c.Id, o.Id, bulkRecords);
         Integer queued = Limits.getQueueableJobs();
         Test.stopTest();
 

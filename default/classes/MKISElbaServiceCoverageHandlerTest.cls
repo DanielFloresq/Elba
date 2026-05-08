@@ -155,18 +155,18 @@ private class MKISElbaServiceCoverageHandlerTest {
     static void createServiceCoverageAsync_bulk200_handlesGracefully() {
         Case c = getCase();
 
-        List<InsurableCoverage__c> bulk = new List<InsurableCoverage__c>();
+        List<InsurableCoverage__c> bulkRecords = new List<InsurableCoverage__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new InsurableCoverage__c(
+            bulkRecords.add(new InsurableCoverage__c(
                 Claim__c = c.Id,
                 Coverage__c = 'Cobertura ' + i,
                 CoverageAmountLimit__c = 100 + i
             ));
         }
-        insert bulk;
+        insert bulkRecords;
 
         List<Id> ids = new List<Id>();
-        for (InsurableCoverage__c x : bulk) ids.add(x.Id);
+        for (InsurableCoverage__c x : bulkRecords) ids.add(x.Id);
 
         List<HttpResponse> responses = new List<HttpResponse>();
         for (Integer i = 0; i < 220; i++) responses.add(createOkResponse());

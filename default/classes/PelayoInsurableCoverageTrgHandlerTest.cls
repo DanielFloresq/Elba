@@ -7,7 +7,7 @@
  * @group             : Pelayo Integration
 **/
 @IsTest
-private class PelayoInsurableCoverageTriggerHandlerTest {
+private class PelayoInsurableCoverageTrgHandlerTest {
 
     private static final String PELAYO_GRAND_ACCOUNT = 'PLYO';
 
@@ -140,16 +140,16 @@ private class PelayoInsurableCoverageTriggerHandlerTest {
         PelayoUpdateClaimTriggerLogic.bypassExternalActions = false;
         PelayoUpdateClaimTriggerLogic.treatCurrentUserAsIntegrationUser = false;
 
-        List<InsurableCoverage__c> bulk = new List<InsurableCoverage__c>();
+        List<InsurableCoverage__c> bulkRecords = new List<InsurableCoverage__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new InsurableCoverage__c(
+            bulkRecords.add(new InsurableCoverage__c(
                 Claim__c = c.Id,
                 Coverage__c = 'Bulk ' + i
             ));
         }
 
         Test.startTest();
-        insert bulk;
+        insert bulkRecords;
         Integer queued = Limits.getQueueableJobs();
         Test.stopTest();
 

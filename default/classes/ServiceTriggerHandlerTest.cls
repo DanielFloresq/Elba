@@ -155,9 +155,9 @@ private class ServiceTriggerHandlerTest {
 
         Order o = getOrder();
         Case c = getCase();
-        List<Service__c> bulk = new List<Service__c>();
+        List<Service__c> bulkRecords = new List<Service__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Service__c(
+            bulkRecords.add(new Service__c(
                 Order__c = o.Id,
                 Claim__c = c.Id,
                 Type__c = 'A2',
@@ -167,11 +167,11 @@ private class ServiceTriggerHandlerTest {
         }
 
         Test.startTest();
-        insert bulk;
+        insert bulkRecords;
         Test.stopTest();
 
         Integer count = [
-            SELECT COUNT() FROM Service__c WHERE Id IN :bulk
+            SELECT COUNT() FROM Service__c WHERE Id IN :bulkRecords
         ];
         System.assertEquals(200, count, '200 Service__c records should be inserted');
     }

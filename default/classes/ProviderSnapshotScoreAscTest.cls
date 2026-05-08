@@ -8,7 +8,7 @@
 private class ProviderSnapshotScoreAscTest {
 
     private static ProviderAssignmentEngine.ProviderSnapshot snap(Decimal score) {
-        ProviderAssignmentEngine.ProviderSnapshot s = new ProviderAssignmentEngine.ProviderSnapshot();
+        ProviderAssignmentEngine.ProviderSnapshot s = new ProviderAssignmentEngine.ProviderSnapshot(new Account(Name = 'Test'));
         s.score = score;
         return s;
     }

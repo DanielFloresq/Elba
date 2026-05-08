@@ -172,9 +172,9 @@ private class PelayoStakeholdersTriggerHandlerTest {
         PelayoUpdateClaimTriggerLogic.treatCurrentUserAsIntegrationUser = false;
         PelayoStakeholdersTriggerHandler.treatCurrentUserAsIntegrationUser = false;
 
-        List<Stakeholders__c> bulk = new List<Stakeholders__c>();
+        List<Stakeholders__c> bulkRecords = new List<Stakeholders__c>();
         for (Integer i = 0; i < 200; i++) {
-            bulk.add(new Stakeholders__c(
+            bulkRecords.add(new Stakeholders__c(
                 Name = 'Bulk ' + i,
                 Case__c = pelayoCase.Id,
                 StakeholderType__c = 'Asegurado'
@@ -182,7 +182,7 @@ private class PelayoStakeholdersTriggerHandlerTest {
         }
 
         Test.startTest();
-        insert bulk;
+        insert bulkRecords;
         Integer queued = Limits.getQueueableJobs();
         Test.stopTest();
 
