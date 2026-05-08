@@ -9,7 +9,8 @@ public without sharing class PelayoEmailMessageTriggerLogic {
 
     private static final Set<String> SENT_EMAIL_STATUSES = new Set<String>{ '3', 'sent', 'enviado' };
 
-    public static Boolean bypassExternalActions = Test.isRunningTest();
+    @TestVisible
+    public static Boolean bypassExternalActions = false;
 
     public static void processEmailMessages(
         Map<Id, EmailMessage> newMap,

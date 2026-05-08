@@ -21,7 +21,7 @@ public without sharing class ServiceLogic {
     private static final String typeCE = 'CE';//Feito
 
     @TestVisible
-    private static Boolean bypassExternalActions = Test.isRunningTest();
+    private static Boolean bypassExternalActions = false;
 
     /**
      * @description Entry point for processing service records after trigger execution, queries scoped services and delegates to processScopedServices

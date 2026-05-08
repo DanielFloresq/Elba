@@ -7,7 +7,8 @@
 **/
 public without sharing class PelayoUpdateClaimTriggerLogic {
 
-    public static Boolean bypassExternalActions = Test.isRunningTest();
+    @TestVisible
+    public static Boolean bypassExternalActions = false;
     public static Boolean enableCalloutsInTests = false;
 
     private static final String PELAYO_ACCOUNT_CODE = 'PLYO';
