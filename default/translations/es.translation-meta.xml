@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- ELBA --></label>
+        <name>ELBA</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </customApplications>
+    <customLabels>
+        <label>Nombre de la cuenta</label>
+        <name>AccountName</name>
+    </customLabels>
+    <customLabels>
+        <label>Agregue al menos una dirección de correo electrónico en el campo &quot;Para&quot;.</label>
+        <name>AddAtLeastOneEmailAddressInTheToField</name>
+    </customLabels>
+    <customLabels>
+        <label>Añadir Documentos</label>
+        <name>AddDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Añadir a la lista</label>
+        <name>AddToList</name>
+    </customLabels>
+    <customLabels>
+        <label>Archivos añadidos</label>
+        <name>AddedFiles</name>
+    </customLabels>
+    <customLabels>
+        <label>Morada</label>
+        <name>AddressFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Cierre administrativo</label>
+        <name>AdministrativeClosure</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de aprobación presentada</label>
+        <name>Applicationforapprovalsubmitted</name>
+    </customLabels>
+    <customLabels>
+        <label>Aplicar</label>
+        <name>Apply</name>
+    </customLabels>
+    <customLabels>
+        <label>Historial de aprobaciones</label>
+        <name>ApprovalHistory</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo de Asignación:</label>
+        <name>AssignTypeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Automático</label>
+        <name>AutomaticLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>CancelF</name>
+    </customLabels>
+    <customLabels>
+        <label>Procesos</label>
+        <name>Case</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentarios del caso</label>
+        <name>CaseComments</name>
+    </customLabels>
+    <customLabels>
+        <label>Siniestro</label>
+        <name>CaseF</name>
+    </customLabels>
+    <customLabels>
+        <label>Historia del caso</label>
+        <name>CaseHistory</name>
+    </customLabels>
+    <customLabels>
+        <label>Procesos</label>
+        <name>Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>Elegir Encargo</label>
+        <name>ChooseOrder</name>
+    </customLabels>
+    <customLabels>
+        <label>Cerrado</label>
+        <name>Closed</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentario</label>
+        <name>Comment</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentarios</label>
+        <name>Comments</name>
+    </customLabels>
+    <customLabels>
+        <label>Description</label>
+        <name>CommentsF</name>
+    </customLabels>
+    <customLabels>
+        <label>¿Está seguro de que desea eliminar los documentos seleccionados?</label>
+        <name>ConfirmDeleteMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>Confirmar Eliminación</label>
+        <name>ConfirmDeletion</name>
+    </customLabels>
+    <customLabels>
+        <label>Proveedor elegido:</label>
+        <name>ConfirmationScreenLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Contacto</label>
+        <name>ContactRecord</name>
+    </customLabels>
+    <customLabels>
+        <label>Comuníquese con el administrador si el problema persiste.</label>
+        <name>ContactTheAdministratorIfTheProblemPersists</name>
+    </customLabels>
+    <customLabels>
+        <label>Crear nuevo servicio</label>
+        <name>CreateNewService</name>
+    </customLabels>
+    <customLabels>
+        <label>Creado por</label>
+        <name>CreatedBy</name>
+    </customLabels>
+    <customLabels>
+        <label>Fecha de creación</label>
+        <name>CreationDate</name>
+    </customLabels>
+    <customLabels>
+        <label>Rango de fechas</label>
+        <name>DateRange</name>
+    </customLabels>
+    <customLabels>
+        <label>Eliminar documentos seleccionados</label>
+        <name>DeleteSelectedDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Descripción</label>
+        <name>Description</name>
+    </customLabels>
+    <customLabels>
+        <label>Deseleccionar todo</label>
+        <name>DeselectAll</name>
+    </customLabels>
+    <customLabels>
+        <label>Designación</label>
+        <name>Designation</name>
+    </customLabels>
+    <customLabels>
+        <label>Documentos eliminados exitosamente.</label>
+        <name>DocumentSuccessfullyDeleted</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo documental</label>
+        <name>DocumentalType</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo Documental</label>
+        <name>DocumentaryType</name>
+    </customLabels>
+    <customLabels>
+        <label>Documentos reasignados exitosamente.</label>
+        <name>DocumentsSuccessfullyReassigned</name>
+    </customLabels>
+    <customLabels>
+        <label>Descarga de documentos seleccionados</label>
+        <name>DownloadSelectedDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Elegibilidad</label>
+        <name>Eligibility</name>
+    </customLabels>
+    <customLabels>
+        <label>Email</label>
+        <name>EmailFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico enviado correctamente</label>
+        <name>EmailSentSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label>Plantilla de correo electrónico</label>
+        <name>EmailTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuerpo del correo electrónico</label>
+        <name>Email_body</name>
+    </customLabels>
+    <customLabels>
+        <label>Fin</label>
+        <name>End</name>
+    </customLabels>
+    <customLabels>
+        <label>Error</label>
+        <name>Error</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al aplicar la plantilla</label>
+        <name>ErrorApplyingTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al eliminar documentos</label>
+        <name>ErrorDeletingDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al marcar como favorito</label>
+        <name>ErrorMarkingAsFavorite</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al reasignar documentos</label>
+        <name>ErrorReassigningDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al eliminar favorito</label>
+        <name>ErrorRemovingFavorite</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al enviar correo electrónico</label>
+        <name>ErrorSendingEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Escalada</label>
+        <name>Escalated</name>
+    </customLabels>
+    <customLabels>
+        <label>Eventos</label>
+        <name>Events</name>
+    </customLabels>
+    <customLabels>
+        <label>Peritación</label>
+        <name>ExpertAssessmentTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Error al cargar archivos.</label>
+        <name>FailureToUploadFiles</name>
+    </customLabels>
+    <customLabels>
+        <label>Favoritos</label>
+        <name>Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label>Campo</label>
+        <name>Field</name>
+    </customLabels>
+    <customLabels>
+        <label>Ficheros</label>
+        <name>Files</name>
+    </customLabels>
+    <customLabels>
+        <label>¡Archivos cargados correctamente!</label>
+        <name>FilesSuccessfullyUploaded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FinishButtonLabel --></label>
+        <name>FinishButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>GerarCarta_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>Ocurrió un error.</label>
+        <name>GerarCarta_ErrorGeneric</name>
+    </customLabels>
+    <customLabels>
+        <label>Error</label>
+        <name>GerarCarta_ErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Justificar</label>
+        <name>GerarCarta_Justify</name>
+    </customLabels>
+    <customLabels>
+        <label>Justificar texto</label>
+        <name>GerarCarta_JustifyText</name>
+    </customLabels>
+    <customLabels>
+        <label>Cargando</label>
+        <name>GerarCarta_Loading</name>
+    </customLabels>
+    <customLabels>
+        <label>Siguiente</label>
+        <name>GerarCarta_Next</name>
+    </customLabels>
+    <customLabels>
+        <label>Carta creada: {0}</label>
+        <name>GerarCarta_PdfCreated</name>
+    </customLabels>
+    <customLabels>
+        <label>¡Carta generada con éxito!</label>
+        <name>GerarCarta_PdfSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label>Anterior</label>
+        <name>GerarCarta_Previous</name>
+    </customLabels>
+    <customLabels>
+        <label>Guardar</label>
+        <name>GerarCarta_Save</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccionar plantilla</label>
+        <name>GerarCarta_SelectTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>Éxito</label>
+        <name>GerarCarta_SuccessTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Plantilla</label>
+        <name>GerarCarta_TemplateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo</label>
+        <name>HistoryNew</name>
+    </customLabels>
+    <customLabels>
+        <label>Actualizado</label>
+        <name>HistoryUpdated</name>
+    </customLabels>
+    <customLabels>
+        <label>Dirección de correo electrónico no válida</label>
+        <name>InvalidEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>Cargando encargos</label>
+        <name>LoadingOrders</name>
+    </customLabels>
+    <customLabels>
+        <label>Ubicación</label>
+        <name>Location</name>
+    </customLabels>
+    <customLabels>
+        <label>Manual</label>
+        <name>ManualLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Marcar como favorito</label>
+        <name>MarkFavorite</name>
+    </customLabels>
+    <customLabels>
+        <label>Marcado como favorito</label>
+        <name>MarkedAsFavorite</name>
+    </customLabels>
+    <customLabels>
+        <label>Sesiones de mensajería</label>
+        <name>Messagingsessions</name>
+    </customLabels>
+    <customLabels>
+        <label>Hitos</label>
+        <name>Milestones</name>
+    </customLabels>
+    <customLabels>
+        <label>Destinatario faltante</label>
+        <name>MissingRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>Más opciones</label>
+        <name>MoreOptions</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre</label>
+        <name>Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre</label>
+        <name>NameF</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo</label>
+        <name>New</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo Siniestro</label>
+        <name>New_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo comentario</label>
+        <name>Newcommentary</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevo mensaje</label>
+        <name>Newmessage</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentario sobre el nuevo proceso</label>
+        <name>Newprocesscommentary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NextButtonLabel --></label>
+        <name>NextButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>No se encontraron proveedores disponibles.</label>
+        <name>NoProvidersLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Ninguna tarea encontrada. Intente otro criterio de búsqueda.</label>
+        <name>NoTasksFound</name>
+    </customLabels>
+    <customLabels>
+        <label>Visualización de objetos</label>
+        <name>ObjectsDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label>En espera</label>
+        <name>OnHold</name>
+    </customLabels>
+    <customLabels>
+        <label>Abrir Cerrar</label>
+        <name>OpenClose</name>
+    </customLabels>
+    <customLabels>
+        <label>Apertura</label>
+        <name>Opening</name>
+    </customLabels>
+    <customLabels>
+        <label>Servicios</label>
+        <name>Order</name>
+    </customLabels>
+    <customLabels>
+        <label>Creación de pedidos</label>
+        <name>OrderCreation</name>
+    </customLabels>
+    <customLabels>
+        <label>Mensaje original</label>
+        <name>Originalmessage</name>
+    </customLabels>
+    <customLabels>
+        <label>Contactos Telefonicos</label>
+        <name>PhoneFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Apertura previa a la valoración</label>
+        <name>Pre_Valuation_Opening</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PreviousButtonLabel --></label>
+        <name>PreviousButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Proceso creado</label>
+        <name>ProcessCreated</name>
+    </customLabels>
+    <customLabels>
+        <label>Validación de procesos</label>
+        <name>Processvalidation</name>
+    </customLabels>
+    <customLabels>
+        <label>Historial de provisiones</label>
+        <name>ProvisionHistory</name>
+    </customLabels>
+    <customLabels>
+        <label>Razón</label>
+        <name>ReasonComment</name>
+    </customLabels>
+    <customLabels>
+        <label>Motivo</label>
+        <name>ReasonFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Reasignar</label>
+        <name>Reassign</name>
+    </customLabels>
+    <customLabels>
+        <label>Reasignar documentos</label>
+        <name>ReassignDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Reasignar documentos seleccionados a otras reclamaciones</label>
+        <name>ReassignSelectedDocumentsToOtherClaims</name>
+    </customLabels>
+    <customLabels>
+        <label>Encargo/Servicio asociado</label>
+        <name>RelatedCase</name>
+    </customLabels>
+    <customLabels>
+        <label>Registro Relacionado</label>
+        <name>RelatedRecord</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Etiqueta Registro Relacionado --></label>
+        <name>RelatedRecord_es</name>
+    </customLabels>
+    <customLabels>
+        <label>Relacionado con</label>
+        <name>Related_to</name>
+    </customLabels>
+    <customLabels>
+        <label>Eliminar</label>
+        <name>Remove</name>
+    </customLabels>
+    <customLabels>
+        <label>Eliminado de favoritos</label>
+        <name>RemovedFromFavorites</name>
+    </customLabels>
+    <customLabels>
+        <label>Reapertura</label>
+        <name>Reopening</name>
+    </customLabels>
+    <customLabels>
+        <label>Responder</label>
+        <name>Reply</name>
+    </customLabels>
+    <customLabels>
+        <label>Siniestro</label>
+        <name>Reprocess_Alias_Case</name>
+    </customLabels>
+    <customLabels>
+        <label>Participación rechazada</label>
+        <name>Reprocess_Alias_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label>Encargos</label>
+        <name>Reprocess_Alias_Order</name>
+    </customLabels>
+    <customLabels>
+        <label>Servicio</label>
+        <name>Reprocess_Alias_Service</name>
+    </customLabels>
+    <customLabels>
+        <label>Volver</label>
+        <name>Reprocess_Button_Back</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>Reprocess_Button_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>Reprocesar</label>
+        <name>Reprocess_Button_ExecuteBatch</name>
+    </customLabels>
+    <customLabels>
+        <label>Finalizar</label>
+        <name>Reprocess_Button_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label>Siguiente</label>
+        <name>Reprocess_Button_Next</name>
+    </customLabels>
+    <customLabels>
+        <label>Reprocesamiento de integraciones</label>
+        <name>Reprocess_Component_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de caso</label>
+        <name>Reprocess_Datatable_Case_CaseNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de contacto</label>
+        <name>Reprocess_Datatable_Case_ContactName</name>
+    </customLabels>
+    <customLabels>
+        <label>Descripción de la última integración</label>
+        <name>Reprocess_Datatable_Case_Descritivo</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado</label>
+        <name>Reprocess_Datatable_Case_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>Código de servicio</label>
+        <name>Reprocess_Datatable_Order_CodigoServico</name>
+    </customLabels>
+    <customLabels>
+        <label>Descripción de la última integración</label>
+        <name>Reprocess_Datatable_Order_Descritivo</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado</label>
+        <name>Reprocess_Datatable_Order_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo</label>
+        <name>Reprocess_Datatable_Order_Type</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo de objeto</label>
+        <name>Reprocess_Label_ObjectType</name>
+    </customLabels>
+    <customLabels>
+        <label>Reprocesamiento en curso...</label>
+        <name>Reprocess_Ongoing</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione el tipo de objeto</label>
+        <name>Reprocess_Placeholder_ObjectType</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione un tipo de objeto.</label>
+        <name>Reprocess_Select_One_Object</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione al menos un registro.</label>
+        <name>Reprocess_Select_Record</name>
+    </customLabels>
+    <customLabels>
+        <label>¡El reprocesamiento falló!</label>
+        <name>Reprocess_failed</name>
+    </customLabels>
+    <customLabels>
+        <label>¡Reprocesamiento completado!</label>
+        <name>Reprocess_finished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RequiredFieldsError --></label>
+        <name>RequiredFieldsError</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscar</label>
+        <name>Search</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscar Documentos</label>
+        <name>SearchDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Resultados de Búsqueda</label>
+        <name>SearchResults</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscar Tareas</label>
+        <name>SearchTasks</name>
+    </customLabels>
+    <customLabels>
+        <label>Ej: ABC-001, Juan García...</label>
+        <name>SearchTasksExample</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscar por Asunto, Siniestro, Encargo o Contacto</label>
+        <name>SearchTasksPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label>Busca</label>
+        <name>SearchTimeline</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscando...</label>
+        <name>Searching</name>
+    </customLabels>
+    <customLabels>
+        <label>Buscando tareas...</label>
+        <name>SearchingTasks</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccionar todo</label>
+        <name>SelectAll</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione al menos un documento.</label>
+        <name>SelectAtLeastOneDocument</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione los documentos y el objetivo antes de confirmar.</label>
+        <name>SelectDocumentsAndTargetBeforeConfirming</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione Ficheiros</label>
+        <name>SelectFiles</name>
+    </customLabels>
+    <customLabels>
+        <label>Selecciona el proveedor a asignar:</label>
+        <name>SelectScreenLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Archivos adjuntos seleccionados</label>
+        <name>SelectedAttachments</name>
+    </customLabels>
+    <customLabels>
+        <label>Tarea seleccionada</label>
+        <name>SelectedTask</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviar correo electrónico</label>
+        <name>SendEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico Sen</label>
+        <name>SendEmailF</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviar</label>
+        <name>SendF</name>
+    </customLabels>
+    <customLabels>
+        <label>Envio de documentos seleccionados</label>
+        <name>SendingSelectedDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>Servicio</label>
+        <name>Service</name>
+    </customLabels>
+    <customLabels>
+        <label>Código de servicio</label>
+        <name>ServiceCode</name>
+    </customLabels>
+    <customLabels>
+        <label>Gestión de servicios</label>
+        <name>ServiceManagement</name>
+    </customLabels>
+    <customLabels>
+        <label>Servicios</label>
+        <name>Services</name>
+    </customLabels>
+    <customLabels>
+        <label>Mostrar todo</label>
+        <name>Showall</name>
+    </customLabels>
+    <customLabels>
+        <label>Contacto Interesados</label>
+        <name>StackholdersContact</name>
+    </customLabels>
+    <customLabels>
+        <label>Interesados</label>
+        <name>Stakeholders</name>
+    </customLabels>
+    <customLabels>
+        <label>Comenzar</label>
+        <name>Start</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado</label>
+        <name>State</name>
+    </customLabels>
+    <customLabels>
+        <label>Sujeto</label>
+        <name>Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>Sujeto</label>
+        <name>SubjectComment</name>
+    </customLabels>
+    <customLabels>
+        <label>Sujeto</label>
+        <name>SubjectF</name>
+    </customLabels>
+    <customLabels>
+        <label>Éxito</label>
+        <name>Success</name>
+    </customLabels>
+    <customLabels>
+        <label>Tarea</label>
+        <name>Task</name>
+    </customLabels>
+    <customLabels>
+        <label>Cierre técnico</label>
+        <name>TechnicalClosing</name>
+    </customLabels>
+    <customLabels>
+        <label>No se pudo cargar la plantilla seleccionada.</label>
+        <name>TheSelectedTemplateCouldNotBeLoaded</name>
+    </customLabels>
+    <customLabels>
+        <label>Cronograma de Actividades</label>
+        <name>Timeline</name>
+    </customLabels>
+    <customLabels>
+        <label>Actividades de la línea de tiempo</label>
+        <name>TimelineActivities</name>
+    </customLabels>
+    <customLabels>
+        <label>A</label>
+        <name>To</name>
+    </customLabels>
+    <customLabels>
+        <label>To</label>
+        <name>ToF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>Type</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo</label>
+        <name>TypeF</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo de orden</label>
+        <name>Typeoforder</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado del proceso actualizado</label>
+        <name>Updated_process_status</name>
+    </customLabels>
+    <customLabels>
+        <label>Ver documento</label>
+        <name>ViewDocument</name>
+    </customLabels>
+    <customLabels>
+        <label>Sí</label>
+        <name>Yes</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuenta</label>
+        <name>newCreditNote_account</name>
+    </customLabels>
+    <customLabels>
+        <label>Nueva Factura de Abono</label>
+        <name>newCreditNote_button</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>newCreditNote_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>Importe</label>
+        <name>newCreditNote_colAmount</name>
+    </customLabels>
+    <customLabels>
+        <label>Fecha</label>
+        <name>newCreditNote_colDate</name>
+    </customLabels>
+    <customLabels>
+        <label>Factura</label>
+        <name>newCreditNote_colInvoice</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor, rellene todos los campos obligatorios.</label>
+        <name>newCreditNote_errorRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor, seleccione al menos una factura.</label>
+        <name>newCreditNote_errorSelectInvoice</name>
+    </customLabels>
+    <customLabels>
+        <label>No hay facturas disponibles para este encargo.</label>
+        <name>newCreditNote_noInvoices</name>
+    </customLabels>
+    <customLabels>
+        <label>Encargo</label>
+        <name>newCreditNote_order</name>
+    </customLabels>
+    <customLabels>
+        <label>Motivo de rectificación</label>
+        <name>newCreditNote_rectificationReason</name>
+    </customLabels>
+    <customLabels>
+        <label>Encargo relacionado</label>
+        <name>newCreditNote_relatedOrder</name>
+    </customLabels>
+    <customLabels>
+        <label>Guardar</label>
+        <name>newCreditNote_save</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccionar factura</label>
+        <name>newCreditNote_selectInvoice</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccionar una opción</label>
+        <name>newCreditNote_selectOption</name>
+    </customLabels>
+    <customLabels>
+        <label>Factura de abono creada correctamente.</label>
+        <name>newCreditNote_success</name>
+    </customLabels>
+    <customLabels>
+        <label>Nueva Factura de Abono</label>
+        <name>newCreditNote_title</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuenta</label>
+        <name>newInvoice_account</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>newInvoice_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>Valor Base</label>
+        <name>newInvoice_colBaseAmount</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre</label>
+        <name>newInvoice_colName</name>
+    </customLabels>
+    <customLabels>
+        <label>Interesado</label>
+        <name>newInvoice_colStakeholder</name>
+    </customLabels>
+    <customLabels>
+        <label>Valor Total</label>
+        <name>newInvoice_colTotalAmount</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo</label>
+        <name>newInvoice_colType</name>
+    </customLabels>
+    <customLabels>
+        <label>Valor IVA</label>
+        <name>newInvoice_colVATAmount</name>
+    </customLabels>
+    <customLabels>
+        <label>Error</label>
+        <name>newInvoice_error</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione al menos un servicio.</label>
+        <name>newInvoice_errorSelectService</name>
+    </customLabels>
+    <customLabels>
+        <label>Gremio</label>
+        <name>newInvoice_headerGuild</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de encargo</label>
+        <name>newInvoice_headerOrderNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo de proveedor</label>
+        <name>newInvoice_headerProviderType</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo</label>
+        <name>newInvoice_headerType</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione los encargos y servicios que desea facturar.</label>
+        <name>newInvoice_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label>No hay servicios disponibles para facturar.</label>
+        <name>newInvoice_noServices</name>
+    </customLabels>
+    <customLabels>
+        <label>Encargo relacionado</label>
+        <name>newInvoice_relatedOrder</name>
+    </customLabels>
+    <customLabels>
+        <label>Guardar</label>
+        <name>newInvoice_save</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccionar todos</label>
+        <name>newInvoice_selectAll</name>
+    </customLabels>
+    <customLabels>
+        <label>Factura creada con éxito.</label>
+        <name>newInvoice_success</name>
+    </customLabels>
+    <customLabels>
+        <label>Nueva Factura</label>
+        <name>newInvoice_title</name>
+    </customLabels>
+    <customLabels>
+        <label>Recibió</label>
+        <name>received</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviado</label>
+        <name>sent</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- MobileLanding --></label>
+        <name>MobileLanding</name>
+    </customTabs>
+    <customTabs>
+        <label>Reprocesamiento de integraciones</label>
+        <name>WeServices_Reprocessing</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AccountDeleteTrigger</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AccountScheduleFlowResetDailyAssignmentCounter</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateCommentTaskLogic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateEncargo</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateEncargoTaskLogic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateOrUpdateCase</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateServiceTaskLogic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateUser</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterCreateandUpdateProducts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateAgentWork</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateCase</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateEncargoTask_Logic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateOrder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateService</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateServiceTaskLogic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AfterUpdateandCreateConstrutionManagment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <label>Asignación de tareas</label>
+            <screens>
+                <fields>
+                    <fieldText>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(214, 5, 1);&quot;&gt;Seleccione el usuario/cola al que desea asignar las tareas seleccionadas&lt;/span&gt;&lt;/p&gt;</fieldText>
+                    <name>ErrorText2</name>
+                </fields>
+                <fields>
+                    <fieldText>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Seleccione el usuario/cola al que desea asignar las tareas seleccionadas.&lt;/p&gt;</fieldText>
+                    <name>OwnerText</name>
+                </fields>
+                <fields>
+                    <name>SelectOwner</name>
+                </fields>
+                <name>Actribuicao_de_Tarefas</name>
+                <nextOrFinishButtonLabel>Siguiente</nextOrFinishButtonLabel>
+            </screens>
+            <screens>
+                <fields>
+                    <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Por favor, seleccione al menos una tarea.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+                    <name>ErrorText</name>
+                </fields>
+                <name>Error</name>
+                <nextOrFinishButtonLabel>Siguiente</nextOrFinishButtonLabel>
+            </screens>
+            <screens>
+                <fields>
+                    <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Tareas actualizadas con éxito!&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+                    <name>Copy_1_of_ErrorText</name>
+                </fields>
+                <name>Sucesso</name>
+                <nextOrFinishButtonLabel>Terminado</nextOrFinishButtonLabel>
+            </screens>
+        </flows>
+        <fullName>Atribuicao_de_Tarefas</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeCreateAndUpdateAccount</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeCreateComments</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeCreateEncargo</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeCreateServices</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeCreateandUpdateAccountInformation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>CustomErroronDeleteTask</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>BeforeDeleteTask</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>ErrorOpenEncargos</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>BeforeUpdateOrder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>BeforeUpdateServiceTaskLogic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Blank</name>
+                </fields>
+                <fields>
+                    <name>Blank1</name>
+                </fields>
+                <fields>
+                    <name>Blank2</name>
+                </fields>
+                <fields>
+                    <name>Blank3</name>
+                </fields>
+                <fields>
+                    <name>Blank4</name>
+                </fields>
+                <fields>
+                    <name>Blank5</name>
+                </fields>
+                <fields>
+                    <name>ErrorMessageDisplay</name>
+                </fields>
+                <fields>
+                    <name>ScreenCreateOrder_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenCreateOrder_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenCreateOrder_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenCreateOrder_Section1_Column3</name>
+                </fields>
+                <fields>
+                    <name>el_0</name>
+                </fields>
+                <fields>
+                    <name>el_1</name>
+                </fields>
+                <fields>
+                    <name>el_2</name>
+                </fields>
+                <fields>
+                    <name>teste</name>
+                </fields>
+                <fields>
+                    <name>teste2</name>
+                </fields>
+                <name>ScreenCreateOrder</name>
+            </screens>
+        </flows>
+        <fullName>CaseActionCreateOrder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Coverage_Selection_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Coverage_Selection_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <name>Coverage_Selection_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Coverage_Selection_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <name>Coverage_Selection_Text</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isShowSearchBar</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Coverages_Table</name>
+                </fields>
+                <name>Coverage_Selection</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Created_Insurable_Coverages_Table</name>
+                </fields>
+                <fields>
+                    <name>Created_Screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Created_Screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <name>Created_Screen_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Created_Screen_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <name>Created_Screen_Text</name>
+                </fields>
+                <name>Created_Screen</name>
+            </screens>
+        </flows>
+        <fullName>CaseActionNewInsurableCoverages</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Custom_Error</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>CustomErrorEncargosOpen</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>CaseCreateUpdateBefore</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>AssignProvidersLWC</name>
+                </fields>
+                <name>Create_Order_and_Assign_Providers</name>
+            </screens>
+        </flows>
+        <fullName>CaseOrderActionCreateOrderAndAssignProvider</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>ContactCreateUpdateAfter</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>ScreenButton1</name>
+            </screens>
+        </flows>
+        <fullName>FlowActionCreateIncident</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Guild</name>
+            </choices>
+            <screens>
+                <name>ScreenButton</name>
+            </screens>
+            <screens>
+                <name>ScreenButton1</name>
+            </screens>
+            <screens>
+                <name>ScreenButton2</name>
+            </screens>
+            <screens>
+                <name>ScreenButton4</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Implicado</name>
+                </fields>
+                <fields>
+                    <name>ScreenRecord_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenRecord_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenRecord_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>el_0</name>
+                </fields>
+                <fields>
+                    <name>el_1</name>
+                </fields>
+                <fields>
+                    <name>el_2</name>
+                </fields>
+                <fields>
+                    <name>el_3</name>
+                </fields>
+                <fields>
+                    <name>el_4</name>
+                </fields>
+                <name>ScreenRecord</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>emptyMessage</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>guildValues</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>providerId</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Copy_1_of_GuildSelector</name>
+                </fields>
+                <fields>
+                    <name>ScreenRecordGuild_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenRecordGuild_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenRecordGuild_Section1_Column2</name>
+                </fields>
+                <name>ScreenRecordGuild</name>
+            </screens>
+        </flows>
+        <fullName>FlowActionCreateRelatedObjects</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>ScreenButton</name>
+            </screens>
+            <screens>
+                <name>ScreenButton1</name>
+            </screens>
+        </flows>
+        <fullName>FlowActionCreateSolicitation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>IncidentCreateBefore</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>IncidentCreateUpdateUpdateResponsibleParty</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>AssignProvidersLWC</name>
+                </fields>
+                <name>Create_Order_and_Assign_Providers</name>
+            </screens>
+        </flows>
+        <fullName>OrderActionAssignProvider</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>OrderSubFlowCountersForAccounts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <fieldText>Asunto</fieldText>
+                    <name>Subject</name>
+                </fields>
+                <name>ChooseSubject</name>
+            </screens>
+            <screens>
+                <fields>
+                    <fieldText>&lt;p&gt;No es posible crear una subtarea porque la tarea principal está completa.&lt;/p&gt;</fieldText>
+                    <name>AllDone</name>
+                </fields>
+                <name>Erro</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>NoSubTaskPossible</name>
+                </fields>
+                <name>ScreenNoPossibleSubtask</name>
+            </screens>
+            <screens>
+                <fields>
+                    <fieldText>&lt;pre class=&quot;ql-syntax&quot; spellcheck=&quot;false&quot;&gt;No hay subtareas para esta tarea. &lt;/pre&gt;</fieldText>
+                    <name>NoSubTaskExist</name>
+                </fields>
+                <name>Screen_No_Exist_Subtask</name>
+            </screens>
+        </flows>
+        <fullName>TaskNewChildTask</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Follow Up --></label>
+        <name>Follow_Up</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Nueva Incidencia</label>
+        <name>NewIncident</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Activities --></description>
+        <label><!-- Activities --></label>
+        <name>Activities</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

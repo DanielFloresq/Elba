@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solicitud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solicitudes</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Solicitation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Solicitud</nameFieldLabel>
+    <webLinks>
+        <label><!-- Create_SolicitationClaim --></label>
+        <name>Create_SolicitationClaim</name>
+    </webLinks>
+</CustomObjectTranslation>

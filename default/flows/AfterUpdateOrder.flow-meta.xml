@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <assignments>
+        <name>AssignmentItsToUpdateFalse</name>
+        <label>Assignment Its To Update False</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>ItsToUpdate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopOrders</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>DoesNotEqualOperacionalClosure</name>
+        <label>Does Not Equal Operacional Closure</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>LoopOrders</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>DoesNotEqualOperacionalClosurePath</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopOrders.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Operational Closure</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssignmentItsToUpdateFalse</targetReference>
+            </connector>
+            <label>Does Not Equal Operacional Closure</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ItsToUpdateDecision</name>
+        <label>Its To Update Decision</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>YesistoUpdate</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>GetOrdersRelatedToSameCase</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ItsToUpdate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>UpdateCaseToOperacionalClosure</targetReference>
+            </connector>
+            <label>Yes is to Update</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ListOrdersNotNull</name>
+        <label>List Orders Not Null</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ListOrdersNotNullPath</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetRelatedOrders</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>UpdateCasetoClose</targetReference>
+            </connector>
+            <label>List Orders Not Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>OrderIdChanged</name>
+        <label>Order id Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>OrderUpdatetoOperacionalClosure</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Order_Sub_Flow_Counters_for_Accounts_Flow_1</targetReference>
+            </connector>
+            <label>Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>OrderUpdatetoOperacionalClosure</name>
+        <label>Order Update to Operacional Closure</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>YesitsonOperacionalClosure</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Operational Closure</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GetOrdersRelatedToSameCase</targetReference>
+            </connector>
+            <label>Yes its on Operacional Closure</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SeeOrderStatus</name>
+        <label>See Order Status</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ReordStatus</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Order Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GetRelatedOrders</targetReference>
+            </connector>
+            <label>Reord Status</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>CurrentDateTime</name>
+        <dataType>DateTime</dataType>
+        <expression>now()</expression>
+    </formulas>
+    <interviewLabel>After Update | Order {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>After Update | Order</label>
+    <loops>
+        <name>LoopOrders</name>
+        <label>Loop Orders</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>GetOrdersRelatedToSameCase</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>DoesNotEqualOperacionalClosure</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>ItsToUpdateDecision</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>GetOrdersRelatedToSameCase</name>
+        <label>Get Orders Related To Same Case</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>LoopOrders</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Order Cancelled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CaseNumber__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CaseNumber__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Order</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>GetRelatedOrders</name>
+        <label>Get Related Orders</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>ListOrdersNotNull</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND (3 OR 4)</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CaseNumber__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CaseNumber__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Order Cancelled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Order Completed</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Order</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>UpdateCasetoClose</name>
+        <label>Update Case to Close</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CaseNumber__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Finished</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UpdateCaseToOperacionalClosure</name>
+        <label>Update Case To Operacional Closure</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CaseNumber__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Operational Closure</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>OrderIdChanged</targetReference>
+        </connector>
+        <object>Order</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>x24HoursOrderCompleted</name>
+            <connector>
+                <targetReference>SeeOrderStatus</targetReference>
+            </connector>
+            <label>After 24 Hours Order Completed</label>
+            <offsetNumber>24</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <recordField>CompletedDateTime__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>After2_5HoursLastModifiedDate</name>
+            <label>After 2.5 Hours Last Modified Date</label>
+            <offsetNumber>150</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>LastIntegrationDateTime__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <subflows>
+        <name>Order_Sub_Flow_Counters_for_Accounts_Flow_1</name>
+        <label>Order | Sub-Flow | Counters for Accounts Flow 1</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>OrderUpdatetoOperacionalClosure</targetReference>
+        </connector>
+        <flowName>OrderSubFlowCountersForAccounts</flowName>
+        <inputAssignments>
+            <name>accountId</name>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <name>ItsToUpdate</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>StakeHolderIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

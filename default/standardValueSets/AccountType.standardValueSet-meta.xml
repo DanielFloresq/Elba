@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Multistakeholder</fullName>
+        <default>false</default>
+        <label>Multistakeholder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Multigremio</fullName>
+        <default>false</default>
+        <label>Multigremio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Desatascos</fullName>
+        <default>false</default>
+        <label>Desatascos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cerrajería</fullName>
+        <default>false</default>
+        <label>Cerrajería</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cristalería</fullName>
+        <default>false</default>
+        <label>Cristalería</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electricidad</fullName>
+        <default>false</default>
+        <label>Electricidad</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Carpinteria</fullName>
+        <default>false</default>
+        <label>Carpinteria</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parquetista</fullName>
+        <default>false</default>
+        <label>Parquetista</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loza sanitaria</fullName>
+        <default>false</default>
+        <label>Loza sanitaria</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manitas</fullName>
+        <default>false</default>
+        <label>Manitas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicio tecnico</fullName>
+        <default>false</default>
+        <label>Servicio tecnico</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tecnico calderas</fullName>
+        <default>false</default>
+        <label>Tecnico calderas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InsuranceCompanyIdentifier__c</fullName>
+    <label>Insurance Company Identifier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C0001</fullName>
+                <default>false</default>
+                <label>ABANCA GENERALES DE SEG,Y REASEGUROS,S.A - ABANCA GENERALES DE SEG,Y REASEGUROS,S.A</label>
+            </value>
+            <value>
+                <fullName>C0002</fullName>
+                <default>false</default>
+                <label>ABANCA GENERALES DE SEGUROS Y REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0003</fullName>
+                <default>false</default>
+                <label>ABEILLE PREVISORA RI</label>
+            </value>
+            <value>
+                <fullName>C0004</fullName>
+                <default>false</default>
+                <label>ACE EUROPE</label>
+            </value>
+            <value>
+                <fullName>C0005</fullName>
+                <default>false</default>
+                <label>ACE EUROPEAN GROUP LIMITED - ACE EUROPEAN GROUP LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0006</fullName>
+                <default>false</default>
+                <label>ACHMEA SCHADEVERZEKERINGEN N.V.</label>
+            </value>
+            <value>
+                <fullName>C0007</fullName>
+                <default>false</default>
+                <label>ACM SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0008</fullName>
+                <default>false</default>
+                <label>ADMIRAL EUROPE COMPAÑIA DE SEGUROS, S.A.U.</label>
+            </value>
+            <value>
+                <fullName>C0009</fullName>
+                <default>false</default>
+                <label>ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - BALUMBA (ADMIRAL INSURANCE COMPANY)</label>
+            </value>
+            <value>
+                <fullName>C0010</fullName>
+                <default>false</default>
+                <label>ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - QUALITAS AUTOS</label>
+            </value>
+            <value>
+                <fullName>C0011</fullName>
+                <default>false</default>
+                <label>AEGON SANTANDER GENER SEG Y REASEG, S.A. - AEGON</label>
+            </value>
+            <value>
+                <fullName>C0012</fullName>
+                <default>false</default>
+                <label>AEGON SEGUROS GENERALES S.A. DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0013</fullName>
+                <default>false</default>
+                <label>AEGON UNION ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0014</fullName>
+                <default>false</default>
+                <label>AGF / UNION FENIX</label>
+            </value>
+            <value>
+                <fullName>C0015</fullName>
+                <default>false</default>
+                <label>AGF / UNION FENIX SE</label>
+            </value>
+            <value>
+                <fullName>C0016</fullName>
+                <default>false</default>
+                <label>AGRUPACION MUTUAL ASEGURADORA (A.M.A) - A.M.A.  AGRUPACION MUTUAL ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0017</fullName>
+                <default>false</default>
+                <label>AIDE ASISTENCIA SEGU</label>
+            </value>
+            <value>
+                <fullName>C0018</fullName>
+                <default>false</default>
+                <label>AIDE ASISTENCIA, S.A. - AIDE ASISTENCIA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0019</fullName>
+                <default>false</default>
+                <label>AIG EUROPE LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0020</fullName>
+                <default>false</default>
+                <label>AIG EUROPE S.A.</label>
+            </value>
+            <value>
+                <fullName>C0021</fullName>
+                <default>false</default>
+                <label>AIOI NISSAY DOWA INSURANCE (TOYOTA)</label>
+            </value>
+            <value>
+                <fullName>C0022</fullName>
+                <default>false</default>
+                <label>ALBA  COMPANIA GENER</label>
+            </value>
+            <value>
+                <fullName>C0023</fullName>
+                <default>false</default>
+                <label>ALIANZA ESPANOLA  S.</label>
+            </value>
+            <value>
+                <fullName>C0024</fullName>
+                <default>false</default>
+                <label>ALIANZA MEDICA, S.A. CIA. DE SEGUROS - DIVINA PASTORA SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0025</fullName>
+                <default>false</default>
+                <label>ALLIANZ - ALLIANZ</label>
+            </value>
+            <value>
+                <fullName>C0026</fullName>
+                <default>false</default>
+                <label>ALLIANZ DIRECT</label>
+            </value>
+            <value>
+                <fullName>C0027</fullName>
+                <default>false</default>
+                <label>ALLIANZ DIRECT VERSICHERUNGS - ALLIANZ DIRECT VERSICHERUNGS</label>
+            </value>
+            <value>
+                <fullName>C0028</fullName>
+                <default>false</default>
+                <label>ALLIANZ INDUSTRIAL C</label>
+            </value>
+            <value>
+                <fullName>C0029</fullName>
+                <default>false</default>
+                <label>ALLIANZ,  COMPAÑIA DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0030</fullName>
+                <default>false</default>
+                <label>ALMUDENA COMPAÑÍA DE SEGUROS Y REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0031</fullName>
+                <default>false</default>
+                <label>ALMUDENA, S.A. DE SEGUROS - ALMUDENA, S.A. DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0032</fullName>
+                <default>false</default>
+                <label>ALPHA INSURANCE A/S</label>
+            </value>
+            <value>
+                <fullName>C0033</fullName>
+                <default>false</default>
+                <label>AM SEGUROS Y REASEGU</label>
+            </value>
+            <value>
+                <fullName>C0034</fullName>
+                <default>false</default>
+                <label>AMA -AGRUPACION MUTUAL ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0035</fullName>
+                <default>false</default>
+                <label>AMAYA  CIA. DE SEGUR</label>
+            </value>
+            <value>
+                <fullName>C0036</fullName>
+                <default>false</default>
+                <label>AMERICAN LIFE INSURA</label>
+            </value>
+            <value>
+                <fullName>C0037</fullName>
+                <default>false</default>
+                <label>AMIC  SEGUROS GENERA</label>
+            </value>
+            <value>
+                <fullName>C0038</fullName>
+                <default>false</default>
+                <label>AMSYR  S. A. DE SEGU</label>
+            </value>
+            <value>
+                <fullName>C0039</fullName>
+                <default>false</default>
+                <label>AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA) - AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA)</label>
+            </value>
+            <value>
+                <fullName>C0040</fullName>
+                <default>false</default>
+                <label>AMV HISPANIA</label>
+            </value>
+            <value>
+                <fullName>C0041</fullName>
+                <default>false</default>
+                <label>ANTARTIDA  CIA. ESPA</label>
+            </value>
+            <value>
+                <fullName>C0042</fullName>
+                <default>false</default>
+                <label>AON REINSURANCE IBERIA, S.A.U CORREDURIA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0043</fullName>
+                <default>false</default>
+                <label>APOLO C.A. DE SEGURO</label>
+            </value>
+            <value>
+                <fullName>C0044</fullName>
+                <default>false</default>
+                <label>ARAG CIA. INTERN. DE S. Y R.</label>
+            </value>
+            <value>
+                <fullName>C0045</fullName>
+                <default>false</default>
+                <label>ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA - ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA</label>
+            </value>
+            <value>
+                <fullName>C0046</fullName>
+                <default>false</default>
+                <label>ASEFA, S.A. - ASEFA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0047</fullName>
+                <default>false</default>
+                <label>ASEFA, S.A. SEGUROS Y REASEGUROS.</label>
+            </value>
+            <value>
+                <fullName>C0048</fullName>
+                <default>false</default>
+                <label>ASEGRUP (ASEGURADORES AGRUPADOS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0049</fullName>
+                <default>false</default>
+                <label>ASEGURADORA GENERAL</label>
+            </value>
+            <value>
+                <fullName>C0050</fullName>
+                <default>false</default>
+                <label>ASEGURADORES AGRUPADOS, S.A. - ASEGRUP ASEGURADORES AGRUPADOS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0051</fullName>
+                <default>false</default>
+                <label>ASEGURATOR COMPA#IA DE SE</label>
+            </value>
+            <value>
+                <fullName>C0052</fullName>
+                <default>false</default>
+                <label>ASEMAS MUTUA DE SEGUROS A PRIMA FIJA - ASEMAS MUTUA DE SEGUROS A PRIMA FIJA</label>
+            </value>
+            <value>
+                <fullName>C0053</fullName>
+                <default>false</default>
+                <label>ASSICURAZIONI GENERA</label>
+            </value>
+            <value>
+                <fullName>C0054</fullName>
+                <default>false</default>
+                <label>ATHENA  CIA.IBERICA</label>
+            </value>
+            <value>
+                <fullName>C0055</fullName>
+                <default>false</default>
+                <label>ATLANTIDA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0056</fullName>
+                <default>false</default>
+                <label>ATLANTIS CIA DE SEGUROS Y REASEG., S.A. - ATLANTIS (AMGEN)</label>
+            </value>
+            <value>
+                <fullName>C0057</fullName>
+                <default>false</default>
+                <label>ATLANTIS CIA.SEGUROS Y RE</label>
+            </value>
+            <value>
+                <fullName>C0058</fullName>
+                <default>false</default>
+                <label>ATOCHA SEGUROS, S.A. - ATOCHA SEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0059</fullName>
+                <default>false</default>
+                <label>AURORA-POLAR S.A.SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0060</fullName>
+                <default>false</default>
+                <label>AVIVA VIDA Y PENSIONES</label>
+            </value>
+            <value>
+                <fullName>C0061</fullName>
+                <default>false</default>
+                <label>AXA AURORA IBERICA,S.A. SEG.Y REASEG. - AXA</label>
+            </value>
+            <value>
+                <fullName>C0062</fullName>
+                <default>false</default>
+                <label>AXA GLOBAL DIRECT SEGUROS Y REASEGUROS SAU</label>
+            </value>
+            <value>
+                <fullName>C0063</fullName>
+                <default>false</default>
+                <label>AXA LIFE EUROPE</label>
+            </value>
+            <value>
+                <fullName>C0064</fullName>
+                <default>false</default>
+                <label>AXA SEGUROS GENERALES</label>
+            </value>
+            <value>
+                <fullName>C0065</fullName>
+                <default>false</default>
+                <label>AXA SEGUROS GENERALES, S.A. SEG Y REASEG - AXA SEGUROS GENERALES, S.A. SEG Y REASEG</label>
+            </value>
+            <value>
+                <fullName>C0066</fullName>
+                <default>false</default>
+                <label>AZUR MULTIRRAMOS S.A</label>
+            </value>
+            <value>
+                <fullName>C0067</fullName>
+                <default>false</default>
+                <label>BALOISE (ESPAÑA) SEGURO Y REASEGURO S.A.</label>
+            </value>
+            <value>
+                <fullName>C0068</fullName>
+                <default>false</default>
+                <label>BALOISE ASSURANCES LUXEMBOURG, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0069</fullName>
+                <default>false</default>
+                <label>BALOISE SEGUROS Y RE</label>
+            </value>
+            <value>
+                <fullName>C0070</fullName>
+                <default>false</default>
+                <label>BALUMBA (ADMIRAL INSURANCE COMPANY)</label>
+            </value>
+            <value>
+                <fullName>C0071</fullName>
+                <default>false</default>
+                <label>BANCO VITALICIO</label>
+            </value>
+            <value>
+                <fullName>C0072</fullName>
+                <default>false</default>
+                <label>BANESTO SEGUROS.</label>
+            </value>
+            <value>
+                <fullName>C0073</fullName>
+                <default>false</default>
+                <label>BANKINTER SEGUROS VIDA</label>
+            </value>
+            <value>
+                <fullName>C0074</fullName>
+                <default>false</default>
+                <label>BANSABADELL SEGUROS GENERALES</label>
+            </value>
+            <value>
+                <fullName>C0075</fullName>
+                <default>false</default>
+                <label>BAYERISCHE RUCK</label>
+            </value>
+            <value>
+                <fullName>C0076</fullName>
+                <default>false</default>
+                <label>BBVA ALLIANZ SEGUROS Y REASEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0077</fullName>
+                <default>false</default>
+                <label>BIHARKO ASEGURADORA COMPAÑIA SEG. Y REAS - KUTXABANK ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0078</fullName>
+                <default>false</default>
+                <label>BILBAO (COMPAÑIA ANONIMA DE SEGUROS) - SEGUROS BILBAO</label>
+            </value>
+            <value>
+                <fullName>C0079</fullName>
+                <default>false</default>
+                <label>C.R.M. S.L.(LLOYD´S</label>
+            </value>
+            <value>
+                <fullName>C0080</fullName>
+                <default>false</default>
+                <label>CAHISPA - CENTRAL DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0081</fullName>
+                <default>false</default>
+                <label>CAHISPA, S.A. SEGUROS DE VIDA - CAHISPA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0082</fullName>
+                <default>false</default>
+                <label>CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A - CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A</label>
+            </value>
+            <value>
+                <fullName>C0083</fullName>
+                <default>false</default>
+                <label>CAI SEGUROS GENERALES</label>
+            </value>
+            <value>
+                <fullName>C0084</fullName>
+                <default>false</default>
+                <label>CAIXA CREDIT DELS ENGINYERS SDAD.COOP.CREDITO</label>
+            </value>
+            <value>
+                <fullName>C0085</fullName>
+                <default>false</default>
+                <label>CAIXA SABADELL OP.BANCA ASSEG.VINCULAT,S - CAIXA SABADELL</label>
+            </value>
+            <value>
+                <fullName>C0086</fullName>
+                <default>false</default>
+                <label>CAIXA TERRASSA MEDIACIO O.B.S.V., S.A. - CAIXA TERRASSA MEDIACIO</label>
+            </value>
+            <value>
+                <fullName>C0087</fullName>
+                <default>false</default>
+                <label>CAJA DE PREVISION Y</label>
+            </value>
+            <value>
+                <fullName>C0088</fullName>
+                <default>false</default>
+                <label>CAJA ESPAÑA VIDA, CÍA DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0089</fullName>
+                <default>false</default>
+                <label>CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA - CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA</label>
+            </value>
+            <value>
+                <fullName>C0090</fullName>
+                <default>false</default>
+                <label>CAJAMAR SEGUROS GENERALES S.A.</label>
+            </value>
+            <value>
+                <fullName>C0091</fullName>
+                <default>false</default>
+                <label>CAJASOL VIDA Y PENSIONES DE SEGUROS Y REASEGUROS,S.A.</label>
+            </value>
+            <value>
+                <fullName>C0092</fullName>
+                <default>false</default>
+                <label>CAN SEGUROS GENERALES</label>
+            </value>
+            <value>
+                <fullName>C0093</fullName>
+                <default>false</default>
+                <label>CANTABRIA VIDA Y PENSIONES, S.A. DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0094</fullName>
+                <default>false</default>
+                <label>CASER S.A. SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0095</fullName>
+                <default>false</default>
+                <label>CATALANA OCCIDENTE</label>
+            </value>
+            <value>
+                <fullName>C0096</fullName>
+                <default>false</default>
+                <label>CATALUNYACAIXA ASSEGURANCES GENERALS</label>
+            </value>
+            <value>
+                <fullName>C0097</fullName>
+                <default>false</default>
+                <label>CAUDAL  S. A. DE SEG</label>
+            </value>
+            <value>
+                <fullName>C0098</fullName>
+                <default>false</default>
+                <label>CENTRO ASEGURADOR CI</label>
+            </value>
+            <value>
+                <fullName>C0099</fullName>
+                <default>false</default>
+                <label>CEP D&apos;ASSEGURANCES GENERALS, S.A. - CAIXA DEL PENEDES</label>
+            </value>
+            <value>
+                <fullName>C0100</fullName>
+                <default>false</default>
+                <label>CHARTIS EUROPE</label>
+            </value>
+            <value>
+                <fullName>C0101</fullName>
+                <default>false</default>
+                <label>CHC ENERGIA, S.A. - VIESGO ENERGIA S.L.</label>
+            </value>
+            <value>
+                <fullName>C0102</fullName>
+                <default>false</default>
+                <label>CHUBB INSURANCE COMP</label>
+            </value>
+            <value>
+                <fullName>C0103</fullName>
+                <default>false</default>
+                <label>CIA. DESCONOCIDA</label>
+            </value>
+            <value>
+                <fullName>C0104</fullName>
+                <default>false</default>
+                <label>CIA. EXTRANJERA</label>
+            </value>
+            <value>
+                <fullName>C0105</fullName>
+                <default>false</default>
+                <label>CIA. INEXISTENTE</label>
+            </value>
+            <value>
+                <fullName>C0106</fullName>
+                <default>false</default>
+                <label>CIGNA</label>
+            </value>
+            <value>
+                <fullName>C0107</fullName>
+                <default>false</default>
+                <label>CLICKSEGUROS SEG. Y REAG. S.A.U.</label>
+            </value>
+            <value>
+                <fullName>C0108</fullName>
+                <default>false</default>
+                <label>COMERCIAL UNION ESPA</label>
+            </value>
+            <value>
+                <fullName>C0109</fullName>
+                <default>false</default>
+                <label>COMERCIAL UNION VIDA</label>
+            </value>
+            <value>
+                <fullName>C0110</fullName>
+                <default>false</default>
+                <label>COMPANHIA DE SEGUROS FIDELIDADE, S.A. - FIDELIDADE COMPAÑIA DE SEGUROS , S.A.</label>
+            </value>
+            <value>
+                <fullName>C0111</fullName>
+                <default>false</default>
+                <label>CONSORCIO DE COMPENSACION DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0112</fullName>
+                <default>false</default>
+                <label>COVADONGA S.A. DE SE</label>
+            </value>
+            <value>
+                <fullName>C0113</fullName>
+                <default>false</default>
+                <label>CRESA ASEGURADORA IBERICA</label>
+            </value>
+            <value>
+                <fullName>C0114</fullName>
+                <default>false</default>
+                <label>DAS LEX ASSITANCE - ONLYGAL SERVICIOS LEGALES S.L</label>
+            </value>
+            <value>
+                <fullName>C0115</fullName>
+                <default>false</default>
+                <label>DAS, S.A. DE SEGUROS - ONLYGAL SEGUROS Y REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0116</fullName>
+                <default>false</default>
+                <label>DEPSA S.A. DE SEGURO</label>
+            </value>
+            <value>
+                <fullName>C0117</fullName>
+                <default>false</default>
+                <label>DIFERENCIAS SALDOS DEPOSITOS POR PRIMAS (LAGUN ARO)</label>
+            </value>
+            <value>
+                <fullName>C0118</fullName>
+                <default>false</default>
+                <label>DIVINA PASTORA SEGUROS GENERALES SAU</label>
+            </value>
+            <value>
+                <fullName>C0119</fullName>
+                <default>false</default>
+                <label>DKV PREVIASA, S.A - DKV PREVIASA, S.A</label>
+            </value>
+            <value>
+                <fullName>C0120</fullName>
+                <default>false</default>
+                <label>DKV SEGUROS, SOCIEDAD ANONIMA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0121</fullName>
+                <default>false</default>
+                <label>EAGLE STAR</label>
+            </value>
+            <value>
+                <fullName>C0122</fullName>
+                <default>false</default>
+                <label>ELECTRA DE VIESGO DISTRIBUCION, S.L. - VIESGO ENERGIA S.L.</label>
+            </value>
+            <value>
+                <fullName>C0123</fullName>
+                <default>false</default>
+                <label>ENDESA (FECSA) - E-distribucion Redes Digitales S.L.</label>
+            </value>
+            <value>
+                <fullName>C0124</fullName>
+                <default>false</default>
+                <label>E-ON DISTRIBUCION, S.L. - E-ON DISTRIBUCION, S.L.</label>
+            </value>
+            <value>
+                <fullName>C0125</fullName>
+                <default>false</default>
+                <label>EQUITATIVA  S.A. RIE</label>
+            </value>
+            <value>
+                <fullName>C0126</fullName>
+                <default>false</default>
+                <label>ETERNA ASEGURADORA UNIVERSAL</label>
+            </value>
+            <value>
+                <fullName>C0127</fullName>
+                <default>false</default>
+                <label>EURO INSURANCES LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0128</fullName>
+                <default>false</default>
+                <label>EUROINS INSURANCE PLC</label>
+            </value>
+            <value>
+                <fullName>C0129</fullName>
+                <default>false</default>
+                <label>EUROMUTUA SEGUROS Y REASEGUROS A P. FIJA</label>
+            </value>
+            <value>
+                <fullName>C0130</fullName>
+                <default>false</default>
+                <label>EUROPA ASSISTANCE ESPAÑA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0131</fullName>
+                <default>false</default>
+                <label>EUROPA SEGUROS  S.A.</label>
+            </value>
+            <value>
+                <fullName>C0132</fullName>
+                <default>false</default>
+                <label>EUROSEGUROS, S.A. - BBVA SEGUROS ( UNNIM)</label>
+            </value>
+            <value>
+                <fullName>C0133</fullName>
+                <default>false</default>
+                <label>EUROVIDA.S.A. CÍA DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0134</fullName>
+                <default>false</default>
+                <label>FENIX DIRECTO</label>
+            </value>
+            <value>
+                <fullName>C0135</fullName>
+                <default>false</default>
+                <label>FIATC (MUTUA DE SEGUROS GENERALES)</label>
+            </value>
+            <value>
+                <fullName>C0136</fullName>
+                <default>false</default>
+                <label>FIDELIDADE CIA. SEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0137</fullName>
+                <default>false</default>
+                <label>FIRST EUROPE (MUNAUT</label>
+            </value>
+            <value>
+                <fullName>C0138</fullName>
+                <default>false</default>
+                <label>GACM SEGUROS GENERALES (RACC, ATLANTIS, UNIVERSAR,..)</label>
+            </value>
+            <value>
+                <fullName>C0139</fullName>
+                <default>false</default>
+                <label>GAN ESPANA SEGUROS G</label>
+            </value>
+            <value>
+                <fullName>C0140</fullName>
+                <default>false</default>
+                <label>GAN SEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0141</fullName>
+                <default>false</default>
+                <label>GAS NATURAL S.U.R. SDG, S.A. - NATURGY</label>
+            </value>
+            <value>
+                <fullName>C0142</fullName>
+                <default>false</default>
+                <label>GE FRANKONA RE</label>
+            </value>
+            <value>
+                <fullName>C0143</fullName>
+                <default>false</default>
+                <label>GENERAL REINSURANCE AG</label>
+            </value>
+            <value>
+                <fullName>C0144</fullName>
+                <default>false</default>
+                <label>GENERALI ESPAÑA, S.A. SEG.Y REASEGUROS - GENERALI CENTRO OPERATIVO</label>
+            </value>
+            <value>
+                <fullName>C0145</fullName>
+                <default>false</default>
+                <label>GENERALI SEGUROS Y REASEGUROS, SAU</label>
+            </value>
+            <value>
+                <fullName>C0146</fullName>
+                <default>false</default>
+                <label>GENESIS SEGUROS GENERALES, S.A. - GENESIS SEGUROS GENERALES, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0147</fullName>
+                <default>false</default>
+                <label>GERLING - KONZERN</label>
+            </value>
+            <value>
+                <fullName>C0148</fullName>
+                <default>false</default>
+                <label>GES SEGUROS Y REASEG</label>
+            </value>
+            <value>
+                <fullName>C0149</fullName>
+                <default>false</default>
+                <label>GLOBAL VIDA</label>
+            </value>
+            <value>
+                <fullName>C0150</fullName>
+                <default>false</default>
+                <label>GREAT LAKES INSURANCE, SE</label>
+            </value>
+            <value>
+                <fullName>C0151</fullName>
+                <default>false</default>
+                <label>GREENVAL INSURANCE COMPANY LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0152</fullName>
+                <default>false</default>
+                <label>GROUPAMA ESPANA DE S</label>
+            </value>
+            <value>
+                <fullName>C0153</fullName>
+                <default>false</default>
+                <label>GROUPAMA PLUS ULTRA</label>
+            </value>
+            <value>
+                <fullName>C0154</fullName>
+                <default>false</default>
+                <label>GRUPO GENERALI</label>
+            </value>
+            <value>
+                <fullName>C0155</fullName>
+                <default>false</default>
+                <label>HANNOVER INTERNACION</label>
+            </value>
+            <value>
+                <fullName>C0156</fullName>
+                <default>false</default>
+                <label>HC ENERGIA, S.A. - EDP- HC ENERGIA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0157</fullName>
+                <default>false</default>
+                <label>HDI GLOBAL SPECIALITY, SE</label>
+            </value>
+            <value>
+                <fullName>C0158</fullName>
+                <default>false</default>
+                <label>HELLO INSURANCE GROUP, CÍA DE SEGUROS SA</label>
+            </value>
+            <value>
+                <fullName>C0159</fullName>
+                <default>false</default>
+                <label>HELVETIA CERVANTES VASCONAVARRA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0160</fullName>
+                <default>false</default>
+                <label>HELVETIA CVN SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0161</fullName>
+                <default>false</default>
+                <label>HELVETIA PREVISION S.A.</label>
+            </value>
+            <value>
+                <fullName>C0162</fullName>
+                <default>false</default>
+                <label>HERCULES HISPANO S.A</label>
+            </value>
+            <value>
+                <fullName>C0163</fullName>
+                <default>false</default>
+                <label>HERMES S.A. DE SEGUR</label>
+            </value>
+            <value>
+                <fullName>C0164</fullName>
+                <default>false</default>
+                <label>HILO DIRECT SEGUROS Y REASEGUROS, S.A. - HILO DIRECT SEGUROS Y REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0165</fullName>
+                <default>false</default>
+                <label>HISCOX, S.A. SUC.ESPAÑA - HISCOX, S.A. SUC.ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0166</fullName>
+                <default>false</default>
+                <label>HISPANO ALSACIANA S.</label>
+            </value>
+            <value>
+                <fullName>C0167</fullName>
+                <default>false</default>
+                <label>IBERCAJA VIDA COMPAÑÍA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0168</fullName>
+                <default>false</default>
+                <label>IBERDROLA DISTRIBUCION ELECTRICA, S.A.U - I-DE Redes Eléctricas Inteligentes, S.A.U</label>
+            </value>
+            <value>
+                <fullName>C0169</fullName>
+                <default>false</default>
+                <label>IBERDROLA, S.A. - IBERDROLA COMERCIALIZADORA</label>
+            </value>
+            <value>
+                <fullName>C0170</fullName>
+                <default>false</default>
+                <label>IBERIA CIA. DE SEGUR</label>
+            </value>
+            <value>
+                <fullName>C0171</fullName>
+                <default>false</default>
+                <label>IMA IBERICA SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0172</fullName>
+                <default>false</default>
+                <label>IMPERIO S.A.</label>
+            </value>
+            <value>
+                <fullName>C0173</fullName>
+                <default>false</default>
+                <label>ING NATIONALE NEDERLANDER</label>
+            </value>
+            <value>
+                <fullName>C0174</fullName>
+                <default>false</default>
+                <label>INTER PARTNER ASSISTANCE ESPAÑA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0175</fullName>
+                <default>false</default>
+                <label>IPTIQ EMEA P&amp;C S.A, SUCURSAL EN ALEMANIA</label>
+            </value>
+            <value>
+                <fullName>C0176</fullName>
+                <default>false</default>
+                <label>IPTIQ EMEA P&amp;C S.A., SUCURSAL EN ITALIA</label>
+            </value>
+            <value>
+                <fullName>C0177</fullName>
+                <default>false</default>
+                <label>IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS - IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS</label>
+            </value>
+            <value>
+                <fullName>C0178</fullName>
+                <default>false</default>
+                <label>ITAL IBERIA CIA. ESP</label>
+            </value>
+            <value>
+                <fullName>C0179</fullName>
+                <default>false</default>
+                <label>KAIROS CIA. DE SEGUR</label>
+            </value>
+            <value>
+                <fullName>C0180</fullName>
+                <default>false</default>
+                <label>KUTXABANK ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0181</fullName>
+                <default>false</default>
+                <label>LA PARISIENNE ASSURANCES</label>
+            </value>
+            <value>
+                <fullName>C0182</fullName>
+                <default>false</default>
+                <label>LA PATERNAL S.I.C.A.</label>
+            </value>
+            <value>
+                <fullName>C0183</fullName>
+                <default>false</default>
+                <label>LA PREVISION NACIONA</label>
+            </value>
+            <value>
+                <fullName>C0184</fullName>
+                <default>false</default>
+                <label>LA SUIZA CIA.DE SEGUROS Y</label>
+            </value>
+            <value>
+                <fullName>C0185</fullName>
+                <default>false</default>
+                <label>LA UNION ALCOYANA  S</label>
+            </value>
+            <value>
+                <fullName>C0186</fullName>
+                <default>false</default>
+                <label>LE MANS SEGUROS ESPA</label>
+            </value>
+            <value>
+                <fullName>C0187</fullName>
+                <default>false</default>
+                <label>LEGALITAS COMPAÑIA DE SEG. Y REASEG., SA</label>
+            </value>
+            <value>
+                <fullName>C0188</fullName>
+                <default>false</default>
+                <label>LEPANTO, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0189</fullName>
+                <default>false</default>
+                <label>LIBERBANK VIDA Y PENSIONES, SEGUROS Y REASEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0190</fullName>
+                <default>false</default>
+                <label>LIBERTY INSURANCE SEG. Y REASEG, S.A. - GENERALI (ANTIGUA LIBERTY)</label>
+            </value>
+            <value>
+                <fullName>C0191</fullName>
+                <default>false</default>
+                <label>LINEA DIRECTA ASEGUR</label>
+            </value>
+            <value>
+                <fullName>C0192</fullName>
+                <default>false</default>
+                <label>LLOYD ADRIATICO ESPA</label>
+            </value>
+            <value>
+                <fullName>C0193</fullName>
+                <default>false</default>
+                <label>LLOYD´S ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0194</fullName>
+                <default>false</default>
+                <label>LLOYD´S INSURANCE COMPANY SA/NV</label>
+            </value>
+            <value>
+                <fullName>C0195</fullName>
+                <default>false</default>
+                <label>LVBTA SUSCRIPCION S.L.</label>
+            </value>
+            <value>
+                <fullName>C0196</fullName>
+                <default>false</default>
+                <label>M M HOGAR</label>
+            </value>
+            <value>
+                <fullName>C0197</fullName>
+                <default>false</default>
+                <label>M.M.A. (MUTUA MADRILEÑA AUTOMOVILISTA) - M.M. (MUTUA MADRILEÑA )</label>
+            </value>
+            <value>
+                <fullName>C0198</fullName>
+                <default>false</default>
+                <label>M.M.T. SEGUROS - M.M.T. SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0199</fullName>
+                <default>false</default>
+                <label>MAAF CIA. ESPAÑOLA</label>
+            </value>
+            <value>
+                <fullName>C0200</fullName>
+                <default>false</default>
+                <label>MADES FONDO ASEGURAD</label>
+            </value>
+            <value>
+                <fullName>C0201</fullName>
+                <default>false</default>
+                <label>MADRILEÑA SUMINISTRO DE GAS, S.L. - GALP ENERGIA (MADRILEÑA SUMINISTRO DE GAS, S.L.)</label>
+            </value>
+            <value>
+                <fullName>C0202</fullName>
+                <default>false</default>
+                <label>MAPFRE</label>
+            </value>
+            <value>
+                <fullName>C0203</fullName>
+                <default>false</default>
+                <label>MAPFRE AGROPECUARIA</label>
+            </value>
+            <value>
+                <fullName>C0204</fullName>
+                <default>false</default>
+                <label>MAPFRE AUTOMOVILES SA. DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0205</fullName>
+                <default>false</default>
+                <label>MAPFRE EMPRESAS - MAPFRE EMPRESAS</label>
+            </value>
+            <value>
+                <fullName>C0206</fullName>
+                <default>false</default>
+                <label>MAPFRE FAMILIAR</label>
+            </value>
+            <value>
+                <fullName>C0207</fullName>
+                <default>false</default>
+                <label>MAPFRE GLOBAL RISK</label>
+            </value>
+            <value>
+                <fullName>C0208</fullName>
+                <default>false</default>
+                <label>MAPFRE GUANARTEME  S</label>
+            </value>
+            <value>
+                <fullName>C0209</fullName>
+                <default>false</default>
+                <label>MAPFRE INDUSTRIAL  S</label>
+            </value>
+            <value>
+                <fullName>C0210</fullName>
+                <default>false</default>
+                <label>MAPFRE RE COMPAÑIA DE REASEGUROS S.A</label>
+            </value>
+            <value>
+                <fullName>C0211</fullName>
+                <default>false</default>
+                <label>MAPFRE SEGUROS GENERALES, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0212</fullName>
+                <default>false</default>
+                <label>MEDIOLANUM</label>
+            </value>
+            <value>
+                <fullName>C0213</fullName>
+                <default>false</default>
+                <label>MEDITERRANEO SEGUROS DIVERSOS</label>
+            </value>
+            <value>
+                <fullName>C0214</fullName>
+                <default>false</default>
+                <label>MERCURIO  S.A.  SEGU</label>
+            </value>
+            <value>
+                <fullName>C0215</fullName>
+                <default>false</default>
+                <label>MERIDIANO, S.A. CIA ESP. SEG.</label>
+            </value>
+            <value>
+                <fullName>C0216</fullName>
+                <default>false</default>
+                <label>MESAI-MUTUA DE SEG.</label>
+            </value>
+            <value>
+                <fullName>C0217</fullName>
+                <default>false</default>
+                <label>METLIFE EUROPE LIMITED SUCURSAL EN ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0218</fullName>
+                <default>false</default>
+                <label>METROPOLIS S.A. CIA.</label>
+            </value>
+            <value>
+                <fullName>C0219</fullName>
+                <default>false</default>
+                <label>MGS SEGUROS Y REASEGUROS SA.</label>
+            </value>
+            <value>
+                <fullName>C0220</fullName>
+                <default>false</default>
+                <label>MM GLOBALIS</label>
+            </value>
+            <value>
+                <fullName>C0221</fullName>
+                <default>false</default>
+                <label>MONUMENT ASSURANCE LUXEMBOURG, S.A. SUC ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0222</fullName>
+                <default>false</default>
+                <label>MUDESPA S. A. DE SEG</label>
+            </value>
+            <value>
+                <fullName>C0223</fullName>
+                <default>false</default>
+                <label>MULTIASISTENCIA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0224</fullName>
+                <default>false</default>
+                <label>MULTINACIONAL ASEGUR</label>
+            </value>
+            <value>
+                <fullName>C0225</fullName>
+                <default>false</default>
+                <label>MULTISEGUR, S.L. - MULTISEGUR, S.L.</label>
+            </value>
+            <value>
+                <fullName>C0226</fullName>
+                <default>false</default>
+                <label>MUNAT SEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0227</fullName>
+                <default>false</default>
+                <label>MUNDSER SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0228</fullName>
+                <default>false</default>
+                <label>MUNICH RE SUCURSAL EN ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0229</fullName>
+                <default>false</default>
+                <label>MUSAAT - MUSAAT</label>
+            </value>
+            <value>
+                <fullName>C0230</fullName>
+                <default>false</default>
+                <label>MUSSAP MUTUALIDAD SE</label>
+            </value>
+            <value>
+                <fullName>C0231</fullName>
+                <default>false</default>
+                <label>MUTRAL  SEGUROS GENE</label>
+            </value>
+            <value>
+                <fullName>C0232</fullName>
+                <default>false</default>
+                <label>MUTUA CATALANA DE SE</label>
+            </value>
+            <value>
+                <fullName>C0233</fullName>
+                <default>false</default>
+                <label>MUTUA DE PAMPLONA SEG.Y REASEG.P.FIJA - MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA</label>
+            </value>
+            <value>
+                <fullName>C0234</fullName>
+                <default>false</default>
+                <label>MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F. - MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F.</label>
+            </value>
+            <value>
+                <fullName>C0235</fullName>
+                <default>false</default>
+                <label>MUTUA FLEQUERA DE CA</label>
+            </value>
+            <value>
+                <fullName>C0236</fullName>
+                <default>false</default>
+                <label>MUTUA GENERAL DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0237</fullName>
+                <default>false</default>
+                <label>MUTUA ILICITANA DE S</label>
+            </value>
+            <value>
+                <fullName>C0238</fullName>
+                <default>false</default>
+                <label>MUTUA LERIDANA S.SEG</label>
+            </value>
+            <value>
+                <fullName>C0239</fullName>
+                <default>false</default>
+                <label>MUTUA MADRILEÑA</label>
+            </value>
+            <value>
+                <fullName>C0240</fullName>
+                <default>false</default>
+                <label>MUTUA MADRILENA DE T</label>
+            </value>
+            <value>
+                <fullName>C0241</fullName>
+                <default>false</default>
+                <label>MUTUA SEGORBINA DE S</label>
+            </value>
+            <value>
+                <fullName>C0242</fullName>
+                <default>false</default>
+                <label>MUTUA SEVILLANA DE T</label>
+            </value>
+            <value>
+                <fullName>C0243</fullName>
+                <default>false</default>
+                <label>MUTUA TINERFEÑA</label>
+            </value>
+            <value>
+                <fullName>C0244</fullName>
+                <default>false</default>
+                <label>MUTUA TINERFEÑA DE SEGUROS - MUTUA TINERFEÑA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0245</fullName>
+                <default>false</default>
+                <label>MUTUA VALENCIANA AUTOMOVILISTA</label>
+            </value>
+            <value>
+                <fullName>C0246</fullName>
+                <default>false</default>
+                <label>MUTUAL DE SEGUROS  S</label>
+            </value>
+            <value>
+                <fullName>C0247</fullName>
+                <default>false</default>
+                <label>MUTUAL.SEG.PANADERIA DE VALENCIA</label>
+            </value>
+            <value>
+                <fullName>C0248</fullName>
+                <default>false</default>
+                <label>MUTUALIDAD DE LEVANT</label>
+            </value>
+            <value>
+                <fullName>C0249</fullName>
+                <default>false</default>
+                <label>MUTUALIDAD DE LEVANTE - MUTUALIDAD DE LEVANTE</label>
+            </value>
+            <value>
+                <fullName>C0250</fullName>
+                <default>false</default>
+                <label>MUTUALIDAD GENERAL DE LA ABOGACÍA</label>
+            </value>
+            <value>
+                <fullName>C0251</fullName>
+                <default>false</default>
+                <label>MUTUASPORT</label>
+            </value>
+            <value>
+                <fullName>C0252</fullName>
+                <default>false</default>
+                <label>MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA</label>
+            </value>
+            <value>
+                <fullName>C0253</fullName>
+                <default>false</default>
+                <label>NACIONAL DE REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0254</fullName>
+                <default>false</default>
+                <label>NACIONAL HISPANICA S</label>
+            </value>
+            <value>
+                <fullName>C0255</fullName>
+                <default>false</default>
+                <label>NACIONAL SUIZA  CIA.</label>
+            </value>
+            <value>
+                <fullName>C0256</fullName>
+                <default>false</default>
+                <label>NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A. - NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A.</label>
+            </value>
+            <value>
+                <fullName>C0257</fullName>
+                <default>false</default>
+                <label>NATIONALE-NEDERLANDEN GRALES.CIA.SEG.REA</label>
+            </value>
+            <value>
+                <fullName>C0258</fullName>
+                <default>false</default>
+                <label>NATIONALE-NERDERLANDEN VIDA</label>
+            </value>
+            <value>
+                <fullName>C0259</fullName>
+                <default>false</default>
+                <label>NORTEHISPANA DE SEGU</label>
+            </value>
+            <value>
+                <fullName>C0260</fullName>
+                <default>false</default>
+                <label>OCASO S.A. DE SEGURO</label>
+            </value>
+            <value>
+                <fullName>C0261</fullName>
+                <default>false</default>
+                <label>OCCIDENT GCO, S.A.U. DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0262</fullName>
+                <default>false</default>
+                <label>ONLYGAL(D.A.S.)</label>
+            </value>
+            <value>
+                <fullName>C0263</fullName>
+                <default>false</default>
+                <label>PATRIA HISPANA  S.A.</label>
+            </value>
+            <value>
+                <fullName>C0264</fullName>
+                <default>false</default>
+                <label>PELAYO MUTUA DE SEG. Y REASEG. A  P.F.</label>
+            </value>
+            <value>
+                <fullName>C0265</fullName>
+                <default>false</default>
+                <label>PLUS ULTRA/GROUPAMA SEGUROS Y REASEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0266</fullName>
+                <default>false</default>
+                <label>PREVENTIVA, S.A. CIA SEG Y REASEGUROS - PREVENTIVA, S.A. CIA SEG Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0267</fullName>
+                <default>false</default>
+                <label>PROBUS INSURANCE CO. EUROPE</label>
+            </value>
+            <value>
+                <fullName>C0268</fullName>
+                <default>false</default>
+                <label>PROSPERITY S.A. DE S</label>
+            </value>
+            <value>
+                <fullName>C0269</fullName>
+                <default>false</default>
+                <label>QBE EUROPE SA/NV SUCURSAL EN ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0270</fullName>
+                <default>false</default>
+                <label>QBE INSURANCE EUROPE LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0271</fullName>
+                <default>false</default>
+                <label>QIC EUROPE LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0272</fullName>
+                <default>false</default>
+                <label>QUDOS INSURANCE AS</label>
+            </value>
+            <value>
+                <fullName>C0273</fullName>
+                <default>false</default>
+                <label>RACC SEGUROS CIA DE SEG.Y REASEG., S.A. - GACM SEGUR GENERALES (ANGEM)</label>
+            </value>
+            <value>
+                <fullName>C0274</fullName>
+                <default>false</default>
+                <label>REALE</label>
+            </value>
+            <value>
+                <fullName>C0275</fullName>
+                <default>false</default>
+                <label>REALE ASISTENCIA</label>
+            </value>
+            <value>
+                <fullName>C0276</fullName>
+                <default>false</default>
+                <label>REALE AUTOS Y SEGUROS GENERALES, S.A. - REALE SEGUROS GENERALES, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0277</fullName>
+                <default>false</default>
+                <label>REALE SEGUROS GENERA</label>
+            </value>
+            <value>
+                <fullName>C0278</fullName>
+                <default>false</default>
+                <label>REDDIS MUTUA DE SEG.</label>
+            </value>
+            <value>
+                <fullName>C0279</fullName>
+                <default>false</default>
+                <label>REGAL INSURANCE CLUB</label>
+            </value>
+            <value>
+                <fullName>C0280</fullName>
+                <default>false</default>
+                <label>RELIANCE NATIONAL IN</label>
+            </value>
+            <value>
+                <fullName>C0281</fullName>
+                <default>false</default>
+                <label>REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU - REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU</label>
+            </value>
+            <value>
+                <fullName>C0282</fullName>
+                <default>false</default>
+                <label>RGA INTERNATIONAL REINSURANCE COMPANY DAC, SUC ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>C0283</fullName>
+                <default>false</default>
+                <label>RGA RURAL VIDA S.A. DE SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0284</fullName>
+                <default>false</default>
+                <label>SA NOSTRA COMPAÑÍA DE SEGUROS DE VIDA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0285</fullName>
+                <default>false</default>
+                <label>SADYR S.A.</label>
+            </value>
+            <value>
+                <fullName>C0286</fullName>
+                <default>false</default>
+                <label>SANTA LUCIA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0287</fullName>
+                <default>false</default>
+                <label>SANTANDER GENERALES SEGUROS Y REASEGUROS, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0288</fullName>
+                <default>false</default>
+                <label>SANTANDER MAPFRE SEGUROS Y REASEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>C0289</fullName>
+                <default>false</default>
+                <label>SCHWEIZ C.A.E. SEGUR</label>
+            </value>
+            <value>
+                <fullName>C0290</fullName>
+                <default>false</default>
+                <label>SCOR IBERICA</label>
+            </value>
+            <value>
+                <fullName>C0291</fullName>
+                <default>false</default>
+                <label>SEGURAUTO  S.A.CIA.D</label>
+            </value>
+            <value>
+                <fullName>C0292</fullName>
+                <default>false</default>
+                <label>SEGURCAIXA ADESLAS</label>
+            </value>
+            <value>
+                <fullName>C0293</fullName>
+                <default>false</default>
+                <label>SEGUROS   BILBAO GRUPO FORTI</label>
+            </value>
+            <value>
+                <fullName>C0294</fullName>
+                <default>false</default>
+                <label>SEGUROS AXA</label>
+            </value>
+            <value>
+                <fullName>C0295</fullName>
+                <default>false</default>
+                <label>SEGUROS CATALANA OCCIDENTE, S.A.,S. Y R. - OCCIDENT GCO</label>
+            </value>
+            <value>
+                <fullName>C0296</fullName>
+                <default>false</default>
+                <label>SEGUROS FINISTERRE</label>
+            </value>
+            <value>
+                <fullName>C0297</fullName>
+                <default>false</default>
+                <label>SEGUROS GENERALES RURAL S.A.</label>
+            </value>
+            <value>
+                <fullName>C0298</fullName>
+                <default>false</default>
+                <label>SEGUROS LAGUN ARO S.A</label>
+            </value>
+            <value>
+                <fullName>C0299</fullName>
+                <default>false</default>
+                <label>SEGUROS LAGUN ARO VIDA, S.A.</label>
+            </value>
+            <value>
+                <fullName>C0300</fullName>
+                <default>false</default>
+                <label>SEGUROS ORBITA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0301</fullName>
+                <default>false</default>
+                <label>SLE WORLDWIDE LTD EU</label>
+            </value>
+            <value>
+                <fullName>C0302</fullName>
+                <default>false</default>
+                <label>SOCIEDAD ANDALUZA DE</label>
+            </value>
+            <value>
+                <fullName>C0303</fullName>
+                <default>false</default>
+                <label>SOLISS MUTUALIDAD SE</label>
+            </value>
+            <value>
+                <fullName>C0304</fullName>
+                <default>false</default>
+                <label>SOLISS.MUTUALIDAD INTERPROV. DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0305</fullName>
+                <default>false</default>
+                <label>SOVAG</label>
+            </value>
+            <value>
+                <fullName>C0306</fullName>
+                <default>false</default>
+                <label>SPAIN&amp;PORTUGAL, S.L. - ARAG SPAIN&amp;PORTUGAL, S.L.</label>
+            </value>
+            <value>
+                <fullName>C0307</fullName>
+                <default>false</default>
+                <label>SUD AMERICA VIDA Y P</label>
+            </value>
+            <value>
+                <fullName>C0308</fullName>
+                <default>false</default>
+                <label>SUIZA  SDAD. SEG. C/</label>
+            </value>
+            <value>
+                <fullName>C0309</fullName>
+                <default>false</default>
+                <label>SUN ALLIANCE S.A. CI</label>
+            </value>
+            <value>
+                <fullName>C0310</fullName>
+                <default>false</default>
+                <label>SUR S.A. DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0311</fullName>
+                <default>false</default>
+                <label>SURNE MUTUA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0312</fullName>
+                <default>false</default>
+                <label>TECNICA ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>C0313</fullName>
+                <default>false</default>
+                <label>TOKIO MARINE EUROPE INDURANCE</label>
+            </value>
+            <value>
+                <fullName>C0314</fullName>
+                <default>false</default>
+                <label>TRADEWISE INSURANCE COMPANY LIMITED</label>
+            </value>
+            <value>
+                <fullName>C0315</fullName>
+                <default>false</default>
+                <label>UAP IBERICA  CIA. DE</label>
+            </value>
+            <value>
+                <fullName>C0316</fullName>
+                <default>false</default>
+                <label>UMA  UNION DE MUTUAS</label>
+            </value>
+            <value>
+                <fullName>C0317</fullName>
+                <default>false</default>
+                <label>UMAS</label>
+            </value>
+            <value>
+                <fullName>C0318</fullName>
+                <default>false</default>
+                <label>UMES  S.A. DE SEG. Y</label>
+            </value>
+            <value>
+                <fullName>C0319</fullName>
+                <default>false</default>
+                <label>UNASYR-UNION ALICANT</label>
+            </value>
+            <value>
+                <fullName>C0320</fullName>
+                <default>false</default>
+                <label>UNHIS UNION HISPANA</label>
+            </value>
+            <value>
+                <fullName>C0321</fullName>
+                <default>false</default>
+                <label>UNIAL SOCIAL DE SEGU</label>
+            </value>
+            <value>
+                <fullName>C0322</fullName>
+                <default>false</default>
+                <label>UNIBER CIA / ZURICH</label>
+            </value>
+            <value>
+                <fullName>C0323</fullName>
+                <default>false</default>
+                <label>UNION ALCOYANA, S.A. (LA) - UNION ALCOYANA SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0324</fullName>
+                <default>false</default>
+                <label>UNION CONDAL  S.A.</label>
+            </value>
+            <value>
+                <fullName>C0325</fullName>
+                <default>false</default>
+                <label>UNIÓN DEL DUERO CÍA. DE SEGUROS DE VIDA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0326</fullName>
+                <default>false</default>
+                <label>UNION EUROPEA DE SEG</label>
+            </value>
+            <value>
+                <fullName>C0327</fullName>
+                <default>false</default>
+                <label>UNION IBERICA DE SEG</label>
+            </value>
+            <value>
+                <fullName>C0328</fullName>
+                <default>false</default>
+                <label>UNION MUTUA ASISTENCIAL DE SEGUROS - UMAS MUTUA DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0329</fullName>
+                <default>false</default>
+                <label>UNION MUTUA SEG.  SD</label>
+            </value>
+            <value>
+                <fullName>C0330</fullName>
+                <default>false</default>
+                <label>UNION PENINSULAR DE</label>
+            </value>
+            <value>
+                <fullName>C0331</fullName>
+                <default>false</default>
+                <label>UNIPOL ASSICURAZIONI</label>
+            </value>
+            <value>
+                <fullName>C0332</fullName>
+                <default>false</default>
+                <label>UNNIM PROTECCIO (ANTES CAIXA TERRASSA)</label>
+            </value>
+            <value>
+                <fullName>C0333</fullName>
+                <default>false</default>
+                <label>UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS - UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0334</fullName>
+                <default>false</default>
+                <label>USAA LIMITED (UNITED SERVICES AUTOMOBILE ASOCIATION)</label>
+            </value>
+            <value>
+                <fullName>C0335</fullName>
+                <default>false</default>
+                <label>USAA S.A</label>
+            </value>
+            <value>
+                <fullName>C0336</fullName>
+                <default>false</default>
+                <label>VAN AMEYDE ESPAÑA S.A.</label>
+            </value>
+            <value>
+                <fullName>C0337</fullName>
+                <default>false</default>
+                <label>VAN CALCAR ESPAÑA CI</label>
+            </value>
+            <value>
+                <fullName>C0338</fullName>
+                <default>false</default>
+                <label>VARIAS CIAS.</label>
+            </value>
+            <value>
+                <fullName>C0339</fullName>
+                <default>false</default>
+                <label>VERTI ASEGURADORA COMPAÑIA SEG.Y REAS,SA</label>
+            </value>
+            <value>
+                <fullName>C0340</fullName>
+                <default>false</default>
+                <label>VICTORIA MERIDIONAL, S. A. - ERGO SEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0341</fullName>
+                <default>false</default>
+                <label>VIDACAIXA ADESLAS, S.A. SEG.GRALES Y REA - SEGURCAIXA ADESLAS</label>
+            </value>
+            <value>
+                <fullName>C0342</fullName>
+                <default>false</default>
+                <label>VIDACAIXA SA SEGUROS Y REASEGUROS</label>
+            </value>
+            <value>
+                <fullName>C0343</fullName>
+                <default>false</default>
+                <label>VIMAR  SEGUROS Y REA</label>
+            </value>
+            <value>
+                <fullName>C0344</fullName>
+                <default>false</default>
+                <label>WELCOME SEGUROS 2020 S.A.</label>
+            </value>
+            <value>
+                <fullName>C0345</fullName>
+                <default>false</default>
+                <label>WINTERTHUR</label>
+            </value>
+            <value>
+                <fullName>C0346</fullName>
+                <default>false</default>
+                <label>ZURICH CIA - EROSKI</label>
+            </value>
+            <value>
+                <fullName>C0347</fullName>
+                <default>false</default>
+                <label>ZURICH CIA. DE SEG.</label>
+            </value>
+            <value>
+                <fullName>C0348</fullName>
+                <default>false</default>
+                <label>ZURICH ESPAÑA CIA SEGUROS Y REASEGUROS - ZURICH</label>
+            </value>
+            <value>
+                <fullName>C0349</fullName>
+                <default>false</default>
+                <label>ZURICH INSURANCE PUBLIC LIMITED COMPANY</label>
+            </value>
+            <value>
+                <fullName>C0350</fullName>
+                <default>false</default>
+                <label>ZURICH INTERNACIONAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

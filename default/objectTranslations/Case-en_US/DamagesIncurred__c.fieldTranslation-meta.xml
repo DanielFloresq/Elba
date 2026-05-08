@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Damages Incurred --></label>
+    <name>DamagesIncurred__c</name>
+    <picklistValues>
+        <masterLabel>ACCIDENTE</masterLabel>
+        <translation><!-- ACCIDENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE  IN ITINERE</masterLabel>
+        <translation><!-- ACCIDENTE  IN ITINERE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE DE CIRCULACION</masterLabel>
+        <translation><!-- ACCIDENTE DE CIRCULACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE DENTRO DEL ESTADIO</masterLabel>
+        <translation><!-- ACCIDENTE DENTRO DEL ESTADIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE DEPORTIVO</masterLabel>
+        <translation><!-- ACCIDENTE DEPORTIVO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE DOMESTICO</masterLabel>
+        <translation><!-- ACCIDENTE DOMESTICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE EN GUARDERIA</masterLabel>
+        <translation><!-- ACCIDENTE EN GUARDERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE EN TRANSPORTE</masterLabel>
+        <translation><!-- ACCIDENTE EN TRANSPORTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE EXTRAPROFESIONAL</masterLabel>
+        <translation><!-- ACCIDENTE EXTRAPROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE FUERA DEL ESTADIO</masterLabel>
+        <translation><!-- ACCIDENTE FUERA DEL ESTADIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE LABORAL</masterLabel>
+        <translation><!-- ACCIDENTE LABORAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE MOTICICLETAS</masterLabel>
+        <translation><!-- ACCIDENTE MOTICICLETAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE NO PROFESIONAL</masterLabel>
+        <translation><!-- ACCIDENTE NO PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTE PROFESIONAL</masterLabel>
+        <translation><!-- ACCIDENTE PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCTE CIRCUL DURANTE DESPLAZAMIENTO EN VEHICULOS</masterLabel>
+        <translation><!-- ACCTE CIRCUL DURANTE DESPLAZAMIENTO EN VEHICULOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACTOS VANDALICOS POR EL INQULINO</masterLabel>
+        <translation><!-- ACTOS VANDALICOS POR EL INQULINO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACUARIOS</masterLabel>
+        <translation><!-- ACUARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ADQUISICION  DE ENSERES</masterLabel>
+        <translation><!-- ADQUISICION  DE ENSERES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AEROTERMIA</masterLabel>
+        <translation><!-- AEROTERMIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIRE ACONDICIONADO</masterLabel>
+        <translation><!-- AIRE ACONDICIONADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AISLAMIENTO DE VENTANAS Y SIMILARES</masterLabel>
+        <translation><!-- AISLAMIENTO DE VENTANAS Y SIMILARES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALARMA</masterLabel>
+        <translation><!-- ALARMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALIMENTOS REFRIGERADOS</masterLabel>
+        <translation><!-- ALIMENTOS REFRIGERADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALQUILER DE VIVIENDAS</masterLabel>
+        <translation><!-- ALQUILER DE VIVIENDAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANCLAJE DE SANITARIOS</masterLabel>
+        <translation><!-- ANCLAJE DE SANITARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANIMALES DOMESTICOS</masterLabel>
+        <translation><!-- ANIMALES DOMESTICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTENA COLECTIVA</masterLabel>
+        <translation><!-- ANTENA COLECTIVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTENA PARTICULAR</masterLabel>
+        <translation><!-- ANTENA PARTICULAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARBOLEDA Y JARDINES</masterLabel>
+        <translation><!-- ARBOLEDA Y JARDINES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASCENSOR</masterLabel>
+        <translation><!-- ASCENSOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASISTENCIA JURIDICA PRESENCIAL</masterLabel>
+        <translation><!-- ASISTENCIA JURIDICA PRESENCIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASISTENCIA SANITARIA</masterLabel>
+        <translation><!-- ASISTENCIA SANITARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATASCO</masterLabel>
+        <translation><!-- ATASCO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATROPELLO</masterLabel>
+        <translation><!-- ATROPELLO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AYUDA PARA EL PAGO DE LA PENSIÓN</masterLabel>
+        <translation><!-- AYUDA PARA EL PAGO DE LA PENSIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAÑERA</masterLabel>
+        <translation><!-- BAÑERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIDE</masterLabel>
+        <translation><!-- BIDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIENES DEPORTIVOS</masterLabel>
+        <translation><!-- BIENES DEPORTIVOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIENES REFRIGERADOS</masterLabel>
+        <translation><!-- BIENES REFRIGERADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIENES TEMPORAL DESPLAZADOS</masterLabel>
+        <translation><!-- BIENES TEMPORAL DESPLAZADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BOMBAS DE EXTRACCION DE AGUA</masterLabel>
+        <translation><!-- BOMBAS DE EXTRACCION DE AGUA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRAZO, CLAVICULA, CODO O MUÑECA</masterLabel>
+        <translation><!-- BRAZO, CLAVICULA, CODO O MUÑECA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BUZON</masterLabel>
+        <translation><!-- BUZON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CADERA O PELVIS</masterLabel>
+        <translation><!-- CADERA O PELVIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAIDA</masterLabel>
+        <translation><!-- CAIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAIDAS DESDE ALTURAS</masterLabel>
+        <translation><!-- CAIDAS DESDE ALTURAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CALDERA</masterLabel>
+        <translation><!-- CALDERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAMBIO DE BISAGRAS</masterLabel>
+        <translation><!-- CAMBIO DE BISAGRAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAMBIO DE MECANISMO CISTERNA</masterLabel>
+        <translation><!-- CAMBIO DE MECANISMO CISTERNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAMPANA EXTRACTORA</masterLabel>
+        <translation><!-- CAMPANA EXTRACTORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARNE POR PUNTOS</masterLabel>
+        <translation><!-- CARNE POR PUNTOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARNE Y PUNTO RACE</masterLabel>
+        <translation><!-- CARNE Y PUNTO RACE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARNE Y PUNTO RACE 2</masterLabel>
+        <translation><!-- CARNE Y PUNTO RACE 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARNET POR PUNTOS</masterLabel>
+        <translation><!-- CARNET POR PUNTOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDO.- AL CONTENIDO POR OBRAS</masterLabel>
+        <translation><!-- CDO.- AL CONTENIDO POR OBRAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDO.- AL CONTENIDO POR POR OBRAS</masterLabel>
+        <translation><!-- CDO.- AL CONTENIDO POR POR OBRAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDO.- PEATON</masterLabel>
+        <translation><!-- CDO.- PEATON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDO.- POR SERVICIOS PRESTADOS AL ASGDO</masterLabel>
+        <translation><!-- CDO.- POR SERVICIOS PRESTADOS AL ASGDO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDO.- USUARIO MEDIOS DE TRANSPORTE</masterLabel>
+        <translation><!-- CDO.- USUARIO MEDIOS DE TRANSPORTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CENTRALITA TELEFONICA</masterLabel>
+        <translation><!-- CENTRALITA TELEFONICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERRADURA</masterLabel>
+        <translation><!-- CERRADURA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIERRE ALUMINIO</masterLabel>
+        <translation><!-- CIERRE ALUMINIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIRCULACION</masterLabel>
+        <translation><!-- CIRCULACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CISTERNA</masterLabel>
+        <translation><!-- CISTERNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COCINA DE GAS</masterLabel>
+        <translation><!-- COCINA DE GAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COCINA ELECTRICA</masterLabel>
+        <translation><!-- COCINA ELECTRICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLGAR O FIJAR ELEMENTOS DE MUEBLES</masterLabel>
+        <translation><!-- COLGAR O FIJAR ELEMENTOS DE MUEBLES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLOCACION DE ACCESORIOS DE BAÑO</masterLabel>
+        <translation><!-- COLOCACION DE ACCESORIOS DE BAÑO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLOCACION DE SOPORTES O TERMOS SIN ELECTRICIDAD</masterLabel>
+        <translation><!-- COLOCACION DE SOPORTES O TERMOS SIN ELECTRICIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLOCACION DE SOPORTES SIN OBRA DE FONTANERIA</masterLabel>
+        <translation><!-- COLOCACION DE SOPORTES SIN OBRA DE FONTANERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLOCACION DE VINILOS EN ESCAPARATES O INTERIORES</masterLabel>
+        <translation><!-- COLOCACION DE VINILOS EN ESCAPARATES O INTERIORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLUMNA VERTEBRAL</masterLabel>
+        <translation><!-- COLUMNA VERTEBRAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMO CONDUCTOR</masterLabel>
+        <translation><!-- COMO CONDUCTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMO OCUPANTE</masterLabel>
+        <translation><!-- COMO OCUPANTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMPRAVENTA DE VIVIENDA</masterLabel>
+        <translation><!-- COMPRAVENTA DE VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMPROBAR DATOS</masterLabel>
+        <translation><!-- COMPROBAR DATOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDAD DE PROPIETARIOS</masterLabel>
+        <translation><!-- COMUNIDAD DE PROPIETARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONFLICTOS CON VECINOS</masterLabel>
+        <translation><!-- CONFLICTOS CON VECINOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONFLICTOS INDIVIDUALES DE TRABAJO</masterLabel>
+        <translation><!-- CONFLICTOS INDIVIDUALES DE TRABAJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTENIDO DOMESTICO</masterLabel>
+        <translation><!-- CONTENIDO DOMESTICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTENIDO PROFESIONAL</masterLabel>
+        <translation><!-- CONTENIDO PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTINENTE</masterLabel>
+        <translation><!-- CONTINENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTRATOS DE ARRENDAMIENTOS</masterLabel>
+        <translation><!-- CONTRATOS DE ARRENDAMIENTOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTRATOS DE COMPRA Y DEPOSITO</masterLabel>
+        <translation><!-- CONTRATOS DE COMPRA Y DEPOSITO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTRATOS DE SUMINISTROS</masterLabel>
+        <translation><!-- CONTRATOS DE SUMINISTROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COSTE DE PODERES</masterLabel>
+        <translation><!-- COSTE DE PODERES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COSTE PODERES</masterLabel>
+        <translation><!-- COSTE PODERES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRANEO</masterLabel>
+        <translation><!-- CRANEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CREACIÓN DE NUEVOS PUNTOS DE LUZ, TV</masterLabel>
+        <translation><!-- CREACIÓN DE NUEVOS PUNTOS DE LUZ, TV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRISTAL DE ELECTRODOMESTICO</masterLabel>
+        <translation><!-- CRISTAL DE ELECTRODOMESTICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRISTAL DE MAMPARA</masterLabel>
+        <translation><!-- CRISTAL DE MAMPARA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CTE.- AL LOCAL POR OBRAS</masterLabel>
+        <translation><!-- CTE.- AL LOCAL POR OBRAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CTE.- POR INCUMPLIMIENTO DE CONTRATOS</masterLabel>
+        <translation><!-- CTE.- POR INCUMPLIMIENTO DE CONTRATOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CTE.- POR INCUMPLIMIENTOS DE CONTRATOS</masterLabel>
+        <translation><!-- CTE.- POR INCUMPLIMIENTOS DE CONTRATOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CUARTO DE CONTADORES</masterLabel>
+        <translation><!-- CUARTO DE CONTADORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CURSOS FORMACION</masterLabel>
+        <translation><!-- CURSOS FORMACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAÑOS A SU PERSONA</masterLabel>
+        <translation><!-- DAÑOS A SU PERSONA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAÑOS A TERCEROS</masterLabel>
+        <translation><!-- DAÑOS A TERCEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAÑOS A VIVIENDA POR OBRAS</masterLabel>
+        <translation><!-- DAÑOS A VIVIENDA POR OBRAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAÑOS MATERIALES</masterLabel>
+        <translation><!-- DAÑOS MATERIALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA</masterLabel>
+        <translation><!-- DEFENSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA CIVIL</masterLabel>
+        <translation><!-- DEFENSA CIVIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA DE LA RESPONSABILIDAD PENAL</masterLabel>
+        <translation><!-- DEFENSA DE LA RESPONSABILIDAD PENAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA FISCAL</masterLabel>
+        <translation><!-- DEFENSA FISCAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA JURIDICA DEL ALQUILER</masterLabel>
+        <translation><!-- DEFENSA JURIDICA DEL ALQUILER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEFENSA PENAL</masterLabel>
+        <translation><!-- DEFENSA PENAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEMORA EN ENTREGA</masterLabel>
+        <translation><!-- DEMORA EN ENTREGA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DESATRANCO DE MODO MANUAL</masterLabel>
+        <translation><!-- DESATRANCO DE MODO MANUAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DESCRIPCION</masterLabel>
+        <translation><!-- DESCRIPCION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DESEMPLEO</masterLabel>
+        <translation><!-- DESEMPLEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DINERO EN METALICO</masterLabel>
+        <translation><!-- DINERO EN METALICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOCUMENTOS</masterLabel>
+        <translation><!-- DOCUMENTOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOMOTICA</masterLabel>
+        <translation><!-- DOMOTICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRODOMESTICOS GAMA BLANCA</masterLabel>
+        <translation><!-- ELECTRODOMESTICOS GAMA BLANCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRODOMESTICOS GAMA MARRON</masterLabel>
+        <translation><!-- ELECTRODOMESTICOS GAMA MARRON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELEMENTOS DE CUBRICION</masterLabel>
+        <translation><!-- ELEMENTOS DE CUBRICION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMBARCACIONES DE RECREO</masterLabel>
+        <translation><!-- EMBARCACIONES DE RECREO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EN PERSONA DE ASEGURADO</masterLabel>
+        <translation><!-- EN PERSONA DE ASEGURADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENCOLAR MUEBLES</masterLabel>
+        <translation><!-- ENCOLAR MUEBLES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENFERMEDAD</masterLabel>
+        <translation><!-- ENFERMEDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENFERMEDAD GRAVE</masterLabel>
+        <translation><!-- ENFERMEDAD GRAVE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENFERMEDAD PROFESIONAL</masterLabel>
+        <translation><!-- ENFERMEDAD PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENGRASADO DE RIELES</masterLabel>
+        <translation><!-- ENGRASADO DE RIELES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EQUIPAJE</masterLabel>
+        <translation><!-- EQUIPAJE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESPEJOS, CRISTALES O METRACRILATO</masterLabel>
+        <translation><!-- ESPEJOS, CRISTALES O METRACRILATO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESTUFAS</masterLabel>
+        <translation><!-- ESTUFAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXISTENCIAS</masterLabel>
+        <translation><!-- EXISTENCIAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXPEDIENTE DE REGULACION DE EMPLEO</masterLabel>
+        <translation><!-- EXPEDIENTE DE REGULACION DE EMPLEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXTINCION DE LA RELACION LABORAL</masterLabel>
+        <translation><!-- EXTINCION DE LA RELACION LABORAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXTRAPROFESIONAL</masterLabel>
+        <translation><!-- EXTRAPROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FACHADA</masterLabel>
+        <translation><!-- FACHADA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO</masterLabel>
+        <translation><!-- FALLECIMIENTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO DE TRAFICO</masterLabel>
+        <translation><!-- FALLECIMIENTO DE TRAFICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO DEPORTIVO</masterLabel>
+        <translation><!-- FALLECIMIENTO DEPORTIVO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO DOMESTICO</masterLabel>
+        <translation><!-- FALLECIMIENTO DOMESTICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO ITINERE</masterLabel>
+        <translation><!-- FALLECIMIENTO ITINERE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO LABORAL</masterLabel>
+        <translation><!-- FALLECIMIENTO LABORAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO NATURAL</masterLabel>
+        <translation><!-- FALLECIMIENTO NATURAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO POR ACCIDENTE</masterLabel>
+        <translation><!-- FALLECIMIENTO POR ACCIDENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO POR INFARTO</masterLabel>
+        <translation><!-- FALLECIMIENTO POR INFARTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FALLECIMIENTO/SEPELIO</masterLabel>
+        <translation><!-- FALLECIMIENTO/SEPELIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FEMUR O TALON</masterLabel>
+        <translation><!-- FEMUR O TALON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIANZAS</masterLabel>
+        <translation><!-- FIANZAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FONDOS COMUNITARIOS</masterLabel>
+        <translation><!-- FONDOS COMUNITARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FORMACION RECUPEACION</masterLabel>
+        <translation><!-- FORMACION RECUPEACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FREGADERO</masterLabel>
+        <translation><!-- FREGADERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FRIGORIFICO</masterLabel>
+        <translation><!-- FRIGORIFICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FUGA DE TUBERIA</masterLabel>
+        <translation><!-- FUGA DE TUBERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FUGA SIN DAÑOS</masterLabel>
+        <translation><!-- FUGA SIN DAÑOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GARAJES COMUNITARIOS</masterLabel>
+        <translation><!-- GARAJES COMUNITARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS ADICIONALES</masterLabel>
+        <translation><!-- GASTOS ADICIONALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS CLINICOS</masterLabel>
+        <translation><!-- GASTOS CLINICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS DE CURACION ACCIDENTE</masterLabel>
+        <translation><!-- GASTOS DE CURACION ACCIDENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS DE SEPELIO</masterLabel>
+        <translation><!-- GASTOS DE SEPELIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS FARMACEUTICOS</masterLabel>
+        <translation><!-- GASTOS FARMACEUTICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS GENERALES</masterLabel>
+        <translation><!-- GASTOS GENERALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS HOSPITALARIOS</masterLabel>
+        <translation><!-- GASTOS HOSPITALARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GASTOS JURIDICOS</masterLabel>
+        <translation><!-- GASTOS JURIDICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERADOR DE ELECTRICIDAD</masterLabel>
+        <translation><!-- GENERADOR DE ELECTRICIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GEOTERMIA</masterLabel>
+        <translation><!-- GEOTERMIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GRIFOS</masterLabel>
+        <translation><!-- GRIFOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HERRAMIENTAS</masterLabel>
+        <translation><!-- HERRAMIENTAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HONORARIOS ABOGADO</masterLabel>
+        <translation><!-- HONORARIOS ABOGADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HORNO O MICROONDAS</masterLabel>
+        <translation><!-- HORNO O MICROONDAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INCAPACIDAD TEMPORAL</masterLabel>
+        <translation><!-- INCAPACIDAD TEMPORAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INCENDIO</masterLabel>
+        <translation><!-- INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INCUMPLIMIENTO DE CONTRATOS</masterLabel>
+        <translation><!-- INCUMPLIMIENTO DE CONTRATOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INDEMNIZACION DIARIA</masterLabel>
+        <translation><!-- INDEMNIZACION DIARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFARTO</masterLabel>
+        <translation><!-- INFARTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFIDELIDAD DE EMPLEADOS</masterLabel>
+        <translation><!-- INFIDELIDAD DE EMPLEADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INGESTION DE CUERPOS EXTRAÑOS</masterLabel>
+        <translation><!-- INGESTION DE CUERPOS EXTRAÑOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INHABITABILIDAD</masterLabel>
+        <translation><!-- INHABITABILIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INODORO</masterLabel>
+        <translation><!-- INODORO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION CONTRA/DETECCIÓN INCENDIO</masterLabel>
+        <translation><!-- INSTALACION CONTRA/DETECCIÓN INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION DE CANALETAS</masterLabel>
+        <translation><!-- INSTALACION DE CANALETAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION DE CORTINAS Y SIMILARES</masterLabel>
+        <translation><!-- INSTALACION DE CORTINAS Y SIMILARES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION DE LAMAPARAS O APLIQUES</masterLabel>
+        <translation><!-- INSTALACION DE LAMAPARAS O APLIQUES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION DE LATIGUILLOS, LLAVES DE PASO</masterLabel>
+        <translation><!-- INSTALACION DE LATIGUILLOS, LLAVES DE PASO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION DE MANILLAS, POMOS, ETC</masterLabel>
+        <translation><!-- INSTALACION DE MANILLAS, POMOS, ETC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION ELECTRICA</masterLabel>
+        <translation><!-- INSTALACION ELECTRICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACION EQUIPAMIENTO TECNOLOGICO, INFORMATICO</masterLabel>
+        <translation><!-- INSTALACION EQUIPAMIENTO TECNOLOGICO, INFORMATICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INSTALACIONES DEPORTIVAS</masterLabel>
+        <translation><!-- INSTALACIONES DEPORTIVAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTOXICACIONES</masterLabel>
+        <translation><!-- INTOXICACIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INVALIDEZ</masterLabel>
+        <translation><!-- INVALIDEZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INVALIDEZ PERMANENTE ABSOLUTA</masterLabel>
+        <translation><!-- INVALIDEZ PERMANENTE ABSOLUTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INVALIDEZ.ESTIVAL</masterLabel>
+        <translation><!-- INVALIDEZ.ESTIVAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JARDINES</masterLabel>
+        <translation><!-- JARDINES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JOYAS</masterLabel>
+        <translation><!-- JOYAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAMPARAS</masterLabel>
+        <translation><!-- LAMPARAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAVABO</masterLabel>
+        <translation><!-- LAVABO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAVADORA</masterLabel>
+        <translation><!-- LAVADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAVAVAJILLAS</masterLabel>
+        <translation><!-- LAVAVAJILLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LESIONES</masterLabel>
+        <translation><!-- LESIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIMPIEZA DE SUPERFICIES POR OBRA O MUDANZA</masterLabel>
+        <translation><!-- LIMPIEZA DE SUPERFICIES POR OBRA O MUDANZA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LLAVES DE PASO</masterLabel>
+        <translation><!-- LLAVES DE PASO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LLAVES DE RADIADORES</masterLabel>
+        <translation><!-- LLAVES DE RADIADORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOZA SANITARIA</masterLabel>
+        <translation><!-- LOZA SANITARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LUNAS ESCAPARATE</masterLabel>
+        <translation><!-- LUNAS ESCAPARATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAQUINARIA</masterLabel>
+        <translation><!-- MAQUINARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAQUINARIA DE PISCINA</masterLabel>
+        <translation><!-- MAQUINARIA DE PISCINA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARMOL</masterLabel>
+        <translation><!-- MARMOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARMOL BAÑO</masterLabel>
+        <translation><!-- MARMOL BAÑO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARMOL COCINA</masterLabel>
+        <translation><!-- MARMOL COCINA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MERCADERIA</masterLabel>
+        <translation><!-- MERCADERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBBING O ACOSO INMOBILIARIO</masterLabel>
+        <translation><!-- MOBBING O ACOSO INMOBILIARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILIARIO</masterLabel>
+        <translation><!-- MOBILIARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILIARIO COMERCIAL</masterLabel>
+        <translation><!-- MOBILIARIO COMERCIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILIARIO EXTERIOR</masterLabel>
+        <translation><!-- MOBILIARIO EXTERIOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILIARIO OFICINA</masterLabel>
+        <translation><!-- MOBILIARIO OFICINA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MONTAJE DE KIT DE MUEBLES</masterLabel>
+        <translation><!-- MONTAJE DE KIT DE MUEBLES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOSTRADORES</masterLabel>
+        <translation><!-- MOSTRADORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOTOR DE PUERTAS</masterLabel>
+        <translation><!-- MOTOR DE PUERTAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOVIMIENTOS DE MUEBLES Y ELECTRODOMESTICOS</masterLabel>
+        <translation><!-- MOVIMIENTOS DE MUEBLES Y ELECTRODOMESTICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUERTE DEL ASEGURADO</masterLabel>
+        <translation><!-- MUERTE DEL ASEGURADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OBJETOS DE VALOR</masterLabel>
+        <translation><!-- OBJETOS DE VALOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OBJETOS DECORATIVOS</masterLabel>
+        <translation><!-- OBJETOS DECORATIVOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCUPACION ILEGAL DE LA VIVIENDA</masterLabel>
+        <translation><!-- OCUPACION ILEGAL DE LA VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORDENADOR</masterLabel>
+        <translation><!-- ORDENADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTRAS CAUSAS</masterLabel>
+        <translation><!-- OTRAS CAUSAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTRO HECHO SUBITO, VIOLENTO SIN INTENCIONALIDAD</masterLabel>
+        <translation><!-- OTRO HECHO SUBITO, VIOLENTO SIN INTENCIONALIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTROS (TAPAS SANITARIOS, ACCESORIOS)</masterLabel>
+        <translation><!-- OTROS (TAPAS SANITARIOS, ACCESORIOS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTROS BIENES COMUNITARIOS</masterLabel>
+        <translation><!-- OTROS BIENES COMUNITARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTROS DAÑOS CONTINENTE</masterLabel>
+        <translation><!-- OTROS DAÑOS CONTINENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTROS SUCESOS ACCIDENTALES</masterLabel>
+        <translation><!-- OTROS SUCESOS ACCIDENTALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTROS TRABAJOS MANITAS</masterLabel>
+        <translation><!-- OTROS TRABAJOS MANITAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARAPLEJIA PERMANENTE</masterLabel>
+        <translation><!-- PARAPLEJIA PERMANENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PAREDES/TECHOS INTERIORES</masterLabel>
+        <translation><!-- PAREDES/TECHOS INTERIORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEATON</masterLabel>
+        <translation><!-- PEATON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PELEA</masterLabel>
+        <translation><!-- PELEA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PELEAS CON OTROS ANIMALES</masterLabel>
+        <translation><!-- PELEAS CON OTROS ANIMALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEOFESIONAL</masterLabel>
+        <translation><!-- PEOFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA DE ALQUILER</masterLabel>
+        <translation><!-- PERDIDA DE ALQUILER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA DE BENEFICIOS</masterLabel>
+        <translation><!-- PERDIDA DE BENEFICIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA DE LLAVES</masterLabel>
+        <translation><!-- PERDIDA DE LLAVES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE LA VISTA (DOS OJOS)</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE LA VISTA (DOS OJOS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE LA VISTA (UN OJO)</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE LA VISTA (UN OJO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE LAS DOS PIERNAS</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE LAS DOS PIERNAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE LOS DOS BRAZOS</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE LOS DOS BRAZOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE UN BRAZO</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE UN BRAZO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE UN BRAZO Y UNA PIERNA</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE UN BRAZO Y UNA PIERNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA TOTAL DE UNA PIERNA</masterLabel>
+        <translation><!-- PERDIDA TOTAL DE UNA PIERNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERJUICIOS PATRIMONIALES</masterLabel>
+        <translation><!-- PERJUICIOS PATRIMONIALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERSIANA</masterLabel>
+        <translation><!-- PERSIANA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PLACAS SOLARES</masterLabel>
+        <translation><!-- PLACAS SOLARES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PLATO DE DUCHA</masterLabel>
+        <translation><!-- PLATO DE DUCHA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POR DAÑOS A ENSERES</masterLabel>
+        <translation><!-- POR DAÑOS A ENSERES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POR DAÑOS A VIVIENDA</masterLabel>
+        <translation><!-- POR DAÑOS A VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POR OBRAS DE TERCEROS</masterLabel>
+        <translation><!-- POR OBRAS DE TERCEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PORTAL</masterLabel>
+        <translation><!-- PORTAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PORTERO AUTOMATICO</masterLabel>
+        <translation><!-- PORTERO AUTOMATICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCEDIMIENTOS SUCESORIOS</masterLabel>
+        <translation><!-- PROCEDIMIENTOS SUCESORIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROFESIONAL</masterLabel>
+        <translation><!-- PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROTECCION DEL MENOR</masterLabel>
+        <translation><!-- PROTECCION DEL MENOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUERTA DE ACCESO O EXTERIOR</masterLabel>
+        <translation><!-- PUERTA DE ACCESO O EXTERIOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUERTA DE GARAJE</masterLabel>
+        <translation><!-- PUERTA DE GARAJE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUERTAS</masterLabel>
+        <translation><!-- PUERTAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PURGA DE RADIADORES</masterLabel>
+        <translation><!-- PURGA DE RADIADORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION</masterLabel>
+        <translation><!-- RECLAMACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION  DE DAÑOS</masterLabel>
+        <translation><!-- RECLAMACION  DE DAÑOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION DE CONSUMO</masterLabel>
+        <translation><!-- RECLAMACION DE CONSUMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION DE DAÑOS</masterLabel>
+        <translation><!-- RECLAMACION DE DAÑOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION DE DERECHOS DE PENSIONES</masterLabel>
+        <translation><!-- RECLAMACION DE DERECHOS DE PENSIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION DE PRESTACIONES SOCIALES</masterLabel>
+        <translation><!-- RECLAMACION DE PRESTACIONES SOCIALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACION DE VECINOS POR INFRACCION</masterLabel>
+        <translation><!-- RECLAMACION DE VECINOS POR INFRACCION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLAMACIONES ANTE LA COMUNIDAD</masterLabel>
+        <translation><!-- RECLAMACIONES ANTE LA COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECUPERACION PROFESIONAL</masterLabel>
+        <translation><!-- RECUPERACION PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECURSOS DE SANCIONES</masterLabel>
+        <translation><!-- RECURSOS DE SANCIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECUSOS ADMINITRACIONES PUBLICAS</masterLabel>
+        <translation><!-- RECUSOS ADMINITRACIONES PUBLICAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REDUCCION DE LA JORNADA AL 50%</masterLabel>
+        <translation><!-- REDUCCION DE LA JORNADA AL 50% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REDUCCION JORNADA AL 50%</masterLabel>
+        <translation><!-- REDUCCION JORNADA AL 50% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REEMBOLSO DE GASTOS JURÍDICOS</masterLabel>
+        <translation><!-- REEMBOLSO DE GASTOS JURÍDICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESPONSABILIDAD CIVIL</masterLabel>
+        <translation><!-- RESPONSABILIDAD CIVIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RETIRADA DE CARNET</masterLabel>
+        <translation><!-- RETIRADA DE CARNET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REVISION DE GOTEOS</masterLabel>
+        <translation><!-- REVISION DE GOTEOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROPA, CASCO Y GUANTES</masterLabel>
+        <translation><!-- ROPA, CASCO Y GUANTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROTULO</masterLabel>
+        <translation><!-- ROTULO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SECADORA</masterLabel>
+        <translation><!-- SECADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SELLADO DE SANITARIOS</masterLabel>
+        <translation><!-- SELLADO DE SANITARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SERVICIO DE LIMPIEZA POR DESAHUCIO</masterLabel>
+        <translation><!-- SERVICIO DE LIMPIEZA POR DESAHUCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SERVICIO DOMESTICO</masterLabel>
+        <translation><!-- SERVICIO DOMESTICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUBSIDIO CARNET PROFESIONAL</masterLabel>
+        <translation><!-- SUBSIDIO CARNET PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUBSIDIO MENSUAL</masterLabel>
+        <translation><!-- SUBSIDIO MENSUAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUBSIDIO NO PROFESIONAL</masterLabel>
+        <translation><!-- SUBSIDIO NO PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUELOS DE MADERA</masterLabel>
+        <translation><!-- SUELOS DE MADERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUELOS Y PAREDES CERAMICOS</masterLabel>
+        <translation><!-- SUELOS Y PAREDES CERAMICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUSTITUCION DE CERRADURA</masterLabel>
+        <translation><!-- SUSTITUCION DE CERRADURA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUSTITUCION DE CERRADURAS POR DESAHUCIO</masterLabel>
+        <translation><!-- SUSTITUCION DE CERRADURAS POR DESAHUCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUSTITUCION DE CINTAS DE PERSIANAS</masterLabel>
+        <translation><!-- SUSTITUCION DE CINTAS DE PERSIANAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUSTITUCION DE ENCHUFES O INTERRUPTORES</masterLabel>
+        <translation><!-- SUSTITUCION DE ENCHUFES O INTERRUPTORES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUSTITUCION O AJUSTES DE GRIFOS</masterLabel>
+        <translation><!-- SUSTITUCION O AJUSTES DE GRIFOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAPADO DE PEQUEÑOS AGUJEROS</masterLabel>
+        <translation><!-- TAPADO DE PEQUEÑOS AGUJEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TARJETAS CREDITO</masterLabel>
+        <translation><!-- TARJETAS CREDITO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TECHO INSONORIZADO</masterLabel>
+        <translation><!-- TECHO INSONORIZADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TEJADO O CUBIERTA</masterLabel>
+        <translation><!-- TEJADO O CUBIERTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELEFONIA</masterLabel>
+        <translation><!-- TELEFONIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELEVISOR</masterLabel>
+        <translation><!-- TELEVISOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TERCEROS EN VIDA PRIVADA</masterLabel>
+        <translation><!-- TERCEROS EN VIDA PRIVADA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TERMO ELECTRICO</masterLabel>
+        <translation><!-- TERMO ELECTRICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TESTAMENTO ON LINE</masterLabel>
+        <translation><!-- TESTAMENTO ON LINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TETRAPLEJIA PERMANENTE</masterLabel>
+        <translation><!-- TETRAPLEJIA PERMANENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TIBIA, PERONE O TOBILLO</masterLabel>
+        <translation><!-- TIBIA, PERONE O TOBILLO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TIMBRES</masterLabel>
+        <translation><!-- TIMBRES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODA LA COMUNIDAD</masterLabel>
+        <translation><!-- TODA LA COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODA LA VIVIENDA</masterLabel>
+        <translation><!-- TODA LA VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODO EL EDIFICIO</masterLabel>
+        <translation><!-- TODO EL EDIFICIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODO EL LOCAL</masterLabel>
+        <translation><!-- TODO EL LOCAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODO RIESGO ACCIDENTAL</masterLabel>
+        <translation><!-- TODO RIESGO ACCIDENTAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOLDOS</masterLabel>
+        <translation><!-- TOLDOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSPORTE DE FONDOS</masterLabel>
+        <translation><!-- TRANSPORTE DE FONDOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTILES DE LIMPIEZA COMUNIDAD</masterLabel>
+        <translation><!-- UTILES DE LIMPIEZA COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VALLAS Y MUROS</masterLabel>
+        <translation><!-- VALLAS Y MUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VEHICULOS EN PRUEBAS</masterLabel>
+        <translation><!-- VEHICULOS EN PRUEBAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VEHICULOS EN TALLER</masterLabel>
+        <translation><!-- VEHICULOS EN TALLER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENTANAS</masterLabel>
+        <translation><!-- VENTANAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VITROCERAMICA INDUCCION</masterLabel>
+        <translation><!-- VITROCERAMICA INDUCCION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VITROCERAMICA RADIANTE</masterLabel>
+        <translation><!-- VITROCERAMICA RADIANTE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

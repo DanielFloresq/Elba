@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LineOfBusiness__c</fullName>
+    <description>Line of business of the policy.</description>
+    <label>Line of Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0007</fullName>
+                <default>false</default>
+                <label>SEGURO DE INCENDIOS</label>
+            </value>
+            <value>
+                <fullName>0008</fullName>
+                <default>false</default>
+                <label>ROBO Y EXPOLIACIÓN</label>
+            </value>
+            <value>
+                <fullName>0009</fullName>
+                <default>false</default>
+                <label>ROTURA DE LUNAS Y CRISTALES</label>
+            </value>
+            <value>
+                <fullName>0010</fullName>
+                <default>false</default>
+                <label>ACCIDENTES INDIVIDUALES</label>
+            </value>
+            <value>
+                <fullName>0011</fullName>
+                <default>false</default>
+                <label>PERDIDA DE BENEFICIOS</label>
+            </value>
+            <value>
+                <fullName>0012</fullName>
+                <default>false</default>
+                <label>RESPONSABILIDAD CIVIL</label>
+            </value>
+            <value>
+                <fullName>0013</fullName>
+                <default>false</default>
+                <label>L.A HOGAR</label>
+            </value>
+            <value>
+                <fullName>0014</fullName>
+                <default>false</default>
+                <label>LAGUN ARO COMERCIO</label>
+            </value>
+            <value>
+                <fullName>0015</fullName>
+                <default>false</default>
+                <label>LAGUN ARO COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0016</fullName>
+                <default>false</default>
+                <label>COLECTIVO DE ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0017</fullName>
+                <default>false</default>
+                <label>COMBINADO INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>0018</fullName>
+                <default>false</default>
+                <label>T. R. CONSTRUCCIÓN</label>
+            </value>
+            <value>
+                <fullName>0019</fullName>
+                <default>false</default>
+                <label>EQUIPOS ELECTRÓNICOS</label>
+            </value>
+            <value>
+                <fullName>0020</fullName>
+                <default>false</default>
+                <label>TRANSPORTE DE MERCANCÍAS</label>
+            </value>
+            <value>
+                <fullName>0021</fullName>
+                <default>false</default>
+                <label>ROTURA DE MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>0022</fullName>
+                <default>false</default>
+                <label>TODO RIESGO MONTAJE</label>
+            </value>
+            <value>
+                <fullName>0023</fullName>
+                <default>false</default>
+                <label>CANCELACION ESPECTÁCULO</label>
+            </value>
+            <value>
+                <fullName>0024</fullName>
+                <default>false</default>
+                <label>LAGUN ARO COMBINADA AGRÍCOLA</label>
+            </value>
+            <value>
+                <fullName>0025</fullName>
+                <default>false</default>
+                <label>GARANTIA DECENAL</label>
+            </value>
+            <value>
+                <fullName>0026</fullName>
+                <default>false</default>
+                <label>ACCIDENTES GANADO OVINO</label>
+            </value>
+            <value>
+                <fullName>0027</fullName>
+                <default>false</default>
+                <label>PROTECCION DE PAGOS</label>
+            </value>
+            <value>
+                <fullName>0028</fullName>
+                <default>false</default>
+                <label>TODO  RIESGO DE  DAÑOS MATERIALES</label>
+            </value>
+            <value>
+                <fullName>0029</fullName>
+                <default>false</default>
+                <label>RESPONSABILIDAD CIVIL CAZADOR</label>
+            </value>
+            <value>
+                <fullName>0030</fullName>
+                <default>false</default>
+                <label>EMBARCACIONES DE RECREO</label>
+            </value>
+            <value>
+                <fullName>0031</fullName>
+                <default>false</default>
+                <label>AON @ LAGUN ARO PYME</label>
+            </value>
+            <value>
+                <fullName>0032</fullName>
+                <default>false</default>
+                <label>LAGUN ARO NEGOCIO</label>
+            </value>
+            <value>
+                <fullName>0033</fullName>
+                <default>false</default>
+                <label>0033 - LAGUN ARO NEGOCIO</label>
+            </value>
+            <value>
+                <fullName>0034</fullName>
+                <default>false</default>
+                <label>PATINETES ELECTRICOS Y BICICLETAS</label>
+            </value>
+            <value>
+                <fullName>0035</fullName>
+                <default>false</default>
+                <label>Hogar - Extracontractual</label>
+            </value>
+            <value>
+                <fullName>0036</fullName>
+                <default>false</default>
+                <label>Hogar - Básico</label>
+            </value>
+            <value>
+                <fullName>0037</fullName>
+                <default>false</default>
+                <label>Hogar - Plus</label>
+            </value>
+            <value>
+                <fullName>0038</fullName>
+                <default>false</default>
+                <label>Hogar - Segunda Residencia</label>
+            </value>
+            <value>
+                <fullName>0039</fullName>
+                <default>false</default>
+                <label>Hogar - Limpieza Vivienda</label>
+            </value>
+            <value>
+                <fullName>0040</fullName>
+                <default>false</default>
+                <label>Hogar - Siniestros</label>
+            </value>
+            <value>
+                <fullName>0041</fullName>
+                <default>false</default>
+                <label>Hogar - Asist. No Cobertura</label>
+            </value>
+            <value>
+                <fullName>0042</fullName>
+                <default>false</default>
+                <label>ComPym - Asist. Básica</label>
+            </value>
+            <value>
+                <fullName>0043</fullName>
+                <default>false</default>
+                <label>ComPym - Asist. Plus</label>
+            </value>
+            <value>
+                <fullName>0044</fullName>
+                <default>false</default>
+                <label>ComPym - Asist. Informática</label>
+            </value>
+            <value>
+                <fullName>0045</fullName>
+                <default>false</default>
+                <label>ComPym - Protección Digital</label>
+            </value>
+            <value>
+                <fullName>0046</fullName>
+                <default>false</default>
+                <label>ComPym - Siniestros</label>
+            </value>
+            <value>
+                <fullName>0047</fullName>
+                <default>false</default>
+                <label>ComPym - Asist. No Cobertura</label>
+            </value>
+            <value>
+                <fullName>0048</fullName>
+                <default>false</default>
+                <label>Siniestros Hogar</label>
+            </value>
+            <value>
+                <fullName>0049</fullName>
+                <default>false</default>
+                <label>Lovys Siniestros</label>
+            </value>
+            <value>
+                <fullName>0050</fullName>
+                <default>false</default>
+                <label>Lovys Asistencias</label>
+            </value>
+            <value>
+                <fullName>0051</fullName>
+                <default>false</default>
+                <label>Siniestros reparable Hogar</label>
+            </value>
+            <value>
+                <fullName>0052</fullName>
+                <default>false</default>
+                <label>Hogar Regreso Anticipado</label>
+            </value>
+            <value>
+                <fullName>0053</fullName>
+                <default>false</default>
+                <label>Hogar Urgencias</label>
+            </value>
+            <value>
+                <fullName>0054</fullName>
+                <default>false</default>
+                <label>Hogar Conexión Profesionales</label>
+            </value>
+            <value>
+                <fullName>0055</fullName>
+                <default>false</default>
+                <label>Hogar Reparación Electrodomésticos</label>
+            </value>
+            <value>
+                <fullName>0056</fullName>
+                <default>false</default>
+                <label>Siniestros reparable Comercio</label>
+            </value>
+            <value>
+                <fullName>0057</fullName>
+                <default>false</default>
+                <label>Comercio Conexión Profesionales</label>
+            </value>
+            <value>
+                <fullName>0058</fullName>
+                <default>false</default>
+                <label>Comercio Urgencias</label>
+            </value>
+            <value>
+                <fullName>0059</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0060</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - Accidentes Convenio</label>
+            </value>
+            <value>
+                <fullName>0061</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERSONALES 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0062</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES CORPOR. CIRCULACION</label>
+            </value>
+            <value>
+                <fullName>0063</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS. VIDA PRIVADA</label>
+            </value>
+            <value>
+                <fullName>0064</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCION JURIDICA MODULAR</label>
+            </value>
+            <value>
+                <fullName>0065</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COLECTIVO GUARDERIAS</label>
+            </value>
+            <value>
+                <fullName>0066</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0067</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES -PROFESION-TAXI-</label>
+            </value>
+            <value>
+                <fullName>0068</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES-EXTRAPROF-</label>
+            </value>
+            <value>
+                <fullName>0069</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES -MOTOCIC-</label>
+            </value>
+            <value>
+                <fullName>0070</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNE Y PUNTO</label>
+            </value>
+            <value>
+                <fullName>0071</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNE Y PUNTO MARCA</label>
+            </value>
+            <value>
+                <fullName>0072</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - REPATRIACION</label>
+            </value>
+            <value>
+                <fullName>0073</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PROFESION</label>
+            </value>
+            <value>
+                <fullName>0074</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - RESP. CIVIL Y ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0075</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - Accidentes de Convenio</label>
+            </value>
+            <value>
+                <fullName>0076</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0077</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES INDIVID. PROFESION.</label>
+            </value>
+            <value>
+                <fullName>0078</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0079</fullName>
+                <default>false</default>
+                <label>79 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0080</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO.</label>
+            </value>
+            <value>
+                <fullName>0081</fullName>
+                <default>false</default>
+                <label>81 - ACCIDENTES - REPATRIACION</label>
+            </value>
+            <value>
+                <fullName>0082</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS. 24 H. IND.</label>
+            </value>
+            <value>
+                <fullName>0083</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS.PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0084</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL.</label>
+            </value>
+            <value>
+                <fullName>0085</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS 24 H COLECT.</label>
+            </value>
+            <value>
+                <fullName>0086</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT.</label>
+            </value>
+            <value>
+                <fullName>0087</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO</label>
+            </value>
+            <value>
+                <fullName>0088</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES COLECTIVO PROFESION</label>
+            </value>
+            <value>
+                <fullName>0089</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCION DEL CONDUCTOR</label>
+            </value>
+            <value>
+                <fullName>0090</fullName>
+                <default>false</default>
+                <label>90 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0091</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNÉ Y PUNTO</label>
+            </value>
+            <value>
+                <fullName>0092</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNE Y PUNTO ESP</label>
+            </value>
+            <value>
+                <fullName>0093</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - SUPERGARANTIA</label>
+            </value>
+            <value>
+                <fullName>0094</fullName>
+                <default>false</default>
+                <label>94 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0095</fullName>
+                <default>false</default>
+                <label>95 - ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0096</fullName>
+                <default>false</default>
+                <label>96 - ACCIDENTES - ACCIDENTES INDIVID. PROFESION.</label>
+            </value>
+            <value>
+                <fullName>0097</fullName>
+                <default>false</default>
+                <label>97 - ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0098</fullName>
+                <default>false</default>
+                <label>98 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</label>
+            </value>
+            <value>
+                <fullName>0099</fullName>
+                <default>false</default>
+                <label>99 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO.</label>
+            </value>
+            <value>
+                <fullName>0100</fullName>
+                <default>false</default>
+                <label>100 - ACCIDENTES - REPATRIACION</label>
+            </value>
+            <value>
+                <fullName>0101</fullName>
+                <default>false</default>
+                <label>101 - ACCIDENTES - ACCIDENTES PERS. 24 H. IND.</label>
+            </value>
+            <value>
+                <fullName>0102</fullName>
+                <default>false</default>
+                <label>102 - ACCIDENTES - ACCIDENTES PERS.PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0103</fullName>
+                <default>false</default>
+                <label>103 - ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL.</label>
+            </value>
+            <value>
+                <fullName>0104</fullName>
+                <default>false</default>
+                <label>104 - ACCIDENTES - ACCIDENTES PERS 24 H COLECT.</label>
+            </value>
+            <value>
+                <fullName>0105</fullName>
+                <default>false</default>
+                <label>105 - ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT.</label>
+            </value>
+            <value>
+                <fullName>0106</fullName>
+                <default>false</default>
+                <label>106 - ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO</label>
+            </value>
+            <value>
+                <fullName>0107</fullName>
+                <default>false</default>
+                <label>107 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESION</label>
+            </value>
+            <value>
+                <fullName>0108</fullName>
+                <default>false</default>
+                <label>108 - ACCIDENTES - PROTECCION DEL CONDUCTOR</label>
+            </value>
+            <value>
+                <fullName>0109</fullName>
+                <default>false</default>
+                <label>109 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0110</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNÉ DE CONDUCIR ALCAMPO</label>
+            </value>
+            <value>
+                <fullName>0111</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - SIN UTILIZAR</label>
+            </value>
+            <value>
+                <fullName>0112</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES PERSONALES ALCAMPO</label>
+            </value>
+            <value>
+                <fullName>0113</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COLECTIVO CERRAJERO Y LLAVES</label>
+            </value>
+            <value>
+                <fullName>0114</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COL. ASIST.INFORMATICA REMOTA</label>
+            </value>
+            <value>
+                <fullName>0115</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COL. ASIST.INFORMATICA TOTAL</label>
+            </value>
+            <value>
+                <fullName>0116</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COLECTIVO CAZADOR BASIC</label>
+            </value>
+            <value>
+                <fullName>0117</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COLECTIVO CAZADOR COMPLET</label>
+            </value>
+            <value>
+                <fullName>0118</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - COLECTIVO CAZADOR PLUS</label>
+            </value>
+            <value>
+                <fullName>0119</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ASISTENCIA EN VIAJE</label>
+            </value>
+            <value>
+                <fullName>0120</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - FAMILIAS JOVENES</label>
+            </value>
+            <value>
+                <fullName>0121</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PLAN ESPECIAL ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0122</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES GRAVES</label>
+            </value>
+            <value>
+                <fullName>0123</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - CARNE Y PUNTO (T)</label>
+            </value>
+            <value>
+                <fullName>0124</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - NUEVO RAMO ACCIDENTES</label>
+            </value>
+            <value>
+                <fullName>0125</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECC. PAGOS C. FINANCIEROS</label>
+            </value>
+            <value>
+                <fullName>0126</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - HOSPITALIZACIÓN</label>
+            </value>
+            <value>
+                <fullName>0127</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES MOTEROS</label>
+            </value>
+            <value>
+                <fullName>0128</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ASISTENCIA INFORMATICA</label>
+            </value>
+            <value>
+                <fullName>0129</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - REPATRIACIÓN</label>
+            </value>
+            <value>
+                <fullName>0130</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - SIENTE LA FINAL</label>
+            </value>
+            <value>
+                <fullName>0131</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCIÓN DE PAGOS</label>
+            </value>
+            <value>
+                <fullName>0132</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCIÓN HOSPITALIZACIÓN</label>
+            </value>
+            <value>
+                <fullName>0133</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCIÓN SENIOR</label>
+            </value>
+            <value>
+                <fullName>0134</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - PROTECCIÓN AUTÓNOMOS</label>
+            </value>
+            <value>
+                <fullName>0135</fullName>
+                <default>false</default>
+                <label>135 - ACCIDENTES - ASISTENCIA INFORMATICA</label>
+            </value>
+            <value>
+                <fullName>0136</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ASISTENCIA VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0137</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - RESP. CIVIL</label>
+            </value>
+            <value>
+                <fullName>0138</fullName>
+                <default>false</default>
+                <label>ACCIDENTES - ACCIDENTES MODULAR</label>
+            </value>
+            <value>
+                <fullName>0139</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIO Y OFICINAS</label>
+            </value>
+            <value>
+                <fullName>0140</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - PROTECCION COMERCIOS</label>
+            </value>
+            <value>
+                <fullName>0141</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIO INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0142</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0143</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - ROBO Y EXPOLIACION</label>
+            </value>
+            <value>
+                <fullName>0144</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - Robo viviendas</label>
+            </value>
+            <value>
+                <fullName>0145</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS</label>
+            </value>
+            <value>
+                <fullName>0146</fullName>
+                <default>false</default>
+                <label>146 - COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS</label>
+            </value>
+            <value>
+                <fullName>0147</fullName>
+                <default>false</default>
+                <label>147 - COMERCIO Y OFICINAS - Robo viviendas</label>
+            </value>
+            <value>
+                <fullName>0148</fullName>
+                <default>false</default>
+                <label>148 - COMERCIO Y OFICINAS - ROBO Y EXPOLIACION</label>
+            </value>
+            <value>
+                <fullName>0149</fullName>
+                <default>false</default>
+                <label>149 - COMERCIO Y OFICINAS - INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0150</fullName>
+                <default>false</default>
+                <label>150 - COMERCIO Y OFICINAS - COMERCIO INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0151</fullName>
+                <default>false</default>
+                <label>151 - COMERCIO Y OFICINAS - PROTECCION COMERCIOS</label>
+            </value>
+            <value>
+                <fullName>0152</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIOS BÁSICO</label>
+            </value>
+            <value>
+                <fullName>0153</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIOS AMPLIADO</label>
+            </value>
+            <value>
+                <fullName>0154</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIOS PLUS</label>
+            </value>
+            <value>
+                <fullName>0155</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - FINANCIERO</label>
+            </value>
+            <value>
+                <fullName>0156</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - HOSTELERIA</label>
+            </value>
+            <value>
+                <fullName>0157</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - DESPACHOS Y OFICINAS</label>
+            </value>
+            <value>
+                <fullName>0158</fullName>
+                <default>false</default>
+                <label>COMERCIO Y OFICINAS - COMERCIOS COMPROMISO</label>
+            </value>
+            <value>
+                <fullName>0159</fullName>
+                <default>false</default>
+                <label>0159 - COMERCIO Y OFICINAS - Comercios y oficinas</label>
+            </value>
+            <value>
+                <fullName>0160</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMB.COMUNIDAD (Incendio)</label>
+            </value>
+            <value>
+                <fullName>0161</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMBINADO COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0162</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMBINADO COMUNIDAD-</label>
+            </value>
+            <value>
+                <fullName>0163</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - C.COMUNIDAD- Fcia 180 -</label>
+            </value>
+            <value>
+                <fullName>0164</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMB.COMUNIDAD -Fcia 300-</label>
+            </value>
+            <value>
+                <fullName>0165</fullName>
+                <default>false</default>
+                <label>165 - COMUNIDADES - COMBINADO COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0166</fullName>
+                <default>false</default>
+                <label>166 - COMUNIDADES - COMUNIDAD PLUS &lt;1.2</label>
+            </value>
+            <value>
+                <fullName>0167</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMUNIDAD PLUS 1,2-3</label>
+            </value>
+            <value>
+                <fullName>0168</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMUNIDAD PLUS&gt;3</label>
+            </value>
+            <value>
+                <fullName>0169</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - PROTECCION COMUNIDADES</label>
+            </value>
+            <value>
+                <fullName>0170</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMUNIDADES RAMO 18</label>
+            </value>
+            <value>
+                <fullName>0171</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMB. COMUNIDAD (Comunes)</label>
+            </value>
+            <value>
+                <fullName>0172</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - COMB. COMUNIDAD (Com/priv)</label>
+            </value>
+            <value>
+                <fullName>0173</fullName>
+                <default>false</default>
+                <label>173 - COMUNIDADES - COMB. COMUNIDAD (Comunes)</label>
+            </value>
+            <value>
+                <fullName>0174</fullName>
+                <default>false</default>
+                <label>174 - COMUNIDADES - COMUNIDADES RAMO 18</label>
+            </value>
+            <value>
+                <fullName>0175</fullName>
+                <default>false</default>
+                <label>175 - COMUNIDADES - PROTECCION COMUNIDADES</label>
+            </value>
+            <value>
+                <fullName>0176</fullName>
+                <default>false</default>
+                <label>176 - COMUNIDADES - COMB. COMUNIDAD (Com/priv)</label>
+            </value>
+            <value>
+                <fullName>0177</fullName>
+                <default>false</default>
+                <label>COMUNIDADES - NUEVA MODALIDAD</label>
+            </value>
+            <value>
+                <fullName>0178</fullName>
+                <default>false</default>
+                <label>HOGAR - COMBINADO HOGAR</label>
+            </value>
+            <value>
+                <fullName>0179</fullName>
+                <default>false</default>
+                <label>HOGAR - PELAYO HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0180</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0181</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 AZUL</label>
+            </value>
+            <value>
+                <fullName>0182</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 (hipot.)</label>
+            </value>
+            <value>
+                <fullName>0183</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 AZUL (hipot.)</label>
+            </value>
+            <value>
+                <fullName>0184</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 -INTERNET-</label>
+            </value>
+            <value>
+                <fullName>0185</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 INQUILINOS</label>
+            </value>
+            <value>
+                <fullName>0186</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 PROP.C/P.COMUN.</label>
+            </value>
+            <value>
+                <fullName>0187</fullName>
+                <default>false</default>
+                <label>HOGAR - VIVIENDA 5+1</label>
+            </value>
+            <value>
+                <fullName>0188</fullName>
+                <default>false</default>
+                <label>HOGAR - 5+1 VIVIENDA VACACIONES</label>
+            </value>
+            <value>
+                <fullName>0189</fullName>
+                <default>false</default>
+                <label>0189 - HOGAR - HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0190</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 HIPOTECAS</label>
+            </value>
+            <value>
+                <fullName>0191</fullName>
+                <default>false</default>
+                <label>0191 - HOGAR - HOGAR 5+1 INQUILINOS</label>
+            </value>
+            <value>
+                <fullName>0192</fullName>
+                <default>false</default>
+                <label>0192 - HOGAR - HOGAR 5+1 PROP.C/P.COMUN.</label>
+            </value>
+            <value>
+                <fullName>0193</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR SUPERBONUS</label>
+            </value>
+            <value>
+                <fullName>0194</fullName>
+                <default>false</default>
+                <label>HOGAR - SUPERBONUS HIPOTECAS</label>
+            </value>
+            <value>
+                <fullName>0195</fullName>
+                <default>false</default>
+                <label>HOGAR - SUPERBONUS 2ª VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0196</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR ALC-028</label>
+            </value>
+            <value>
+                <fullName>0197</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR MAS</label>
+            </value>
+            <value>
+                <fullName>0198</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR</label>
+            </value>
+            <value>
+                <fullName>0199</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR PLATA</label>
+            </value>
+            <value>
+                <fullName>0200</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR (hipot)</label>
+            </value>
+            <value>
+                <fullName>0201</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR PLATA (hipot)</label>
+            </value>
+            <value>
+                <fullName>0202</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0203</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR ROBO</label>
+            </value>
+            <value>
+                <fullName>0204</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR INQUILINOS</label>
+            </value>
+            <value>
+                <fullName>0205</fullName>
+                <default>false</default>
+                <label>HOGAR - EUROHOGAR PROP.C/P.COMUN.</label>
+            </value>
+            <value>
+                <fullName>0206</fullName>
+                <default>false</default>
+                <label>HOGAR - SEGURHOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0207</fullName>
+                <default>false</default>
+                <label>HOGAR - CONFORTHOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0208</fullName>
+                <default>false</default>
+                <label>0208 - HOGAR - HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0209</fullName>
+                <default>false</default>
+                <label>HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0210</fullName>
+                <default>false</default>
+                <label>HOGAR - CONFORTHOGAR</label>
+            </value>
+            <value>
+                <fullName>0211</fullName>
+                <default>false</default>
+                <label>HOGAR - SEGUNDOHOGAR</label>
+            </value>
+            <value>
+                <fullName>0212</fullName>
+                <default>false</default>
+                <label>0212 - HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0213</fullName>
+                <default>false</default>
+                <label>HOGAR - MASTER HOGAR</label>
+            </value>
+            <value>
+                <fullName>0214</fullName>
+                <default>false</default>
+                <label>HOGAR - MASTER HOGAR HIPOTECARIO</label>
+            </value>
+            <value>
+                <fullName>0215</fullName>
+                <default>false</default>
+                <label>0215 - HOGAR - HOGAR SUPERBONUS</label>
+            </value>
+            <value>
+                <fullName>0216</fullName>
+                <default>false</default>
+                <label>0216 - HOGAR - SUPERBONUS HIPOTECAS</label>
+            </value>
+            <value>
+                <fullName>0217</fullName>
+                <default>false</default>
+                <label>HOGAR - SUPERBONUS 2¿ VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0218</fullName>
+                <default>false</default>
+                <label>0218 - HOGAR - HOGAR SUPERBONUS</label>
+            </value>
+            <value>
+                <fullName>0219</fullName>
+                <default>false</default>
+                <label>0219 - HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0220</fullName>
+                <default>false</default>
+                <label>0220 - HOGAR - MASTER HOGAR HIPOTECARIO</label>
+            </value>
+            <value>
+                <fullName>0221</fullName>
+                <default>false</default>
+                <label>0221 - HOGAR - MASTER HOGAR</label>
+            </value>
+            <value>
+                <fullName>0222</fullName>
+                <default>false</default>
+                <label>0222 - HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0223</fullName>
+                <default>false</default>
+                <label>0223 - HOGAR - SEGUNDOHOGAR</label>
+            </value>
+            <value>
+                <fullName>0224</fullName>
+                <default>false</default>
+                <label>0224 - HOGAR - CONFORTHOGAR</label>
+            </value>
+            <value>
+                <fullName>0225</fullName>
+                <default>false</default>
+                <label>0225 - HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0226</fullName>
+                <default>false</default>
+                <label>0226 - HOGAR - HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0227</fullName>
+                <default>false</default>
+                <label>0227 - HOGAR - CONFORTHOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0228</fullName>
+                <default>false</default>
+                <label>0228 - HOGAR - SEGURHOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0229</fullName>
+                <default>false</default>
+                <label>0229 - HOGAR - EUROHOGAR PROP.C/P.COMUN.</label>
+            </value>
+            <value>
+                <fullName>0230</fullName>
+                <default>false</default>
+                <label>0230 - HOGAR - EUROHOGAR INQUILINOS</label>
+            </value>
+            <value>
+                <fullName>0231</fullName>
+                <default>false</default>
+                <label>0231 - HOGAR - HOGAR ROBO</label>
+            </value>
+            <value>
+                <fullName>0232</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR PLUS</label>
+            </value>
+            <value>
+                <fullName>0233</fullName>
+                <default>false</default>
+                <label>0233 - HOGAR - EUROHOGAR PLATA (hipot)</label>
+            </value>
+            <value>
+                <fullName>0234</fullName>
+                <default>false</default>
+                <label>0234 - HOGAR - EUROHOGAR (hipot)</label>
+            </value>
+            <value>
+                <fullName>0235</fullName>
+                <default>false</default>
+                <label>0235 - HOGAR - EUROHOGAR PLATA</label>
+            </value>
+            <value>
+                <fullName>0236</fullName>
+                <default>false</default>
+                <label>0236 - HOGAR - EUROHOGAR</label>
+            </value>
+            <value>
+                <fullName>0237</fullName>
+                <default>false</default>
+                <label>0237 - HOGAR - HOGAR MAS</label>
+            </value>
+            <value>
+                <fullName>0238</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR CAI</label>
+            </value>
+            <value>
+                <fullName>0239</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR FAMILIAS JÓVENES</label>
+            </value>
+            <value>
+                <fullName>0240</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR TU OTRA CASA</label>
+            </value>
+            <value>
+                <fullName>0241</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR CLASSIC</label>
+            </value>
+            <value>
+                <fullName>0242</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPLEX</label>
+            </value>
+            <value>
+                <fullName>0243</fullName>
+                <default>false</default>
+                <label>HOGAR - PRUEBA</label>
+            </value>
+            <value>
+                <fullName>0244</fullName>
+                <default>false</default>
+                <label>0244 - HOGAR - SEGURHOGAR</label>
+            </value>
+            <value>
+                <fullName>0245</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0</label>
+            </value>
+            <value>
+                <fullName>0246</fullName>
+                <default>false</default>
+                <label>0246 - HOGAR - HOGARALIA 3.0</label>
+            </value>
+            <value>
+                <fullName>0247</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 BIO</label>
+            </value>
+            <value>
+                <fullName>0248</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR SEGUNDA VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0249</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR PLANET 5+1</label>
+            </value>
+            <value>
+                <fullName>0250</fullName>
+                <default>false</default>
+                <label>HOGAR - POLIZA COMPROMISO</label>
+            </value>
+            <value>
+                <fullName>0251</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 4.0</label>
+            </value>
+            <value>
+                <fullName>0252</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR BASIC</label>
+            </value>
+            <value>
+                <fullName>0253</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR BASICO</label>
+            </value>
+            <value>
+                <fullName>0254</fullName>
+                <default>false</default>
+                <label>0254 - HOGAR - HOGAR PLUS</label>
+            </value>
+            <value>
+                <fullName>0255</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR FAMILIAS JOVENES</label>
+            </value>
+            <value>
+                <fullName>0256</fullName>
+                <default>false</default>
+                <label>HOGAR - SEGUNDA VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0257</fullName>
+                <default>false</default>
+                <label>0257 - HOGAR - HOGAR PLUS</label>
+            </value>
+            <value>
+                <fullName>0258</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 2014</label>
+            </value>
+            <value>
+                <fullName>0259</fullName>
+                <default>false</default>
+                <label>0259 - HOGAR - HOGARALIA 3.0 2014</label>
+            </value>
+            <value>
+                <fullName>0260</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 BIO 2014</label>
+            </value>
+            <value>
+                <fullName>0261</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 2015</label>
+            </value>
+            <value>
+                <fullName>0262</fullName>
+                <default>false</default>
+                <label>0262 - HOGAR - HOGARALIA 3.0 2015</label>
+            </value>
+            <value>
+                <fullName>0263</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 BIO 2015</label>
+            </value>
+            <value>
+                <fullName>0264</fullName>
+                <default>false</default>
+                <label>0264 - HOGAR - HOGARALIA 3.0</label>
+            </value>
+            <value>
+                <fullName>0265</fullName>
+                <default>false</default>
+                <label>0265 - HOGAR - HOGARALIA 3.0 BIO</label>
+            </value>
+            <value>
+                <fullName>0266</fullName>
+                <default>false</default>
+                <label>HOGAR - VIVIENDAS COMUNIDAD ASEGU.</label>
+            </value>
+            <value>
+                <fullName>0267</fullName>
+                <default>false</default>
+                <label>HOGAR - TU OTRA CASA</label>
+            </value>
+            <value>
+                <fullName>0268</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR SOLUCION BASICO</label>
+            </value>
+            <value>
+                <fullName>0269</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 2016</label>
+            </value>
+            <value>
+                <fullName>0270</fullName>
+                <default>false</default>
+                <label>0270 - HOGAR - HOGARALIA 3.0 2016</label>
+            </value>
+            <value>
+                <fullName>0271</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 2ª VIVIENDA ONLINE</label>
+            </value>
+            <value>
+                <fullName>0272</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR PREMIUM ONLINE</label>
+            </value>
+            <value>
+                <fullName>0273</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR PLUS ONLINE</label>
+            </value>
+            <value>
+                <fullName>0274</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR BÁSICO ONLINE</label>
+            </value>
+            <value>
+                <fullName>0275</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 2ª VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0276</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR PREMIUM</label>
+            </value>
+            <value>
+                <fullName>0277</fullName>
+                <default>false</default>
+                <label>0277 - HOGAR - HOGAR PLUS</label>
+            </value>
+            <value>
+                <fullName>0278</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR BÁSICO</label>
+            </value>
+            <value>
+                <fullName>0279</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 2017</label>
+            </value>
+            <value>
+                <fullName>0280</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 BIO 2017</label>
+            </value>
+            <value>
+                <fullName>0281</fullName>
+                <default>false</default>
+                <label>0281 - HOGAR - HOGARALIA 3.0 2017</label>
+            </value>
+            <value>
+                <fullName>0282</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPROMISO(*)</label>
+            </value>
+            <value>
+                <fullName>0283</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPROMISO</label>
+            </value>
+            <value>
+                <fullName>0284</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPROMISO 2ªVIVIEND</label>
+            </value>
+            <value>
+                <fullName>0285</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPROMISO ESENCIAL</label>
+            </value>
+            <value>
+                <fullName>0286</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGARALIA 3.0 BIO 2016</label>
+            </value>
+            <value>
+                <fullName>0287</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR CAJA ESPAÑA</label>
+            </value>
+            <value>
+                <fullName>0288</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR CAJAMAR</label>
+            </value>
+            <value>
+                <fullName>0289</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR CAJAMAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0290</fullName>
+                <default>false</default>
+                <label>0290 - HOGAR - HOGAR 5+1</label>
+            </value>
+            <value>
+                <fullName>0291</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 2ª VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0292</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR 5+1 PLUS</label>
+            </value>
+            <value>
+                <fullName>0293</fullName>
+                <default>false</default>
+                <label>0293 - HOGAR - HOGAR COMPROMISO</label>
+            </value>
+            <value>
+                <fullName>0294</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR COMPROMISO 2ª VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0295</fullName>
+                <default>false</default>
+                <label>0295 - HOGAR - HOGAR COMPROMISO ESENCIAL</label>
+            </value>
+            <value>
+                <fullName>0296</fullName>
+                <default>false</default>
+                <label>0296 - HOGAR - HOGAR SUPERBONUS</label>
+            </value>
+            <value>
+                <fullName>0297</fullName>
+                <default>false</default>
+                <label>HOGAR - HOGAR SUPERBONUS 2ª VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0298</fullName>
+                <default>false</default>
+                <label>0298 - HOGAR - HOGARALIA 3.0</label>
+            </value>
+            <value>
+                <fullName>0299</fullName>
+                <default>false</default>
+                <label>PYMES - PROTECCION PYME</label>
+            </value>
+            <value>
+                <fullName>0300</fullName>
+                <default>false</default>
+                <label>PYMES - INCENDIOS</label>
+            </value>
+            <value>
+                <fullName>0301</fullName>
+                <default>false</default>
+                <label>PYMES - ROTURAS LUNAS/CRISTALES</label>
+            </value>
+            <value>
+                <fullName>0302</fullName>
+                <default>false</default>
+                <label>PYMES - AVERIA DE MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>0303</fullName>
+                <default>false</default>
+                <label>PYMES - INVERNADEROS</label>
+            </value>
+            <value>
+                <fullName>0304</fullName>
+                <default>false</default>
+                <label>0304 - PYMES - PROTECCION PYME</label>
+            </value>
+            <value>
+                <fullName>0305</fullName>
+                <default>false</default>
+                <label>0305 - PYMES - INCENDIOS</label>
+            </value>
+            <value>
+                <fullName>0306</fullName>
+                <default>false</default>
+                <label>0306 - PYMES - ROTURAS LUNAS/CRISTALES</label>
+            </value>
+            <value>
+                <fullName>0307</fullName>
+                <default>false</default>
+                <label>0307 - PYMES - AVERIA DE MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>0308</fullName>
+                <default>false</default>
+                <label>0308 - PYMES - INVERNADEROS</label>
+            </value>
+            <value>
+                <fullName>0309</fullName>
+                <default>false</default>
+                <label>PYMES - TALLER AUTOMOCIÓN</label>
+            </value>
+            <value>
+                <fullName>0310</fullName>
+                <default>false</default>
+                <label>0310 - PYMES - INVERNADEROS</label>
+            </value>
+            <value>
+                <fullName>0311</fullName>
+                <default>false</default>
+                <label>RESPONSABILIDAD CIVIL - Modalidad RC</label>
+            </value>
+            <value>
+                <fullName>0312</fullName>
+                <default>false</default>
+                <label>0312 - RESPONSABILIDAD CIVIL - Modalidad RC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonForNoAppointmentScheduled__c</fullName>
+    <label>Reason for No Appointment Scheduled</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Postponed by the Customer</fullName>
+                <default>false</default>
+                <label>Postponed by the Customer</label>
+            </value>
+            <value>
+                <fullName>Pending Third Party Responsible</fullName>
+                <default>false</default>
+                <label>Pending Third Party Responsible</label>
+            </value>
+            <value>
+                <fullName>Pending Affected Party</fullName>
+                <default>false</default>
+                <label>Pending Affected Party</label>
+            </value>
+            <value>
+                <fullName>Job Cancelled. Repaired by Third Party Responsible</fullName>
+                <default>false</default>
+                <label>Job Cancelled. Repaired by Third Party Responsible</label>
+            </value>
+            <value>
+                <fullName>Job Cancelled. Compensation Granted</fullName>
+                <default>false</default>
+                <label>Job Cancelled. Compensation Granted</label>
+            </value>
+            <value>
+                <fullName>Risk Not Insured</fullName>
+                <default>false</default>
+                <label>Risk Not Insured</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

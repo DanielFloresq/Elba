@@ -1,0 +1,40 @@
+<!--
+  @description       : SMS composition form for sending messages from a Case record
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 30-01-2026
+  @last modified by  : Afonso Duque
+-->
+<template>
+    <template if:true={isLoading}>
+        <lightning-spinner
+        alternative-text="Loading"
+        size="small"
+        variant="base"
+        ></lightning-spinner>
+    </template>
+    <div class="slds-card-wrapper slds-card_boundary">
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item size="12" >
+                <lightning-combobox class="slds-m-horizontal_medium slds-m-top_medium" name="recipient" label="Destinatario:" value={recipientValue} placeholder="Selecciona un destinatario" options={recipientOptions} onchange={handleRecipientChange} required></lightning-combobox>
+            </lightning-layout-item>
+            <lightning-layout-item size="12" >
+                <lightning-input class="slds-m-horizontal_medium slds-m-top_medium" type="tel" required label="Para:" name="phoneNumber" placeholder="Número de Teléfono" value={phoneNumber} onchange={handleChangePhoneNumber}> </lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item size="6" >
+                <lightning-combobox class="slds-m-horizontal_medium slds-m-vertical_small" disabled={disableQuickTextsFolders} name="quickTextsFolder" label="Carpeta:" value={quickTextFolderValue} placeholder="Selecciona la carpeta con los textos rápidos" options={quickTextFolderOptions} onchange={handleQuickTextFolderChange} ></lightning-combobox>
+            </lightning-layout-item>
+            <lightning-layout-item size="6" >
+                <lightning-combobox class="slds-m-horizontal_medium slds-m-vertical_small" disabled={disableQuickTexts} name="quickTexts" label="Mensaje:" value={quickTextValue} placeholder="Selecciona un texto rápido" options={quickTextOptions} onchange={handleQuickTextChange} ></lightning-combobox>
+            </lightning-layout-item>
+            <lightning-layout-item size="12" >
+                <lightning-textarea class="slds-m-horizontal_medium slds-m-bottom_medium" required label="Texto:" name="textMessage" placeholder="Texto del mensaje" value={textMessage} onchange={handleChangeMessageText}> </lightning-textarea>
+            </lightning-layout-item>
+        </lightning-layout>
+        <footer class="slds-card__footer">
+            <div class="slds-var-m-top_medium">
+                <lightning-button disabled={disableSendSms} variant="brand" onclick={sendSMS} label="Enviar"></lightning-button>
+            </div>
+        </footer>
+    </div>
+</template>

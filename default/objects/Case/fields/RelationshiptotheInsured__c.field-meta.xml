@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RelationshiptotheInsured__c</fullName>
+    <label>Relationship to the Insured</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CY</fullName>
+                <default>false</default>
+                <label>Cónyuge</label>
+            </value>
+            <value>
+                <fullName>HI</fullName>
+                <default>false</default>
+                <label>Hijo</label>
+            </value>
+            <value>
+                <fullName>FA</fullName>
+                <default>false</default>
+                <label>Familiar</label>
+            </value>
+            <value>
+                <fullName>VE</fullName>
+                <default>false</default>
+                <label>Vecino</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

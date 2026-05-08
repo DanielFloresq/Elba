@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Tareas Del Equipo</name>
+    <queueMembers>
+        <users>
+            <user>david.costa@peopletopeople.pt.elba</user>
+            <user>luis.angeja@peopletopeople.pt.elba</user>
+            <user>miguel.marques@peopletopeople.pt.elba</user>
+            <user>elbadev.integration@elba.pt</user>
+            <user>admin-j37wmymfje9x@example.com</user>
+            <user>simao.vitorino@peopletopeople.pt.elba</user>
+            <user>steve@m24.elba</user>
+            <user>tomas.ferreira@peopletopeople.pt.elba</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

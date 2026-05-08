@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Servicio</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Servicio</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Multiguild</recordTypeName>
+    <sobjectType>Service__c</sobjectType>
+    <targetField>Status__c</targetField>
+    <targetFieldChangeToValues>Operational Closure,Administrative Closure</targetFieldChangeToValues>
+</AnimationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExponentialQuadrant__c</fullName>
+    <label>Exponential Quadrant</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CA</fullName>
+                <default>false</default>
+                <label>Catastrophe</label>
+            </value>
+            <value>
+                <fullName>PR</fullName>
+                <default>false</default>
+                <label>Problem</label>
+            </value>
+            <value>
+                <fullName>MO</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>IN</fullName>
+                <default>false</default>
+                <label>Inconvenience</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

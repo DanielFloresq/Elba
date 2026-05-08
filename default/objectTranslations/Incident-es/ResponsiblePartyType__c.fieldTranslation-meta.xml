@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tipo de Causante</label>
+    <name>ResponsiblePartyType__c</name>
+    <picklistValues>
+        <masterLabel>Adjuster</masterLabel>
+        <translation>Perito</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Handler</masterLabel>
+        <translation>Tramitador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation>Compañia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operator</masterLabel>
+        <translation>Operador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repairer</masterLabel>
+        <translation>Reparador</translation>
+    </picklistValues>
+</CustomFieldTranslation>

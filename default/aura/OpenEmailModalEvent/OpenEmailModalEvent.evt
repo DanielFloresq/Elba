@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="Evento para abrir modal de email">
+    <aura:attribute name="documentIds" type="List"/>
+</aura:event>

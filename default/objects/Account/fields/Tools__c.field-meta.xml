@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tools__c</fullName>
+    <label>Tools</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Camión cuba</fullName>
+                <default>false</default>
+                <label>Camión cuba</label>
+            </value>
+            <value>
+                <fullName>Gas traza</fullName>
+                <default>false</default>
+                <label>Gas traza</label>
+            </value>
+            <value>
+                <fullName>Gas traza, geófono</fullName>
+                <default>false</default>
+                <label>Gas traza, geófono</label>
+            </value>
+            <value>
+                <fullName>termográfico</fullName>
+                <default>false</default>
+                <label>termográfico</label>
+            </value>
+            <value>
+                <fullName>Trabajos en altura</fullName>
+                <default>false</default>
+                <label>Trabajos en altura</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

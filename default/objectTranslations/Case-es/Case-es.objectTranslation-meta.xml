@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proceso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Procesos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Claim</layout>
+        <sections>
+            <label>Enlaces Personalizados</label>
+            <section>Enlaces Personalizados</section>
+        </sections>
+        <sections>
+            <label>RESUMEN SINIESTRO</label>
+            <section>RESUMEN SINIESTRO</section>
+        </sections>
+        <sections>
+            <label>Reabrir información</label>
+            <section>Reabrir información</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- CABECERA SINIESTRO --></label>
+        <name>CABECERASINIESTRO</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Cambiar prioridad</label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CloseCaseLightning --></label>
+        <name>CloseCaseLightning</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Cerrar el caso</label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Implicados --></label>
+        <name>CreateImplicados</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Crear Nuevo Servicio</label>
+        <name>CreateNewService</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>CreateSolicitation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Solitation --></label>
+        <name>CreateSolitation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Nuevo comentario</label>
+        <name>NewComment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reabrir el Caso --></label>
+        <name>ReopenCaseAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Case --></label>
+        <name>ReopenClaim</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <recordTypes>
+        <label>Siniestro</label>
+        <name>Claim</name>
+    </recordTypes>
+</CustomObjectTranslation>

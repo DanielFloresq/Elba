@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for No Appointment Scheduled --></label>
+    <name>ReasonForNoAppointmentScheduled__c</name>
+    <picklistValues>
+        <masterLabel>Job Cancelled. Compensation Granted</masterLabel>
+        <translation><!-- Job Cancelled. Compensation Granted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Job Cancelled. Repaired by Third Party Responsible</masterLabel>
+        <translation><!-- Job Cancelled. Repaired by Third Party Responsible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Affected Party</masterLabel>
+        <translation><!-- Pending Affected Party --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Third Party Responsible</masterLabel>
+        <translation><!-- Pending Third Party Responsible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postponed by the Customer</masterLabel>
+        <translation><!-- Postponed by the Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Not Insured</masterLabel>
+        <translation><!-- Risk Not Insured --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

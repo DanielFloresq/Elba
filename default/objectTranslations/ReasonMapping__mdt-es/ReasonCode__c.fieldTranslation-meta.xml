@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Causa</label>
+    <name>ReasonCode__c</name>
+    <picklistValues>
+        <masterLabel>All-risk accidental</masterLabel>
+        <translation>Todo riesgo accidental</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance Windows, Mirrors, And Glass</masterLabel>
+        <translation>Lunas, Espejos Y Cristales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance breakdown</masterLabel>
+        <translation>Avería de electrodomésticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance windows</masterLabel>
+        <translation>Lunas de electrodomésticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistance Service</masterLabel>
+        <translation>Servicio de Asistencia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bodily injuries</masterLabel>
+        <translation>Accidentes corporales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boiler</masterLabel>
+        <translation>Caldera</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Activity</masterLabel>
+        <translation>Responsabilidad Civil Actividad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil liability</masterLabel>
+        <translation>Responsabilidad civil</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community</masterLabel>
+        <translation>Comunitarios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complementary Damages</masterLabel>
+        <translation>Daños Complementarios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consortium coverage</masterLabel>
+        <translation>Consorciable</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage claim/legal protection</masterLabel>
+        <translation>Reclamación de daños/protección jurídica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death</masterLabel>
+        <translation>Fallecimiento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Displaced Goods</masterLabel>
+        <translation>Bienes Desplazados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic animals</masterLabel>
+        <translation>Animales domésticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damages</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical assistance</masterLabel>
+        <translation>Asistencia eléctrica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical damage</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic Equipment</masterLabel>
+        <translation>Equipos electrónicos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergencies</masterLabel>
+        <translation>Urgencias</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency assistance</masterLabel>
+        <translation>Asistencia (urg)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employer&apos;s Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Patronal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extraordinary Assistance</masterLabel>
+        <translation>Asistencia Extraordinaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire</masterLabel>
+        <translation>Incendio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire, lightning, explosion</masterLabel>
+        <translation>Incendio, rayo, explosión</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden deterioration</masterLabel>
+        <translation>Deterioro de jardines</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil General</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glass breakage</masterLabel>
+        <translation>Rotura de cristales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guide dog accidents</masterLabel>
+        <translation>Accidentes de perros guía</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hail / Snow</masterLabel>
+        <translation>Pedrisco / Nieve</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman</masterLabel>
+        <translation>Manitas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman Plus Service</masterLabel>
+        <translation>Servicio Manitas Plus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman Service</masterLabel>
+        <translation>Servicio Manitas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Assistance</masterLabel>
+        <translation>Asistencia Sanitaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home assistance</masterLabel>
+        <translation>Asistencia a la vivienda</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization</masterLabel>
+        <translation>Hospitalizacion</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter Accidents</masterLabel>
+        <translation>Accidentes Cazador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter And Fisherman Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Cazador Y Pescador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT assistance</masterLabel>
+        <translation>Asistencia informática</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact</masterLabel>
+        <translation>Impacto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Protection</masterLabel>
+        <translation>Protección Jurídica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License Withdrawal</masterLabel>
+        <translation>Retirada De Carnet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loss Of Benefits</masterLabel>
+        <translation>Perdida De Beneficios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost luggage</masterLabel>
+        <translation>Pérdida de equipaje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machinery Breakdown</masterLabel>
+        <translation>Avería de Maquinaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging</masterLabel>
+        <translation>Atraco</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment protection</masterLabel>
+        <translation>Protección de pagos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permanent Disability</masterLabel>
+        <translation>Invalidez Permanente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Productos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain</masterLabel>
+        <translation>Lluvia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated Goods</masterLabel>
+        <translation>Bienes refrigerados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated food</masterLabel>
+        <translation>Alimentos refrigerados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanitary ware</masterLabel>
+        <translation>Loza sanitaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stock Transport</masterLabel>
+        <translation>Transporte De Existencias</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary Disability</masterLabel>
+        <translation>Incapacidad Temporal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft</masterLabel>
+        <translation>Robo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft (Burglary)</masterLabel>
+        <translation>Hurto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP assistance</masterLabel>
+        <translation>Asistencia VIP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Acts</masterLabel>
+        <translation>Actos vandálicos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation>Agua</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weather events</masterLabel>
+        <translation>Fenómenos meteorológicos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind</masterLabel>
+        <translation>Viento</translation>
+    </picklistValues>
+</CustomFieldTranslation>

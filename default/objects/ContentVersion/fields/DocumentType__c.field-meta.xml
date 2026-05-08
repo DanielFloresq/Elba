@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocumentType__c</fullName>
+    <label>Documental Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>DocumentPhase__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>T01001</fullName>
+                <default>false</default>
+                <label>Facturas asegurado</label>
+            </value>
+            <value>
+                <fullName>T01002</fullName>
+                <default>false</default>
+                <label>Presupuesto asegurado</label>
+            </value>
+            <value>
+                <fullName>2008003</fullName>
+                <default>false</default>
+                <label>Facturas abogados</label>
+            </value>
+            <value>
+                <fullName>T01003</fullName>
+                <default>false</default>
+                <label>Minutas perito</label>
+            </value>
+            <value>
+                <fullName>T01004</fullName>
+                <default>false</default>
+                <label>Facturas reparador</label>
+            </value>
+            <value>
+                <fullName>T01005</fullName>
+                <default>false</default>
+                <label>Facturas Otros Colaboradores</label>
+            </value>
+            <value>
+                <fullName>T01006</fullName>
+                <default>false</default>
+                <label>Justificantes de pago</label>
+            </value>
+            <value>
+                <fullName>T02001</fullName>
+                <default>false</default>
+                <label>Informes Meteorología</label>
+            </value>
+            <value>
+                <fullName>T02002</fullName>
+                <default>false</default>
+                <label>Escrituras vivienda</label>
+            </value>
+            <value>
+                <fullName>T02003</fullName>
+                <default>false</default>
+                <label>Denuncias Robo/Actos Vandálicos</label>
+            </value>
+            <value>
+                <fullName>T02004</fullName>
+                <default>false</default>
+                <label>Fotografías del asegurado</label>
+            </value>
+            <value>
+                <fullName>T02005</fullName>
+                <default>false</default>
+                <label>Declaración del contrario</label>
+            </value>
+            <value>
+                <fullName>T02006</fullName>
+                <default>false</default>
+                <label>Otra documentación</label>
+            </value>
+            <value>
+                <fullName>T03001</fullName>
+                <default>false</default>
+                <label>Albaranes</label>
+            </value>
+            <value>
+                <fullName>T03002</fullName>
+                <default>false</default>
+                <label>Fotografias colaborador</label>
+            </value>
+            <value>
+                <fullName>T03003</fullName>
+                <default>false</default>
+                <label>Informe pericial Diversos</label>
+            </value>
+            <value>
+                <fullName>T03004</fullName>
+                <default>false</default>
+                <label>Ordenes de trabajo</label>
+            </value>
+            <value>
+                <fullName>T03005</fullName>
+                <default>false</default>
+                <label>Parte de trabajo</label>
+            </value>
+            <value>
+                <fullName>T05001</fullName>
+                <default>false</default>
+                <label>Documentos Varios VTS</label>
+            </value>
+            <value>
+                <fullName>T05002</fullName>
+                <default>false</default>
+                <label>informe investigación VTS</label>
+            </value>
+            <value>
+                <fullName>T05003</fullName>
+                <default>false</default>
+                <label>Mail VTS</label>
+            </value>
+            <value>
+                <fullName>T05004</fullName>
+                <default>false</default>
+                <label>Llamadas VTS</label>
+            </value>
+            <value>
+                <fullName>T05005</fullName>
+                <default>false</default>
+                <label>Videos VTS</label>
+            </value>
+            <value>
+                <fullName>T05006</fullName>
+                <default>false</default>
+                <label>Fotografías VTS</label>
+            </value>
+            <value>
+                <fullName>T06001</fullName>
+                <default>false</default>
+                <label>Comunicaciones de clientes</label>
+            </value>
+            <value>
+                <fullName>T06003</fullName>
+                <default>false</default>
+                <label>Comunicaciones a cliente Propuesta indemnización</label>
+            </value>
+            <value>
+                <fullName>T06004</fullName>
+                <default>false</default>
+                <label>Comunicaciones Enviadas</label>
+            </value>
+            <value>
+                <fullName>T06005</fullName>
+                <default>false</default>
+                <label>emails internos</label>
+            </value>
+            <value>
+                <fullName>T06006</fullName>
+                <default>false</default>
+                <label>Reclamaciones de clientes</label>
+            </value>
+            <value>
+                <fullName>T06007</fullName>
+                <default>false</default>
+                <label>Incidencias/Reclamaciones GISS</label>
+            </value>
+            <value>
+                <fullName>T06008</fullName>
+                <default>false</default>
+                <label>SMS recibido</label>
+            </value>
+            <value>
+                <fullName>T06009</fullName>
+                <default>false</default>
+                <label>SMS a cliente</label>
+            </value>
+            <value>
+                <fullName>T06010</fullName>
+                <default>false</default>
+                <label>Mail a cliente</label>
+            </value>
+            <value>
+                <fullName>T06011</fullName>
+                <default>false</default>
+                <label>Resolución SAC/DEC</label>
+            </value>
+            <value>
+                <fullName>T06012</fullName>
+                <default>false</default>
+                <label>Fotografias perjudicado</label>
+            </value>
+            <value>
+                <fullName>T06013</fullName>
+                <default>false</default>
+                <label>Informes/Certificado Cia. Eléctrica</label>
+            </value>
+            <value>
+                <fullName>T06014</fullName>
+                <default>false</default>
+                <label>Informes periciales cia. Contraria</label>
+            </value>
+            <value>
+                <fullName>T06015</fullName>
+                <default>false</default>
+                <label>Documentación/Reclamación Contrario</label>
+            </value>
+            <value>
+                <fullName>T06016</fullName>
+                <default>false</default>
+                <label>Cartas de reclamación de cia contraria</label>
+            </value>
+            <value>
+                <fullName>T06017</fullName>
+                <default>false</default>
+                <label>Doc. adjuntada por el mediador</label>
+            </value>
+            <value>
+                <fullName>T04001</fullName>
+                <default>false</default>
+                <label>Documentación judicial</label>
+            </value>
+            <value>
+                <fullName>T06002</fullName>
+                <default>false</default>
+                <label>Comunicaciones a cliente Corrosión o Rehúse</label>
+            </value>
+            <value>
+                <fullName>T06018</fullName>
+                <default>false</default>
+                <label>WhatsApp</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>2008003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F01</controllingFieldValue>
+            <valueName>T01006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F02</controllingFieldValue>
+            <valueName>T02006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F03</controllingFieldValue>
+            <valueName>T03001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F03</controllingFieldValue>
+            <valueName>T03002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F03</controllingFieldValue>
+            <valueName>T03003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F03</controllingFieldValue>
+            <valueName>T03004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F03</controllingFieldValue>
+            <valueName>T03005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F04</controllingFieldValue>
+            <valueName>T04001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F05</controllingFieldValue>
+            <valueName>T05006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06011</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06012</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06014</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06015</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06016</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06017</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F06</controllingFieldValue>
+            <valueName>T06018</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

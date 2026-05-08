@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>6931</fullName>
+        <default>false</default>
+        <label>CAJA ESPAÑA</label>
+    </customValue>
+    <customValue>
+        <fullName>6932</fullName>
+        <default>false</default>
+        <label>CAJAMAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234688851</fullName>
+        <default>false</default>
+        <label>(GRUPO TEKEL) MIKEL LASA</label>
+    </customValue>
+    <customValue>
+        <fullName>186575910</fullName>
+        <default>false</default>
+        <label>CESS</label>
+    </customValue>
+    <customValue>
+        <fullName>234688850</fullName>
+        <default>false</default>
+        <label>(GRUPO TEKEL) ALFONSO SANCHEZ</label>
+    </customValue>
+    <customValue>
+        <fullName>234689030</fullName>
+        <default>false</default>
+        <label>AUTER TUDELA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689052</fullName>
+        <default>false</default>
+        <label>3V MEDIACION Y SERVICIOS SL 01</label>
+    </customValue>
+    <customValue>
+        <fullName>234689153</fullName>
+        <default>false</default>
+        <label>234689153 - CALDERON &amp; CORCHERO SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689170</fullName>
+        <default>false</default>
+        <label>234689170 - CANDIDA ARANDA 1</label>
+    </customValue>
+    <customValue>
+        <fullName>234689171</fullName>
+        <default>false</default>
+        <label>234689171 - CANDIDA ARANDA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689250</fullName>
+        <default>false</default>
+        <label>BELEN FERRER ROMERO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689270</fullName>
+        <default>false</default>
+        <label>234689270 - BELEN FERRER ROMERO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689510</fullName>
+        <default>false</default>
+        <label>JOSE JESUS FERNANDEZ ZURRO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689631</fullName>
+        <default>false</default>
+        <label>234689631 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689632</fullName>
+        <default>false</default>
+        <label>234689632 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689633</fullName>
+        <default>false</default>
+        <label>234689633 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689634</fullName>
+        <default>false</default>
+        <label>234689634 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689636</fullName>
+        <default>false</default>
+        <label>234689636 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689690</fullName>
+        <default>false</default>
+        <label>DESPATX BALEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234689770</fullName>
+        <default>false</default>
+        <label>AGR SEGENLUK P.GENIL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689970</fullName>
+        <default>false</default>
+        <label>PATRICIA PEREZ</label>
+    </customValue>
+    <customValue>
+        <fullName>234690011</fullName>
+        <default>false</default>
+        <label>ESTHER DIAZ</label>
+    </customValue>
+    <customValue>
+        <fullName>234690012</fullName>
+        <default>false</default>
+        <label>ANA FATIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>234690013</fullName>
+        <default>false</default>
+        <label>ROGAPI</label>
+    </customValue>
+    <customValue>
+        <fullName>234690030</fullName>
+        <default>false</default>
+        <label>SEGURCOSMO (BOUTIQUE COSLADA)</label>
+    </customValue>
+    <customValue>
+        <fullName>234690016</fullName>
+        <default>false</default>
+        <label>LF SALCEDO ( BOUTIQUE PARQUE CATALUÑA)</label>
+    </customValue>
+    <customValue>
+        <fullName>234690092</fullName>
+        <default>false</default>
+        <label>MANELLO FERNANDEZ</label>
+    </customValue>
+    <customValue>
+        <fullName>234690093</fullName>
+        <default>false</default>
+        <label>CORREDURIA SEGUROS FINALIN</label>
+    </customValue>
+    <customValue>
+        <fullName>234689051</fullName>
+        <default>false</default>
+        <label>3V MEDIACION Y SERVICIOS SL 03</label>
+    </customValue>
+    <customValue>
+        <fullName>234689090</fullName>
+        <default>false</default>
+        <label>3V MEDIACION Y SERVICIOS SL 04/05</label>
+    </customValue>
+    <customValue>
+        <fullName>234689110</fullName>
+        <default>false</default>
+        <label>VILLAIZAN GARCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689210</fullName>
+        <default>false</default>
+        <label>CARRASCO SAN JUAN CORREDORES S.L.</label>
+    </customValue>
+    <customValue>
+        <fullName>234689630</fullName>
+        <default>false</default>
+        <label>MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689650</fullName>
+        <default>false</default>
+        <label>234689650 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689635</fullName>
+        <default>false</default>
+        <label>234689635 - MUÑOZ TORRECILLAS SL 1</label>
+    </customValue>
+    <customValue>
+        <fullName>234689790</fullName>
+        <default>false</default>
+        <label>AGR SEGENLUK MONTILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689791</fullName>
+        <default>false</default>
+        <label>AGR SEGENLUK LUCENA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689870</fullName>
+        <default>false</default>
+        <label>SEGURLIFE</label>
+    </customValue>
+    <customValue>
+        <fullName>234689890</fullName>
+        <default>false</default>
+        <label>ALTAREJOS</label>
+    </customValue>
+    <customValue>
+        <fullName>234689950</fullName>
+        <default>false</default>
+        <label>ASEMAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234690051</fullName>
+        <default>false</default>
+        <label>GRUPO NUEVO SIGLO XXI</label>
+    </customValue>
+    <customValue>
+        <fullName>234690090</fullName>
+        <default>false</default>
+        <label>FERNANDEZ CORONADO ANA ISABEL</label>
+    </customValue>
+    <customValue>
+        <fullName>234690091</fullName>
+        <default>false</default>
+        <label>SERVISEGUROS PERONA &amp; NAVARRO</label>
+    </customValue>
+    <customValue>
+        <fullName>234690094</fullName>
+        <default>false</default>
+        <label>SERRATE SAMPER MARIA PILAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234688870</fullName>
+        <default>false</default>
+        <label>ALPASSO30472400</label>
+    </customValue>
+    <customValue>
+        <fullName>234688890</fullName>
+        <default>false</default>
+        <label>SECI</label>
+    </customValue>
+    <customValue>
+        <fullName>234688930</fullName>
+        <default>false</default>
+        <label>GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688931</fullName>
+        <default>false</default>
+        <label>234688931 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688932</fullName>
+        <default>false</default>
+        <label>234688932 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688950</fullName>
+        <default>false</default>
+        <label>234688950 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688971</fullName>
+        <default>false</default>
+        <label>234688971 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688972</fullName>
+        <default>false</default>
+        <label>234688972 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234688990</fullName>
+        <default>false</default>
+        <label>BERGANZA BAZ CORRED. DE SEGUROS, S.L.</label>
+    </customValue>
+    <customValue>
+        <fullName>234689150</fullName>
+        <default>false</default>
+        <label>CALDERON &amp; CORCHERO SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689151</fullName>
+        <default>false</default>
+        <label>234689151 - CALDERON &amp; CORCHERO SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689152</fullName>
+        <default>false</default>
+        <label>234689152 - CALDERON &amp; CORCHERO SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689190</fullName>
+        <default>false</default>
+        <label>CANDIDA ARANDA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689230</fullName>
+        <default>false</default>
+        <label>FATIMA GONZALEZ</label>
+    </customValue>
+    <customValue>
+        <fullName>234689290</fullName>
+        <default>false</default>
+        <label>RAUL ESTEVE FERRER, SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234689291</fullName>
+        <default>false</default>
+        <label>234689291 - RAUL ESTEVE FERRER, SLU</label>
+    </customValue>
+    <customValue>
+        <fullName>234689310</fullName>
+        <default>false</default>
+        <label>RODRIGUEZ Y ALCONCHEL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689350</fullName>
+        <default>false</default>
+        <label>JUAN ANTONIO DELGADO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689370</fullName>
+        <default>false</default>
+        <label>A&amp;C ESTEPONA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689390</fullName>
+        <default>false</default>
+        <label>AGR RAMAYO 08973200</label>
+    </customValue>
+    <customValue>
+        <fullName>234689391</fullName>
+        <default>false</default>
+        <label>AGR RAMAYO 08973201</label>
+    </customValue>
+    <customValue>
+        <fullName>234689430</fullName>
+        <default>false</default>
+        <label>LASO DORADO CONSULTING SL TORREJON</label>
+    </customValue>
+    <customValue>
+        <fullName>234689570</fullName>
+        <default>false</default>
+        <label>LASO DORADO CONSULTING SL HORTALEZA II</label>
+    </customValue>
+    <customValue>
+        <fullName>234689610</fullName>
+        <default>false</default>
+        <label>234689610 - MUÑOZ TORRECILLAS SL</label>
+    </customValue>
+    <customValue>
+        <fullName>234689670</fullName>
+        <default>false</default>
+        <label>GARCIA HURTADO ROSA ANA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689771</fullName>
+        <default>false</default>
+        <label>AGR SEGENLUK MALAGA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689830</fullName>
+        <default>false</default>
+        <label>MESA MINGORANCE MARIA PILAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234689850</fullName>
+        <default>false</default>
+        <label>234689850 - MESA MINGORANCE MARIA PILAR</label>
+    </customValue>
+    <customValue>
+        <fullName>234689910</fullName>
+        <default>false</default>
+        <label>IMPULSO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689990</fullName>
+        <default>false</default>
+        <label>PILAR CLOS. OFICINA LAS FUENTES</label>
+    </customValue>
+    <customValue>
+        <fullName>234690010</fullName>
+        <default>false</default>
+        <label>VICTOR HITA</label>
+    </customValue>
+    <customValue>
+        <fullName>234690014</fullName>
+        <default>false</default>
+        <label>BOUTIQUE MOSTOLES</label>
+    </customValue>
+    <customValue>
+        <fullName>234690015</fullName>
+        <default>false</default>
+        <label>BOUTIQUE PARLA II</label>
+    </customValue>
+    <customValue>
+        <fullName>234690070</fullName>
+        <default>false</default>
+        <label>AGENCIA MIGUEL LAVIN</label>
+    </customValue>
+    <customValue>
+        <fullName>234688910</fullName>
+        <default>false</default>
+        <label>ALPASSO 30472401</label>
+    </customValue>
+    <customValue>
+        <fullName>234688970</fullName>
+        <default>false</default>
+        <label>234688970 - GASTEIZ GESTION Y MEDIACION DE SEGUR,SLU 1</label>
+    </customValue>
+    <customValue>
+        <fullName>234689010</fullName>
+        <default>false</default>
+        <label>CORREDURIA DE SEGUROS FRAILE</label>
+    </customValue>
+    <customValue>
+        <fullName>234689050</fullName>
+        <default>false</default>
+        <label>3V MEDIACION Y SERVICIOS SL 00</label>
+    </customValue>
+    <customValue>
+        <fullName>234689070</fullName>
+        <default>false</default>
+        <label>3V MEDIACION Y SERVICIOS SL 02</label>
+    </customValue>
+    <customValue>
+        <fullName>234689130</fullName>
+        <default>false</default>
+        <label>(GRUPO TEKEL) ASEMAB</label>
+    </customValue>
+    <customValue>
+        <fullName>234689330</fullName>
+        <default>false</default>
+        <label>ROSA MARIA CABANES</label>
+    </customValue>
+    <customValue>
+        <fullName>234689410</fullName>
+        <default>false</default>
+        <label>AGR FELIX DE PABLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>234689411</fullName>
+        <default>false</default>
+        <label>CORREDURIA FELIX DE PABLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>234689450</fullName>
+        <default>false</default>
+        <label>LASO DORADO CONSULTING SL HORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>234689550</fullName>
+        <default>false</default>
+        <label>LASO DORADO CONSULTING SL TORREJON II</label>
+    </customValue>
+    <customValue>
+        <fullName>234689590</fullName>
+        <default>false</default>
+        <label>CALAHORRA 2M2 (CIUDAD REAL)</label>
+    </customValue>
+    <customValue>
+        <fullName>234689810</fullName>
+        <default>false</default>
+        <label>JOAQUIN IGLESIAS CASERO</label>
+    </customValue>
+    <customValue>
+        <fullName>234689930</fullName>
+        <default>false</default>
+        <label>234689930 - IMPULSO</label>
+    </customValue>
+    <customValue>
+        <fullName>234690050</fullName>
+        <default>false</default>
+        <label>SUAREZ GONZALEZ TANIA</label>
+    </customValue>
+    <customValue>
+        <fullName>234690095</fullName>
+        <default>false</default>
+        <label>SANROMA VIMA LLUIS</label>
+    </customValue>
+    <masterLabel>Channel</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

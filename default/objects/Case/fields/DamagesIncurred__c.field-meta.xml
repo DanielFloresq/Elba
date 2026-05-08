@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DamagesIncurred__c</fullName>
+    <label>Damages Incurred</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0001</fullName>
+                <default>false</default>
+                <label>ACCIDENTE</label>
+            </value>
+            <value>
+                <fullName>0002</fullName>
+                <default>false</default>
+                <label>ACCIDENTE  IN ITINERE</label>
+            </value>
+            <value>
+                <fullName>0003</fullName>
+                <default>false</default>
+                <label>ACCIDENTE DE CIRCULACION</label>
+            </value>
+            <value>
+                <fullName>0004</fullName>
+                <default>false</default>
+                <label>ACCIDENTE DENTRO DEL ESTADIO</label>
+            </value>
+            <value>
+                <fullName>0005</fullName>
+                <default>false</default>
+                <label>ACCIDENTE DEPORTIVO</label>
+            </value>
+            <value>
+                <fullName>0006</fullName>
+                <default>false</default>
+                <label>ACCIDENTE DOMESTICO</label>
+            </value>
+            <value>
+                <fullName>0007</fullName>
+                <default>false</default>
+                <label>ACCIDENTE EN GUARDERIA</label>
+            </value>
+            <value>
+                <fullName>0008</fullName>
+                <default>false</default>
+                <label>ACCIDENTE EN TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>0009</fullName>
+                <default>false</default>
+                <label>ACCIDENTE EXTRAPROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0010</fullName>
+                <default>false</default>
+                <label>ACCIDENTE FUERA DEL ESTADIO</label>
+            </value>
+            <value>
+                <fullName>0011</fullName>
+                <default>false</default>
+                <label>ACCIDENTE LABORAL</label>
+            </value>
+            <value>
+                <fullName>0012</fullName>
+                <default>false</default>
+                <label>ACCIDENTE MOTICICLETAS</label>
+            </value>
+            <value>
+                <fullName>0013</fullName>
+                <default>false</default>
+                <label>ACCIDENTE NO PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0014</fullName>
+                <default>false</default>
+                <label>ACCIDENTE PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0015</fullName>
+                <default>false</default>
+                <label>ACCTE CIRCUL DURANTE DESPLAZAMIENTO EN VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>0016</fullName>
+                <default>false</default>
+                <label>ACTOS VANDALICOS POR EL INQULINO</label>
+            </value>
+            <value>
+                <fullName>0017</fullName>
+                <default>false</default>
+                <label>ACUARIOS</label>
+            </value>
+            <value>
+                <fullName>0018</fullName>
+                <default>false</default>
+                <label>ADQUISICION  DE ENSERES</label>
+            </value>
+            <value>
+                <fullName>0019</fullName>
+                <default>false</default>
+                <label>AEROTERMIA</label>
+            </value>
+            <value>
+                <fullName>0020</fullName>
+                <default>false</default>
+                <label>AIRE ACONDICIONADO</label>
+            </value>
+            <value>
+                <fullName>0021</fullName>
+                <default>false</default>
+                <label>AISLAMIENTO DE VENTANAS Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>0022</fullName>
+                <default>false</default>
+                <label>ALARMA</label>
+            </value>
+            <value>
+                <fullName>0023</fullName>
+                <default>false</default>
+                <label>ALIMENTOS REFRIGERADOS</label>
+            </value>
+            <value>
+                <fullName>0024</fullName>
+                <default>false</default>
+                <label>ALQUILER DE VIVIENDAS</label>
+            </value>
+            <value>
+                <fullName>0025</fullName>
+                <default>false</default>
+                <label>ANCLAJE DE SANITARIOS</label>
+            </value>
+            <value>
+                <fullName>0026</fullName>
+                <default>false</default>
+                <label>ANIMALES DOMESTICOS</label>
+            </value>
+            <value>
+                <fullName>0027</fullName>
+                <default>false</default>
+                <label>ANTENA COLECTIVA</label>
+            </value>
+            <value>
+                <fullName>0028</fullName>
+                <default>false</default>
+                <label>ANTENA PARTICULAR</label>
+            </value>
+            <value>
+                <fullName>0029</fullName>
+                <default>false</default>
+                <label>ARBOLEDA Y JARDINES</label>
+            </value>
+            <value>
+                <fullName>0030</fullName>
+                <default>false</default>
+                <label>ASCENSOR</label>
+            </value>
+            <value>
+                <fullName>0031</fullName>
+                <default>false</default>
+                <label>ASISTENCIA JURIDICA PRESENCIAL</label>
+            </value>
+            <value>
+                <fullName>0032</fullName>
+                <default>false</default>
+                <label>ASISTENCIA SANITARIA</label>
+            </value>
+            <value>
+                <fullName>0033</fullName>
+                <default>false</default>
+                <label>ATASCO</label>
+            </value>
+            <value>
+                <fullName>0034</fullName>
+                <default>false</default>
+                <label>ATROPELLO</label>
+            </value>
+            <value>
+                <fullName>0035</fullName>
+                <default>false</default>
+                <label>AYUDA PARA EL PAGO DE LA PENSIÓN</label>
+            </value>
+            <value>
+                <fullName>0036</fullName>
+                <default>false</default>
+                <label>BAÑERA</label>
+            </value>
+            <value>
+                <fullName>0037</fullName>
+                <default>false</default>
+                <label>BIDE</label>
+            </value>
+            <value>
+                <fullName>0038</fullName>
+                <default>false</default>
+                <label>BIENES DEPORTIVOS</label>
+            </value>
+            <value>
+                <fullName>0039</fullName>
+                <default>false</default>
+                <label>BIENES REFRIGERADOS</label>
+            </value>
+            <value>
+                <fullName>0040</fullName>
+                <default>false</default>
+                <label>BIENES TEMPORAL DESPLAZADOS</label>
+            </value>
+            <value>
+                <fullName>0041</fullName>
+                <default>false</default>
+                <label>BOMBAS DE EXTRACCION DE AGUA</label>
+            </value>
+            <value>
+                <fullName>0042</fullName>
+                <default>false</default>
+                <label>BRAZO, CLAVICULA, CODO O MUÑECA</label>
+            </value>
+            <value>
+                <fullName>0043</fullName>
+                <default>false</default>
+                <label>BUZON</label>
+            </value>
+            <value>
+                <fullName>0044</fullName>
+                <default>false</default>
+                <label>CADERA O PELVIS</label>
+            </value>
+            <value>
+                <fullName>0045</fullName>
+                <default>false</default>
+                <label>CAIDA</label>
+            </value>
+            <value>
+                <fullName>0046</fullName>
+                <default>false</default>
+                <label>CAIDAS DESDE ALTURAS</label>
+            </value>
+            <value>
+                <fullName>0047</fullName>
+                <default>false</default>
+                <label>CALDERA</label>
+            </value>
+            <value>
+                <fullName>0048</fullName>
+                <default>false</default>
+                <label>CAMBIO DE BISAGRAS</label>
+            </value>
+            <value>
+                <fullName>0049</fullName>
+                <default>false</default>
+                <label>CAMBIO DE MECANISMO CISTERNA</label>
+            </value>
+            <value>
+                <fullName>0050</fullName>
+                <default>false</default>
+                <label>CAMPANA EXTRACTORA</label>
+            </value>
+            <value>
+                <fullName>0051</fullName>
+                <default>false</default>
+                <label>CARNE POR PUNTOS</label>
+            </value>
+            <value>
+                <fullName>0052</fullName>
+                <default>false</default>
+                <label>CARNE Y PUNTO RACE</label>
+            </value>
+            <value>
+                <fullName>0053</fullName>
+                <default>false</default>
+                <label>CARNE Y PUNTO RACE 2</label>
+            </value>
+            <value>
+                <fullName>0054</fullName>
+                <default>false</default>
+                <label>CARNET POR PUNTOS</label>
+            </value>
+            <value>
+                <fullName>0055</fullName>
+                <default>false</default>
+                <label>CDO.- AL CONTENIDO POR OBRAS</label>
+            </value>
+            <value>
+                <fullName>0056</fullName>
+                <default>false</default>
+                <label>CDO.- AL CONTENIDO POR POR OBRAS</label>
+            </value>
+            <value>
+                <fullName>0057</fullName>
+                <default>false</default>
+                <label>CDO.- PEATON</label>
+            </value>
+            <value>
+                <fullName>0058</fullName>
+                <default>false</default>
+                <label>CDO.- POR SERVICIOS PRESTADOS AL ASGDO</label>
+            </value>
+            <value>
+                <fullName>0059</fullName>
+                <default>false</default>
+                <label>CDO.- USUARIO MEDIOS DE TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>0060</fullName>
+                <default>false</default>
+                <label>CENTRALITA TELEFONICA</label>
+            </value>
+            <value>
+                <fullName>0061</fullName>
+                <default>false</default>
+                <label>CERRADURA</label>
+            </value>
+            <value>
+                <fullName>0062</fullName>
+                <default>false</default>
+                <label>CIERRE ALUMINIO</label>
+            </value>
+            <value>
+                <fullName>0063</fullName>
+                <default>false</default>
+                <label>CIRCULACION</label>
+            </value>
+            <value>
+                <fullName>0064</fullName>
+                <default>false</default>
+                <label>CISTERNA</label>
+            </value>
+            <value>
+                <fullName>0065</fullName>
+                <default>false</default>
+                <label>COCINA DE GAS</label>
+            </value>
+            <value>
+                <fullName>0066</fullName>
+                <default>false</default>
+                <label>COCINA ELECTRICA</label>
+            </value>
+            <value>
+                <fullName>0067</fullName>
+                <default>false</default>
+                <label>COLGAR O FIJAR ELEMENTOS DE MUEBLES</label>
+            </value>
+            <value>
+                <fullName>0068</fullName>
+                <default>false</default>
+                <label>COLOCACION DE ACCESORIOS DE BAÑO</label>
+            </value>
+            <value>
+                <fullName>0069</fullName>
+                <default>false</default>
+                <label>COLOCACION DE SOPORTES O TERMOS SIN ELECTRICIDAD</label>
+            </value>
+            <value>
+                <fullName>0070</fullName>
+                <default>false</default>
+                <label>COLOCACION DE SOPORTES SIN OBRA DE FONTANERIA</label>
+            </value>
+            <value>
+                <fullName>0071</fullName>
+                <default>false</default>
+                <label>COLOCACION DE VINILOS EN ESCAPARATES O INTERIORES</label>
+            </value>
+            <value>
+                <fullName>0072</fullName>
+                <default>false</default>
+                <label>COLUMNA VERTEBRAL</label>
+            </value>
+            <value>
+                <fullName>0073</fullName>
+                <default>false</default>
+                <label>COMO CONDUCTOR</label>
+            </value>
+            <value>
+                <fullName>0074</fullName>
+                <default>false</default>
+                <label>COMO OCUPANTE</label>
+            </value>
+            <value>
+                <fullName>0075</fullName>
+                <default>false</default>
+                <label>COMPRAVENTA DE VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0076</fullName>
+                <default>false</default>
+                <label>COMPROBAR DATOS</label>
+            </value>
+            <value>
+                <fullName>0077</fullName>
+                <default>false</default>
+                <label>COMUNIDAD DE PROPIETARIOS</label>
+            </value>
+            <value>
+                <fullName>0078</fullName>
+                <default>false</default>
+                <label>CONFLICTOS CON VECINOS</label>
+            </value>
+            <value>
+                <fullName>0079</fullName>
+                <default>false</default>
+                <label>CONFLICTOS INDIVIDUALES DE TRABAJO</label>
+            </value>
+            <value>
+                <fullName>0080</fullName>
+                <default>false</default>
+                <label>CONTENIDO DOMESTICO</label>
+            </value>
+            <value>
+                <fullName>0081</fullName>
+                <default>false</default>
+                <label>CONTENIDO PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0082</fullName>
+                <default>false</default>
+                <label>CONTINENTE</label>
+            </value>
+            <value>
+                <fullName>0083</fullName>
+                <default>false</default>
+                <label>CONTRATOS DE ARRENDAMIENTOS</label>
+            </value>
+            <value>
+                <fullName>0084</fullName>
+                <default>false</default>
+                <label>CONTRATOS DE COMPRA Y DEPOSITO</label>
+            </value>
+            <value>
+                <fullName>0085</fullName>
+                <default>false</default>
+                <label>CONTRATOS DE SUMINISTROS</label>
+            </value>
+            <value>
+                <fullName>0086</fullName>
+                <default>false</default>
+                <label>COSTE DE PODERES</label>
+            </value>
+            <value>
+                <fullName>0087</fullName>
+                <default>false</default>
+                <label>COSTE PODERES</label>
+            </value>
+            <value>
+                <fullName>0088</fullName>
+                <default>false</default>
+                <label>CRANEO</label>
+            </value>
+            <value>
+                <fullName>0089</fullName>
+                <default>false</default>
+                <label>CREACIÓN DE NUEVOS PUNTOS DE LUZ, TV</label>
+            </value>
+            <value>
+                <fullName>0090</fullName>
+                <default>false</default>
+                <label>CRISTAL DE ELECTRODOMESTICO</label>
+            </value>
+            <value>
+                <fullName>0091</fullName>
+                <default>false</default>
+                <label>CRISTAL DE MAMPARA</label>
+            </value>
+            <value>
+                <fullName>0092</fullName>
+                <default>false</default>
+                <label>CTE.- AL LOCAL POR OBRAS</label>
+            </value>
+            <value>
+                <fullName>0093</fullName>
+                <default>false</default>
+                <label>CTE.- POR INCUMPLIMIENTO DE CONTRATOS</label>
+            </value>
+            <value>
+                <fullName>0094</fullName>
+                <default>false</default>
+                <label>CTE.- POR INCUMPLIMIENTOS DE CONTRATOS</label>
+            </value>
+            <value>
+                <fullName>0095</fullName>
+                <default>false</default>
+                <label>CUARTO DE CONTADORES</label>
+            </value>
+            <value>
+                <fullName>0096</fullName>
+                <default>false</default>
+                <label>CURSOS FORMACION</label>
+            </value>
+            <value>
+                <fullName>0097</fullName>
+                <default>false</default>
+                <label>DAÑOS A SU PERSONA</label>
+            </value>
+            <value>
+                <fullName>0098</fullName>
+                <default>false</default>
+                <label>DAÑOS A TERCEROS</label>
+            </value>
+            <value>
+                <fullName>0099</fullName>
+                <default>false</default>
+                <label>DAÑOS A VIVIENDA POR OBRAS</label>
+            </value>
+            <value>
+                <fullName>0100</fullName>
+                <default>false</default>
+                <label>DAÑOS MATERIALES</label>
+            </value>
+            <value>
+                <fullName>0101</fullName>
+                <default>false</default>
+                <label>DEFENSA</label>
+            </value>
+            <value>
+                <fullName>0102</fullName>
+                <default>false</default>
+                <label>DEFENSA CIVIL</label>
+            </value>
+            <value>
+                <fullName>0103</fullName>
+                <default>false</default>
+                <label>DEFENSA DE LA RESPONSABILIDAD PENAL</label>
+            </value>
+            <value>
+                <fullName>0104</fullName>
+                <default>false</default>
+                <label>DEFENSA FISCAL</label>
+            </value>
+            <value>
+                <fullName>0105</fullName>
+                <default>false</default>
+                <label>DEFENSA JURIDICA DEL ALQUILER</label>
+            </value>
+            <value>
+                <fullName>0106</fullName>
+                <default>false</default>
+                <label>DEFENSA PENAL</label>
+            </value>
+            <value>
+                <fullName>0107</fullName>
+                <default>false</default>
+                <label>DEMORA EN ENTREGA</label>
+            </value>
+            <value>
+                <fullName>0108</fullName>
+                <default>false</default>
+                <label>DESATRANCO DE MODO MANUAL</label>
+            </value>
+            <value>
+                <fullName>0109</fullName>
+                <default>false</default>
+                <label>DESCRIPCION</label>
+            </value>
+            <value>
+                <fullName>0110</fullName>
+                <default>false</default>
+                <label>DESEMPLEO</label>
+            </value>
+            <value>
+                <fullName>0111</fullName>
+                <default>false</default>
+                <label>DINERO EN METALICO</label>
+            </value>
+            <value>
+                <fullName>0112</fullName>
+                <default>false</default>
+                <label>DOCUMENTOS</label>
+            </value>
+            <value>
+                <fullName>0113</fullName>
+                <default>false</default>
+                <label>DOMOTICA</label>
+            </value>
+            <value>
+                <fullName>0114</fullName>
+                <default>false</default>
+                <label>ELECTRODOMESTICOS GAMA BLANCA</label>
+            </value>
+            <value>
+                <fullName>0115</fullName>
+                <default>false</default>
+                <label>ELECTRODOMESTICOS GAMA MARRON</label>
+            </value>
+            <value>
+                <fullName>0116</fullName>
+                <default>false</default>
+                <label>ELEMENTOS DE CUBRICION</label>
+            </value>
+            <value>
+                <fullName>0117</fullName>
+                <default>false</default>
+                <label>EMBARCACIONES DE RECREO</label>
+            </value>
+            <value>
+                <fullName>0118</fullName>
+                <default>false</default>
+                <label>EN PERSONA DE ASEGURADO</label>
+            </value>
+            <value>
+                <fullName>0119</fullName>
+                <default>false</default>
+                <label>ENCOLAR MUEBLES</label>
+            </value>
+            <value>
+                <fullName>0120</fullName>
+                <default>false</default>
+                <label>ENFERMEDAD</label>
+            </value>
+            <value>
+                <fullName>0121</fullName>
+                <default>false</default>
+                <label>ENFERMEDAD GRAVE</label>
+            </value>
+            <value>
+                <fullName>0122</fullName>
+                <default>false</default>
+                <label>ENFERMEDAD PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0123</fullName>
+                <default>false</default>
+                <label>ENGRASADO DE RIELES</label>
+            </value>
+            <value>
+                <fullName>0124</fullName>
+                <default>false</default>
+                <label>EQUIPAJE</label>
+            </value>
+            <value>
+                <fullName>0125</fullName>
+                <default>false</default>
+                <label>ESPEJOS, CRISTALES O METRACRILATO</label>
+            </value>
+            <value>
+                <fullName>0126</fullName>
+                <default>false</default>
+                <label>ESTUFAS</label>
+            </value>
+            <value>
+                <fullName>0127</fullName>
+                <default>false</default>
+                <label>EXISTENCIAS</label>
+            </value>
+            <value>
+                <fullName>0128</fullName>
+                <default>false</default>
+                <label>EXPEDIENTE DE REGULACION DE EMPLEO</label>
+            </value>
+            <value>
+                <fullName>0129</fullName>
+                <default>false</default>
+                <label>EXTINCION DE LA RELACION LABORAL</label>
+            </value>
+            <value>
+                <fullName>0130</fullName>
+                <default>false</default>
+                <label>EXTRAPROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0131</fullName>
+                <default>false</default>
+                <label>FACHADA</label>
+            </value>
+            <value>
+                <fullName>0132</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO</label>
+            </value>
+            <value>
+                <fullName>0133</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO DE TRAFICO</label>
+            </value>
+            <value>
+                <fullName>0134</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO DEPORTIVO</label>
+            </value>
+            <value>
+                <fullName>0135</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO DOMESTICO</label>
+            </value>
+            <value>
+                <fullName>0136</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO ITINERE</label>
+            </value>
+            <value>
+                <fullName>0137</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO LABORAL</label>
+            </value>
+            <value>
+                <fullName>0138</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO NATURAL</label>
+            </value>
+            <value>
+                <fullName>0139</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO POR ACCIDENTE</label>
+            </value>
+            <value>
+                <fullName>0140</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO POR INFARTO</label>
+            </value>
+            <value>
+                <fullName>0141</fullName>
+                <default>false</default>
+                <label>FALLECIMIENTO/SEPELIO</label>
+            </value>
+            <value>
+                <fullName>0142</fullName>
+                <default>false</default>
+                <label>FEMUR O TALON</label>
+            </value>
+            <value>
+                <fullName>0143</fullName>
+                <default>false</default>
+                <label>FIANZAS</label>
+            </value>
+            <value>
+                <fullName>0144</fullName>
+                <default>false</default>
+                <label>FONDOS COMUNITARIOS</label>
+            </value>
+            <value>
+                <fullName>0145</fullName>
+                <default>false</default>
+                <label>FORMACION RECUPEACION</label>
+            </value>
+            <value>
+                <fullName>0146</fullName>
+                <default>false</default>
+                <label>FREGADERO</label>
+            </value>
+            <value>
+                <fullName>0147</fullName>
+                <default>false</default>
+                <label>FRIGORIFICO</label>
+            </value>
+            <value>
+                <fullName>0148</fullName>
+                <default>false</default>
+                <label>FUGA DE TUBERIA</label>
+            </value>
+            <value>
+                <fullName>0149</fullName>
+                <default>false</default>
+                <label>FUGA SIN DAÑOS</label>
+            </value>
+            <value>
+                <fullName>0150</fullName>
+                <default>false</default>
+                <label>GARAJES COMUNITARIOS</label>
+            </value>
+            <value>
+                <fullName>0151</fullName>
+                <default>false</default>
+                <label>GASTOS ADICIONALES</label>
+            </value>
+            <value>
+                <fullName>0152</fullName>
+                <default>false</default>
+                <label>GASTOS CLINICOS</label>
+            </value>
+            <value>
+                <fullName>0153</fullName>
+                <default>false</default>
+                <label>GASTOS DE CURACION ACCIDENTE</label>
+            </value>
+            <value>
+                <fullName>0154</fullName>
+                <default>false</default>
+                <label>GASTOS DE SEPELIO</label>
+            </value>
+            <value>
+                <fullName>0155</fullName>
+                <default>false</default>
+                <label>GASTOS FARMACEUTICOS</label>
+            </value>
+            <value>
+                <fullName>0156</fullName>
+                <default>false</default>
+                <label>GASTOS GENERALES</label>
+            </value>
+            <value>
+                <fullName>0157</fullName>
+                <default>false</default>
+                <label>GASTOS HOSPITALARIOS</label>
+            </value>
+            <value>
+                <fullName>0158</fullName>
+                <default>false</default>
+                <label>GASTOS JURIDICOS</label>
+            </value>
+            <value>
+                <fullName>0159</fullName>
+                <default>false</default>
+                <label>GEOTERMIA</label>
+            </value>
+            <value>
+                <fullName>0160</fullName>
+                <default>false</default>
+                <label>GRIFOS</label>
+            </value>
+            <value>
+                <fullName>0161</fullName>
+                <default>false</default>
+                <label>HERRAMIENTAS</label>
+            </value>
+            <value>
+                <fullName>0162</fullName>
+                <default>false</default>
+                <label>HONORARIOS ABOGADO</label>
+            </value>
+            <value>
+                <fullName>0163</fullName>
+                <default>false</default>
+                <label>HORNO O MICROONDAS</label>
+            </value>
+            <value>
+                <fullName>0164</fullName>
+                <default>false</default>
+                <label>INCAPACIDAD TEMPORAL</label>
+            </value>
+            <value>
+                <fullName>0165</fullName>
+                <default>false</default>
+                <label>INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0166</fullName>
+                <default>false</default>
+                <label>INCUMPLIMIENTO DE CONTRATOS</label>
+            </value>
+            <value>
+                <fullName>0167</fullName>
+                <default>false</default>
+                <label>INDEMNIZACION DIARIA</label>
+            </value>
+            <value>
+                <fullName>0168</fullName>
+                <default>false</default>
+                <label>INFARTO</label>
+            </value>
+            <value>
+                <fullName>0169</fullName>
+                <default>false</default>
+                <label>INFIDELIDAD DE EMPLEADOS</label>
+            </value>
+            <value>
+                <fullName>0170</fullName>
+                <default>false</default>
+                <label>INGESTION DE CUERPOS EXTRAÑOS</label>
+            </value>
+            <value>
+                <fullName>0171</fullName>
+                <default>false</default>
+                <label>INHABITABILIDAD</label>
+            </value>
+            <value>
+                <fullName>0172</fullName>
+                <default>false</default>
+                <label>INODORO</label>
+            </value>
+            <value>
+                <fullName>0173</fullName>
+                <default>false</default>
+                <label>INSTALACION CONTRA/DETECCIÓN INCENDIO</label>
+            </value>
+            <value>
+                <fullName>0174</fullName>
+                <default>false</default>
+                <label>INSTALACION DE CANALETAS</label>
+            </value>
+            <value>
+                <fullName>0175</fullName>
+                <default>false</default>
+                <label>INSTALACION DE CORTINAS Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>0176</fullName>
+                <default>false</default>
+                <label>INSTALACION DE LAMAPARAS O APLIQUES</label>
+            </value>
+            <value>
+                <fullName>0177</fullName>
+                <default>false</default>
+                <label>INSTALACION DE LATIGUILLOS, LLAVES DE PASO</label>
+            </value>
+            <value>
+                <fullName>0178</fullName>
+                <default>false</default>
+                <label>INSTALACION DE MANILLAS, POMOS, ETC</label>
+            </value>
+            <value>
+                <fullName>0179</fullName>
+                <default>false</default>
+                <label>INSTALACION ELECTRICA</label>
+            </value>
+            <value>
+                <fullName>0180</fullName>
+                <default>false</default>
+                <label>GENERADOR DE ELECTRICIDAD</label>
+            </value>
+            <value>
+                <fullName>0181</fullName>
+                <default>false</default>
+                <label>INSTALACION EQUIPAMIENTO TECNOLOGICO, INFORMATICO</label>
+            </value>
+            <value>
+                <fullName>0182</fullName>
+                <default>false</default>
+                <label>INSTALACIONES DEPORTIVAS</label>
+            </value>
+            <value>
+                <fullName>0183</fullName>
+                <default>false</default>
+                <label>INTOXICACIONES</label>
+            </value>
+            <value>
+                <fullName>0184</fullName>
+                <default>false</default>
+                <label>INVALIDEZ</label>
+            </value>
+            <value>
+                <fullName>0185</fullName>
+                <default>false</default>
+                <label>INVALIDEZ PERMANENTE ABSOLUTA</label>
+            </value>
+            <value>
+                <fullName>0186</fullName>
+                <default>false</default>
+                <label>INVALIDEZ.ESTIVAL</label>
+            </value>
+            <value>
+                <fullName>0187</fullName>
+                <default>false</default>
+                <label>JARDINES</label>
+            </value>
+            <value>
+                <fullName>0188</fullName>
+                <default>false</default>
+                <label>JOYAS</label>
+            </value>
+            <value>
+                <fullName>0189</fullName>
+                <default>false</default>
+                <label>LAMPARAS</label>
+            </value>
+            <value>
+                <fullName>0190</fullName>
+                <default>false</default>
+                <label>LAVABO</label>
+            </value>
+            <value>
+                <fullName>0191</fullName>
+                <default>false</default>
+                <label>LAVADORA</label>
+            </value>
+            <value>
+                <fullName>0192</fullName>
+                <default>false</default>
+                <label>LAVAVAJILLAS</label>
+            </value>
+            <value>
+                <fullName>0193</fullName>
+                <default>false</default>
+                <label>LESIONES</label>
+            </value>
+            <value>
+                <fullName>0194</fullName>
+                <default>false</default>
+                <label>LIMPIEZA DE SUPERFICIES POR OBRA O MUDANZA</label>
+            </value>
+            <value>
+                <fullName>0195</fullName>
+                <default>false</default>
+                <label>LLAVES DE PASO</label>
+            </value>
+            <value>
+                <fullName>0196</fullName>
+                <default>false</default>
+                <label>LLAVES DE RADIADORES</label>
+            </value>
+            <value>
+                <fullName>0197</fullName>
+                <default>false</default>
+                <label>LOZA SANITARIA</label>
+            </value>
+            <value>
+                <fullName>0198</fullName>
+                <default>false</default>
+                <label>LUNAS ESCAPARATE</label>
+            </value>
+            <value>
+                <fullName>0199</fullName>
+                <default>false</default>
+                <label>MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>0200</fullName>
+                <default>false</default>
+                <label>MAQUINARIA DE PISCINA</label>
+            </value>
+            <value>
+                <fullName>0201</fullName>
+                <default>false</default>
+                <label>MARMOL</label>
+            </value>
+            <value>
+                <fullName>0202</fullName>
+                <default>false</default>
+                <label>MARMOL BAÑO</label>
+            </value>
+            <value>
+                <fullName>0203</fullName>
+                <default>false</default>
+                <label>MARMOL COCINA</label>
+            </value>
+            <value>
+                <fullName>0204</fullName>
+                <default>false</default>
+                <label>MERCADERIA</label>
+            </value>
+            <value>
+                <fullName>0205</fullName>
+                <default>false</default>
+                <label>MOBBING O ACOSO INMOBILIARIO</label>
+            </value>
+            <value>
+                <fullName>0206</fullName>
+                <default>false</default>
+                <label>MOBILIARIO</label>
+            </value>
+            <value>
+                <fullName>0207</fullName>
+                <default>false</default>
+                <label>MOBILIARIO COMERCIAL</label>
+            </value>
+            <value>
+                <fullName>0208</fullName>
+                <default>false</default>
+                <label>MOBILIARIO EXTERIOR</label>
+            </value>
+            <value>
+                <fullName>0209</fullName>
+                <default>false</default>
+                <label>MOBILIARIO OFICINA</label>
+            </value>
+            <value>
+                <fullName>0210</fullName>
+                <default>false</default>
+                <label>MONTAJE DE KIT DE MUEBLES</label>
+            </value>
+            <value>
+                <fullName>0211</fullName>
+                <default>false</default>
+                <label>MOSTRADORES</label>
+            </value>
+            <value>
+                <fullName>0212</fullName>
+                <default>false</default>
+                <label>MOTOR DE PUERTAS</label>
+            </value>
+            <value>
+                <fullName>0213</fullName>
+                <default>false</default>
+                <label>MOVIMIENTOS DE MUEBLES Y ELECTRODOMESTICOS</label>
+            </value>
+            <value>
+                <fullName>0214</fullName>
+                <default>false</default>
+                <label>MUERTE DEL ASEGURADO</label>
+            </value>
+            <value>
+                <fullName>0215</fullName>
+                <default>false</default>
+                <label>OBJETOS DE VALOR</label>
+            </value>
+            <value>
+                <fullName>0216</fullName>
+                <default>false</default>
+                <label>OBJETOS DECORATIVOS</label>
+            </value>
+            <value>
+                <fullName>0217</fullName>
+                <default>false</default>
+                <label>OCUPACION ILEGAL DE LA VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0218</fullName>
+                <default>false</default>
+                <label>ORDENADOR</label>
+            </value>
+            <value>
+                <fullName>0219</fullName>
+                <default>false</default>
+                <label>OTRAS CAUSAS</label>
+            </value>
+            <value>
+                <fullName>0220</fullName>
+                <default>false</default>
+                <label>OTRO HECHO SUBITO, VIOLENTO SIN INTENCIONALIDAD</label>
+            </value>
+            <value>
+                <fullName>0221</fullName>
+                <default>false</default>
+                <label>OTROS (TAPAS SANITARIOS, ACCESORIOS)</label>
+            </value>
+            <value>
+                <fullName>0222</fullName>
+                <default>false</default>
+                <label>OTROS BIENES COMUNITARIOS</label>
+            </value>
+            <value>
+                <fullName>0223</fullName>
+                <default>false</default>
+                <label>OTROS DAÑOS CONTINENTE</label>
+            </value>
+            <value>
+                <fullName>0224</fullName>
+                <default>false</default>
+                <label>OTROS SUCESOS ACCIDENTALES</label>
+            </value>
+            <value>
+                <fullName>0225</fullName>
+                <default>false</default>
+                <label>OTROS TRABAJOS MANITAS</label>
+            </value>
+            <value>
+                <fullName>0226</fullName>
+                <default>false</default>
+                <label>PARAPLEJIA PERMANENTE</label>
+            </value>
+            <value>
+                <fullName>0227</fullName>
+                <default>false</default>
+                <label>PAREDES/TECHOS INTERIORES</label>
+            </value>
+            <value>
+                <fullName>0228</fullName>
+                <default>false</default>
+                <label>PEATON</label>
+            </value>
+            <value>
+                <fullName>0229</fullName>
+                <default>false</default>
+                <label>PELEA</label>
+            </value>
+            <value>
+                <fullName>0230</fullName>
+                <default>false</default>
+                <label>PELEAS CON OTROS ANIMALES</label>
+            </value>
+            <value>
+                <fullName>0231</fullName>
+                <default>false</default>
+                <label>PEOFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0232</fullName>
+                <default>false</default>
+                <label>PERDIDA DE ALQUILER</label>
+            </value>
+            <value>
+                <fullName>0233</fullName>
+                <default>false</default>
+                <label>PERDIDA DE BENEFICIOS</label>
+            </value>
+            <value>
+                <fullName>0234</fullName>
+                <default>false</default>
+                <label>PERDIDA DE LLAVES</label>
+            </value>
+            <value>
+                <fullName>0235</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE LA VISTA (DOS OJOS)</label>
+            </value>
+            <value>
+                <fullName>0236</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE LA VISTA (UN OJO)</label>
+            </value>
+            <value>
+                <fullName>0237</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE LAS DOS PIERNAS</label>
+            </value>
+            <value>
+                <fullName>0238</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE LOS DOS BRAZOS</label>
+            </value>
+            <value>
+                <fullName>0239</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE UN BRAZO</label>
+            </value>
+            <value>
+                <fullName>0240</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE UN BRAZO Y UNA PIERNA</label>
+            </value>
+            <value>
+                <fullName>0241</fullName>
+                <default>false</default>
+                <label>PERDIDA TOTAL DE UNA PIERNA</label>
+            </value>
+            <value>
+                <fullName>0242</fullName>
+                <default>false</default>
+                <label>PERJUICIOS PATRIMONIALES</label>
+            </value>
+            <value>
+                <fullName>0243</fullName>
+                <default>false</default>
+                <label>PERSIANA</label>
+            </value>
+            <value>
+                <fullName>0244</fullName>
+                <default>false</default>
+                <label>PLACAS SOLARES</label>
+            </value>
+            <value>
+                <fullName>0245</fullName>
+                <default>false</default>
+                <label>PLATO DE DUCHA</label>
+            </value>
+            <value>
+                <fullName>0246</fullName>
+                <default>false</default>
+                <label>POR DAÑOS A ENSERES</label>
+            </value>
+            <value>
+                <fullName>0247</fullName>
+                <default>false</default>
+                <label>POR DAÑOS A VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0248</fullName>
+                <default>false</default>
+                <label>POR OBRAS DE TERCEROS</label>
+            </value>
+            <value>
+                <fullName>0249</fullName>
+                <default>false</default>
+                <label>PORTAL</label>
+            </value>
+            <value>
+                <fullName>0250</fullName>
+                <default>false</default>
+                <label>PORTERO AUTOMATICO</label>
+            </value>
+            <value>
+                <fullName>0251</fullName>
+                <default>false</default>
+                <label>PROCEDIMIENTOS SUCESORIOS</label>
+            </value>
+            <value>
+                <fullName>0252</fullName>
+                <default>false</default>
+                <label>PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0253</fullName>
+                <default>false</default>
+                <label>PROTECCION DEL MENOR</label>
+            </value>
+            <value>
+                <fullName>0254</fullName>
+                <default>false</default>
+                <label>PUERTAS</label>
+            </value>
+            <value>
+                <fullName>0255</fullName>
+                <default>false</default>
+                <label>PUERTA DE ACCESO O EXTERIOR</label>
+            </value>
+            <value>
+                <fullName>0256</fullName>
+                <default>false</default>
+                <label>PUERTA DE GARAJE</label>
+            </value>
+            <value>
+                <fullName>0257</fullName>
+                <default>false</default>
+                <label>PURGA DE RADIADORES</label>
+            </value>
+            <value>
+                <fullName>0258</fullName>
+                <default>false</default>
+                <label>RECLAMACION</label>
+            </value>
+            <value>
+                <fullName>0259</fullName>
+                <default>false</default>
+                <label>RECLAMACION DE DAÑOS</label>
+            </value>
+            <value>
+                <fullName>0260</fullName>
+                <default>false</default>
+                <label>RECLAMACION DE CONSUMO</label>
+            </value>
+            <value>
+                <fullName>0261</fullName>
+                <default>false</default>
+                <label>RECLAMACION  DE DAÑOS</label>
+            </value>
+            <value>
+                <fullName>0262</fullName>
+                <default>false</default>
+                <label>RECLAMACION DE DERECHOS DE PENSIONES</label>
+            </value>
+            <value>
+                <fullName>0263</fullName>
+                <default>false</default>
+                <label>RECLAMACION DE PRESTACIONES SOCIALES</label>
+            </value>
+            <value>
+                <fullName>0264</fullName>
+                <default>false</default>
+                <label>RECLAMACION DE VECINOS POR INFRACCION</label>
+            </value>
+            <value>
+                <fullName>0265</fullName>
+                <default>false</default>
+                <label>RECLAMACIONES ANTE LA COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0266</fullName>
+                <default>false</default>
+                <label>RECUPERACION PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0267</fullName>
+                <default>false</default>
+                <label>RECURSOS DE SANCIONES</label>
+            </value>
+            <value>
+                <fullName>0268</fullName>
+                <default>false</default>
+                <label>RECUSOS ADMINITRACIONES PUBLICAS</label>
+            </value>
+            <value>
+                <fullName>0269</fullName>
+                <default>false</default>
+                <label>REDUCCION DE LA JORNADA AL 50%</label>
+            </value>
+            <value>
+                <fullName>0270</fullName>
+                <default>false</default>
+                <label>REDUCCION JORNADA AL 50%</label>
+            </value>
+            <value>
+                <fullName>0271</fullName>
+                <default>false</default>
+                <label>REEMBOLSO DE GASTOS JURÍDICOS</label>
+            </value>
+            <value>
+                <fullName>0272</fullName>
+                <default>false</default>
+                <label>RESPONSABILIDAD CIVIL</label>
+            </value>
+            <value>
+                <fullName>0273</fullName>
+                <default>false</default>
+                <label>RETIRADA DE CARNET</label>
+            </value>
+            <value>
+                <fullName>0274</fullName>
+                <default>false</default>
+                <label>REVISION DE GOTEOS</label>
+            </value>
+            <value>
+                <fullName>0275</fullName>
+                <default>false</default>
+                <label>ROPA, CASCO Y GUANTES</label>
+            </value>
+            <value>
+                <fullName>0276</fullName>
+                <default>false</default>
+                <label>ROTULO</label>
+            </value>
+            <value>
+                <fullName>0277</fullName>
+                <default>false</default>
+                <label>SECADORA</label>
+            </value>
+            <value>
+                <fullName>0278</fullName>
+                <default>false</default>
+                <label>SELLADO DE SANITARIOS</label>
+            </value>
+            <value>
+                <fullName>0279</fullName>
+                <default>false</default>
+                <label>SERVICIO DE LIMPIEZA POR DESAHUCIO</label>
+            </value>
+            <value>
+                <fullName>0280</fullName>
+                <default>false</default>
+                <label>SERVICIO DOMESTICO</label>
+            </value>
+            <value>
+                <fullName>0281</fullName>
+                <default>false</default>
+                <label>SUBSIDIO CARNET PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0282</fullName>
+                <default>false</default>
+                <label>SUBSIDIO MENSUAL</label>
+            </value>
+            <value>
+                <fullName>0283</fullName>
+                <default>false</default>
+                <label>SUBSIDIO NO PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>0284</fullName>
+                <default>false</default>
+                <label>SUELOS DE MADERA</label>
+            </value>
+            <value>
+                <fullName>0285</fullName>
+                <default>false</default>
+                <label>SUELOS Y PAREDES CERAMICOS</label>
+            </value>
+            <value>
+                <fullName>0286</fullName>
+                <default>false</default>
+                <label>SUSTITUCION DE CERRADURA</label>
+            </value>
+            <value>
+                <fullName>0287</fullName>
+                <default>false</default>
+                <label>SUSTITUCION DE CERRADURAS POR DESAHUCIO</label>
+            </value>
+            <value>
+                <fullName>0288</fullName>
+                <default>false</default>
+                <label>SUSTITUCION DE CINTAS DE PERSIANAS</label>
+            </value>
+            <value>
+                <fullName>0289</fullName>
+                <default>false</default>
+                <label>SUSTITUCION DE ENCHUFES O INTERRUPTORES</label>
+            </value>
+            <value>
+                <fullName>0290</fullName>
+                <default>false</default>
+                <label>SUSTITUCION O AJUSTES DE GRIFOS</label>
+            </value>
+            <value>
+                <fullName>0291</fullName>
+                <default>false</default>
+                <label>TAPADO DE PEQUEÑOS AGUJEROS</label>
+            </value>
+            <value>
+                <fullName>0292</fullName>
+                <default>false</default>
+                <label>TARJETAS CREDITO</label>
+            </value>
+            <value>
+                <fullName>0293</fullName>
+                <default>false</default>
+                <label>TECHO INSONORIZADO</label>
+            </value>
+            <value>
+                <fullName>0294</fullName>
+                <default>false</default>
+                <label>TEJADO O CUBIERTA</label>
+            </value>
+            <value>
+                <fullName>0295</fullName>
+                <default>false</default>
+                <label>TELEFONIA</label>
+            </value>
+            <value>
+                <fullName>0296</fullName>
+                <default>false</default>
+                <label>TELEVISOR</label>
+            </value>
+            <value>
+                <fullName>0297</fullName>
+                <default>false</default>
+                <label>TERCEROS EN VIDA PRIVADA</label>
+            </value>
+            <value>
+                <fullName>0298</fullName>
+                <default>false</default>
+                <label>TERMO ELECTRICO</label>
+            </value>
+            <value>
+                <fullName>0299</fullName>
+                <default>false</default>
+                <label>TESTAMENTO ON LINE</label>
+            </value>
+            <value>
+                <fullName>0300</fullName>
+                <default>false</default>
+                <label>TETRAPLEJIA PERMANENTE</label>
+            </value>
+            <value>
+                <fullName>0301</fullName>
+                <default>false</default>
+                <label>TIBIA, PERONE O TOBILLO</label>
+            </value>
+            <value>
+                <fullName>0302</fullName>
+                <default>false</default>
+                <label>TIMBRES</label>
+            </value>
+            <value>
+                <fullName>0303</fullName>
+                <default>false</default>
+                <label>TODA LA COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0304</fullName>
+                <default>false</default>
+                <label>TODA LA VIVIENDA</label>
+            </value>
+            <value>
+                <fullName>0305</fullName>
+                <default>false</default>
+                <label>TODO EL EDIFICIO</label>
+            </value>
+            <value>
+                <fullName>0306</fullName>
+                <default>false</default>
+                <label>TODO EL LOCAL</label>
+            </value>
+            <value>
+                <fullName>0307</fullName>
+                <default>false</default>
+                <label>TODO RIESGO ACCIDENTAL</label>
+            </value>
+            <value>
+                <fullName>0308</fullName>
+                <default>false</default>
+                <label>TOLDOS</label>
+            </value>
+            <value>
+                <fullName>0309</fullName>
+                <default>false</default>
+                <label>TRANSPORTE DE FONDOS</label>
+            </value>
+            <value>
+                <fullName>0310</fullName>
+                <default>false</default>
+                <label>UTILES DE LIMPIEZA COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>0311</fullName>
+                <default>false</default>
+                <label>VALLAS Y MUROS</label>
+            </value>
+            <value>
+                <fullName>0312</fullName>
+                <default>false</default>
+                <label>VEHICULOS EN PRUEBAS</label>
+            </value>
+            <value>
+                <fullName>0313</fullName>
+                <default>false</default>
+                <label>VEHICULOS EN TALLER</label>
+            </value>
+            <value>
+                <fullName>0314</fullName>
+                <default>false</default>
+                <label>VENTANAS</label>
+            </value>
+            <value>
+                <fullName>0315</fullName>
+                <default>false</default>
+                <label>VITROCERAMICA INDUCCION</label>
+            </value>
+            <value>
+                <fullName>0316</fullName>
+                <default>false</default>
+                <label>VITROCERAMICA RADIANTE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

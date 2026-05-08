@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Marcadores</label>
+    <name>Marcadores__c</name>
+    <picklistValues>
+        <masterLabel>ALTA AUS AGE</masterLabel>
+        <translation><!-- ALTA AUS AGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALTA AUS BEC</masterLabel>
+        <translation><!-- ALTA AUS BEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALTA AUS COC</masterLabel>
+        <translation><!-- ALTA AUS COC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALTA AUS COR</masterLabel>
+        <translation><!-- ALTA AUS COR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALTA AUS EMP</masterLabel>
+        <translation><!-- ALTA AUS EMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALTA FRECUENCIA</masterLabel>
+        <translation><!-- ALTA FRECUENCIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTECEDENTES CORROSION</masterLabel>
+        <translation><!-- ANTECEDENTES CORROSION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTECEDENTES VTS</masterLabel>
+        <translation><!-- ANTECEDENTES VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APAGON 28042025</masterLabel>
+        <translation><!-- APAGON 28042025 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARAG</masterLabel>
+        <translation><!-- ARAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTROL CUMULO</masterLabel>
+        <translation><!-- CONTROL CUMULO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONVENIO</masterLabel>
+        <translation><!-- CONVENIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CORROSION</masterLabel>
+        <translation><!-- CORROSION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DANA 29102024</masterLabel>
+        <translation><!-- DANA 29102024 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EX-KIRK 6_9-10-2024</masterLabel>
+        <translation><!-- EX-KIRK 6_9-10-2024 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FILOMENA</masterLabel>
+        <translation><!-- FILOMENA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INFRASEGURO</masterLabel>
+        <translation><!-- INFRASEGURO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IRIS</masterLabel>
+        <translation><!-- IRIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KLAUS 2009</masterLabel>
+        <translation><!-- KLAUS 2009 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARC. USE</masterLabel>
+        <translation><!-- MARC. USE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poliza anulada</masterLabel>
+        <translation><!-- Poliza anulada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REASEGURO</masterLabel>
+        <translation><!-- REASEGURO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLA-SAC-CLI</masterLabel>
+        <translation><!-- RECLA-SAC-CLI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLA-SAC-SIN</masterLabel>
+        <translation><!-- RECLA-SAC-SIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECLA. ORIGEN</masterLabel>
+        <translation><!-- RECLA. ORIGEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SINI. REHUSADO</masterLabel>
+        <translation><!-- SINI. REHUSADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SINIESTRO SCC</masterLabel>
+        <translation><!-- SINIESTRO SCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOL. ABONO FACTURA</masterLabel>
+        <translation><!-- SOL. ABONO FACTURA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOLICITADO VT EN ALTA</masterLabel>
+        <translation><!-- SOLICITADO VT EN ALTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA 13-15/01/2010</masterLabel>
+        <translation><!-- TCA 13-15/01/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA 14/01/2023 FGH</masterLabel>
+        <translation><!-- TCA 14/01/2023 FGH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA 16-18/02/2010</masterLabel>
+        <translation><!-- TCA 16-18/02/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA 19/01/2021 Gaetan-Hortenese-Ignacio</masterLabel>
+        <translation><!-- TCA 19/01/2021 Gaetan-Hortenese-Ignacio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA 26 28/02/2010</masterLabel>
+        <translation><!-- TCA 26 28/02/2010 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA A-B: 17_24/10/23 Aline-Bernard</masterLabel>
+        <translation><!-- TCA A-B: 17_24/10/23 Aline-Bernard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA C-D: 01_05/11/23 Ciaran-Domingos</masterLabel>
+        <translation><!-- TCA C-D: 01_05/11/23 Ciaran-Domingos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA CONSORCIO</masterLabel>
+        <translation><!-- TCA CONSORCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA DIRK</masterLabel>
+        <translation><!-- TCA DIRK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA GLORIA</masterLabel>
+        <translation><!-- TCA GLORIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA GONG</masterLabel>
+        <translation><!-- TCA GONG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA KURT</masterLabel>
+        <translation><!-- TCA KURT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA-ANA</masterLabel>
+        <translation><!-- TCA-ANA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA1:11/12/2019</masterLabel>
+        <translation><!-- TCA1:11/12/2019 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA2:16/12/2019 Daniel</masterLabel>
+        <translation><!-- TCA2:16/12/2019 Daniel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA3:18/1/2020 Gloria</masterLabel>
+        <translation><!-- TCA3:18/1/2020 Gloria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA4:22/2/2020 Canarias</masterLabel>
+        <translation><!-- TCA4:22/2/2020 Canarias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA5:27/2/2020 Jorge</masterLabel>
+        <translation><!-- TCA5:27/2/2020 Jorge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TCA:SGR CCS</masterLabel>
+        <translation><!-- TCA:SGR CCS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRAMIT. FIJO</masterLabel>
+        <translation><!-- TRAMIT. FIJO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VTS CONFIRMADO</masterLabel>
+        <translation><!-- VTS CONFIRMADO --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

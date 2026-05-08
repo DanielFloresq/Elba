@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Aparato y marca</label>
+    <name>DeviceBrand__c</name>
+    <picklistValues>
+        <masterLabel>Bosch</masterLabel>
+        <translation><!-- Bosch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fagor</masterLabel>
+        <translation><!-- Fagor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teka</masterLabel>
+        <translation><!-- Teka --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

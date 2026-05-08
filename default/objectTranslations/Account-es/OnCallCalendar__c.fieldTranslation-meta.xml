@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Calendario de guardias (urgencias)</label>
+    <name>OnCallCalendar__c</name>
+    <picklistValues>
+        <masterLabel>Enero-Diciembre</masterLabel>
+        <translation><!-- Enero-Diciembre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enero-Junio</masterLabel>
+        <translation><!-- Enero-Junio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Febrero-Diciembre</masterLabel>
+        <translation><!-- Febrero-Diciembre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marzo-Septiembre</masterLabel>
+        <translation><!-- Marzo-Septiembre --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

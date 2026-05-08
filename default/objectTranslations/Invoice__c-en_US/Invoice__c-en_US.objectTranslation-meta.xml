@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <layouts>
+        <layout>CreditNote Layout</layout>
+        <sections>
+            <label><!-- Información del Abono --></label>
+            <section>Información del Abono</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label><!-- Información de la Factura --></label>
+            <section>Información de la Factura</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Credit Note --></label>
+        <name>CreditNote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invoice --></label>
+        <name>Invoice</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

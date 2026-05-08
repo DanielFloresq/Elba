@@ -1,0 +1,17 @@
+<!--
+  @description       : Iframe component for the Supplier Portal pricing page
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 06-23-2025
+  @last modified by  : Luís Angeja
+-->
+<template>
+  <template if:true={iframeUrl}>
+    <div class="iframe-container">
+      <iframe src={iframeUrl} title="Order Iframe" allowfullscreen style="width: 100%;height: 920px;"></iframe>
+    </div>
+  </template>
+  <template if:false={iframeUrl}>
+    <p>The iframe URL is not available for this order.</p>
+  </template>
+</template>

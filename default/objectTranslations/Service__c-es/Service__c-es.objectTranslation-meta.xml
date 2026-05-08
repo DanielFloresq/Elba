@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Servicio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Servicios</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Expert Assessment Service Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Multiguild Service Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Servicio</nameFieldLabel>
+    <recordTypes>
+        <label>Peritación</label>
+        <name>ExpertAssessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Grémio</label>
+        <name>Multiguild</name>
+    </recordTypes>
+</CustomObjectTranslation>

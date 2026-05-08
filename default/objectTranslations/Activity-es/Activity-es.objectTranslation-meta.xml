@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- La Fecha de Revisión solo puede anticiparse; no se puede atrasar ni posponer. --></errorMessage>
+        <name>Revision_Date_Cannot_Postpone</name>
+    </validationRules>
+</CustomObjectTranslation>

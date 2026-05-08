@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChildSubject__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>ChildSubject</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A la espera de recibir respuesta de red con reparador</fullName>
+                <default>false</default>
+                <label>A la espera de recibir respuesta de red con reparador</label>
+            </value>
+            <value>
+                <fullName>Reintentar contacto &gt;24h</fullName>
+                <default>false</default>
+                <label>Reintentar contacto &gt;24h</label>
+            </value>
+            <value>
+                <fullName>Reintentar contacto &gt;3 días</fullName>
+                <default>false</default>
+                <label>Reintentar contacto &gt;3 días</label>
+            </value>
+            <value>
+                <fullName>Child Dummy 1</fullName>
+                <default>false</default>
+                <label>Child Dummy 1</label>
+            </value>
+            <value>
+                <fullName>Child Dummy 2</fullName>
+                <default>false</default>
+                <label>Child Dummy 2</label>
+            </value>
+            <value>
+                <fullName>Child Dummy 3</fullName>
+                <default>false</default>
+                <label>Child Dummy 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

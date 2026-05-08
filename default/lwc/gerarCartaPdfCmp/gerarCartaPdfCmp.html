@@ -1,0 +1,76 @@
+<!--
+  @description       : PDF letter generation component with template selection and preview
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 14-01-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+	<lightning-quick-action-panel  class="slds-modal_large" style="width:98vw; max-width:none; overflow:visible;">
+		<template if:true={showSpinner}>
+			<lightning-spinner
+				alternative-text={labels.loading}
+				size="medium"
+				class="spinnerClass"
+			></lightning-spinner>
+		</template>
+		<div class="containerLarge" style="width:100%; ">
+			<!-- Card Body  -->
+			<template if:true={loadedTemplates}>
+				<div class="comboboxWrapper">
+					<lightning-combobox
+						class="fullWidth"
+						name="Template"
+						label={labels.template}
+						value={selectedValue}
+						options={options}
+						onchange={handlePicklistChange}
+							onfocus={handleComboboxFocus}
+							onblur={handleComboboxBlur}
+						placeholder={labels.selectTemplate}
+						
+					>
+					</lightning-combobox>
+				</div>
+					<div class="picklistSpacer" style={picklistSpacerStyle}></div>
+			</template>
+			<template if:true={editTemplate}>
+				<lightning-input-rich-text
+					class="editorLarge"
+					style="min-height:300px; height:50vh; width:100%;"
+					value={templateHtml}
+					onmousedown={handleMouseDown}
+					onchange={handleChangeHtml}
+				>
+					<!-- custom-buttons={customButtons} -->
+					<lightning-rich-text-toolbar-button-group slot="toolbar">
+						<lightning-rich-text-toolbar-button
+							label={labels.justify}
+							icon-name="utility:justify_text"
+							onclick={textJustify}
+							selected={justifySelected}
+						>
+						</lightning-rich-text-toolbar-button>
+					</lightning-rich-text-toolbar-button-group>
+				</lightning-input-rich-text>
+			</template>
+		</div>
+
+		<div slot="footer" style="display:flex; justify-content:flex-end; gap:8px;">
+			<lightning-button
+				variant="neutral"
+				label={previousBtnLabel}
+				onclick={previousStep}
+			>
+			</lightning-button>
+			<lightning-button
+				variant="brand"
+				label={nextBtnLabel}
+				onclick={nextStep}
+				class="slds-m-left_x-small"
+				disabled={nextDisabled}
+			>
+			</lightning-button>
+		</div>
+	</lightning-quick-action-panel>
+</template>

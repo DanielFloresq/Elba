@@ -1,0 +1,215 @@
+<!--
+  @description       : Document management component for viewing, deleting, reassigning and emailing documents
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 02-04-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+    <lightning-card>
+        <div class="slds-p-around_medium">
+            <lightning-input type="search" label={label.SEARCH} placeholder={label.SEARCHDOCUMENTS} value={searchKey}
+                onchange={handleSearch} class="slds-m-bottom_small">
+            </lightning-input>
+
+            <lightning-datatable key-field="ContentDocumentId" data={filteredDocuments} columns={columns}
+                onrowselection={handleRowSelection} onsort={onHandleSort} onrowaction={handleRowAction}
+                sorted-by={sortBy} sorted-direction={sortDirection}>
+            </lightning-datatable>
+        </div>
+
+        <div class="slds-p-around_medium slds-grid slds-gutters">
+            <div class="slds-button-group" role="group">
+                <lightning-button class="slds-m-right_small" label={label.DOWNLOADSELECTEDFILES}
+                    onclick={handleDownload}>
+                </lightning-button>
+
+                <lightning-button class="slds-m-right_small" label={label.SENDINGSELECTEDDOCUMENTS}
+                    onclick={handleOpenEmailModal}>
+                </lightning-button>
+
+                <!-- <lightning-button class="slds-m-right_small" label={label.DELETESELECTEDDOCUMENTS} variant="destructive"
+                    onclick={handleDelete}>
+                </lightning-button> -->
+
+                <lightning-button label={label.REASSIGNSELECTEDDOCUMENTSTOOTHERCLAIMS} onclick={handleReassign}>
+                </lightning-button>
+            </div>
+        </div>
+    </lightning-card>
+
+    <!-- MODAL -->
+    <template if:true={showReassignModal}>
+        <section role="dialog" class="slds-modal slds-fade-in-open slds-modal_large">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">{label.REASSIGNDOCUMENTS}</h2>
+                    <button class="slds-button slds-button_icon slds-modal__close" onclick={closeReassignModal}>
+                        <lightning-icon icon-name="utility:close"></lightning-icon>
+                    </button>
+                </header>
+
+                <div class="slds-modal__content slds-p-around_medium">
+                    <Template if:true={isOrderOrCase}>
+                        <lightning-record-picker label={label.CASEF} object-api-name="Case" value={selectedTargetId}
+                            onchange={handleTargetChange} matching-info={matchingInfo} display-info={displayInfo}>
+                        </lightning-record-picker>
+                        <template if:true={showSpinner}>
+                            <div class="slds-is-relative slds-m-top_medium">
+                                <lightning-spinner alternative-text={label.LoadingOrders} size="small">
+                                </lightning-spinner>
+                            </div>
+                        </template>
+                        <template if:true={isToShowOrders}>
+                            <lightning-combobox name="orders" label={label.ChooseOrder} options={orders}
+                                value={selectedOrderId} onchange={handleOrderChange}>
+                            </lightning-combobox>
+                        </template>
+
+                    </Template>
+
+                    <template if:true={isTask}>
+                        <div class="slds-p-around_medium slds-box slds-theme_light">
+                            <div class="slds-m-bottom_medium">
+                                <h3 class="slds-text-heading_small slds-m-bottom_small">
+                                    <lightning-icon icon-name="standard:task" size="small" class="slds-m-right_small"></lightning-icon>
+                                    {label.SearchTasks}
+                                </h3>
+                                <lightning-input 
+                                    type="search" 
+                                    label={label.SearchTasksPlaceholder}
+                                    placeholder={label.SearchTasksExample}
+                                    value={searchKey}
+                                    onchange={handleSearchChange2}
+                                    class="slds-m-bottom_medium">
+                                </lightning-input>
+                            </div>
+
+                            <!-- Task Selecionada -->
+                            <template if:true={selectedTask}>
+                                <div class="slds-m-bottom_medium slds-box slds-theme_shade slds-border_left slds-border_left_2 selected-task-card">
+                                    <div class="slds-grid slds-wrap">
+                                        <div class="slds-col slds-size_1-of-1">
+                                            <h4 class="slds-text-heading_small slds-m-bottom_small">
+                                                <lightning-icon icon-name="utility:check" size="small" class="slds-m-right_small slds-text-color_success"></lightning-icon>
+                                                {selectedTaskLabel}
+                                            </h4>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_small">
+                                            <p class="slds-text-body_regular slds-m-bottom_small">
+                                                <strong>{subjectLabel}:</strong> {selectedTask.Subject}
+                                            </p>
+                                            <p class="slds-text-body_small slds-m-bottom_small">
+                                                <strong>{statusLabel}:</strong> 
+                                                <lightning-badge label={selectedTask.Status} class="slds-m-left_small"></lightning-badge>
+                                            </p>
+                                            <p class="slds-text-body_small slds-m-bottom_small">
+                                                <strong>{dueDateLabel}:</strong> {selectedTask.ActivityDate}
+                                            </p>
+                                            <p class="slds-text-body_small">
+                                                <strong>{priorityLabel}:</strong> 
+                                                <lightning-badge label={selectedTask.Priority} class="slds-m-left_small"></lightning-badge>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <!-- Lista de Tasks -->
+                            <template if:true={tasks}>
+                                <div class="slds-m-bottom_medium">
+                                    <h4 class="slds-text-heading_small slds-m-bottom_small">
+                                        <lightning-icon icon-name="standard:task_2" size="small" class="slds-m-right_small"></lightning-icon>
+                                        {label.SearchResults} ({taskCount})
+                                    </h4>
+                                    <div class="task-table-wrapper">
+                                        <lightning-datatable 
+                                            key-field="Id" 
+                                            data={tasks} 
+                                            columns={columns2}
+                                            hide-checkbox-column="true" 
+                                            onrowaction={handleRowAction2}
+                                            class="task-datatable"
+                                            resize-column-disabled="false">
+                                        </lightning-datatable>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <!-- Loading Spinner -->
+                            <template if:true={loading}>
+                                <div class="slds-m-around_medium slds-text-align_center">
+                                    <lightning-spinner alternative-text={label.SearchingTasks} size="medium"></lightning-spinner>
+                                    <p class="slds-m-top_small slds-text-body_small">{label.Searching}</p>
+                                </div>
+                            </template>
+
+                            <!-- Sem Resultados -->
+                            <template if:true={noTasksFound}>
+                                <div class="slds-text-align_center slds-p-around_large">
+                                    <lightning-icon icon-name="utility:search" size="large" class="slds-text-color_weak"></lightning-icon>
+                                    <p class="slds-m-top_small slds-text-body_regular slds-text-color_weak">
+                                        {label.NoTasksFound}
+                                    </p>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+
+                    <Template if:true={isContact}>
+                        <lightning-record-picker label={label.ContactRecord} object-api-name="Contact" value={selectedTargetId}
+                            onchange={handleTargetChange} matching-info={matchingInfoContact}
+                            display-info={displayInfoContact}>
+                        </lightning-record-picker>
+                    </Template>
+
+                </div>
+
+                <footer class="slds-modal__footer">
+                    <lightning-button label={label.CANCEL} onclick={closeReassignModal}></lightning-button>
+                    <lightning-button variant="brand" label={label.REASSIGN} onclick={confirmReassign}
+                        disabled={disableConfirm}>
+                    </lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+
+    <template if:true={showDeleteConfirmModal}>
+        <section role="dialog" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">{label.ConfirmDeletion}</h2>
+                    <button class="slds-button slds-button_icon slds-modal__close" onclick={handleCancelDelete}>
+                        <lightning-icon icon-name="utility:close" alternative-text={label.CANCEL}></lightning-icon>
+                    </button>
+                </header>
+
+                <div class="slds-modal__content slds-p-around_medium">
+                    <p>{label.ConfirmDeleteMessage}</p>
+                    <ul>
+                        <template for:each={documentsToDelete} for:item="doc">
+                            <li key={doc.ContentDocumentId}>{doc.Title}</li>
+                        </template>
+                    </ul>
+                </div>
+
+                <footer class="slds-modal__footer">
+                    <lightning-button label={label.CANCEL} onclick={handleCancelDelete}></lightning-button>
+                    <lightning-button variant="destructive" label={label.Yes}
+                        onclick={handleConfirmDelete}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+
+
+    <template if:true={showEmailModal}>
+        <c-email-composer record-id={recordId} files={emailFiles} onclose={handleCloseEmailModal}
+            onsent={handleEmailSent}>
+        </c-email-composer>
+    </template>
+
+</template>

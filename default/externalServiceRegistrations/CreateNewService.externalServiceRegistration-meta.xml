@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>CreateNewService</label>
+    <namedCredentialReference>CreateNewService</namedCredentialReference>
+    <operations>
+        <active>true</active>
+        <name>postapiservice</name>
+    </operations>
+    <operations>
+        <active>true</active>
+        <name>postapilogin</name>
+    </operations>
+    <registrationProviderType>Custom</registrationProviderType>
+    <schema>openapi: 3.0.0
+info:
+  title: Toolto
+  version: 1.0.0
+servers:
+  - url: https://dev.tooltoelba.es
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+paths:
+  /api/login:
+    post:
+      tags:
+        - default
+      summary: Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                  example: testes@mk-is.pt
+                password:
+                  type: string
+                  example: teste123
+              x-apex-values: true
+      responses:
+        &apos;200&apos;:
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Bienvenido de Nuevo
+                  data:
+                    type: string
+                    example: 9|Rxgm5tgwsGcCwKKGYik87XsEvZnIoTCd7OmCoEgY90cd9d4c
+  /api/service:
+    post:
+      tags:
+        - default
+      summary: New Service
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - service_number
+                - process_number
+                - provider_vat_number
+                - provider_email
+                - provider_name
+              properties:
+                service_number:
+                  type: string
+                  example: &apos;1&apos;
+                process_number:
+                  type: string
+                  example: &apos;2&apos;
+                provider_vat_number:
+                  type: string
+                  example: &apos;3&apos;
+                provider_email: 
+                  type: string
+                  example: &apos;4&apos;
+                provider_name:
+                  type: string
+                  example: &apos;5&apos;
+      security:
+        - bearerAuth: []
+      responses:
+        &apos;200&apos;:
+          description: OK
+          headers:
+            Alt-Svc:
+              schema:
+                type: string
+                example: h3=&quot;:443&quot;; ma=2592000
+            Cache-Control:
+              schema:
+                type: string
+                example: no-cache, private
+            Content-Encoding:
+              schema:
+                type: string
+                example: br
+            Content-Type:
+              schema:
+                type: string
+                example: application/json
+            Cross-Origin-Embedder-Policy:
+              schema:
+                type: string
+                example: unsafe-none
+            Cross-Origin-Opener-Policy:
+              schema:
+                type: string
+                example: unsafe-none
+            Cross-Origin-Resource-Policy:
+              schema:
+                type: string
+                example: cross-origin
+            Date:
+              schema:
+                type: string
+                example: Thu, 12 Jun 2025 10:05:18 GMT
+            Link:
+              schema:
+                type: string
+                example: &gt;-
+                  &lt;https://dev.tooltoelba.es/build/assets/app-CM4rcpO3.css&gt;;
+                  rel=&quot;preload&quot;; as=&quot;style&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/Login-CqZ_0Sl8.css&gt;;
+                  rel=&quot;preload&quot;; as=&quot;style&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/app-Ckm__f2d.js&gt;;
+                  rel=&quot;modulepreload&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/Login-DQ2UCn7B.js&gt;;
+                  rel=&quot;modulepreload&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/TextInput-BAWrrO2q.js&gt;;
+                  rel=&quot;modulepreload&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/PrimaryButton-D8syGl97.js&gt;;
+                  rel=&quot;modulepreload&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/flash-messages-Buy_ezRO.js&gt;;
+                  rel=&quot;modulepreload&quot;,
+                  &lt;https://dev.tooltoelba.es/build/assets/_plugin-vue_export-helper-DlAUqK2U.js&gt;;
+                  rel=&quot;modulepreload&quot;
+            Permissions-Policy:
+              schema:
+                type: string
+                example: &gt;-
+                  accelerometer=(self), ambient-light-sensor=(self),
+                  attribution-reporting=*, autoplay=(self), bluetooth=(self),
+                  browsing-topics=*, camera=(self), compute-pressure=(self),
+                  cross-origin-isolated=(self), display-capture=(self),
+                  document-domain=*, encrypted-media=(self), fullscreen=(self),
+                  gamepad=(self), geolocation=(self), gyroscope=(self),
+                  hid=(self), identity-credentials-get=(self),
+                  idle-detection=(self), local-fonts=(self),
+                  magnetometer=(self), microphone=(self), midi=(self),
+                  otp-credentials=(self), payment=(self), picture-in-picture=*,
+                  publickey-credentials-create=(self),
+                  publickey-credentials-get=(self), screen-wake-lock=(self),
+                  serial=(self), speaker-selection=(self), storage-access=*,
+                  usb=(self), web-share=(self), window-management=(self),
+                  xr-spatial-tracking=(self)
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            Server:
+              schema:
+                type: string
+                example: Caddy
+            Set-Cookie:
+              schema:
+                type: string
+                example: &gt;-
+                  tooltoima_session=eyJpdiI6InJDQUsxellDV2I1bmRReFUyT2NzTHc9PSIsInZhbHVlIjoieGg5cUQzMjZrNkFYeUlydWhHdThYY0FCME1TVjJ6VE9DU1hxN1hSZ2tnVVRBRkR6UWpOZUxwS05EcWhUL0toVEpaVjQyb2l2SWdRN0kxU0lpbUQxUloyRnhYc2Z1R3ZnRFkxa05FRnUyNWhNcmQwdHFHczVLSGo0dS8xVnVHQ24iLCJtYWMiOiIwZGE5ODA0YmY4OTk5NTk4ZjNmZWIxOTY2ZWJhOTgwZDU3ZTJlZjI0NTY4Mzg4ODU5YjE2MjM5ZmY5YzlmYzQyIiwidGFnIjoiIn0%3D;
+                  expires=Thu, 12 Jun 2025 12:05:18 GMT; Max-Age=7200; path=/;
+                  domain=.tooltoelba.es; secure; httponly; samesite=strict
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Frame-Options:
+              schema:
+                type: string
+                example: sameorigin
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Transfer-Encoding:
+              schema:
+                type: string
+                example: chunked
+          content:
+            application/json:
+              schema:
+                type: object
+              example: {}</schema>
+    <schemaType>OpenApi3</schemaType>
+    <serviceBinding>{&quot;host&quot;:&quot;dev.tooltoelba.es&quot;,&quot;basePath&quot;:&quot;&quot;,&quot;allowedSchemes&quot;:[&quot;HTTPS&quot;],&quot;requestMediaTypes&quot;:[],&quot;responseMediaTypes&quot;:[],&quot;compatibleMediaTypes&quot;:{},&quot;extensions&quot;:{}}</serviceBinding>
+    <status>Complete</status>
+    <systemVersion>6</systemVersion>
+</ExternalServiceRegistration>

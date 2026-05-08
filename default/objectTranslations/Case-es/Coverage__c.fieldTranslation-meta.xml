@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Cobertura</label>
+    <name>Coverage__c</name>
+    <picklistValues>
+        <masterLabel>Contenido</masterLabel>
+        <translation><!-- Contenido --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continente</masterLabel>
+        <translation><!-- Continente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Esteticos contenido</masterLabel>
+        <translation><!-- Esteticos contenido --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Esteticos continente</masterLabel>
+        <translation><!-- Esteticos continente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RC</masterLabel>
+        <translation><!-- RC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

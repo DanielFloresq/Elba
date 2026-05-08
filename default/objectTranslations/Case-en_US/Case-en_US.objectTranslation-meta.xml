@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Claim</layout>
+        <sections>
+            <label><!-- Enlaces Personalizados --></label>
+            <section>Enlaces Personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- RESUMEN SINIESTRO --></label>
+            <section>RESUMEN SINIESTRO</section>
+        </sections>
+        <sections>
+            <label><!-- Reabrir información --></label>
+            <section>Reabrir información</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- CABECERA SINIESTRO --></label>
+        <name>CABECERASINIESTRO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CloseCaseLightning --></label>
+        <name>CloseCaseLightning</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close the Case --></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Implicados --></label>
+        <name>CreateImplicados</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Service --></label>
+        <name>CreateNewService</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>CreateSolicitation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Solitation --></label>
+        <name>CreateSolitation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Comment --></label>
+        <name>NewComment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reabrir el Caso --></label>
+        <name>ReopenCaseAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Case --></label>
+        <name>ReopenClaim</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Claim --></label>
+        <name>Claim</name>
+    </recordTypes>
+</CustomObjectTranslation>

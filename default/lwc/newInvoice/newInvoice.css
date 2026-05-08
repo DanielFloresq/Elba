@@ -1,0 +1,73 @@
+/* ── Service table container ─────────────────────────────────────────── */
+.service-table-container {
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* ── Order group header ──────────────────────────────────────────────── */
+.order-group-header {
+    background-color: #f3f2f2;
+    border-bottom: 1px solid #dddbda;
+}
+
+.order-group-header .slds-text-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #706e6b;
+}
+
+.order-group-header .slds-text-body_regular {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #080707;
+    margin-top: 2px;
+}
+
+/* ── Services table ──────────────────────────────────────────────────── */
+.service-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.service-table thead tr {
+    background-color: #fafaf9;
+}
+
+.service-table thead th {
+    color: #706e6b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #dddbda;
+}
+
+.service-table tbody tr:hover {
+    background-color: #f3f2f2;
+}
+
+.service-table tbody td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e4e2df;
+    font-size: 0.875rem;
+    vertical-align: middle;
+}
+
+.col-check {
+    width: 2.5rem;
+    text-align: center;
+}
+
+.service-name {
+    color: #0176d3;
+    font-weight: 500;
+}
+
+.amount-total {
+    font-weight: 700;
+    color: #080707;
+}

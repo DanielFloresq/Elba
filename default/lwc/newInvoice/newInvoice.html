@@ -1,0 +1,188 @@
+<!--
+  @description New Invoice component – Quick Action on the Order record page.
+               Shows services related to the order (excluding already-invoiced guilds)
+               and creates a single Invoice__c record with the selected guilds.
+  @author      Daniel Flores
+  @group       Invoice
+  @last modified on  : 28-04-2026
+-->
+<template>
+
+    <template if:true={isLoading}>
+        <div class="slds-align_absolute-center slds-p-vertical_large">
+            <lightning-spinner alternative-text="A carregar..." size="medium"></lightning-spinner>
+        </div>
+    </template>
+
+    <template if:false={isLoading}>
+
+        <!-- Header -->
+        <div class="slds-modal__header">
+            <h2 class="slds-modal__title slds-hyphenate">{labels.title}</h2>
+        </div>
+
+        <div class="slds-p-around_medium">
+
+            <!-- Encargo relacionado -->
+            <div class="slds-form-element slds-m-bottom_small">
+                <label class="slds-form-element__label">{labels.relatedOrder}</label>
+                <div class="slds-form-element__control">
+                    <lightning-input
+                        value={orderName}
+                        disabled
+                        label={labels.relatedOrder}
+                        variant="label-hidden"
+                    ></lightning-input>
+                </div>
+            </div>
+
+            <!-- Account -->
+            <div class="slds-form-element slds-m-bottom_medium">
+                <label class="slds-form-element__label">{labels.account}</label>
+                <div class="slds-form-element__control">
+                    <lightning-input
+                        value={accountName}
+                        disabled
+                        label={labels.account}
+                        variant="label-hidden"
+                    ></lightning-input>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <p class="slds-text-body_small slds-m-bottom_small">
+                {labels.instructions}
+            </p>
+
+            <!-- Service selection error -->
+            <template if:true={showServiceError}>
+                <p class="slds-form-error slds-m-bottom_x-small">{labels.errorSelectService}</p>
+            </template>
+
+            <!-- Services table -->
+            <template if:true={hasServices}>
+                <div class="service-table-container">
+
+                    <!-- Order group header -->
+                    <div class="order-group-header slds-grid slds-wrap slds-p-around_small">
+                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_xx-small">
+                            <span class="slds-text-heading_small">Encargo {orderName}</span>
+                        </div>
+                        <div class="slds-col slds-size_1-of-4">
+                            <span class="slds-text-title slds-text-color_weak">{labels.headerOrderNumber}</span>
+                            <p class="slds-text-body_regular slds-text-color_default">{orderName}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-4">
+                            <span class="slds-text-title slds-text-color_weak">{labels.headerGuild}</span>
+                            <p class="slds-text-body_regular slds-text-color_default">{orderGuild}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-4">
+                            <span class="slds-text-title slds-text-color_weak">{labels.headerProviderType}</span>
+                            <p class="slds-text-body_regular slds-text-color_default">{orderProviderType}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-4">
+                            <span class="slds-text-title slds-text-color_weak">{labels.headerType}</span>
+                            <p class="slds-text-body_regular slds-text-color_default">{orderType}</p>
+                        </div>
+                    </div>
+
+                    <!-- Service rows table -->
+                    <table class="slds-table slds-table_cell-buffer slds-no-row-hover service-table">
+                        <thead>
+                            <tr class="slds-line-height_reset">
+                                <th class="col-check" scope="col">
+                                    <lightning-input
+                                        type="checkbox"
+                                        label={labels.selectAll}
+                                        variant="label-hidden"
+                                        checked={allSelected}
+                                        onchange={handleSelectAll}
+                                    ></lightning-input>
+                                </th>
+                                <th scope="col"><div class="slds-truncate slds-text-title_caps">{labels.colName}</div></th>
+                                <th scope="col"><div class="slds-truncate slds-text-title_caps">{labels.colType}</div></th>
+                                <th scope="col"><div class="slds-truncate slds-text-title_caps">{labels.colStakeholder}</div></th>
+                                <th scope="col" class="slds-text-align_right"><div class="slds-truncate slds-text-title_caps">{labels.colBaseAmount}</div></th>
+                                <th scope="col" class="slds-text-align_right"><div class="slds-truncate slds-text-title_caps">{labels.colVATAmount}</div></th>
+                                <th scope="col" class="slds-text-align_right"><div class="slds-truncate slds-text-title_caps">{labels.colTotalAmount}</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template for:each={services} for:item="svc">
+                                <tr key={svc.id} class="slds-hint-parent">
+                                    <td class="col-check">
+                                        <lightning-input
+                                            type="checkbox"
+                                            label={svc.name}
+                                            variant="label-hidden"
+                                            data-id={svc.id}
+                                            checked={svc.selected}
+                                            onchange={handleRowSelect}
+                                        ></lightning-input>
+                                    </td>
+                                    <td>
+                                        <div class="slds-truncate service-name">{svc.name}</div>
+                                    </td>
+                                    <td>
+                                        <div class="slds-truncate">{svc.typeName}</div>
+                                    </td>
+                                    <td>
+                                        <div class="slds-truncate">{svc.stakeholderName}</div>
+                                    </td>
+                                    <td class="slds-text-align_right">
+                                        <lightning-formatted-number
+                                            value={svc.totalAmount}
+                                            format-style="currency"
+                                            currency-code="EUR"
+                                            maximum-fraction-digits="2"
+                                        ></lightning-formatted-number>
+                                    </td>
+                                    <td class="slds-text-align_right">
+                                        <lightning-formatted-number
+                                            value={svc.vatAmount}
+                                            format-style="currency"
+                                            currency-code="EUR"
+                                            maximum-fraction-digits="2"
+                                        ></lightning-formatted-number>
+                                    </td>
+                                    <td class="slds-text-align_right amount-total">
+                                        <lightning-formatted-number
+                                            value={svc.totalAmountWithVAT}
+                                            format-style="currency"
+                                            currency-code="EUR"
+                                            maximum-fraction-digits="2"
+                                        ></lightning-formatted-number>
+                                    </td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </template>
+
+            <template if:false={hasServices}>
+                <div class="slds-box slds-theme_shade slds-align_a  bsolute-center slds-p-vertical_medium slds-m-top_x-small">
+                    <p class="slds-text-color_weak">{labels.noServices}</p>
+                </div>
+            </template>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="slds-modal__footer">
+            <lightning-button
+                label={labels.cancel}
+                onclick={closeModal}
+                class="slds-m-right_x-small"
+            ></lightning-button>
+            <lightning-button
+                variant="brand"
+                label={labels.save}
+                icon-name="utility:check"
+                onclick={handleSave}
+            ></lightning-button>
+        </div>
+
+    </template>
+
+</template>

@@ -1,0 +1,17 @@
+<!--
+  @description       : 
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 08-01-2026
+  @last modified by  : Daniel Flores
+-->
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    <aura:attribute name="selectedDocumentIds" type="List" default="[]"/>
+
+    <lightning:quickActionAPI aura:id="quickActionAPI"/>
+
+    <!-- Inclui o teu LWC -->
+    <c:documentManager 
+        recordId="{!v.recordId}" 
+        ondocumentsselected="{!c.handleDocumentsSelected}"/>
+</aura:component>

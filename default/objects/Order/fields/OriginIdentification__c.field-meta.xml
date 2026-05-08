@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OriginIdentification__c</fullName>
+    <label>Origin Identification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Domestic activities</fullName>
+                <default>false</default>
+                <label>Domestic activities</label>
+            </value>
+            <value>
+                <fullName>Appliance older than 10 years</fullName>
+                <default>false</default>
+                <label>Appliance older than 10 years</label>
+            </value>
+            <value>
+                <fullName>Telephony, image, sound and IT equipment</fullName>
+                <default>false</default>
+                <label>Telephony, image, sound and IT equipment</label>
+            </value>
+            <value>
+                <fullName>Drain blockage with damage</fullName>
+                <default>false</default>
+                <label>Drain blockage with damage</label>
+            </value>
+            <value>
+                <fullName>Manhole or well blockage</fullName>
+                <default>false</default>
+                <label>Manhole or well blockage</label>
+            </value>
+            <value>
+                <fullName>Community blockage</fullName>
+                <default>false</default>
+                <label>Community blockage</label>
+            </value>
+            <value>
+                <fullName>Drain blockage without damage</fullName>
+                <default>false</default>
+                <label>Drain blockage without damage</label>
+            </value>
+            <value>
+                <fullName>Terrace blockage</fullName>
+                <default>false</default>
+                <label>Terrace blockage</label>
+            </value>
+            <value>
+                <fullName>Blockage, cleaning, obstructions</fullName>
+                <default>false</default>
+                <label>Blockage, cleaning, obstructions</label>
+            </value>
+            <value>
+                <fullName>Generic breakdown</fullName>
+                <default>false</default>
+                <label>Generic breakdown</label>
+            </value>
+            <value>
+                <fullName>Mechanical and electrical breakdown</fullName>
+                <default>false</default>
+                <label>Mechanical and electrical breakdown</label>
+            </value>
+            <value>
+                <fullName>Glass railings and steps</fullName>
+                <default>false</default>
+                <label>Glass railings and steps</label>
+            </value>
+            <value>
+                <fullName>Electric bicycle, electric scooter</fullName>
+                <default>false</default>
+                <label>Electric bicycle, electric scooter</label>
+            </value>
+            <value>
+                <fullName>Paving blocks</fullName>
+                <default>false</default>
+                <label>Paving blocks</label>
+            </value>
+            <value>
+                <fullName>Fall of aerolites/aircraft</fullName>
+                <default>false</default>
+                <label>Fall of aerolites/aircraft</label>
+            </value>
+            <value>
+                <fullName>Falling trees, poles and antennas</fullName>
+                <default>false</default>
+                <label>Falling trees, poles and antennas</label>
+            </value>
+            <value>
+                <fullName>Capillarity</fullName>
+                <default>false</default>
+                <label>Capillarity</label>
+            </value>
+            <value>
+                <fullName>Accidental cause: fall, impact and liquid spill</fullName>
+                <default>false</default>
+                <label>Accidental cause: fall, impact and liquid spill</label>
+            </value>
+            <value>
+                <fullName>Animal collision</fullName>
+                <default>false</default>
+                <label>Animal collision</label>
+            </value>
+            <value>
+                <fullName>Vehicle collision</fullName>
+                <default>false</default>
+                <label>Vehicle collision</label>
+            </value>
+            <value>
+                <fullName>Condensation</fullName>
+                <default>false</default>
+                <label>Condensation</label>
+            </value>
+            <value>
+                <fullName>Corrosion</fullName>
+                <default>false</default>
+                <label>Corrosion</label>
+            </value>
+            <value>
+                <fullName>Corrosion, oxidation</fullName>
+                <default>false</default>
+                <label>Corrosion, oxidation</label>
+            </value>
+            <value>
+                <fullName>Short circuit in home installation</fullName>
+                <default>false</default>
+                <label>Short circuit in home installation</label>
+            </value>
+            <value>
+                <fullName>Door glass</fullName>
+                <default>false</default>
+                <label>Door glass</label>
+            </value>
+            <value>
+                <fullName>Window glass</fullName>
+                <default>false</default>
+                <label>Window glass</label>
+            </value>
+            <value>
+                <fullName>Furniture glass/mirrors and methacrylates</fullName>
+                <default>false</default>
+                <label>Furniture glass/mirrors and methacrylates</label>
+            </value>
+            <value>
+                <fullName>Home glass/mirrors and methacrylates</fullName>
+                <default>false</default>
+                <label>Home glass/mirrors and methacrylates</label>
+            </value>
+            <value>
+                <fullName>Construction defect</fullName>
+                <default>false</default>
+                <label>Construction defect</label>
+            </value>
+            <value>
+                <fullName>Aesthetic defect</fullName>
+                <default>false</default>
+                <label>Aesthetic defect</label>
+            </value>
+            <value>
+                <fullName>Manufacturing defect</fullName>
+                <default>false</default>
+                <label>Manufacturing defect</label>
+            </value>
+            <value>
+                <fullName>Installation defect</fullName>
+                <default>false</default>
+                <label>Installation defect</label>
+            </value>
+            <value>
+                <fullName>Aesthetic defects</fullName>
+                <default>false</default>
+                <label>Aesthetic defects</label>
+            </value>
+            <value>
+                <fullName>Manufacturer defects</fullName>
+                <default>false</default>
+                <label>Manufacturer defects</label>
+            </value>
+            <value>
+                <fullName>Defects due to exposure to FM</fullName>
+                <default>false</default>
+                <label>Defects due to exposure to FM</label>
+            </value>
+            <value>
+                <fullName>Defects due to supply failure</fullName>
+                <default>false</default>
+                <label>Defects due to supply failure</label>
+            </value>
+            <value>
+                <fullName>Spills in fire extinguishing installations (building)</fullName>
+                <default>false</default>
+                <label>Spills in fire extinguishing installations (building)</label>
+            </value>
+            <value>
+                <fullName>Chipping</fullName>
+                <default>false</default>
+                <label>Chipping</label>
+            </value>
+            <value>
+                <fullName>Wearable, deteriorable elements</fullName>
+                <default>false</default>
+                <label>Wearable, deteriorable elements</label>
+            </value>
+            <value>
+                <fullName>Shop window</fullName>
+                <default>false</default>
+                <label>Shop window</label>
+            </value>
+            <value>
+                <fullName>Appliance leaks</fullName>
+                <default>false</default>
+                <label>Appliance leaks</label>
+            </value>
+            <value>
+                <fullName>Lack of maintenance</fullName>
+                <default>false</default>
+                <label>Lack of maintenance</label>
+            </value>
+            <value>
+                <fullName>Lack of maintenance and use - short circuit</fullName>
+                <default>false</default>
+                <label>Lack of maintenance and use - short circuit</label>
+            </value>
+            <value>
+                <fullName>Tile seepage</fullName>
+                <default>false</default>
+                <label>Tile seepage</label>
+            </value>
+            <value>
+                <fullName>Skylight seepage</fullName>
+                <default>false</default>
+                <label>Skylight seepage</label>
+            </value>
+            <value>
+                <fullName>Facade/roof seepage</fullName>
+                <default>false</default>
+                <label>Facade/roof seepage</label>
+            </value>
+            <value>
+                <fullName>Bathtub joint seepage</fullName>
+                <default>false</default>
+                <label>Bathtub joint seepage</label>
+            </value>
+            <value>
+                <fullName>Gas, butane and flammable products</fullName>
+                <default>false</default>
+                <label>Gas, butane and flammable products</label>
+            </value>
+            <value>
+                <fullName>Continuous radiator leak</fullName>
+                <default>false</default>
+                <label>Continuous radiator leak</label>
+            </value>
+            <value>
+                <fullName>Continuous hose leak</fullName>
+                <default>false</default>
+                <label>Continuous hose leak</label>
+            </value>
+            <value>
+                <fullName>Hail</fullName>
+                <default>false</default>
+                <label>Hail</label>
+            </value>
+            <value>
+                <fullName>Frost</fullName>
+                <default>false</default>
+                <label>Frost</label>
+            </value>
+            <value>
+                <fullName>Smoke</fullName>
+                <default>false</default>
+                <label>Smoke</label>
+            </value>
+            <value>
+                <fullName>Impact</fullName>
+                <default>false</default>
+                <label>Impact</label>
+            </value>
+            <value>
+                <fullName>Fire</fullName>
+                <default>false</default>
+                <label>Fire</label>
+            </value>
+            <value>
+                <fullName>Appliance fire including computer, TV, coffee maker…</fullName>
+                <default>false</default>
+                <label>Appliance fire including computer, TV, coffee maker…</label>
+            </value>
+            <value>
+                <fullName>Home electrical installation short circuit</fullName>
+                <default>false</default>
+                <label>Home electrical installation short circuit</label>
+            </value>
+            <value>
+                <fullName>Installation does not comply with regulations</fullName>
+                <default>false</default>
+                <label>Installation does not comply with regulations</label>
+            </value>
+            <value>
+                <fullName>Flood</fullName>
+                <default>false</default>
+                <label>Flood</label>
+            </value>
+            <value>
+                <fullName>Rain</fullName>
+                <default>false</default>
+                <label>Rain</label>
+            </value>
+            <value>
+                <fullName>Shower screen</fullName>
+                <default>false</default>
+                <label>Shower screen</label>
+            </value>
+            <value>
+                <fullName>Structural movements</fullName>
+                <default>false</default>
+                <label>Structural movements</label>
+            </value>
+            <value>
+                <fullName>Structural movements/cracks</fullName>
+                <default>false</default>
+                <label>Structural movements/cracks</label>
+            </value>
+            <value>
+                <fullName>Ground movements</fullName>
+                <default>false</default>
+                <label>Ground movements</label>
+            </value>
+            <value>
+                <fullName>Snow</fullName>
+                <default>false</default>
+                <label>Snow</label>
+            </value>
+            <value>
+                <fullName>Omission of taps</fullName>
+                <default>false</default>
+                <label>Omission of taps</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Outdoor polycarbonate and methacrylate, pergolas, pool covers, terrace covers</fullName>
+                <default>false</default>
+                <label>Outdoor polycarbonate and methacrylate, pergolas, pool covers, terrace covers</label>
+            </value>
+            <value>
+                <fullName>Tree roots</fullName>
+                <default>false</default>
+                <label>Tree roots</label>
+            </value>
+            <value>
+                <fullName>Lightning</fullName>
+                <default>false</default>
+                <label>Lightning</label>
+            </value>
+            <value>
+                <fullName>Signboard</fullName>
+                <default>false</default>
+                <label>Signboard</label>
+            </value>
+            <value>
+                <fullName>Community downpipe breakage</fullName>
+                <default>false</default>
+                <label>Community downpipe breakage</label>
+            </value>
+            <value>
+                <fullName>Appliance glass breakage</fullName>
+                <default>false</default>
+                <label>Appliance glass breakage</label>
+            </value>
+            <value>
+                <fullName>Ceramic hob glass breakage</fullName>
+                <default>false</default>
+                <label>Ceramic hob glass breakage</label>
+            </value>
+            <value>
+                <fullName>Hose breakage</fullName>
+                <default>false</default>
+                <label>Hose breakage</label>
+            </value>
+            <value>
+                <fullName>Radiator breakage</fullName>
+                <default>false</default>
+                <label>Radiator breakage</label>
+            </value>
+            <value>
+                <fullName>Breakage in third-party installation</fullName>
+                <default>false</default>
+                <label>Breakage in third-party installation</label>
+            </value>
+            <value>
+                <fullName>Pipe breakage with damage</fullName>
+                <default>false</default>
+                <label>Pipe breakage with damage</label>
+            </value>
+            <value>
+                <fullName>Pipe breakage without damage</fullName>
+                <default>false</default>
+                <label>Pipe breakage without damage</label>
+            </value>
+            <value>
+                <fullName>Accidental breakage of sanitary fixtures/sinks</fullName>
+                <default>false</default>
+                <label>Accidental breakage of sanitary fixtures/sinks</label>
+            </value>
+            <value>
+                <fullName>Marble countertop breakage in bathroom and kitchen</fullName>
+                <default>false</default>
+                <label>Marble countertop breakage in bathroom and kitchen</label>
+            </value>
+            <value>
+                <fullName>Heating and combustion systems, boiler, stove, fireplace</fullName>
+                <default>false</default>
+                <label>Heating and combustion systems, boiler, stove, fireplace</label>
+            </value>
+            <value>
+                <fullName>Overvoltage caused by public grid</fullName>
+                <default>false</default>
+                <label>Overvoltage caused by public grid</label>
+            </value>
+            <value>
+                <fullName>Earthquake</fullName>
+                <default>false</default>
+                <label>Earthquake</label>
+            </value>
+            <value>
+                <fullName>Use</fullName>
+                <default>false</default>
+                <label>Use</label>
+            </value>
+            <value>
+                <fullName>Abnormal, negligent or inappropriate use</fullName>
+                <default>false</default>
+                <label>Abnormal, negligent or inappropriate use</label>
+            </value>
+            <value>
+                <fullName>Use, wear and deterioration</fullName>
+                <default>false</default>
+                <label>Use, wear and deterioration</label>
+            </value>
+            <value>
+                <fullName>Wind</fullName>
+                <default>false</default>
+                <label>Wind</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Descripción del declarante</label>
+    <name>ClaimantDescription__c</name>
+    <picklistValues>
+        <masterLabel>Child</masterLabel>
+        <translation>Hijo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family</masterLabel>
+        <translation>Familiar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insured</masterLabel>
+        <translation>Asegurado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mediator</masterLabel>
+        <translation>Mediador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office</masterLabel>
+        <translation>Oficina</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spouse</masterLabel>
+        <translation>Cónyuge</translation>
+    </picklistValues>
+</CustomFieldTranslation>

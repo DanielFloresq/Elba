@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marcadores__c</fullName>
+    <label>Marcadores</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>M0001</fullName>
+                <default>false</default>
+                <label>TCA 13-15/01/2010</label>
+            </value>
+            <value>
+                <fullName>M0002</fullName>
+                <default>false</default>
+                <label>TCA 16-18/02/2010</label>
+            </value>
+            <value>
+                <fullName>M0003</fullName>
+                <default>false</default>
+                <label>TCA 26 28/02/2010</label>
+            </value>
+            <value>
+                <fullName>M0004</fullName>
+                <default>false</default>
+                <label>SINI. REHUSADO</label>
+            </value>
+            <value>
+                <fullName>M0005</fullName>
+                <default>false</default>
+                <label>CORROSION</label>
+            </value>
+            <value>
+                <fullName>M0006</fullName>
+                <default>false</default>
+                <label>TRAMIT. FIJO</label>
+            </value>
+            <value>
+                <fullName>M0007</fullName>
+                <default>false</default>
+                <label>CONVENIO</label>
+            </value>
+            <value>
+                <fullName>M0008</fullName>
+                <default>false</default>
+                <label>REASEGURO</label>
+            </value>
+            <value>
+                <fullName>M0009</fullName>
+                <default>false</default>
+                <label>INFRASEGURO</label>
+            </value>
+            <value>
+                <fullName>M0010</fullName>
+                <default>false</default>
+                <label>TCA CONSORCIO</label>
+            </value>
+            <value>
+                <fullName>M0011</fullName>
+                <default>false</default>
+                <label>KLAUS 2009</label>
+            </value>
+            <value>
+                <fullName>M0012</fullName>
+                <default>false</default>
+                <label>TCA GONG</label>
+            </value>
+            <value>
+                <fullName>M0013</fullName>
+                <default>false</default>
+                <label>SINIESTRO SCC</label>
+            </value>
+            <value>
+                <fullName>M0014</fullName>
+                <default>false</default>
+                <label>RECLA. ORIGEN</label>
+            </value>
+            <value>
+                <fullName>M0015</fullName>
+                <default>false</default>
+                <label>TCA DIRK</label>
+            </value>
+            <value>
+                <fullName>M0016</fullName>
+                <default>false</default>
+                <label>CONTROL CUMULO</label>
+            </value>
+            <value>
+                <fullName>M0017</fullName>
+                <default>false</default>
+                <label>TCA KURT</label>
+            </value>
+            <value>
+                <fullName>M0018</fullName>
+                <default>false</default>
+                <label>MARC. USE</label>
+            </value>
+            <value>
+                <fullName>M0019</fullName>
+                <default>false</default>
+                <label>TCA-ANA</label>
+            </value>
+            <value>
+                <fullName>M0020</fullName>
+                <default>false</default>
+                <label>ARAG</label>
+            </value>
+            <value>
+                <fullName>M0021</fullName>
+                <default>false</default>
+                <label>ALTA AUS AGE</label>
+            </value>
+            <value>
+                <fullName>M0022</fullName>
+                <default>false</default>
+                <label>ALTA AUS COR</label>
+            </value>
+            <value>
+                <fullName>M0023</fullName>
+                <default>false</default>
+                <label>ALTA AUS COC</label>
+            </value>
+            <value>
+                <fullName>M0024</fullName>
+                <default>false</default>
+                <label>ALTA AUS EMP</label>
+            </value>
+            <value>
+                <fullName>M0025</fullName>
+                <default>false</default>
+                <label>ALTA AUS BEC</label>
+            </value>
+            <value>
+                <fullName>M0026</fullName>
+                <default>false</default>
+                <label>TCA GLORIA</label>
+            </value>
+            <value>
+                <fullName>M0027</fullName>
+                <default>false</default>
+                <label>SOLICITADO VT EN ALTA</label>
+            </value>
+            <value>
+                <fullName>M0028</fullName>
+                <default>false</default>
+                <label>TCA1:11/12/2019</label>
+            </value>
+            <value>
+                <fullName>M0029</fullName>
+                <default>false</default>
+                <label>TCA2:16/12/2019 Daniel</label>
+            </value>
+            <value>
+                <fullName>M0030</fullName>
+                <default>false</default>
+                <label>TCA3:18/1/2020 Gloria</label>
+            </value>
+            <value>
+                <fullName>M0031</fullName>
+                <default>false</default>
+                <label>TCA4:22/2/2020 Canarias</label>
+            </value>
+            <value>
+                <fullName>M0032</fullName>
+                <default>false</default>
+                <label>TCA5:27/2/2020 Jorge</label>
+            </value>
+            <value>
+                <fullName>M0033</fullName>
+                <default>false</default>
+                <label>TCA:SGR CCS</label>
+            </value>
+            <value>
+                <fullName>M0034</fullName>
+                <default>false</default>
+                <label>SOL. ABONO FACTURA</label>
+            </value>
+            <value>
+                <fullName>M0035</fullName>
+                <default>false</default>
+                <label>FILOMENA</label>
+            </value>
+            <value>
+                <fullName>M0036</fullName>
+                <default>false</default>
+                <label>ALTA FRECUENCIA</label>
+            </value>
+            <value>
+                <fullName>M0037</fullName>
+                <default>false</default>
+                <label>ANTECEDENTES CORROSION</label>
+            </value>
+            <value>
+                <fullName>M0038</fullName>
+                <default>false</default>
+                <label>ANTECEDENTES VTS</label>
+            </value>
+            <value>
+                <fullName>M0039</fullName>
+                <default>false</default>
+                <label>TCA 19/01/2021 Gaetan-Hortenese-Ignacio</label>
+            </value>
+            <value>
+                <fullName>M0040</fullName>
+                <default>false</default>
+                <label>IRIS</label>
+            </value>
+            <value>
+                <fullName>M0041</fullName>
+                <default>false</default>
+                <label>VTS CONFIRMADO</label>
+            </value>
+            <value>
+                <fullName>M0042</fullName>
+                <default>false</default>
+                <label>TCA 14/01/2023 FGH</label>
+            </value>
+            <value>
+                <fullName>M0043</fullName>
+                <default>false</default>
+                <label>TCA A-B: 17_24/10/23 Aline-Bernard</label>
+            </value>
+            <value>
+                <fullName>M0044</fullName>
+                <default>false</default>
+                <label>TCA C-D: 01_05/11/23 Ciaran-Domingos</label>
+            </value>
+            <value>
+                <fullName>M0045</fullName>
+                <default>false</default>
+                <label>DANA 29102024</label>
+            </value>
+            <value>
+                <fullName>M0046</fullName>
+                <default>false</default>
+                <label>APAGON 28042025</label>
+            </value>
+            <value>
+                <fullName>M0047</fullName>
+                <default>false</default>
+                <label>EX-KIRK 6_9-10-2024</label>
+            </value>
+            <value>
+                <fullName>M0048</fullName>
+                <default>false</default>
+                <label>RECLA-SAC-SIN</label>
+            </value>
+            <value>
+                <fullName>M0049</fullName>
+                <default>false</default>
+                <label>RECLA-SAC-CLI</label>
+            </value>
+            <value>
+                <fullName>M0050</fullName>
+                <default>false</default>
+                <label>Poliza anulada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

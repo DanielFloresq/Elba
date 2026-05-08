@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de no Cita</label>
+    <name>NoShowReason__c</name>
+    <picklistValues>
+        <masterLabel>Order Cancellation</masterLabel>
+        <translation>Anulación de encargo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Claimant</masterLabel>
+        <translation>Pendiente de perjudicado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Responsible Party</masterLabel>
+        <translation>Pendiente de causante</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postponed by Customer</masterLabel>
+        <translation>Aplazada por el cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uninsured Risk</masterLabel>
+        <translation>Riesgo no asegurado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Accident</masterLabel>
+        <translation>Accidente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accident Disability</masterLabel>
+        <translation>Invalidez Accidente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accidental Spill</masterLabel>
+        <translation>Derrame Accidental</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accidental Spill First Risk</masterLabel>
+        <translation>Derrame Accidental Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accidental glass breakage</masterLabel>
+        <translation>TR accidental</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activity Civil Liability</masterLabel>
+        <translation>R.C. Actividad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activity Civil Liability (With Employees)</masterLabel>
+        <translation>R.C. Actividad (Con Empleados)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activity Civil Liability (Without Employees)</masterLabel>
+        <translation>R.C. Actividad (Sin Empleados)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aesthetic damage</masterLabel>
+        <translation>Daños estéticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Agricultural Machinery Civil Liability</masterLabel>
+        <translation>R.C. Maquinaria Agricola</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aircraft Fall</masterLabel>
+        <translation>Caida Aparato Aereo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aircraft Fall First Risk</masterLabel>
+        <translation>Caida Aparato Aereo Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aircraft Fall Inventory</masterLabel>
+        <translation>Caida Parato Aereo Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aircraft Fall Total Value</masterLabel>
+        <translation>Caida Aparato Aereo Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aircraft crash</masterLabel>
+        <translation>Caida de aeronaves</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Animal collision</masterLabel>
+        <translation>Choque de animales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Animal liability</masterLabel>
+        <translation>Responsabilidad civil animales RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Animals</masterLabel>
+        <translation>Animales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Annual Traffic Death</masterLabel>
+        <translation>Falle Acc Circulacion Anual</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance glass</masterLabel>
+        <translation>Cristal de electroméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance leak</masterLabel>
+        <translation>Escape de electrodomesticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance repair</masterLabel>
+        <translation>Reparación de electrodomésticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance repair with parts</masterLabel>
+        <translation>Reparación de electrodomésticos CON piezas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance repair without parts</masterLabel>
+        <translation>Reparación de electrodomésticos SIN piezas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliances</masterLabel>
+        <translation>Electrodomésticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>As Dog Owner</masterLabel>
+        <translation>Como Propietario De Perros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Assistance</masterLabel>
+        <translation>Asistencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Athlete</masterLabel>
+        <translation>Deportista</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Benefit For Separation Or Divorce</masterLabel>
+        <translation>Prestacion Por Separacion O Divorcio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bicycles</masterLabel>
+        <translation>Bicicletas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blinds</masterLabel>
+        <translation>Persianas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blockages with damage</masterLabel>
+        <translation>Atascos CON daños</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blockages without damage</masterLabel>
+        <translation>Atascos SIN daños</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boiler Inspection</masterLabel>
+        <translation>Revision De Caldera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boiler leak</masterLabel>
+        <translation>Fuga caldera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boilers and heaters</masterLabel>
+        <translation>Calderas y calentadores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Breach of contracts</masterLabel>
+        <translation>Incumplimiento de contratos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Breakage of ceramic glass</masterLabel>
+        <translation>Rotura de cristal de vitrocerámica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Breakage of fixed sanitary appliances</masterLabel>
+        <translation>Rotura de aparatos sanitarios fijos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Breakage of marble, granite</masterLabel>
+        <translation>Rotura de mármoles, granito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Breaks, Burns, Dislocations</masterLabel>
+        <translation>Quebraduras, Quemaduras, Dislocaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Building Sanitary Ware</masterLabel>
+        <translation>Sanitarios Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Building damage from attempted theft</masterLabel>
+        <translation>Desperfectos continente por intento de robo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carpentry</masterLabel>
+        <translation>Carpinteria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Children</masterLabel>
+        <translation>Hijos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Defense</masterLabel>
+        <translation>Defensa Civil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Basic)</masterLabel>
+        <translation>Responsabilidad Civil (Basica)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Common)</masterLabel>
+        <translation>Responsabilidad Civil (Comunes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Common/Private)</masterLabel>
+        <translation>R.C. (Comunes/Privativas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Frcia 180)</masterLabel>
+        <translation>R.C. (Frcia 180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Frcia 181)</masterLabel>
+        <translation>Responsabilidad Civil (Frcia 181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Frcia 300)</masterLabel>
+        <translation>R.C. (Frcia 300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability (Frcia 301)</masterLabel>
+        <translation>Responsabilidad Civil (Frcia 301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Building</masterLabel>
+        <translation>Responsabilidad Civil Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability C/F</masterLabel>
+        <translation>Responsabilidad Civil C/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Content</masterLabel>
+        <translation>Responsabilidad Civil Contenido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability For Personal Defense</masterLabel>
+        <translation>R.C. Por Defensa Personal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Renovation Works</masterLabel>
+        <translation>Responsabilidad Civil Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability S/F</masterLabel>
+        <translation>Responsabilidad Civil S/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Weather Events</masterLabel>
+        <translation>R. C. Fenomenos Meteor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Works</masterLabel>
+        <translation>Responsabilidad Civil Obras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Claim</masterLabel>
+        <translation>Reclamacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Clothing, Helmet And Gloves</masterLabel>
+        <translation>Ropa, Casco Y Guantes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Water 11-20 Years</masterLabel>
+        <translation>Aguas Comunes De 11 A 20 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Water Frcia 150</masterLabel>
+        <translation>Aguas Comunes Frcia 150</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Water Frcia 300</masterLabel>
+        <translation>Aguas Comunes Frcia 300</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Water Up To 10 Years</masterLabel>
+        <translation>Aguas Comunes Hasta 10 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Windows/Glass</masterLabel>
+        <translation>Lunas Comunes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Windows/Glass (Common/Private)</masterLabel>
+        <translation>Lunas Comunes (Comunes/Privativas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Windows/Glass (Frcia 180)</masterLabel>
+        <translation>Lunas Comunes (Frcia 180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common Windows/Glass (Frcia 300)</masterLabel>
+        <translation>Lunas Comunes (Frcia 300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common/Private Water 11-20 Years</masterLabel>
+        <translation>Aguas Comun/Priv De 11 A 20 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common/Private Water Frcia 150</masterLabel>
+        <translation>Aguas Comun/Priv Frcia 150</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Common/Private Water Up To 10 Years</masterLabel>
+        <translation>Aguas Comun/Priv Hasta 10 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Condensation</masterLabel>
+        <translation>Condensaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumption</masterLabel>
+        <translation>Consumo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Continuous dripping</masterLabel>
+        <translation>Goteo continuado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contract Review And Drafting</masterLabel>
+        <translation>Revision Y Redaccion De Contratos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corrosion</masterLabel>
+        <translation>Corrosión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Criminal Defense</masterLabel>
+        <translation>Defensa Penal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Criminal Defense In Private Life</masterLabel>
+        <translation>Defensa Penal En Su Vida Privada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Daily Compensation</masterLabel>
+        <translation>Indemnizacion Diaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Daily Temporary Disability</masterLabel>
+        <translation>Incapacidad Temporal Diaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Damage Claim</masterLabel>
+        <translation>Reclamacion De Daños</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Damage During Transport</masterLabel>
+        <translation>Daños Durante El Transporte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data recovery</masterLabel>
+        <translation>Recuperación de datos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death</masterLabel>
+        <translation>Fallecimiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death 24 Hours</masterLabel>
+        <translation>Fallecimiento 24 Horas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death Accident 24 Hours</masterLabel>
+        <translation>Fallecimiento Accid 24 Horas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Accident</masterLabel>
+        <translation>Fallecimiento Accidente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Heart Attack</masterLabel>
+        <translation>Fallecimiento Por Infarto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Non-Work Accident</masterLabel>
+        <translation>Fallecimiento Accidente No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Occupational Disease</masterLabel>
+        <translation>Fallecimiento Enferm Profesional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Professional Illness</masterLabel>
+        <translation>Fallecimiento Enfermedad Profesion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Spouse Heart Attack</masterLabel>
+        <translation>Fallecimiento Infarto Conyugue</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death By Traffic Accident</masterLabel>
+        <translation>Fallecimiento Accidente Circulacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death In Locality</masterLabel>
+        <translation>Fallecimiento Localidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death Non-Work Accident</masterLabel>
+        <translation>Fallecimiento Accid No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death Outside Locality</masterLabel>
+        <translation>Fallecimiento No Localidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death Traffic Accident</masterLabel>
+        <translation>Fallecimiento Acc Circulacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death Work Accident</masterLabel>
+        <translation>Fallecimiento Accid Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death and funeral expenses (liability)</masterLabel>
+        <translation>Fallecimiento y gastos sepelio RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death of the dog or cat</masterLabel>
+        <translation>Muerte del perro o gato</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Defense</masterLabel>
+        <translation>Defensa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Defense Against Administration</masterLabel>
+        <translation>Defensa Frente A La Administracion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Direct Damage To Goods</masterLabel>
+        <translation>Daños Directos A Los Bienes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Disability</masterLabel>
+        <translation>Incapacidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dog owner liability (AD)</masterLabel>
+        <translation>R.C. Propietario Perros (AD)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Domestic Personal Liability</masterLabel>
+        <translation>R.C. personal doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Domestic personal liability</masterLabel>
+        <translation>R.C. personal doméstico RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Door glass</masterLabel>
+        <translation>Cristal de puerta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Due To Third Party Works</masterLabel>
+        <translation>Por Obras De Terceros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Due to temporary disability (self-employed) (liability)</masterLabel>
+        <translation>Por incapacidad temporal (autonomos) RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Due to unemployment (liability)</masterLabel>
+        <translation>Por desempleo RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Earth Movements, Origin In Adjacent Building</masterLabel>
+        <translation>Movimientos De Tierras, Origen En Colidante Cte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Earth Movements, Origin In Adjacent Renovation</masterLabel>
+        <translation>Movimientos De Tierras, Rigen En Colidante Ob Ref</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical Damage Building</masterLabel>
+        <translation>Daños Electricos Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical Damage First Risk</masterLabel>
+        <translation>Daños Electricos Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical Damage Renovation Works</masterLabel>
+        <translation>Daños Electricos Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical Damage Total Value</masterLabel>
+        <translation>Daños Electricos Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical assistance (liability)</masterLabel>
+        <translation>Asistencia eléctrica RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical damage</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electricity</masterLabel>
+        <translation>Electricidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electricity First Risk</masterLabel>
+        <translation>Electricidad Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electricity Total Value</masterLabel>
+        <translation>Electricidad Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electronic Equipment</masterLabel>
+        <translation>Equipos Electronicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergency Electricity</masterLabel>
+        <translation>Electricidad De Urgencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergency Electricity Works</masterLabel>
+        <translation>Electricidad De Urgencia Obras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergency electricity</masterLabel>
+        <translation>Electricidad urgencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergency locksmith</masterLabel>
+        <translation>Cerrajeria urgencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee dishonesty</masterLabel>
+        <translation>Infidelidad empleados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employer Civil Liability</masterLabel>
+        <translation>R.C. Patronal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employer Civil Liability Excluded</masterLabel>
+        <translation>R.C. Excluida Patronal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employer/Product Civil Liability Excluded</masterLabel>
+        <translation>R.C. Excluida Patronal/Productos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Entrusted Goods Or Objects</masterLabel>
+        <translation>Bienes U Objetos Confiados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evident internal leaks</masterLabel>
+        <translation>Filtraciones internas evidentes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Explosion</masterLabel>
+        <translation>Explosión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Extraordinary Assistance</masterLabel>
+        <translation>Asistencia Extraordinaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fall of trees, poles, and antennas</masterLabel>
+        <translation>Caida de arboles, postes y antenas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Family Civil Liability</masterLabel>
+        <translation>R.C. Familiar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire</masterLabel>
+        <translation>Incendio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire Ext. Installation Leaks</masterLabel>
+        <translation>Fugas Instal. Ext. Incendio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire Ext. Installation Leaks Building</masterLabel>
+        <translation>Fugas Instal. Ext. Incendio Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire Ext. Installation Leaks Renovation</masterLabel>
+        <translation>Fugas Instal. Ext. Incendio Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fixed track blinds</masterLabel>
+        <translation>Persianas carril fijo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flooding from overflowing channels, ditches</masterLabel>
+        <translation>Inundacion por desbordamiento de canales, acequias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flooding from public network</masterLabel>
+        <translation>Inundacion CON origen en red pública</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Floods</masterLabel>
+        <translation>Inundaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Floods (Frcia 181)</masterLabel>
+        <translation>Inundaciones (Frcia 181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fractures, Burns, Dislocations</masterLabel>
+        <translation>Fracturas, Quemaduras, Dislocaciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frost Damage</masterLabel>
+        <translation>Daños Por Heladas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funds Transport</masterLabel>
+        <translation>Transporte Fondos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funds Transport 10%</masterLabel>
+        <translation>Transporte Fondos 10%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funds Transport 15%</masterLabel>
+        <translation>Transporte Fondos 15%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funds Transport 20%</masterLabel>
+        <translation>Transporte Fondos 20%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funds Transport 25%</masterLabel>
+        <translation>Transporte Fondos 25%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Funeral Expenses</masterLabel>
+        <translation>Gastos Sepelio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Furniture Glass</masterLabel>
+        <translation>Lunas Mobiliario</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Furniture Glass New Value</masterLabel>
+        <translation>Lunas Mobiliario Valor Nuevo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Furniture Glass Real Value</masterLabel>
+        <translation>Lunas Mobiliario Valor Real</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Furniture glass</masterLabel>
+        <translation>Cristal de mueble</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Garden Furniture</masterLabel>
+        <translation>Mobiliario De Jardin</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Garden Reconstruction</masterLabel>
+        <translation>Reconstruccion De Jardines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Garden deterioration</masterLabel>
+        <translation>Deterioro de jardines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General Expenses</masterLabel>
+        <translation>Gastos Generales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Glazing</masterLabel>
+        <translation>Cristalería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ground leaks</masterLabel>
+        <translation>Filtraciones terreno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guide dog death (liability)</masterLabel>
+        <translation>Muerte perro guia RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guide dog veterinary assistance</masterLabel>
+        <translation>Asistencia veterinaria del perro guia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hail</masterLabel>
+        <translation>Pedrisco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance</masterLabel>
+        <translation>Asistencia Sanitaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 100</masterLabel>
+        <translation>Asistencia Sanitaria 100</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 1503</masterLabel>
+        <translation>Asistencia Sanitaria 1503</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 1800</masterLabel>
+        <translation>Asistencia Sanitaria 1800</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 1803</masterLabel>
+        <translation>Asistencia Sanitaria 1803</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 200</masterLabel>
+        <translation>Asistencia Sanitaria 200</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 250</masterLabel>
+        <translation>Asistencia Sanitaria 250</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 300</masterLabel>
+        <translation>Asistencia Sanitaria 300</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 3000</masterLabel>
+        <translation>Asistencia Sanitaria 3000</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 3005</masterLabel>
+        <translation>Asistencia Sanitaria 3005</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 4800</masterLabel>
+        <translation>Asistencia Sanitaria 4800</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 4808</masterLabel>
+        <translation>Asistencia Sanitaria 4808</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 500</masterLabel>
+        <translation>Asistencia Sanitaria 500</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 6000</masterLabel>
+        <translation>Asistencia Sanitaria 6000</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 602</masterLabel>
+        <translation>Asistencia Sanitaria 602</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Health Assistance 800</masterLabel>
+        <translation>Asistencia Sanitaria 800</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Heart Attack</masterLabel>
+        <translation>Infarto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hobby Policy</masterLabel>
+        <translation>Poliza Aficion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Home cleaning</masterLabel>
+        <translation>Limpieza de vivienda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Home technology assistance</masterLabel>
+        <translation>Asistencia tecnológica del hogar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Homeowner</masterLabel>
+        <translation>Dueño De La Casa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization</masterLabel>
+        <translation>Hospitalizacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization 1 Day</masterLabel>
+        <translation>Hospitalizacion 1 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization 16 Days</masterLabel>
+        <translation>Hospitalizacion 16 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization 31 Days</masterLabel>
+        <translation>Hospitalizacion 31 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization 8 Days</masterLabel>
+        <translation>Hospitalizacion 8 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization From 16th Day</masterLabel>
+        <translation>Hospitalizacion Desde 16 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization From 1st Day</masterLabel>
+        <translation>Hospitalizacion Desde 1Er Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization From 31st Day</masterLabel>
+        <translation>Hospitalizacion Desde 31 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization From 8th Day</masterLabel>
+        <translation>Hospitalizacion Desde 8 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization ICU Insured</masterLabel>
+        <translation>Hospitalizacion Uci Asegurado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization ICU Spouse</masterLabel>
+        <translation>Hospitalizacion Uci Conyuge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization Insured</masterLabel>
+        <translation>Hospitalizacion Asegurado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization Insured ICU</masterLabel>
+        <translation>Hospitalizacion Asegurado Uvi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization Spouse</masterLabel>
+        <translation>Hospitalizacion Conyuge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization Spouse/Partner</masterLabel>
+        <translation>Hospitalizacion Conyuge/Pareja</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization Spouse/Partner ICU</masterLabel>
+        <translation>Hospitalizacion Conyuge/Pareja Uvi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>House inhabitant</masterLabel>
+        <translation>Habitante de la casa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT, Unemployment</masterLabel>
+        <translation>It, Desempleo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Person Legal Assistance</masterLabel>
+        <translation>Asistencia Juridica Presencial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insured</masterLabel>
+        <translation>Asegurado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insured children</masterLabel>
+        <translation>Asegurado hijos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insured spouse</masterLabel>
+        <translation>Asegurado conyuge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kitchen countertop</masterLabel>
+        <translation>Encimera de cocina</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Labor Defense</masterLabel>
+        <translation>Defensa Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Landlord</masterLabel>
+        <translation>Arrendador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Landlord /owner of the house//owner/co-owner</masterLabel>
+        <translation>Arrendador /dueño de la casa//propietario/copropietario</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leaks</masterLabel>
+        <translation>Filtraciones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leaks in patios, terraces, or covers</masterLabel>
+        <translation>Filtraciones patios. terrazas o cubiertas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leaks through roofs / covers / facades / terraces / patios</masterLabel>
+        <translation>Filtraciones a traves de tejados / cubiertas / fachadas / terrazas / patios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>License withdrawal</masterLabel>
+        <translation>Retirada carnet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lightning strike</masterLabel>
+        <translation>Caída de rayo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Health Assistance</masterLabel>
+        <translation>Asistencia Sanitaria Limitada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Localized rainwater leak</masterLabel>
+        <translation>Filtracion puntual agua de lluvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locative Civil Liability</masterLabel>
+        <translation>Cte.- R.C. Locativa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lock Replacement</masterLabel>
+        <translation>Reposicion De Cerraduras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lock replacement</masterLabel>
+        <translation>Sustitucion de cerraduras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locksmith</masterLabel>
+        <translation>Cerrajería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locksmith Building</masterLabel>
+        <translation>Cerrajeria Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locksmith First Risk</masterLabel>
+        <translation>Cerrajeria Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locksmith Total Value</masterLabel>
+        <translation>Cerrajeria Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Locksmith Works</masterLabel>
+        <translation>Cerrajeria Obras</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loss Of Keys</masterLabel>
+        <translation>Perdida De Llaves</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loss Of Profits</masterLabel>
+        <translation>Perdida De Beneficios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loss of contents luggage</masterLabel>
+        <translation>Perdida de equipaje contenido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Machinery Breakdown</masterLabel>
+        <translation>Averia De Maquinaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Major Disability Non-Work Accident</masterLabel>
+        <translation>Gran Invalidez Accidente No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Major Disability Occupational Disease</masterLabel>
+        <translation>Gran Invalidez Enfermedad Profesional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Major Disability Work Accident</masterLabel>
+        <translation>Gran Invalidez Accidente Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mandatory Hunting And Fishing Insurance</masterLabel>
+        <translation>Seguro Obligatorio Caza Y Pesca</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marble/Granite New Value</masterLabel>
+        <translation>Marmol / Granito Valor Nuevo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marble/Granite Real Value</masterLabel>
+        <translation>Marmol / Granito Valor Real</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Masonry</masterLabel>
+        <translation>Albañilería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meat And Race Point</masterLabel>
+        <translation>Carne Y Punto Race</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metal shutters</masterLabel>
+        <translation>Cierres metalicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meteorite fall</masterLabel>
+        <translation>Caida de aerolitos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minor Protection</masterLabel>
+        <translation>Proteccion Menores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minor works</masterLabel>
+        <translation>Obras menores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mirror</masterLabel>
+        <translation>Espejo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monthly Subsidy</masterLabel>
+        <translation>Subsidio Mensual</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging in public</masterLabel>
+        <translation>Atraco via publica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging in public 10%</masterLabel>
+        <translation>Atraco via publica 10%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging in public 20%</masterLabel>
+        <translation>Atraco via publica 20%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging in public 25%</masterLabel>
+        <translation>Atraco via publica 25%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging outside the home</masterLabel>
+        <translation>Atraco fuera del hogar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Natural Death</masterLabel>
+        <translation>Fallecimiento Natural</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non-Work Death</masterLabel>
+        <translation>Fallecimiento No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Objects Thrown From Outside</masterLabel>
+        <translation>Objetos Lanzados Desde Exterior</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Offsite Work</masterLabel>
+        <translation>Trabajos Fuera Del Local</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission (Common Water)</masterLabel>
+        <translation>Omision (Agua Comunes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission Common (Frcia 180)</masterLabel>
+        <translation>Omision Comunes (Frcia 180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission Common (Frcia 181)</masterLabel>
+        <translation>Omision Comunes (Frcia 181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission Common (Frcia 300)</masterLabel>
+        <translation>Omision Comunes (Frcia 300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission Common (Frcia 301)</masterLabel>
+        <translation>Omision Comunes (Frcia 301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission Common And Private</masterLabel>
+        <translation>Omision Comunes Y Privativas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omission to close valves or taps</masterLabel>
+        <translation>Omision de cierre de llaves o grifos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On-site IT assistance</masterLabel>
+        <translation>Asistencia informática presencial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Operation Civil Liability</masterLabel>
+        <translation>R.C. Explotacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other Appliances</masterLabel>
+        <translation>Otros Electrodomesticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other building glass</masterLabel>
+        <translation>Otro cristal continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other contents glass</masterLabel>
+        <translation>Otro cristal contenido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Others</masterLabel>
+        <translation>Otros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Overvoltage</masterLabel>
+        <translation>Sobretensión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Owner</masterLabel>
+        <translation>Propietario</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Permanent Disability Non-Work Accident</masterLabel>
+        <translation>Invalidez Permanente Parcial Accidente No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Permanent Disability Occupational Disease</masterLabel>
+        <translation>Invalidez Permanente Parcial Enfermedad Profesional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Permanent Disability Work Accident</masterLabel>
+        <translation>Invalidez Permanente Parcial Accidente Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Robbery 10%</masterLabel>
+        <translation>Robo Parcial 10%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Robbery 15%</masterLabel>
+        <translation>Robo Parcial 15%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Robbery 20%</masterLabel>
+        <translation>Robo Parcial 20%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial Robbery 25%</masterLabel>
+        <translation>Robo Parcial 25%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pedestrian</masterLabel>
+        <translation>Peaton</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permanant and total disability (liability)</masterLabel>
+        <translation>Invalidez permanente y absoluta RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physical And Functional Losses</masterLabel>
+        <translation>Perdidas Fisicas Y Funcionales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pipe repair with damage</masterLabel>
+        <translation>Reparacion de tuberias CON daños</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pipe repair without damage / location without damage up to €400</masterLabel>
+        <translation>Reparacion de tuberias SIN daños/ localización SIN daños con límite 400 €</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plumbing</masterLabel>
+        <translation>Fontanería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plumbing Not Covered</masterLabel>
+        <translation>Fontaneria No Cubierta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Possession/use of weapons (liability)</masterLabel>
+        <translation>Tenencia/uso armas RC</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private / family</masterLabel>
+        <translation>Particular /familiar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private Life Damage Claim</masterLabel>
+        <translation>Reclamacion De Daños Vida Privada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private Monthly Subsidy</masterLabel>
+        <translation>Subsidio Mensual Particular</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private Pipes In Insured Community</masterLabel>
+        <translation>Tuberias Privadas En Cdad. Asegurada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private Windows/Glass</masterLabel>
+        <translation>Lunas Privadas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product And Service Civil Liability</masterLabel>
+        <translation>R.C. De Productos Y Servicios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Civil Liability (With Employees)</masterLabel>
+        <translation>R.C. Productos (Con Empleados)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Civil Liability (Without Employees)</masterLabel>
+        <translation>R.C. Productos (Sin Empleados)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Civil Liability Excluded</masterLabel>
+        <translation>R.C. Excluida Productos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Professional Monthly Subsidy</masterLabel>
+        <translation>Subsidio Mensual Profesional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Proportional part of common elements</masterLabel>
+        <translation>Parte proporcional elementos comunes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Flood</masterLabel>
+        <translation>Inundacion Red Publica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Flood First Risk</masterLabel>
+        <translation>Inundacion Red Publica Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Flood Inventory</masterLabel>
+        <translation>Inundacion Red Publica Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Flood Total Value</masterLabel>
+        <translation>Inundacion Red Publica Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Floods (Common)</masterLabel>
+        <translation>Inundaciones Red Publica (Comunes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Network Floods (Frcia 301)</masterLabel>
+        <translation>Inundaciones Red Publica (Frcia 301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Radiator/visible pipe/shut-off valve leak</masterLabel>
+        <translation>Fuga radiador / tubería vista / llave de paso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rain</masterLabel>
+        <translation>Lluvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recovery</masterLabel>
+        <translation>Recuperacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recovery Training</masterLabel>
+        <translation>Formacion Recuperacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refrigerated Goods</masterLabel>
+        <translation>Bienes Refrigerados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refrigerated food</masterLabel>
+        <translation>Alimentos refrigerados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refrigerated medicines</masterLabel>
+        <translation>Medicamentos refrigerados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote IT assistance</masterLabel>
+        <translation>Asistencia informática remota</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote backup</masterLabel>
+        <translation>Copia de seguridad remota</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renovation Sanitary Ware</masterLabel>
+        <translation>Sanitarios Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renovation works - locative</masterLabel>
+        <translation>Obras reforma. - R.C. locativa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rental Protection</masterLabel>
+        <translation>Proteccion Para El Alquiler</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Repatriation</masterLabel>
+        <translation>Repatriacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery</masterLabel>
+        <translation>Robo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery (Frcia 180)</masterLabel>
+        <translation>Robo Frcia (180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery (Frcia 181)</masterLabel>
+        <translation>Robo Frcia (181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery (Frcia 300)</masterLabel>
+        <translation>Robo Frcia (300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery (Frcia 301)</masterLabel>
+        <translation>Robo Frcia (301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Building</masterLabel>
+        <translation>Robo Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery C/F</masterLabel>
+        <translation>Robo C/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Common Areas</masterLabel>
+        <translation>Robo Comunes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Common/Private</masterLabel>
+        <translation>Robo Comunes/Privativas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Private Annexes</masterLabel>
+        <translation>Robo Anexos Privados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Renovation Works</masterLabel>
+        <translation>Robo Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery S/F</masterLabel>
+        <translation>Robo S/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery Sports Center Lockers</masterLabel>
+        <translation>Robo Taquillas Centro Deportivos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery/Vandalism</masterLabel>
+        <translation>Robo/Vandalismo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery/Vandalism 25%</masterLabel>
+        <translation>Robo/Vandalismo 25%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery/Vandalism Building</masterLabel>
+        <translation>Robo/Vandalismo Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Robbery/Vandalism Renovation Works</masterLabel>
+        <translation>Robo/Vandalismo Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rockfalls and avalanches</masterLabel>
+        <translation>Desprendimiento de rocas y aludes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Serious Fractures</masterLabel>
+        <translation>Fracturas Graves</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Settlements or land movements due to third-party works</masterLabel>
+        <translation>Asentamientos o movimientos tierras por obras 3º continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shop window</masterLabel>
+        <translation>Escaparate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Short circuit</masterLabel>
+        <translation>Cortocircuito</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shower screen</masterLabel>
+        <translation>Mampara de baño</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sign</masterLabel>
+        <translation>Rótulo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Simultaneous Death</masterLabel>
+        <translation>Fallecimiento Simultaneo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Smoke</masterLabel>
+        <translation>Humo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Snow</masterLabel>
+        <translation>Nieve</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sonic Waves First Risk</masterLabel>
+        <translation>Ondas Sonicas Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sonic Waves Inventory</masterLabel>
+        <translation>Ondas Sonicas Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sonic Waves Total Value</masterLabel>
+        <translation>Ondas Sonicas Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sonic waves</masterLabel>
+        <translation>Ondas sonicas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spills in fire extinguishing installations (building)</masterLabel>
+        <translation>Derrames en instalaciones de extincion incendios continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sports</masterLabel>
+        <translation>Deportes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spouse</masterLabel>
+        <translation>Conyuge</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Storm</masterLabel>
+        <translation>Tormenta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Summer Traffic Death</masterLabel>
+        <translation>Fallec Acc Circulacion Estival</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tech handyman</masterLabel>
+        <translation>Manitas tecnológico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Assistance Service +500</masterLabel>
+        <translation>Servicio Asis Tec +500</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Assistance Service 250/500</masterLabel>
+        <translation>Servicio Asis Tec 250/500</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Assistance Service &lt;250</masterLabel>
+        <translation>Servicio Asis Tec &lt;250</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Telephone advice in case of theft</masterLabel>
+        <translation>Asesoramiento telefónico frente al robo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Hosp. Incapacity From 16th Day</masterLabel>
+        <translation>Inv.Temp. Hospit Desde 16º Día</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Hosp. Incapacity From 1st Day</masterLabel>
+        <translation>Inv.Temp. Hospit Desde 1Er Día</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Hosp. Incapacity From 31st Day</masterLabel>
+        <translation>Inv.Temp. Hospit Desde 31º Día</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Hosp. Incapacity From 8th Day</masterLabel>
+        <translation>Inv.Temp. Hospit Desde 8º Día</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Incapacity From 16th Day</masterLabel>
+        <translation>Inc. Temporal Desde 16 Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Incapacity From 1st Day</masterLabel>
+        <translation>Inc. Temporal Desde 1er Dia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Incapacity From 31st Day</masterLabel>
+        <translation>Inc. Temporal Desde 31 Dias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temp. Incapacity From 8th Day</masterLabel>
+        <translation>Inc. Temporal Desde 8th Day</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temporarily Displaced Goods</masterLabel>
+        <translation>Bienes Desplazados Temporalmente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tenant</masterLabel>
+        <translation>Inquilino</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tenant vandalism</masterLabel>
+        <translation>Actos vandálicos inquilino</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft</masterLabel>
+        <translation>Hurto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft In Private Annexes</masterLabel>
+        <translation>Hurto En Anexos Privados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft Inside The Home</masterLabel>
+        <translation>Hurto En El Interior De La Vivienda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft in other annexes</masterLabel>
+        <translation>Robo en otros anexos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft in storage rooms</masterLabel>
+        <translation>Robo en trasteros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft in the home</masterLabel>
+        <translation>Hurto en la vivienda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft of contents with building damage</masterLabel>
+        <translation>Robo contenido CON desperfectos continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft of contents without building damage</masterLabel>
+        <translation>Robo contenido SIN desperfectos continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages</masterLabel>
+        <translation>Daños A Terceros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Common Frcia)</masterLabel>
+        <translation>Daños A Terceros (Comunes Frcia)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Common/Private)</masterLabel>
+        <translation>Daños A Terceros (Comunes/Privativas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Frcia 180)</masterLabel>
+        <translation>Daños A Terceros (Frcia 180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Frcia 181)</masterLabel>
+        <translation>Daños A Terceros (Frcia 181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Frcia 300)</masterLabel>
+        <translation>Daños A Terceros (Frcia 300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Frcia 301)</masterLabel>
+        <translation>Daños A Terceros (Frcia 301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Private Frcia)</masterLabel>
+        <translation>Daños A Terceros (Privativas Frcia)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages (Private)</masterLabel>
+        <translation>Daños A Terceros (Privativas)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages C/F</masterLabel>
+        <translation>Daños A Terceros C/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Com/Priv</masterLabel>
+        <translation>Daños A Terceros Com/Priv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Com/Priv 11-20 Years</masterLabel>
+        <translation>Daños A Terceros Comun/Priv De 11 A 20 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Com/Priv Frcia 150</masterLabel>
+        <translation>Daños A Terceros Comun/Priv Frcia 150</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Com/Priv Up To 10 Years</masterLabel>
+        <translation>Daños A Terceros Comun/Priv Hasta 10 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common</masterLabel>
+        <translation>Daños A Terceros Comunes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common 11-20 Years</masterLabel>
+        <translation>Daños A Terceros Comunes De 11 A 20 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common Frcia 150</masterLabel>
+        <translation>Daños A Terceros Comunes Frcia 150</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common Frcia 181</masterLabel>
+        <translation>Daños A Terceros Comunes Frcia 181</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common Frcia 300</masterLabel>
+        <translation>Daños A Terceros Comunes Frcia 300</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common Frcia 301</masterLabel>
+        <translation>Daños A Terceros Comunes Frcia 301</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Common Up To 10 Years</masterLabel>
+        <translation>Daños A Terceros Comunes Hasta 10 Años</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Excl. Employer Liability</masterLabel>
+        <translation>Daños A Terceros Excluido R.C. Patronal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Excl. Patr. &amp; Prod.</masterLabel>
+        <translation>Daños A Terceros Excluido Patr. Y Prod</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Excl. Product Liability</masterLabel>
+        <translation>Daños A Terceros Excluido R.C. Productos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Frca 180</masterLabel>
+        <translation>Daños A Terceros Frca 180</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages Frcia 300</masterLabel>
+        <translation>Daños A Terceros Frcia 300</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Damages S/F</masterLabel>
+        <translation>Daños A Terceros S/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tile leaks</masterLabel>
+        <translation>Filtraciones azulejos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Total And Absolute Permanent Disability</masterLabel>
+        <translation>Invalidez Permanente Y Absoluta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Total Permanent Disability Non-Work Accident</masterLabel>
+        <translation>Invalidez Permanente Total Accidente No Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Total Permanent Disability Occupational Disease</masterLabel>
+        <translation>Invalidez Permanente Total Enfermedad Profesional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Total Permanent Disability Work Accident</masterLabel>
+        <translation>Invalidez Permanente Total Accidente Laboral</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Traffic Accident</masterLabel>
+        <translation>Accidente Circulacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unlimited Health Assistance</masterLabel>
+        <translation>Asistencia Sanitaria Ilimitada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Urgent Plumbing Without Damage</masterLabel>
+        <translation>Fontaneria Urgente Sin Daños</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Use</masterLabel>
+        <translation>Uso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism</masterLabel>
+        <translation>Actos vandálicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism (Common)</masterLabel>
+        <translation>Vandalismo (Comunes)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism (Frcia 180)</masterLabel>
+        <translation>Vandalismo (Frcia 180)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism (Frcia 181)</masterLabel>
+        <translation>Vandalismo (Frcia 181)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism (Frcia 300)</masterLabel>
+        <translation>Vandalismo (Frcia 300)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism (Frcia 301)</masterLabel>
+        <translation>Vandalismo (Frcia 301)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism C/F</masterLabel>
+        <translation>Vandalismo C/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism Common</masterLabel>
+        <translation>Vandalismo Comunes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism Common/Private</masterLabel>
+        <translation>Vandalismo Comunes/Privativas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism First Risk</masterLabel>
+        <translation>Vandalismo Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism Inventory</masterLabel>
+        <translation>Vandalismo Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism S/F</masterLabel>
+        <translation>Vandalismo S/F</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism Total Value</masterLabel>
+        <translation>Vandalismo Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalismo</masterLabel>
+        <translation>Vandalismo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision</masterLabel>
+        <translation>Choque Vehículos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision Building</masterLabel>
+        <translation>Choque Vehículos Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision First Risk</masterLabel>
+        <translation>Choque Vehiculos Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision Inventory</masterLabel>
+        <translation>Choque Vehiculos Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision New Value</masterLabel>
+        <translation>Choque Vehículos Valor Nuevo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision Renovation Works</masterLabel>
+        <translation>Choque Vehículos Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Collision Total Value</masterLabel>
+        <translation>Choque Vehiculos Valor Total</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Workshops</masterLabel>
+        <translation>Talleres Vehiculos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle collision</masterLabel>
+        <translation>Choque de vehiculos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle workshops</masterLabel>
+        <translation>Talleres vehiculos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Veterinary assistance</masterLabel>
+        <translation>Asistencia veterinaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vision and sound devices</masterLabel>
+        <translation>Aparatos de visión y sonido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Voluntary Hunting And Fishing Insurance</masterLabel>
+        <translation>Seguro Voluntario De Caza Y Pesca</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Water leak / isolated leak</masterLabel>
+        <translation>Escape de agua / fuga puntual</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wind</masterLabel>
+        <translation>Viento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Window glass</masterLabel>
+        <translation>Cristal de ventana</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Glass, Signs</masterLabel>
+        <translation>Lunas, Cristales, Rotulos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Glass, Signs Building</masterLabel>
+        <translation>Lunas, Cristales, Rotulos Ctte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Glass, Signs Renovation</masterLabel>
+        <translation>Lunas, Cristales, Rotulos O. Ref</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Mirror, Glass Building</masterLabel>
+        <translation>Lunas, Espejo, Cristales Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Mirror, Glass Renovation</masterLabel>
+        <translation>Lunas, Espejo, Cristales Obras Reforma</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Mirrors, Glass</masterLabel>
+        <translation>Lunas, Espejos, Cristales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Mirrors, Glass Building</masterLabel>
+        <translation>Lunas, Espejos, Cristales Continente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows, Mirrors, Glass First Risk</masterLabel>
+        <translation>Lunas, Espejos, Cristales Primer Riesgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Windows/Glass</masterLabel>
+        <translation>Lunas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Work-Related Death</masterLabel>
+        <translation>Fallecimiento Laboral</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

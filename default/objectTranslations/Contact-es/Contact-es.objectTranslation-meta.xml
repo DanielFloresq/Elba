@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Policyholder Page Layout</layout>
+        <sections>
+            <label><!-- Dirección Riesgo --></label>
+            <section>Dirección Riesgo</section>
+        </sections>
+        <sections>
+            <label>Enlaces Personalizados</label>
+            <section>Enlaces Personalizados</section>
+        </sections>
+        <sections>
+            <label>Información de Contacto</label>
+            <section>Información de Contacto</section>
+        </sections>
+        <sections>
+            <label>Información de la Póliza</label>
+            <section>Información de la Póliza</section>
+        </sections>
+        <sections>
+            <label>Información del Sistema</label>
+            <section>Información del Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Póliza Mediada --></label>
+            <section>Póliza Mediada</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Contacto ELBA --></label>
+        <name>ContactoELBA</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Nuevo Siniestro</label>
+        <name>NuevoSiniestro</name>
+    </quickActions>
+    <recordTypes>
+        <label>Titular de la Póliza</label>
+        <name>Policyholder</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

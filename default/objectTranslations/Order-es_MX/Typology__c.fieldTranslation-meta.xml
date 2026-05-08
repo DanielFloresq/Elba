@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Typology --></label>
+    <name>Typology__c</name>
+    <picklistValues>
+        <masterLabel>Pre-Progress</masterLabel>
+        <translation><!-- Pre-Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Progress</masterLabel>
+        <translation><!-- Progress --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Company --></label>
+    <name>CompanyRC__c</name>
+    <picklistValues>
+        <masterLabel>AIG Europe</masterLabel>
+        <translation><!-- AIG Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA Seguros Generales</masterLabel>
+        <translation><!-- AXA Seguros Generales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allianz Seguros</masterLabel>
+        <translation><!-- Allianz Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Berkley España</masterLabel>
+        <translation><!-- Berkley España --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caser Seguros</masterLabel>
+        <translation><!-- Caser Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalana Occidente</masterLabel>
+        <translation><!-- Catalana Occidente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chubb European Group</masterLabel>
+        <translation><!-- Chubb European Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generali Seguros</masterLabel>
+        <translation><!-- Generali Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HDI Global</masterLabel>
+        <translation><!-- HDI Global --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hiscox Europe</masterLabel>
+        <translation><!-- Hiscox Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liberty Seguros</masterLabel>
+        <translation><!-- Liberty Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mapfre España</masterLabel>
+        <translation><!-- Mapfre España --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occident (Grupo Catalana)</masterLabel>
+        <translation><!-- Occident (Grupo Catalana) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plus Ultra Seguros</masterLabel>
+        <translation><!-- Plus Ultra Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QBE Seguros</masterLabel>
+        <translation><!-- QBE Seguros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RSA España</masterLabel>
+        <translation><!-- RSA España --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Santalucía Empresas</masterLabel>
+        <translation><!-- Santalucía Empresas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zurich Insurance</masterLabel>
+        <translation><!-- Zurich Insurance --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

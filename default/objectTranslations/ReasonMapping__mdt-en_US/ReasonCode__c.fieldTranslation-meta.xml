@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ReasonCode --></label>
+    <name>ReasonCode__c</name>
+    <picklistValues>
+        <masterLabel>All-risk accidental</masterLabel>
+        <translation><!-- All-risk accidental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance Windows, Mirrors, And Glass</masterLabel>
+        <translation><!-- Appliance Windows, Mirrors, And Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance breakdown</masterLabel>
+        <translation><!-- Appliance breakdown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance windows</masterLabel>
+        <translation><!-- Appliance windows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistance Service</masterLabel>
+        <translation><!-- Assistance Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bodily injuries</masterLabel>
+        <translation><!-- Bodily injuries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boiler</masterLabel>
+        <translation><!-- Boiler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Activity</masterLabel>
+        <translation><!-- Civil Liability Activity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil liability</masterLabel>
+        <translation><!-- Civil liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community</masterLabel>
+        <translation><!-- Community --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complementary Damages</masterLabel>
+        <translation><!-- Complementary Damages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consortium coverage</masterLabel>
+        <translation><!-- Consortium coverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage claim/legal protection</masterLabel>
+        <translation><!-- Damage claim/legal protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death</masterLabel>
+        <translation><!-- Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Displaced Goods</masterLabel>
+        <translation><!-- Displaced Goods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic animals</masterLabel>
+        <translation><!-- Domestic animals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damages</masterLabel>
+        <translation><!-- Electrical Damages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical assistance</masterLabel>
+        <translation><!-- Electrical assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical damage</masterLabel>
+        <translation><!-- Electrical damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic Equipment</masterLabel>
+        <translation><!-- Electronic Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergencies</masterLabel>
+        <translation><!-- Emergencies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency assistance</masterLabel>
+        <translation><!-- Emergency assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employer&apos;s Civil Liability</masterLabel>
+        <translation><!-- Employer&apos;s Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extraordinary Assistance</masterLabel>
+        <translation><!-- Extraordinary Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire</masterLabel>
+        <translation><!-- Fire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire, lightning, explosion</masterLabel>
+        <translation><!-- Fire, lightning, explosion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden deterioration</masterLabel>
+        <translation><!-- Garden deterioration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Civil Liability</masterLabel>
+        <translation><!-- General Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glass breakage</masterLabel>
+        <translation><!-- Glass breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guide dog accidents</masterLabel>
+        <translation><!-- Guide dog accidents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hail / Snow</masterLabel>
+        <translation><!-- Hail / Snow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman</masterLabel>
+        <translation><!-- Handyman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman Plus Service</masterLabel>
+        <translation><!-- Handyman Plus Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman Service</masterLabel>
+        <translation><!-- Handyman Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Assistance</masterLabel>
+        <translation><!-- Healthcare Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home assistance</masterLabel>
+        <translation><!-- Home assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization</masterLabel>
+        <translation><!-- Hospitalization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter Accidents</masterLabel>
+        <translation><!-- Hunter Accidents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter And Fisherman Civil Liability</masterLabel>
+        <translation><!-- Hunter And Fisherman Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT assistance</masterLabel>
+        <translation><!-- IT assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact</masterLabel>
+        <translation><!-- Impact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Protection</masterLabel>
+        <translation><!-- Legal Protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License Withdrawal</masterLabel>
+        <translation><!-- License Withdrawal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loss Of Benefits</masterLabel>
+        <translation><!-- Loss Of Benefits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost luggage</masterLabel>
+        <translation><!-- Lost luggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machinery Breakdown</masterLabel>
+        <translation><!-- Machinery Breakdown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging</masterLabel>
+        <translation><!-- Mugging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment protection</masterLabel>
+        <translation><!-- Payment protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permanent Disability</masterLabel>
+        <translation><!-- Permanent Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Civil Liability</masterLabel>
+        <translation><!-- Product Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain</masterLabel>
+        <translation><!-- Rain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated Goods</masterLabel>
+        <translation><!-- Refrigerated Goods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated food</masterLabel>
+        <translation><!-- Refrigerated food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanitary ware</masterLabel>
+        <translation><!-- Sanitary ware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stock Transport</masterLabel>
+        <translation><!-- Stock Transport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary Disability</masterLabel>
+        <translation><!-- Temporary Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft</masterLabel>
+        <translation><!-- Theft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft (Burglary)</masterLabel>
+        <translation><!-- Theft (Burglary) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIP assistance</masterLabel>
+        <translation><!-- VIP assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Acts</masterLabel>
+        <translation><!-- Vandalism Acts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water</masterLabel>
+        <translation><!-- Water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weather events</masterLabel>
+        <translation><!-- Weather events --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind</masterLabel>
+        <translation><!-- Wind --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,32 @@
+/* Modal QUASE TELA CHEIA */
+.slds-modal__container {
+    max-width: 95vw;     /* 95% da largura da viewport */
+    width: 95vw;
+    max-height: 95vh;    /* 95% da altura da viewport */
+    height: 95vh;
+    margin: 2vh auto;    /* pequeno espaço nas bordas */
+}
+
+/* Conteúdo interno também cresce */
+.slds-modal__content {
+    /* max-height: 70vh;  */   /* deixa espaço para header/footer */
+    overflow-y: auto;    /* scroll se necessário */
+}
+
+/* Editor de texto cresce livremente */
+/* .body-container {
+    min-height: 250px;
+}
+ */
+/* .body-container lightning-input-rich-text {
+    min-height: 250px;
+} */
+
+
+
+
+
+/* Pills mais compactas */
+.slds-m-top_x-small {
+    margin-top: 0.40rem;
+}

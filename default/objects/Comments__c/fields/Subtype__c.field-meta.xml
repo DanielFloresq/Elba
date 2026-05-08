@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>WPP</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>EML</fullName>
+                <default>false</default>
+                <label>Correo electrónico</label>
+            </value>
+            <value>
+                <fullName>Insurance Company Claim</fullName>
+                <default>false</default>
+                <label>Insurance Company Claim</label>
+            </value>
+            <value>
+                <fullName>Insurance Company Order</fullName>
+                <default>false</default>
+                <label>Insurance Company Order</label>
+            </value>
+            <value>
+                <fullName>Insurance Company Incident</fullName>
+                <default>false</default>
+                <label>Insurance Company Incident</label>
+            </value>
+            <value>
+                <fullName>Supplier Portal</fullName>
+                <default>false</default>
+                <label>Supplier Portal</label>
+            </value>
+            <value>
+                <fullName>ELBA</fullName>
+                <default>true</default>
+                <label>ELBA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>SMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>WPP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <valueName>EML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communications</controllingFieldValue>
+            <controllingFieldValue>Comments</controllingFieldValue>
+            <valueName>ELBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comments</controllingFieldValue>
+            <valueName>Insurance Company Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comments</controllingFieldValue>
+            <valueName>Insurance Company Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comments</controllingFieldValue>
+            <valueName>Insurance Company Incident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comments</controllingFieldValue>
+            <controllingFieldValue>Notifications</controllingFieldValue>
+            <valueName>Supplier Portal</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

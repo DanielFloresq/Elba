@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo no Reparacion</label>
+    <name>NoRepairReason__c</name>
+    <picklistValues>
+        <masterLabel>Adverse weather conditions for repair</masterLabel>
+        <translation>CIRCUNSTÁNCIAS METEROLÓGICAS ADVERSAS PARA REPARACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client request</masterLabel>
+        <translation>PETICION DEL CLIENTE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compensation - Preferred Repairer</masterLabel>
+        <translation>Indemnización, Reparador de Confianza</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion</masterLabel>
+        <translation>CORROSIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expert assessment intervention required</masterLabel>
+        <translation>NECESARIA INTERVENCIÓN PERICIAL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insured requests compensation. Trusted repairer</masterLabel>
+        <translation>ASEGURADO SOLICITA INDEMNIZACIÓN. REPARADOR CONFIANZA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Need for intervention of other trades before continuing work</masterLabel>
+        <translation>NECESIDAD INTERVENCIÓN OTROS GREMIOS PREVIO A CONTINUAR TRABAJOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No coverage</masterLabel>
+        <translation>NO COBERTURA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>OTROS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending repair of originating cause</masterLabel>
+        <translation>PDTE REPARACIÓN ORIGEN CAUSANTE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending tools for localization</masterLabel>
+        <translation>PDTE HERRAMIENTAS PARA LOCALIZACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restricted hours for noise</masterLabel>
+        <translation>HORARIO RESTRINGIDO PARA RUIDO</translation>
+    </picklistValues>
+</CustomFieldTranslation>

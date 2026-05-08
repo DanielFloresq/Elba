@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SubReasonCode --></label>
+    <name>SubReasonCode__c</name>
+    <picklistValues>
+        <masterLabel>Accident</masterLabel>
+        <translation><!-- Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accident Disability</masterLabel>
+        <translation><!-- Accident Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental Spill</masterLabel>
+        <translation><!-- Accidental Spill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental Spill First Risk</masterLabel>
+        <translation><!-- Accidental Spill First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental glass breakage</masterLabel>
+        <translation>TR accidental</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activity Civil Liability</masterLabel>
+        <translation><!-- Activity Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activity Civil Liability (With Employees)</masterLabel>
+        <translation><!-- Activity Civil Liability (With Employees) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activity Civil Liability (Without Employees)</masterLabel>
+        <translation><!-- Activity Civil Liability (Without Employees) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesthetic damage</masterLabel>
+        <translation>Daños estéticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agricultural Machinery Civil Liability</masterLabel>
+        <translation><!-- Agricultural Machinery Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft Fall</masterLabel>
+        <translation><!-- Aircraft Fall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft Fall First Risk</masterLabel>
+        <translation><!-- Aircraft Fall First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft Fall Inventory</masterLabel>
+        <translation><!-- Aircraft Fall Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft Fall Total Value</masterLabel>
+        <translation><!-- Aircraft Fall Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft crash</masterLabel>
+        <translation>Caida de aeronaves</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal collision</masterLabel>
+        <translation>Choque de animales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal liability</masterLabel>
+        <translation>Responsabilidad civil animales RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animals</masterLabel>
+        <translation>Animales</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Annual Traffic Death</masterLabel>
+        <translation><!-- Annual Traffic Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance glass</masterLabel>
+        <translation>Cristal de electroméstico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance leak</masterLabel>
+        <translation>Escape de electrodomesticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance repair</masterLabel>
+        <translation>Reparación de electrodomésticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance repair with parts</masterLabel>
+        <translation>Reparación de electrodomésticos CON piezas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance repair without parts</masterLabel>
+        <translation>Reparación de electrodomésticos SIN piezas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliances</masterLabel>
+        <translation>Electrodomésticos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>As Dog Owner</masterLabel>
+        <translation><!-- As Dog Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistance</masterLabel>
+        <translation><!-- Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Athlete</masterLabel>
+        <translation>Deportista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Benefit For Separation Or Divorce</masterLabel>
+        <translation><!-- Benefit For Separation Or Divorce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bicycles</masterLabel>
+        <translation>Bicicletas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blinds</masterLabel>
+        <translation>Persianas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blockages with damage</masterLabel>
+        <translation>Atascos CON daños</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blockages without damage</masterLabel>
+        <translation>Atascos SIN daños</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boiler Inspection</masterLabel>
+        <translation><!-- Boiler Inspection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boiler leak</masterLabel>
+        <translation>Fuga caldera</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boilers and heaters</masterLabel>
+        <translation>Calderas y calentadores</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breach of contracts</masterLabel>
+        <translation><!-- Breach of contracts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakage of ceramic glass</masterLabel>
+        <translation>Rotura de cristal de vitrocerámica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakage of fixed sanitary appliances</masterLabel>
+        <translation>Rotura de aparatos sanitarios fijos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakage of marble, granite</masterLabel>
+        <translation>Rotura de mármoles, granito</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breaks, Burns, Dislocations</masterLabel>
+        <translation><!-- Breaks, Burns, Dislocations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building Sanitary Ware</masterLabel>
+        <translation><!-- Building Sanitary Ware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building damage from attempted theft</masterLabel>
+        <translation>Desperfectos continente por intento de robo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carpentry</masterLabel>
+        <translation><!-- Carpentry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Children</masterLabel>
+        <translation><!-- Children --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Defense</masterLabel>
+        <translation><!-- Civil Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability</masterLabel>
+        <translation><!-- Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Basic)</masterLabel>
+        <translation><!-- Civil Liability (Basic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Common)</masterLabel>
+        <translation><!-- Civil Liability (Common) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Common/Private)</masterLabel>
+        <translation><!-- Civil Liability (Common/Private) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Frcia 180)</masterLabel>
+        <translation><!-- Civil Liability (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Frcia 181)</masterLabel>
+        <translation><!-- Civil Liability (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Frcia 300)</masterLabel>
+        <translation><!-- Civil Liability (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability (Frcia 301)</masterLabel>
+        <translation><!-- Civil Liability (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Building</masterLabel>
+        <translation><!-- Civil Liability Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability C/F</masterLabel>
+        <translation><!-- Civil Liability C/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Content</masterLabel>
+        <translation><!-- Civil Liability Content --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability For Personal Defense</masterLabel>
+        <translation><!-- Civil Liability For Personal Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Renovation Works</masterLabel>
+        <translation><!-- Civil Liability Renovation Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability S/F</masterLabel>
+        <translation><!-- Civil Liability S/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Weather Events</masterLabel>
+        <translation><!-- Civil Liability Weather Events --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civil Liability Works</masterLabel>
+        <translation><!-- Civil Liability Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claim</masterLabel>
+        <translation><!-- Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clothing, Helmet And Gloves</masterLabel>
+        <translation><!-- Clothing, Helmet And Gloves --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Water 11-20 Years</masterLabel>
+        <translation><!-- Common Water 11-20 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Water Frcia 150</masterLabel>
+        <translation><!-- Common Water Frcia 150 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Water Frcia 300</masterLabel>
+        <translation><!-- Common Water Frcia 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Water Up To 10 Years</masterLabel>
+        <translation><!-- Common Water Up To 10 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Windows/Glass</masterLabel>
+        <translation><!-- Common Windows/Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Windows/Glass (Common/Private)</masterLabel>
+        <translation><!-- Common Windows/Glass (Common/Private) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Windows/Glass (Frcia 180)</masterLabel>
+        <translation><!-- Common Windows/Glass (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Windows/Glass (Frcia 300)</masterLabel>
+        <translation><!-- Common Windows/Glass (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common/Private Water 11-20 Years</masterLabel>
+        <translation><!-- Common/Private Water 11-20 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common/Private Water Frcia 150</masterLabel>
+        <translation><!-- Common/Private Water Frcia 150 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common/Private Water Up To 10 Years</masterLabel>
+        <translation><!-- Common/Private Water Up To 10 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condensation</masterLabel>
+        <translation>Condensaciones</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumption</masterLabel>
+        <translation><!-- Consumption --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuous dripping</masterLabel>
+        <translation>Goteo continuado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Review And Drafting</masterLabel>
+        <translation><!-- Contract Review And Drafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion</masterLabel>
+        <translation>Corrosión</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Criminal Defense</masterLabel>
+        <translation><!-- Criminal Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Criminal Defense In Private Life</masterLabel>
+        <translation><!-- Criminal Defense In Private Life --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daily Compensation</masterLabel>
+        <translation><!-- Daily Compensation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daily Temporary Disability</masterLabel>
+        <translation><!-- Daily Temporary Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage Claim</masterLabel>
+        <translation><!-- Damage Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage During Transport</masterLabel>
+        <translation><!-- Damage During Transport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data recovery</masterLabel>
+        <translation>Recuperación de datos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death</masterLabel>
+        <translation><!-- Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death 24 Hours</masterLabel>
+        <translation><!-- Death 24 Hours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death Accident 24 Hours</masterLabel>
+        <translation><!-- Death Accident 24 Hours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Accident</masterLabel>
+        <translation><!-- Death By Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Heart Attack</masterLabel>
+        <translation><!-- Death By Heart Attack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Non-Work Accident</masterLabel>
+        <translation><!-- Death By Non-Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Occupational Disease</masterLabel>
+        <translation><!-- Death By Occupational Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Professional Illness</masterLabel>
+        <translation><!-- Death By Professional Illness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Spouse Heart Attack</masterLabel>
+        <translation><!-- Death By Spouse Heart Attack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death By Traffic Accident</masterLabel>
+        <translation><!-- Death By Traffic Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death In Locality</masterLabel>
+        <translation><!-- Death In Locality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death Non-Work Accident</masterLabel>
+        <translation><!-- Death Non-Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death Outside Locality</masterLabel>
+        <translation><!-- Death Outside Locality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death Traffic Accident</masterLabel>
+        <translation><!-- Death Traffic Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death Work Accident</masterLabel>
+        <translation><!-- Death Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death and funeral expenses (liability)</masterLabel>
+        <translation>Fallecimiento y gastos sepelio RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Death of the dog or cat</masterLabel>
+        <translation><!-- Death of the dog or cat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defense</masterLabel>
+        <translation><!-- Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defense Against Administration</masterLabel>
+        <translation><!-- Defense Against Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Damage To Goods</masterLabel>
+        <translation><!-- Direct Damage To Goods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disability</masterLabel>
+        <translation><!-- Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dog owner liability (AD)</masterLabel>
+        <translation><!-- Dog owner liability (AD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Personal Liability</masterLabel>
+        <translation><!-- Domestic Personal Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic personal liability</masterLabel>
+        <translation>R.C. personal domestico RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Door glass</masterLabel>
+        <translation>Cristal de puerta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due To Third Party Works</masterLabel>
+        <translation><!-- Due To Third Party Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to temporary disability (self-employed) (liability)</masterLabel>
+        <translation>Por incapacidad temporal (autonomos) RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to unemployment (liability)</masterLabel>
+        <translation>Por desempleo RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Earth Movements, Origin In Adjacent Building</masterLabel>
+        <translation><!-- Earth Movements, Origin In Adjacent Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Earth Movements, Origin In Adjacent Renovation</masterLabel>
+        <translation><!-- Earth Movements, Origin In Adjacent Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damage Building</masterLabel>
+        <translation><!-- Electrical Damage Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damage First Risk</masterLabel>
+        <translation><!-- Electrical Damage First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damage Renovation Works</masterLabel>
+        <translation><!-- Electrical Damage Renovation Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical Damage Total Value</masterLabel>
+        <translation><!-- Electrical Damage Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical assistance (liability)</masterLabel>
+        <translation>Asistencia eléctrica RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical damage</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity</masterLabel>
+        <translation>Electricidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity First Risk</masterLabel>
+        <translation><!-- Electricity First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electricity Total Value</masterLabel>
+        <translation><!-- Electricity Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic Equipment</masterLabel>
+        <translation><!-- Electronic Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Electricity</masterLabel>
+        <translation><!-- Emergency Electricity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Electricity Works</masterLabel>
+        <translation><!-- Emergency Electricity Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency electricity</masterLabel>
+        <translation>Electricidad urgencia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency locksmith</masterLabel>
+        <translation>Cerrajeria urgencia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employee dishonesty</masterLabel>
+        <translation>Infidelidad empleados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employer Civil Liability</masterLabel>
+        <translation><!-- Employer Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employer Civil Liability Excluded</masterLabel>
+        <translation><!-- Employer Civil Liability Excluded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employer/Product Civil Liability Excluded</masterLabel>
+        <translation><!-- Employer/Product Civil Liability Excluded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entrusted Goods Or Objects</masterLabel>
+        <translation><!-- Entrusted Goods Or Objects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evident internal leaks</masterLabel>
+        <translation>Filtraciones internas evidentes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Explosion</masterLabel>
+        <translation>Explosión</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extraordinary Assistance</masterLabel>
+        <translation><!-- Extraordinary Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fall of trees, poles, and antennas</masterLabel>
+        <translation>Caida de arboles, postes y antenas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Civil Liability</masterLabel>
+        <translation><!-- Family Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire</masterLabel>
+        <translation>Incendio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire Ext. Installation Leaks</masterLabel>
+        <translation><!-- Fire Ext. Installation Leaks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire Ext. Installation Leaks Building</masterLabel>
+        <translation><!-- Fire Ext. Installation Leaks Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire Ext. Installation Leaks Renovation</masterLabel>
+        <translation><!-- Fire Ext. Installation Leaks Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed track blinds</masterLabel>
+        <translation><!-- Fixed track blinds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flooding from overflowing channels, ditches</masterLabel>
+        <translation>Inundacion por desbordamiento de canales, acequias</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flooding from public network</masterLabel>
+        <translation>Inundacion CON origen en red pública</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floods</masterLabel>
+        <translation><!-- Floods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floods (Frcia 181)</masterLabel>
+        <translation><!-- Floods (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fractures, Burns, Dislocations</masterLabel>
+        <translation><!-- Fractures, Burns, Dislocations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frost Damage</masterLabel>
+        <translation><!-- Frost Damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds Transport</masterLabel>
+        <translation><!-- Funds Transport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds Transport 10%</masterLabel>
+        <translation><!-- Funds Transport 10% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds Transport 15%</masterLabel>
+        <translation><!-- Funds Transport 15% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds Transport 20%</masterLabel>
+        <translation><!-- Funds Transport 20% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds Transport 25%</masterLabel>
+        <translation><!-- Funds Transport 25% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funeral Expenses</masterLabel>
+        <translation><!-- Funeral Expenses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture Glass</masterLabel>
+        <translation><!-- Furniture Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture Glass New Value</masterLabel>
+        <translation><!-- Furniture Glass New Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture Glass Real Value</masterLabel>
+        <translation><!-- Furniture Glass Real Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture glass</masterLabel>
+        <translation>Cristal de mueble</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden Furniture</masterLabel>
+        <translation><!-- Garden Furniture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden Reconstruction</masterLabel>
+        <translation><!-- Garden Reconstruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden deterioration</masterLabel>
+        <translation>Deterioro de jardines</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Expenses</masterLabel>
+        <translation><!-- General Expenses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glazing</masterLabel>
+        <translation>Cristalería</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground leaks</masterLabel>
+        <translation>Filtraciones terreno</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guide dog death (liability)</masterLabel>
+        <translation>Muerte perro guia RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guide dog veterinary assistance</masterLabel>
+        <translation>Asistencia veterinaria del perro guia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hail</masterLabel>
+        <translation>Pedrisco</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance</masterLabel>
+        <translation><!-- Health Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 100</masterLabel>
+        <translation><!-- Health Assistance 100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 1503</masterLabel>
+        <translation><!-- Health Assistance 1503 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 1800</masterLabel>
+        <translation><!-- Health Assistance 1800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 1803</masterLabel>
+        <translation><!-- Health Assistance 1803 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 200</masterLabel>
+        <translation><!-- Health Assistance 200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 250</masterLabel>
+        <translation><!-- Health Assistance 250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 300</masterLabel>
+        <translation><!-- Health Assistance 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 3000</masterLabel>
+        <translation><!-- Health Assistance 3000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 3005</masterLabel>
+        <translation><!-- Health Assistance 3005 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 4800</masterLabel>
+        <translation><!-- Health Assistance 4800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 4808</masterLabel>
+        <translation><!-- Health Assistance 4808 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 500</masterLabel>
+        <translation><!-- Health Assistance 500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 6000</masterLabel>
+        <translation><!-- Health Assistance 6000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 602</masterLabel>
+        <translation><!-- Health Assistance 602 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Assistance 800</masterLabel>
+        <translation><!-- Health Assistance 800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heart Attack</masterLabel>
+        <translation><!-- Heart Attack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hobby Policy</masterLabel>
+        <translation><!-- Hobby Policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home cleaning</masterLabel>
+        <translation>Limpieza de vivienda</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home technology assistance</masterLabel>
+        <translation>Asistencia tecnológica del hogar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeowner</masterLabel>
+        <translation><!-- Homeowner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization</masterLabel>
+        <translation><!-- Hospitalization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization 1 Day</masterLabel>
+        <translation><!-- Hospitalization 1 Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization 16 Days</masterLabel>
+        <translation><!-- Hospitalization 16 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization 31 Days</masterLabel>
+        <translation><!-- Hospitalization 31 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization 8 Days</masterLabel>
+        <translation><!-- Hospitalization 8 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization From 16th Day</masterLabel>
+        <translation><!-- Hospitalization From 16th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization From 1st Day</masterLabel>
+        <translation><!-- Hospitalization From 1st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization From 31st Day</masterLabel>
+        <translation><!-- Hospitalization From 31st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization From 8th Day</masterLabel>
+        <translation><!-- Hospitalization From 8th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization ICU Insured</masterLabel>
+        <translation><!-- Hospitalization ICU Insured --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization ICU Spouse</masterLabel>
+        <translation><!-- Hospitalization ICU Spouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization Insured</masterLabel>
+        <translation><!-- Hospitalization Insured --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization Insured ICU</masterLabel>
+        <translation><!-- Hospitalization Insured ICU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization Spouse</masterLabel>
+        <translation><!-- Hospitalization Spouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization Spouse/Partner</masterLabel>
+        <translation><!-- Hospitalization Spouse/Partner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitalization Spouse/Partner ICU</masterLabel>
+        <translation><!-- Hospitalization Spouse/Partner ICU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>House inhabitant</masterLabel>
+        <translation>Habitante de la casa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT, Unemployment</masterLabel>
+        <translation><!-- IT, Unemployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Person Legal Assistance</masterLabel>
+        <translation><!-- In-Person Legal Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insured</masterLabel>
+        <translation><!-- Insured --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insured children</masterLabel>
+        <translation><!-- Insured children --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insured spouse</masterLabel>
+        <translation><!-- Insured spouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kitchen countertop</masterLabel>
+        <translation>Encimera de cocina</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Labor Defense</masterLabel>
+        <translation><!-- Labor Defense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Landlord</masterLabel>
+        <translation><!-- Landlord --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Landlord /owner of the house//owner/co-owner</masterLabel>
+        <translation>Arrendador /dueño de la casa//propietario/copropietario</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leaks</masterLabel>
+        <translation>Filtraciones</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leaks in patios, terraces, or covers</masterLabel>
+        <translation>Filtraciones patios. terrazas o cubiertas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leaks through roofs / covers / facades / terraces / patios</masterLabel>
+        <translation>Filtraciones a traves de tejados / cubiertas / fachadas / terrazas / patios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License withdrawal</masterLabel>
+        <translation><!-- License withdrawal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lightning strike</masterLabel>
+        <translation>Caída de rayo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited Health Assistance</masterLabel>
+        <translation><!-- Limited Health Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Localized rainwater leak</masterLabel>
+        <translation>Filtracion puntual agua de lluvia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locative Civil Liability</masterLabel>
+        <translation><!-- Locative Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lock Replacement</masterLabel>
+        <translation><!-- Lock Replacement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lock replacement</masterLabel>
+        <translation>Sustitucion de cerraduras</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith</masterLabel>
+        <translation>Cerrajería</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith Building</masterLabel>
+        <translation><!-- Locksmith Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith First Risk</masterLabel>
+        <translation><!-- Locksmith First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith Total Value</masterLabel>
+        <translation><!-- Locksmith Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith Works</masterLabel>
+        <translation><!-- Locksmith Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loss Of Keys</masterLabel>
+        <translation><!-- Loss Of Keys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loss Of Profits</masterLabel>
+        <translation><!-- Loss Of Profits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loss of contents luggage</masterLabel>
+        <translation>Perdida de equipaje contenido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machinery Breakdown</masterLabel>
+        <translation><!-- Machinery Breakdown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Major Disability Non-Work Accident</masterLabel>
+        <translation><!-- Major Disability Non-Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Major Disability Occupational Disease</masterLabel>
+        <translation><!-- Major Disability Occupational Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Major Disability Work Accident</masterLabel>
+        <translation><!-- Major Disability Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mandatory Hunting And Fishing Insurance</masterLabel>
+        <translation><!-- Mandatory Hunting And Fishing Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marble/Granite New Value</masterLabel>
+        <translation><!-- Marble/Granite New Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marble/Granite Real Value</masterLabel>
+        <translation><!-- Marble/Granite Real Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Masonry</masterLabel>
+        <translation>Albañilería</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat And Race Point</masterLabel>
+        <translation><!-- Meat And Race Point --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metal shutters</masterLabel>
+        <translation><!-- Metal shutters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meteorite fall</masterLabel>
+        <translation>Caida de aerolitos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minor Protection</masterLabel>
+        <translation><!-- Minor Protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minor works</masterLabel>
+        <translation>Obras menores</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mirror</masterLabel>
+        <translation>Espejo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monthly Subsidy</masterLabel>
+        <translation><!-- Monthly Subsidy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging in public</masterLabel>
+        <translation><!-- Mugging in public --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging in public 10%</masterLabel>
+        <translation><!-- Mugging in public 10% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging in public 20%</masterLabel>
+        <translation><!-- Mugging in public 20% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging in public 25%</masterLabel>
+        <translation><!-- Mugging in public 25% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mugging outside the home</masterLabel>
+        <translation>Atraco fuera del hogar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural Death</masterLabel>
+        <translation><!-- Natural Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Work Death</masterLabel>
+        <translation><!-- Non-Work Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Objects Thrown From Outside</masterLabel>
+        <translation><!-- Objects Thrown From Outside --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offsite Work</masterLabel>
+        <translation><!-- Offsite Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission (Common Water)</masterLabel>
+        <translation><!-- Omission (Common Water) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission Common (Frcia 180)</masterLabel>
+        <translation><!-- Omission Common (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission Common (Frcia 181)</masterLabel>
+        <translation><!-- Omission Common (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission Common (Frcia 300)</masterLabel>
+        <translation><!-- Omission Common (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission Common (Frcia 301)</masterLabel>
+        <translation><!-- Omission Common (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission Common And Private</masterLabel>
+        <translation><!-- Omission Common And Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission to close valves or taps</masterLabel>
+        <translation>Omision de cierre de llaves o grifos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On-site IT assistance</masterLabel>
+        <translation>Asistencia informática presencial</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operation Civil Liability</masterLabel>
+        <translation><!-- Operation Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Appliances</masterLabel>
+        <translation><!-- Other Appliances --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other building glass</masterLabel>
+        <translation>Otro cristal continente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other contents glass</masterLabel>
+        <translation>Otro cristal contenido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Otros</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overvoltage</masterLabel>
+        <translation>Sobretensión</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner</masterLabel>
+        <translation><!-- Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Permanent Disability Non-Work Accident</masterLabel>
+        <translation><!-- Partial Permanent Disability Non-Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Permanent Disability Occupational Disease</masterLabel>
+        <translation><!-- Partial Permanent Disability Occupational Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Permanent Disability Work Accident</masterLabel>
+        <translation><!-- Partial Permanent Disability Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Robbery 10%</masterLabel>
+        <translation><!-- Partial Robbery 10% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Robbery 15%</masterLabel>
+        <translation><!-- Partial Robbery 15% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Robbery 20%</masterLabel>
+        <translation><!-- Partial Robbery 20% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Robbery 25%</masterLabel>
+        <translation><!-- Partial Robbery 25% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pedestrian</masterLabel>
+        <translation>Peaton</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permanant and total disability (liability)</masterLabel>
+        <translation>Invalidez permanente y absoluta RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical And Functional Losses</masterLabel>
+        <translation><!-- Physical And Functional Losses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe repair with damage</masterLabel>
+        <translation>Reparacion de tuberias CON daños</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe repair without damage / location without damage up to €400</masterLabel>
+        <translation>Reparacion de tuberias SIN daños/ localización SIN daños con límite 400 €</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plumbing</masterLabel>
+        <translation>Fontanería</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plumbing Not Covered</masterLabel>
+        <translation><!-- Plumbing Not Covered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Possession/use of weapons (liability)</masterLabel>
+        <translation>Tenencia/uso armas RC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private / family</masterLabel>
+        <translation>Particular /familiar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Life Damage Claim</masterLabel>
+        <translation><!-- Private Life Damage Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Monthly Subsidy</masterLabel>
+        <translation><!-- Private Monthly Subsidy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Pipes In Insured Community</masterLabel>
+        <translation><!-- Private Pipes In Insured Community --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Windows/Glass</masterLabel>
+        <translation><!-- Private Windows/Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product And Service Civil Liability</masterLabel>
+        <translation><!-- Product And Service Civil Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Civil Liability (With Employees)</masterLabel>
+        <translation><!-- Product Civil Liability (With Employees) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Civil Liability (Without Employees)</masterLabel>
+        <translation><!-- Product Civil Liability (Without Employees) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Civil Liability Excluded</masterLabel>
+        <translation><!-- Product Civil Liability Excluded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional Monthly Subsidy</masterLabel>
+        <translation><!-- Professional Monthly Subsidy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proportional part of common elements</masterLabel>
+        <translation>Parte proporcional elementos comunes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Flood</masterLabel>
+        <translation><!-- Public Network Flood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Flood First Risk</masterLabel>
+        <translation><!-- Public Network Flood First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Flood Inventory</masterLabel>
+        <translation><!-- Public Network Flood Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Flood Total Value</masterLabel>
+        <translation><!-- Public Network Flood Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Floods (Common)</masterLabel>
+        <translation><!-- Public Network Floods (Common) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Network Floods (Frcia 301)</masterLabel>
+        <translation><!-- Public Network Floods (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiator/visible pipe/shut-off valve leak</masterLabel>
+        <translation>Fuga radiador / tubería vista / llave de paso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain</masterLabel>
+        <translation>Lluvia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recovery</masterLabel>
+        <translation><!-- Recovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recovery Training</masterLabel>
+        <translation><!-- Recovery Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated Goods</masterLabel>
+        <translation><!-- Refrigerated Goods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated food</masterLabel>
+        <translation>Alimentos refrigerados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated medicines</masterLabel>
+        <translation>Medicamentos refrigerados</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remote IT assistance</masterLabel>
+        <translation>Asistencia informática remota</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remote backup</masterLabel>
+        <translation>Copia de seguridad remota</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renovation Sanitary Ware</masterLabel>
+        <translation><!-- Renovation Sanitary Ware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renovation works - locative</masterLabel>
+        <translation><!-- Renovation works - locative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rental Protection</masterLabel>
+        <translation><!-- Rental Protection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repatriation</masterLabel>
+        <translation><!-- Repatriation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery</masterLabel>
+        <translation><!-- Robbery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery (Frcia 180)</masterLabel>
+        <translation><!-- Robbery (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery (Frcia 181)</masterLabel>
+        <translation><!-- Robbery (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery (Frcia 300)</masterLabel>
+        <translation><!-- Robbery (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery (Frcia 301)</masterLabel>
+        <translation><!-- Robbery (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Building</masterLabel>
+        <translation><!-- Robbery Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery C/F</masterLabel>
+        <translation><!-- Robbery C/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Common Areas</masterLabel>
+        <translation><!-- Robbery Common Areas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Common/Private</masterLabel>
+        <translation><!-- Robbery Common/Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Private Annexes</masterLabel>
+        <translation><!-- Robbery Private Annexes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Renovation Works</masterLabel>
+        <translation><!-- Robbery Renovation Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery S/F</masterLabel>
+        <translation><!-- Robbery S/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery Sports Center Lockers</masterLabel>
+        <translation><!-- Robbery Sports Center Lockers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery/Vandalism</masterLabel>
+        <translation><!-- Robbery/Vandalism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery/Vandalism 25%</masterLabel>
+        <translation><!-- Robbery/Vandalism 25% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery/Vandalism Building</masterLabel>
+        <translation><!-- Robbery/Vandalism Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robbery/Vandalism Renovation Works</masterLabel>
+        <translation><!-- Robbery/Vandalism Renovation Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rockfalls and avalanches</masterLabel>
+        <translation>Desprendimiento de rocas y aludes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serious Fractures</masterLabel>
+        <translation><!-- Serious Fractures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Settlements or land movements due to third-party works</masterLabel>
+        <translation>Asentamientos o movimientos tierras por obras 3º continente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shop window</masterLabel>
+        <translation>Escaparate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short circuit</masterLabel>
+        <translation>Cortocircuito</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shower screen</masterLabel>
+        <translation>Mampara de baño</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign</masterLabel>
+        <translation>Rótulo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Simultaneous Death</masterLabel>
+        <translation><!-- Simultaneous Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smoke</masterLabel>
+        <translation>Humo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Snow</masterLabel>
+        <translation>Nieve</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sonic Waves First Risk</masterLabel>
+        <translation><!-- Sonic Waves First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sonic Waves Inventory</masterLabel>
+        <translation><!-- Sonic Waves Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sonic Waves Total Value</masterLabel>
+        <translation><!-- Sonic Waves Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sonic waves</masterLabel>
+        <translation>Ondas sonicas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spills in fire extinguishing installations (building)</masterLabel>
+        <translation>Derrames en instalaciones de extincion incendios continente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sports</masterLabel>
+        <translation>Deportes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spouse</masterLabel>
+        <translation><!-- Spouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storm</masterLabel>
+        <translation>Tormenta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summer Traffic Death</masterLabel>
+        <translation><!-- Summer Traffic Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech handyman</masterLabel>
+        <translation>Manitas tecnológico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Assistance Service +500</masterLabel>
+        <translation><!-- Technical Assistance Service +500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Assistance Service 250/500</masterLabel>
+        <translation><!-- Technical Assistance Service 250/500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Assistance Service &lt;250</masterLabel>
+        <translation><!-- Technical Assistance Service &lt;250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telephone advice in case of theft</masterLabel>
+        <translation>Asesoramiento telefónico frente al robo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Hosp. Incapacity From 16th Day</masterLabel>
+        <translation><!-- Temp. Hosp. Incapacity From 16th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Hosp. Incapacity From 1st Day</masterLabel>
+        <translation><!-- Temp. Hosp. Incapacity From 1st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Hosp. Incapacity From 31st Day</masterLabel>
+        <translation><!-- Temp. Hosp. Incapacity From 31st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Hosp. Incapacity From 8th Day</masterLabel>
+        <translation><!-- Temp. Hosp. Incapacity From 8th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Incapacity From 16th Day</masterLabel>
+        <translation><!-- Temp. Incapacity From 16th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Incapacity From 1st Day</masterLabel>
+        <translation><!-- Temp. Incapacity From 1st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Incapacity From 31st Day</masterLabel>
+        <translation><!-- Temp. Incapacity From 31st Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temp. Incapacity From 8th Day</masterLabel>
+        <translation><!-- Temp. Incapacity From 8th Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporarily Displaced Goods</masterLabel>
+        <translation><!-- Temporarily Displaced Goods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tenant</masterLabel>
+        <translation>Inquilino</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tenant vandalism</masterLabel>
+        <translation>Actos vandálicos inquilino</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft</masterLabel>
+        <translation><!-- Theft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft In Private Annexes</masterLabel>
+        <translation><!-- Theft In Private Annexes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft Inside The Home</masterLabel>
+        <translation><!-- Theft Inside The Home --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft in other annexes</masterLabel>
+        <translation>Robo en otros anexos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft in storage rooms</masterLabel>
+        <translation>Robo en trasteros</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft in the home</masterLabel>
+        <translation>Hurto en la vivienda</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft of contents with building damage</masterLabel>
+        <translation>Robo contenido CON desperfectos continente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theft of contents without building damage</masterLabel>
+        <translation>Robo contenido SIN desperfectos continente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages</masterLabel>
+        <translation><!-- Third Party Damages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Common Frcia)</masterLabel>
+        <translation><!-- Third Party Damages (Common Frcia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Common/Private)</masterLabel>
+        <translation><!-- Third Party Damages (Common/Private) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Frcia 180)</masterLabel>
+        <translation><!-- Third Party Damages (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Frcia 181)</masterLabel>
+        <translation><!-- Third Party Damages (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Frcia 300)</masterLabel>
+        <translation><!-- Third Party Damages (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Frcia 301)</masterLabel>
+        <translation><!-- Third Party Damages (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Private Frcia)</masterLabel>
+        <translation><!-- Third Party Damages (Private Frcia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages (Private)</masterLabel>
+        <translation><!-- Third Party Damages (Private) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages C/F</masterLabel>
+        <translation><!-- Third Party Damages C/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Com/Priv</masterLabel>
+        <translation><!-- Third Party Damages Com/Priv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Com/Priv 11-20 Years</masterLabel>
+        <translation><!-- Third Party Damages Com/Priv 11-20 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Com/Priv Frcia 150</masterLabel>
+        <translation><!-- Third Party Damages Com/Priv Frcia 150 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Com/Priv Up To 10 Years</masterLabel>
+        <translation><!-- Third Party Damages Com/Priv Up To 10 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common</masterLabel>
+        <translation><!-- Third Party Damages Common --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common 11-20 Years</masterLabel>
+        <translation><!-- Third Party Damages Common 11-20 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common Frcia 150</masterLabel>
+        <translation><!-- Third Party Damages Common Frcia 150 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common Frcia 181</masterLabel>
+        <translation><!-- Third Party Damages Common Frcia 181 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common Frcia 300</masterLabel>
+        <translation><!-- Third Party Damages Common Frcia 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common Frcia 301</masterLabel>
+        <translation><!-- Third Party Damages Common Frcia 301 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Common Up To 10 Years</masterLabel>
+        <translation><!-- Third Party Damages Common Up To 10 Years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Excl. Employer Liability</masterLabel>
+        <translation><!-- Third Party Damages Excl. Employer Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Excl. Patr. &amp; Prod.</masterLabel>
+        <translation><!-- Third Party Damages Excl. Patr. &amp; Prod. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Excl. Product Liability</masterLabel>
+        <translation><!-- Third Party Damages Excl. Product Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Frca 180</masterLabel>
+        <translation><!-- Third Party Damages Frca 180 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages Frcia 300</masterLabel>
+        <translation><!-- Third Party Damages Frcia 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Damages S/F</masterLabel>
+        <translation><!-- Third Party Damages S/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tile leaks</masterLabel>
+        <translation>Filtraciones azulejos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total And Absolute Permanent Disability</masterLabel>
+        <translation><!-- Total And Absolute Permanent Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Permanent Disability Non-Work Accident</masterLabel>
+        <translation><!-- Total Permanent Disability Non-Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Permanent Disability Occupational Disease</masterLabel>
+        <translation><!-- Total Permanent Disability Occupational Disease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Permanent Disability Work Accident</masterLabel>
+        <translation><!-- Total Permanent Disability Work Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Traffic Accident</masterLabel>
+        <translation><!-- Traffic Accident --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlimited Health Assistance</masterLabel>
+        <translation><!-- Unlimited Health Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgent Plumbing Without Damage</masterLabel>
+        <translation><!-- Urgent Plumbing Without Damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use</masterLabel>
+        <translation>Uso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism</masterLabel>
+        <translation>Actos vandálicos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism (Common)</masterLabel>
+        <translation><!-- Vandalism (Common) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism (Frcia 180)</masterLabel>
+        <translation><!-- Vandalism (Frcia 180) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism (Frcia 181)</masterLabel>
+        <translation><!-- Vandalism (Frcia 181) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism (Frcia 300)</masterLabel>
+        <translation><!-- Vandalism (Frcia 300) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism (Frcia 301)</masterLabel>
+        <translation><!-- Vandalism (Frcia 301) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism C/F</masterLabel>
+        <translation><!-- Vandalism C/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Common</masterLabel>
+        <translation><!-- Vandalism Common --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Common/Private</masterLabel>
+        <translation><!-- Vandalism Common/Private --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism First Risk</masterLabel>
+        <translation><!-- Vandalism First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Inventory</masterLabel>
+        <translation><!-- Vandalism Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism S/F</masterLabel>
+        <translation><!-- Vandalism S/F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalism Total Value</masterLabel>
+        <translation><!-- Vandalism Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vandalismo</masterLabel>
+        <translation><!-- Vandalismo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision</masterLabel>
+        <translation><!-- Vehicle Collision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision Building</masterLabel>
+        <translation><!-- Vehicle Collision Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision First Risk</masterLabel>
+        <translation><!-- Vehicle Collision First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision Inventory</masterLabel>
+        <translation><!-- Vehicle Collision Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision New Value</masterLabel>
+        <translation><!-- Vehicle Collision New Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision Renovation Works</masterLabel>
+        <translation><!-- Vehicle Collision Renovation Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Collision Total Value</masterLabel>
+        <translation><!-- Vehicle Collision Total Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Workshops</masterLabel>
+        <translation><!-- Vehicle Workshops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle collision</masterLabel>
+        <translation>Choque de vehiculos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle workshops</masterLabel>
+        <translation><!-- Vehicle workshops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veterinary assistance</masterLabel>
+        <translation>Asistencia veterinaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vision and sound devices</masterLabel>
+        <translation>Aparatos de visión y sonido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voluntary Hunting And Fishing Insurance</masterLabel>
+        <translation><!-- Voluntary Hunting And Fishing Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water leak / isolated leak</masterLabel>
+        <translation>Escape de agua / fuga puntual</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind</masterLabel>
+        <translation>Viento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Window glass</masterLabel>
+        <translation>Cristal de ventana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Glass, Signs</masterLabel>
+        <translation><!-- Windows, Glass, Signs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Glass, Signs Building</masterLabel>
+        <translation><!-- Windows, Glass, Signs Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Glass, Signs Renovation</masterLabel>
+        <translation><!-- Windows, Glass, Signs Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Mirror, Glass Building</masterLabel>
+        <translation><!-- Windows, Mirror, Glass Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Mirror, Glass Renovation</masterLabel>
+        <translation><!-- Windows, Mirror, Glass Renovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Mirrors, Glass</masterLabel>
+        <translation><!-- Windows, Mirrors, Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Mirrors, Glass Building</masterLabel>
+        <translation><!-- Windows, Mirrors, Glass Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows, Mirrors, Glass First Risk</masterLabel>
+        <translation><!-- Windows, Mirrors, Glass First Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windows/Glass</masterLabel>
+        <translation><!-- Windows/Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Work-Related Death</masterLabel>
+        <translation><!-- Work-Related Death --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

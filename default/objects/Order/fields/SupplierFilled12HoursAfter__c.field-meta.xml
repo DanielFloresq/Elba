@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupplierFilled12HoursAfter__c</fullName>
+    <description>This field is used for Task Logic
+Desde a Asignação do Encargo tem Check Box Urgente a False e o Campo Fecha y Hora de Contacto está a null</description>
+    <label>Supplier Filled 12 Hours After</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

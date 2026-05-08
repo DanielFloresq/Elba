@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Preferencias por compañía/mediador/gremio</label>
+    <name>CompanyMediatorGuildPrefs__c</name>
+    <picklistValues>
+        <masterLabel>Abanca</masterLabel>
+        <translation><!-- Abanca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abanca, mediador A Pelayo</masterLabel>
+        <translation><!-- Abanca, mediador A Pelayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lagun Aro</masterLabel>
+        <translation><!-- Lagun Aro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pelayo</masterLabel>
+        <translation><!-- Pelayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador A Lagun Aro</masterLabel>
+        <translation><!-- mediador A Lagun Aro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador A Lagun Aro, Abanca</masterLabel>
+        <translation><!-- mediador A Lagun Aro, Abanca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador A Pelayo</masterLabel>
+        <translation><!-- mediador A Pelayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador A y B Lagun Aro</masterLabel>
+        <translation><!-- mediador A y B Lagun Aro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador A y B Pelayo</masterLabel>
+        <translation><!-- mediador A y B Pelayo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador B Lagun Aro</masterLabel>
+        <translation><!-- mediador B Lagun Aro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mediador B Pelayo</masterLabel>
+        <translation><!-- mediador B Pelayo --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

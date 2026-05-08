@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventOwnerChangeWhenClosed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(OwnerId)
+)</errorConditionFormula>
+    <errorMessage>You cannot change the owner</errorMessage>
+</ValidationRule>

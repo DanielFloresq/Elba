@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReopeningReason__c</fullName>
+    <label>Reopening Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Error cierre tramitación</fullName>
+                <default>false</default>
+                <label>Error cierre tramitación</label>
+            </value>
+            <value>
+                <fullName>Error cierre reparador</fullName>
+                <default>false</default>
+                <label>Error cierre reparador</label>
+            </value>
+            <value>
+                <fullName>Modificación facturación</fullName>
+                <default>false</default>
+                <label>Modificación facturación</label>
+            </value>
+            <value>
+                <fullName>Solicitud compañía</fullName>
+                <default>false</default>
+                <label>Solicitud compañía</label>
+            </value>
+            <value>
+                <fullName>Solicitud cliente</fullName>
+                <default>false</default>
+                <label>Solicitud cliente</label>
+            </value>
+            <value>
+                <fullName>Solicitud perito</fullName>
+                <default>false</default>
+                <label>Solicitud perito</label>
+            </value>
+            <value>
+                <fullName>Error sistema</fullName>
+                <default>false</default>
+                <label>Error sistema</label>
+            </value>
+            <value>
+                <fullName>Nuevos daños detectados</fullName>
+                <default>false</default>
+                <label>Nuevos daños detectados</label>
+            </value>
+            <value>
+                <fullName>Reclamación</fullName>
+                <default>false</default>
+                <label>Reclamación</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

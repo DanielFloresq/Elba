@@ -1,0 +1,33 @@
+/* ═══════════════════════════════════════════════════════
+   caseReopenSelector – Custom styles
+   ═══════════════════════════════════════════════════════ */
+
+/* Order detail row inside the accordion */
+.order-detail-row {
+    background-color: #f4f6f9;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.order-detail-row .slds-text-title_caps {
+    font-size: 0.625rem;
+    color: #706e6b;
+    letter-spacing: 0.05em;
+}
+
+.order-detail-row .slds-text-body_regular {
+    font-weight: 600;
+}
+
+/* Validation message box */
+.validation-box {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #fef0cd;
+    border: 1px solid #e2ce7a;
+}
+
+.validation-box p {
+    margin: 0;
+    color: #080707;
+}

@@ -1,0 +1,213 @@
+<template>
+    <!-- ═══════════════════════════════════════════════════════
+         CASE RECORD PAGE — Full reopening flow
+         ═══════════════════════════════════════════════════════ -->
+    <template if:true={isCasePage}>
+        <lightning-card title="Reapertura de Siniestro" icon-name="standard:case">
+
+            <!-- Step 1 — Reopening Reason picklist -->
+            <div class="slds-p-around_medium">
+                <lightning-combobox
+                    name="reopeningReason"
+                    label="Motivo de la reapertura"
+                    placeholder="-- Seleccione un motivo --"
+                    options={reopeningOptions}
+                    value={selectedReason}
+                    required
+                    onchange={handleReasonChange}
+                    message-when-value-missing="Debe seleccionar un motivo de reapertura."
+                ></lightning-combobox>
+
+                <div class="slds-m-top_medium">
+                    <lightning-textarea
+                        name="reopeningDescription"
+                        label="Descripción de la reapertura"
+                        value={reopeningDescription}
+                        required
+                        onchange={handleDescriptionChange}
+                        message-when-value-missing="Debe rellenar la descripción de la reapertura."
+                    ></lightning-textarea>
+                </div>
+            </div>
+
+            <!-- Step 2+3 — Orders with child Services (accordion) -->
+            <template if:true={showOrders}>
+
+                <!-- Loading spinner -->
+                <template if:true={isLoadingOrders}>
+                    <div class="slds-is-relative slds-p-around_large">
+                        <lightning-spinner alternative-text="Cargando encargos…" size="medium"></lightning-spinner>
+                    </div>
+                </template>
+
+                <!-- Error -->
+                <template if:true={ordersError}>
+                    <div class="slds-p-around_medium">
+                        <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                            <span class="slds-assistive-text">Error</span>
+                            <p>{ordersError}</p>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Empty state -->
+                <template if:true={hasNoOrders}>
+                    <div class="slds-p-around_medium slds-text-color_weak slds-text-align_center">
+                        No se encontraron encargos (Orders) asociados a este caso.
+                    </div>
+                </template>
+
+                <!-- Orders + Services hierarchy -->
+                <template if:true={hasOrders}>
+                    <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+                        <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_small">
+                            Seleccione los encargos y servicios que desea reabrir.
+                        </p>
+
+                        <lightning-accordion allow-multiple-sections-open active-section-name={allOrderIds}>
+                            <template for:each={ordersViewModel} for:item="ow">
+                                <lightning-accordion-section
+                                    key={ow.orderId}
+                                    name={ow.orderId}
+                                    label={ow.accordionLabel}
+                                >
+                                    <!-- Order-level checkbox -->
+                                    <div class="slds-p-bottom_x-small slds-p-left_medium" slot="actions">
+                                        <lightning-input
+                                            type="checkbox"
+                                            label="Seleccionar encargo"
+                                            data-order-id={ow.orderId}
+                                            checked={ow.isSelected}
+                                            onchange={handleOrderCheckbox}
+                                            variant="label-hidden"
+                                        ></lightning-input>
+                                    </div>
+
+                                    <!-- Order details row -->
+                                    <div class="slds-grid slds-wrap slds-p-bottom_small order-detail-row">
+                                        <div class="slds-col slds-size_1-of-4">
+                                            <span class="slds-text-title_caps">Order Number</span>
+                                            <p class="slds-text-body_regular">{ow.orderNumber}</p>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-4">
+                                            <span class="slds-text-title_caps">Guild</span>
+                                            <p class="slds-text-body_regular">{ow.guild}</p>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-4">
+                                            <span class="slds-text-title_caps">Provider Type</span>
+                                            <p class="slds-text-body_regular">{ow.providerType}</p>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-4">
+                                            <span class="slds-text-title_caps">Type</span>
+                                            <p class="slds-text-body_regular">{ow.orderType}</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Services datatable -->
+                                    <template if:true={ow.hasServices}>
+                                        <lightning-datatable
+                                            key-field="id"
+                                            data={ow.services}
+                                            columns={serviceColumns}
+                                            selected-rows={ow.selectedServiceIds}
+                                            onrowselection={handleServiceSelection}
+                                            data-order-id={ow.orderId}
+                                        ></lightning-datatable>
+                                    </template>
+
+                                    <template if:false={ow.hasServices}>
+                                        <p class="slds-text-color_weak slds-p-around_small">
+                                            Sin servicios asociados a este encargo.
+                                        </p>
+                                    </template>
+                                </lightning-accordion-section>
+                            </template>
+                        </lightning-accordion>
+
+                        <!-- Validation errors -->
+                        <template if:true={validationError}>
+                            <div class="slds-notify slds-notify_alert slds-alert_warning slds-m-top_small validation-box" role="alert">
+                                <span class="slds-assistive-text">Warning</span>
+                                <p>{validationError}</p>
+                            </div>
+                        </template>
+
+                        <!-- Confirm button -->
+                        <div class="slds-m-top_medium slds-text-align_right">
+                            <lightning-button
+                                variant="brand"
+                                label="Reopen Case"
+                                onclick={handleConfirm}
+                                icon-name="utility:check"
+                                disabled={isBusy}
+                            ></lightning-button>
+                        </div>
+                    </div>
+                </template>
+            </template>
+        </lightning-card>
+    </template>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ORDER RECORD PAGE — Services list only
+         ═══════════════════════════════════════════════════════ -->
+    <template if:true={isOrderPage}>
+        <lightning-card title="Servicios del Encargo" icon-name="standard:service_resource">
+
+            <!-- Loading -->
+            <template if:true={isLoadingOrderServices}>
+                <div class="slds-is-relative slds-p-around_large">
+                    <lightning-spinner alternative-text="Cargando servicios…" size="medium"></lightning-spinner>
+                </div>
+            </template>
+
+            <!-- Error -->
+            <template if:true={orderServicesError}>
+                <div class="slds-p-around_medium">
+                    <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                        <span class="slds-assistive-text">Error</span>
+                        <p>{orderServicesError}</p>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Empty state -->
+            <template if:true={hasNoOrderServices}>
+                <div class="slds-p-around_medium slds-text-color_weak slds-text-align_center">
+                    No se encontraron servicios asociados a este encargo.
+                </div>
+            </template>
+
+            <!-- Services datatable -->
+            <template if:true={hasOrderServices}>
+                <div class="slds-p-around_medium">
+                    <lightning-datatable
+                        key-field="id"
+                        data={orderServiceRows}
+                        columns={serviceColumnsOrderPage}
+                        selected-rows={selectedOrderPageServiceIds}
+                        onrowselection={handleOrderPageServiceSelection}
+                        show-row-number-column
+                    ></lightning-datatable>
+
+                    <template if:true={validationError}>
+                        <div class="slds-notify slds-notify_alert slds-alert_warning slds-m-top_small validation-box" role="alert">
+                            <span class="slds-assistive-text">Warning</span>
+                            <p>{validationError}</p>
+                        </div>
+                    </template>
+
+                    <div class="slds-m-top_medium slds-text-align_right">
+                        <lightning-button
+                            variant="brand"
+                            label="Reopen Order"
+                            onclick={handleConfirm}
+                            icon-name="utility:check"
+                            disabled={isBusy}
+                        ></lightning-button>
+                    </div>
+                </div>
+            </template>
+        </lightning-card>
+    </template>
+</template>

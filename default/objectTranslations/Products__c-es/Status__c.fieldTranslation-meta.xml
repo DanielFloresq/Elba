@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estado</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation>Aceptada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied</masterLabel>
+        <translation>Denegada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>Borrador</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoiced</masterLabel>
+        <translation>Facturada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Authorization</masterLabel>
+        <translation>Autorización pendiente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refused</masterLabel>
+        <translation>Rechazada</translation>
+    </picklistValues>
+</CustomFieldTranslation>

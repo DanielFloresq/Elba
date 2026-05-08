@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apertura</fullName>
+                <default>true</default>
+                <label>Apertura</label>
+            </value>
+            <value>
+                <fullName>Presupuestacion</fullName>
+                <default>false</default>
+                <label>Presupuestacion</label>
+            </value>
+            <value>
+                <fullName>En Ejecucion de Trabajos</fullName>
+                <default>false</default>
+                <label>En Ejecucion de Trabajos</label>
+            </value>
+            <value>
+                <fullName>Servicio Cerrado</fullName>
+                <default>false</default>
+                <label>Servicio Cerrado</label>
+            </value>
+            <value>
+                <fullName>Cierre Parcial</fullName>
+                <default>false</default>
+                <label>Cierre Parcial</label>
+            </value>
+            <value>
+                <fullName>Cancelado/Anulado</fullName>
+                <default>false</default>
+                <label>Cancelado/Anulado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

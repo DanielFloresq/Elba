@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-AppLauncher</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>MobileLanding</tabs>
+    <tabs>Exception__c</tabs>
+    <tabs>AlgorithmOutcomes__c</tabs>
+    <tabs>RelacionadorDeTasks__c</tabs>
+    <tabs>SupplierGuild__c</tabs>
+    <tabs>InsurableCoverage__c</tabs>
+    <tabs>Invoice__c</tabs>
+</CustomApplication>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <assignments>
+        <name>AssingmentPendingClaimant</name>
+        <label>Assingment Pending Claimant</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.DateTimePendingPolicyHolder__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>AssingmentPendingMaterial</name>
+        <label>Assingment Pending Material</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.DateTimeMaterialPending__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Copy_2_of_Assingment_Pending_Material</name>
+        <label>Assingment Pending Drying</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.DateTimePendingDrying__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>DecisionSituationIsChanged</name>
+        <label>Decision Situation Is Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>PendingMaterial</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Situation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Material</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Situation__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssingmentPendingMaterial</targetReference>
+            </connector>
+            <label>Pending Material</label>
+        </rules>
+        <rules>
+            <name>PendingDrying</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Situation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Drying</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Situation__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_2_of_Assingment_Pending_Material</targetReference>
+            </connector>
+            <label>Pending Drying</label>
+        </rules>
+        <rules>
+            <name>PendingClaimant</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Situation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Policyholder</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssingmentPendingClaimant</targetReference>
+            </connector>
+            <label>Pending Claimant</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>CurrentDateTime</name>
+        <dataType>DateTime</dataType>
+        <expression>now()</expression>
+    </formulas>
+    <interviewLabel>After Update | Service Task Logic {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Before Update | Service Task Logic</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>DecisionSituationIsChanged</targetReference>
+        </connector>
+        <object>Service__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

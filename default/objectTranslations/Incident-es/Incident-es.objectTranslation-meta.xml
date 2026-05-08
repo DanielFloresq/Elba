@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Incidencia</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Incidencias</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Incident Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Reapertura Incidencia --></label>
+            <section>Reapertura Incidencia</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Reabrir Incidencia</label>
+        <name>ReopenIncident</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Si desea editar este incidente, debe volver a abrirlo. --></errorMessage>
+        <name>ClosedValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Los campos Tipo, Motivo y Origen están bloqueados cuando el Origen es Empresa.</errorMessage>
+        <name>LockTypeReasonOriginWhenCompany</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede cambiar el propietari.</errorMessage>
+        <name>PreventOwnerChangeWhenClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Por favor, seleccione un motivo de reapertura antes de cambiar el estado a “Reaperturado”.</errorMessage>
+        <name>RequireReopenReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden modificar los campos cuando el estado es cerrado.</errorMessage>
+        <name>StatusClosedBlockEdits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Para cerrar la incidencia es necesario rellenar los campos Resultado y Satisfacción del Cliente!</errorMessage>
+        <name>StatusClosedMandatoryFields</name>
+    </validationRules>
+</CustomObjectTranslation>

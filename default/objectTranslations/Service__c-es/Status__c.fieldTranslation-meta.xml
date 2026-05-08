@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estado</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Apertura</masterLabel>
+        <translation><!-- Apertura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelado/Anulado</masterLabel>
+        <translation><!-- Cancelado/Anulado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cierre Parcial</masterLabel>
+        <translation><!-- Cierre Parcial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En Ejecucion de Trabajos</masterLabel>
+        <translation><!-- En Ejecucion de Trabajos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presupuestacion</masterLabel>
+        <translation><!-- Presupuestacion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Servicio Cerrado</masterLabel>
+        <translation><!-- Servicio Cerrado --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Street Type --></label>
+    <name>StreetType__c</name>
+    <picklistValues>
+        <masterLabel>ALLEY</masterLabel>
+        <translation><!-- ALLEY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APARTMENTS</masterLabel>
+        <translation><!-- APARTMENTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASCENT</masterLabel>
+        <translation><!-- ASCENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AVENUE</masterLabel>
+        <translation><!-- AVENUE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BLOCK</masterLabel>
+        <translation><!-- BLOCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BUILDING</masterLabel>
+        <translation><!-- BUILDING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLONY</masterLabel>
+        <translation><!-- COLONY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CORNER</masterLabel>
+        <translation><!-- CORNER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CROSSING</masterLabel>
+        <translation><!-- CROSSING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DESCENT</masterLabel>
+        <translation><!-- DESCENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EXTENSION</masterLabel>
+        <translation><!-- EXTENSION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GLEN</masterLabel>
+        <translation><!-- GLEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GRAN VIA</masterLabel>
+        <translation><!-- GRAN VIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GROUP</masterLabel>
+        <translation><!-- GROUP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GROUPING</masterLabel>
+        <translation><!-- GROUPING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HIGHWAY</masterLabel>
+        <translation><!-- HIGHWAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HILL</masterLabel>
+        <translation><!-- HILL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOUSE</masterLabel>
+        <translation><!-- HOUSE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INDUSTRIAL ESTATE</masterLabel>
+        <translation><!-- INDUSTRIAL ESTATE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAIN STREET</masterLabel>
+        <translation><!-- MAIN STREET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARKET</masterLabel>
+        <translation><!-- MARKET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOTORWAY</masterLabel>
+        <translation><!-- MOTORWAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUNICIPALITY</masterLabel>
+        <translation><!-- MUNICIPALITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEIGHBORHOOD</masterLabel>
+        <translation><!-- NEIGHBORHOOD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARK</masterLabel>
+        <translation><!-- PARK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARKING LOT</masterLabel>
+        <translation><!-- PARKING LOT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTIDA</masterLabel>
+        <translation><!-- PARTIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PASSAGE</masterLabel>
+        <translation><!-- PASSAGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PATH</masterLabel>
+        <translation><!-- PATH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PLACE</masterLabel>
+        <translation><!-- PLACE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROMENADE</masterLabel>
+        <translation><!-- PROMENADE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAVAL</masterLabel>
+        <translation><!-- RAVAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAVINE</masterLabel>
+        <translation><!-- RAVINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RING ROAD</masterLabel>
+        <translation><!-- RING ROAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROAD</masterLabel>
+        <translation><!-- ROAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROUNDABOUT</masterLabel>
+        <translation><!-- ROUNDABOUT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SECTOR</masterLabel>
+        <translation><!-- SECTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQUARE</masterLabel>
+        <translation><!-- SQUARE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STREAM</masterLabel>
+        <translation><!-- STREAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STREET</masterLabel>
+        <translation><!-- STREET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TORRENT</masterLabel>
+        <translation><!-- TORRENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOWN</masterLabel>
+        <translation><!-- TOWN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>URBANIZATION</masterLabel>
+        <translation><!-- URBANIZATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIA</masterLabel>
+        <translation><!-- VIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VILLA</masterLabel>
+        <translation><!-- VILLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VILLAGE</masterLabel>
+        <translation><!-- VILLAGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WALK</masterLabel>
+        <translation><!-- WALK --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

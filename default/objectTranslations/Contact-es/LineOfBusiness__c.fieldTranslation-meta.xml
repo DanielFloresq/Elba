@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ramo</label>
+    <name>LineOfBusiness__c</name>
+    <picklistValues>
+        <masterLabel>0033 - LAGUN ARO NEGOCIO</masterLabel>
+        <translation><!-- 0033 - LAGUN ARO NEGOCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0159 - COMERCIO Y OFICINAS - Comercios y oficinas</masterLabel>
+        <translation><!-- 0159 - COMERCIO Y OFICINAS - Comercios y oficinas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0189 - HOGAR - HOGAR 5+1</masterLabel>
+        <translation><!-- 0189 - HOGAR - HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0191 - HOGAR - HOGAR 5+1 INQUILINOS</masterLabel>
+        <translation><!-- 0191 - HOGAR - HOGAR 5+1 INQUILINOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0192 - HOGAR - HOGAR 5+1 PROP.C/P.COMUN.</masterLabel>
+        <translation><!-- 0192 - HOGAR - HOGAR 5+1 PROP.C/P.COMUN. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0208 - HOGAR - HOGAR 5+1</masterLabel>
+        <translation><!-- 0208 - HOGAR - HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0212 - HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- 0212 - HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0215 - HOGAR - HOGAR SUPERBONUS</masterLabel>
+        <translation><!-- 0215 - HOGAR - HOGAR SUPERBONUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0216 - HOGAR - SUPERBONUS HIPOTECAS</masterLabel>
+        <translation><!-- 0216 - HOGAR - SUPERBONUS HIPOTECAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0218 - HOGAR - HOGAR SUPERBONUS</masterLabel>
+        <translation><!-- 0218 - HOGAR - HOGAR SUPERBONUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0219 - HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- 0219 - HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0220 - HOGAR - MASTER HOGAR HIPOTECARIO</masterLabel>
+        <translation><!-- 0220 - HOGAR - MASTER HOGAR HIPOTECARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0221 - HOGAR - MASTER HOGAR</masterLabel>
+        <translation><!-- 0221 - HOGAR - MASTER HOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0222 - HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- 0222 - HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0223 - HOGAR - SEGUNDOHOGAR</masterLabel>
+        <translation><!-- 0223 - HOGAR - SEGUNDOHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0224 - HOGAR - CONFORTHOGAR</masterLabel>
+        <translation><!-- 0224 - HOGAR - CONFORTHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0225 - HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- 0225 - HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0226 - HOGAR - HOGAR 5+1</masterLabel>
+        <translation><!-- 0226 - HOGAR - HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0227 - HOGAR - CONFORTHOGAR 5+1</masterLabel>
+        <translation><!-- 0227 - HOGAR - CONFORTHOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0228 - HOGAR - SEGURHOGAR 5+1</masterLabel>
+        <translation><!-- 0228 - HOGAR - SEGURHOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0229 - HOGAR - EUROHOGAR PROP.C/P.COMUN.</masterLabel>
+        <translation><!-- 0229 - HOGAR - EUROHOGAR PROP.C/P.COMUN. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0230 - HOGAR - EUROHOGAR INQUILINOS</masterLabel>
+        <translation><!-- 0230 - HOGAR - EUROHOGAR INQUILINOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0231 - HOGAR - HOGAR ROBO</masterLabel>
+        <translation><!-- 0231 - HOGAR - HOGAR ROBO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0233 - HOGAR - EUROHOGAR PLATA (hipot)</masterLabel>
+        <translation><!-- 0233 - HOGAR - EUROHOGAR PLATA (hipot) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0234 - HOGAR - EUROHOGAR (hipot)</masterLabel>
+        <translation><!-- 0234 - HOGAR - EUROHOGAR (hipot) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0235 - HOGAR - EUROHOGAR PLATA</masterLabel>
+        <translation><!-- 0235 - HOGAR - EUROHOGAR PLATA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0236 - HOGAR - EUROHOGAR</masterLabel>
+        <translation><!-- 0236 - HOGAR - EUROHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0237 - HOGAR - HOGAR MAS</masterLabel>
+        <translation><!-- 0237 - HOGAR - HOGAR MAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0244 - HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- 0244 - HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0246 - HOGAR - HOGARALIA 3.0</masterLabel>
+        <translation><!-- 0246 - HOGAR - HOGARALIA 3.0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0254 - HOGAR - HOGAR PLUS</masterLabel>
+        <translation><!-- 0254 - HOGAR - HOGAR PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0257 - HOGAR - HOGAR PLUS</masterLabel>
+        <translation><!-- 0257 - HOGAR - HOGAR PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0259 - HOGAR - HOGARALIA 3.0 2014</masterLabel>
+        <translation><!-- 0259 - HOGAR - HOGARALIA 3.0 2014 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0262 - HOGAR - HOGARALIA 3.0 2015</masterLabel>
+        <translation><!-- 0262 - HOGAR - HOGARALIA 3.0 2015 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0264 - HOGAR - HOGARALIA 3.0</masterLabel>
+        <translation><!-- 0264 - HOGAR - HOGARALIA 3.0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0265 - HOGAR - HOGARALIA 3.0 BIO</masterLabel>
+        <translation><!-- 0265 - HOGAR - HOGARALIA 3.0 BIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0270 - HOGAR - HOGARALIA 3.0 2016</masterLabel>
+        <translation><!-- 0270 - HOGAR - HOGARALIA 3.0 2016 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0277 - HOGAR - HOGAR PLUS</masterLabel>
+        <translation><!-- 0277 - HOGAR - HOGAR PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0281 - HOGAR - HOGARALIA 3.0 2017</masterLabel>
+        <translation><!-- 0281 - HOGAR - HOGARALIA 3.0 2017 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0290 - HOGAR - HOGAR 5+1</masterLabel>
+        <translation><!-- 0290 - HOGAR - HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0293 - HOGAR - HOGAR COMPROMISO</masterLabel>
+        <translation><!-- 0293 - HOGAR - HOGAR COMPROMISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0295 - HOGAR - HOGAR COMPROMISO ESENCIAL</masterLabel>
+        <translation><!-- 0295 - HOGAR - HOGAR COMPROMISO ESENCIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0296 - HOGAR - HOGAR SUPERBONUS</masterLabel>
+        <translation><!-- 0296 - HOGAR - HOGAR SUPERBONUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0298 - HOGAR - HOGARALIA 3.0</masterLabel>
+        <translation><!-- 0298 - HOGAR - HOGARALIA 3.0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0304 - PYMES - PROTECCION PYME</masterLabel>
+        <translation><!-- 0304 - PYMES - PROTECCION PYME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0305 - PYMES - INCENDIOS</masterLabel>
+        <translation><!-- 0305 - PYMES - INCENDIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0306 - PYMES - ROTURAS LUNAS/CRISTALES</masterLabel>
+        <translation><!-- 0306 - PYMES - ROTURAS LUNAS/CRISTALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0307 - PYMES - AVERIA DE MAQUINARIA</masterLabel>
+        <translation><!-- 0307 - PYMES - AVERIA DE MAQUINARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0308 - PYMES - INVERNADEROS</masterLabel>
+        <translation><!-- 0308 - PYMES - INVERNADEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0310 - PYMES - INVERNADEROS</masterLabel>
+        <translation><!-- 0310 - PYMES - INVERNADEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0312 - RESPONSABILIDAD CIVIL - Modalidad RC</masterLabel>
+        <translation><!-- 0312 - RESPONSABILIDAD CIVIL - Modalidad RC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>100 - ACCIDENTES - REPATRIACION</masterLabel>
+        <translation><!-- 100 - ACCIDENTES - REPATRIACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>101 - ACCIDENTES - ACCIDENTES PERS. 24 H. IND.</masterLabel>
+        <translation><!-- 101 - ACCIDENTES - ACCIDENTES PERS. 24 H. IND. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>102 - ACCIDENTES - ACCIDENTES PERS.PROFESIONAL</masterLabel>
+        <translation><!-- 102 - ACCIDENTES - ACCIDENTES PERS.PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>103 - ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL.</masterLabel>
+        <translation><!-- 103 - ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>104 - ACCIDENTES - ACCIDENTES PERS 24 H COLECT.</masterLabel>
+        <translation><!-- 104 - ACCIDENTES - ACCIDENTES PERS 24 H COLECT. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>105 - ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT.</masterLabel>
+        <translation><!-- 105 - ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>106 - ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO</masterLabel>
+        <translation><!-- 106 - ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>107 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESION</masterLabel>
+        <translation><!-- 107 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>108 - ACCIDENTES - PROTECCION DEL CONDUCTOR</masterLabel>
+        <translation><!-- 108 - ACCIDENTES - PROTECCION DEL CONDUCTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>109 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</masterLabel>
+        <translation><!-- 109 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>135 - ACCIDENTES - ASISTENCIA INFORMATICA</masterLabel>
+        <translation><!-- 135 - ACCIDENTES - ASISTENCIA INFORMATICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>146 - COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS</masterLabel>
+        <translation><!-- 146 - COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>147 - COMERCIO Y OFICINAS - Robo viviendas</masterLabel>
+        <translation><!-- 147 - COMERCIO Y OFICINAS - Robo viviendas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>148 - COMERCIO Y OFICINAS - ROBO Y EXPOLIACION</masterLabel>
+        <translation><!-- 148 - COMERCIO Y OFICINAS - ROBO Y EXPOLIACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>149 - COMERCIO Y OFICINAS - INCENDIO</masterLabel>
+        <translation><!-- 149 - COMERCIO Y OFICINAS - INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>150 - COMERCIO Y OFICINAS - COMERCIO INCENDIO</masterLabel>
+        <translation><!-- 150 - COMERCIO Y OFICINAS - COMERCIO INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>151 - COMERCIO Y OFICINAS - PROTECCION COMERCIOS</masterLabel>
+        <translation><!-- 151 - COMERCIO Y OFICINAS - PROTECCION COMERCIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>165 - COMUNIDADES - COMBINADO COMUNIDAD</masterLabel>
+        <translation><!-- 165 - COMUNIDADES - COMBINADO COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>166 - COMUNIDADES - COMUNIDAD PLUS &lt;1.2</masterLabel>
+        <translation><!-- 166 - COMUNIDADES - COMUNIDAD PLUS &lt;1.2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>173 - COMUNIDADES - COMB. COMUNIDAD (Comunes)</masterLabel>
+        <translation><!-- 173 - COMUNIDADES - COMB. COMUNIDAD (Comunes) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>174 - COMUNIDADES - COMUNIDADES RAMO 18</masterLabel>
+        <translation><!-- 174 - COMUNIDADES - COMUNIDADES RAMO 18 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>175 - COMUNIDADES - PROTECCION COMUNIDADES</masterLabel>
+        <translation><!-- 175 - COMUNIDADES - PROTECCION COMUNIDADES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>176 - COMUNIDADES - COMB. COMUNIDAD (Com/priv)</masterLabel>
+        <translation><!-- 176 - COMUNIDADES - COMB. COMUNIDAD (Com/priv) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>79 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</masterLabel>
+        <translation><!-- 79 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>81 - ACCIDENTES - REPATRIACION</masterLabel>
+        <translation><!-- 81 - ACCIDENTES - REPATRIACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>90 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</masterLabel>
+        <translation><!-- 90 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>94 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES</masterLabel>
+        <translation><!-- 94 - ACCIDENTES - RESP. CIVIL Y ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>95 - ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS</masterLabel>
+        <translation><!-- 95 - ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>96 - ACCIDENTES - ACCIDENTES INDIVID. PROFESION.</masterLabel>
+        <translation><!-- 96 - ACCIDENTES - ACCIDENTES INDIVID. PROFESION. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>97 - ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL</masterLabel>
+        <translation><!-- 97 - ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>98 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</masterLabel>
+        <translation><!-- 98 - ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>99 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO.</masterLabel>
+        <translation><!-- 99 - ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES -MOTOCIC-</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES -MOTOCIC- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES -PROFESION-TAXI-</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES -PROFESION-TAXI- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES 24 HORAS</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES COLECTIVO 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES COLECTIVO PROFESIO. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES COLECTIVO PROFESION</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES COLECTIVO PROFESION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES CORPOR. CIRCULACION</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES CORPOR. CIRCULACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES EXTRAPROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES GRAVES</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES GRAVES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES INDIVID. PROFESION.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES INDIVID. PROFESION. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES INDIVIDUAL 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES MODULAR</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES MODULAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES MOTEROS</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES MOTEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS 24 H COLECT.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS 24 H COLECT. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS. 24 H. IND.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS. 24 H. IND. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS. MUNAT DESPL. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS. VIDA PRIVADA</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS. VIDA PRIVADA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT.</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS.PROFES.COLECT. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERS.PROFESIONAL</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERS.PROFESIONAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERSONALES 24 HORAS</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERSONALES 24 HORAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PERSONALES ALCAMPO</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PERSONALES ALCAMPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES PROFESION</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES PROFESION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ACCIDENTES-EXTRAPROF-</masterLabel>
+        <translation><!-- ACCIDENTES - ACCIDENTES-EXTRAPROF- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ASISTENCIA EN VIAJE</masterLabel>
+        <translation><!-- ACCIDENTES - ASISTENCIA EN VIAJE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ASISTENCIA INFORMATICA</masterLabel>
+        <translation><!-- ACCIDENTES - ASISTENCIA INFORMATICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO</masterLabel>
+        <translation><!-- ACCIDENTES - ASISTENCIA VIAJE Y REPATRIACIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - ASISTENCIA VIVIENDA</masterLabel>
+        <translation><!-- ACCIDENTES - ASISTENCIA VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - Accidentes Convenio</masterLabel>
+        <translation><!-- ACCIDENTES - Accidentes Convenio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - Accidentes de Convenio</masterLabel>
+        <translation><!-- ACCIDENTES - Accidentes de Convenio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNE Y PUNTO</masterLabel>
+        <translation><!-- ACCIDENTES - CARNE Y PUNTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNE Y PUNTO (T)</masterLabel>
+        <translation><!-- ACCIDENTES - CARNE Y PUNTO (T) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNE Y PUNTO ESP</masterLabel>
+        <translation><!-- ACCIDENTES - CARNE Y PUNTO ESP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNE Y PUNTO MARCA</masterLabel>
+        <translation><!-- ACCIDENTES - CARNE Y PUNTO MARCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNÉ DE CONDUCIR ALCAMPO</masterLabel>
+        <translation><!-- ACCIDENTES - CARNÉ DE CONDUCIR ALCAMPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - CARNÉ Y PUNTO</masterLabel>
+        <translation><!-- ACCIDENTES - CARNÉ Y PUNTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COL. ASIST.INFORMATICA REMOTA</masterLabel>
+        <translation><!-- ACCIDENTES - COL. ASIST.INFORMATICA REMOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COL. ASIST.INFORMATICA TOTAL</masterLabel>
+        <translation><!-- ACCIDENTES - COL. ASIST.INFORMATICA TOTAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COLECTIVO CAZADOR BASIC</masterLabel>
+        <translation><!-- ACCIDENTES - COLECTIVO CAZADOR BASIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COLECTIVO CAZADOR COMPLET</masterLabel>
+        <translation><!-- ACCIDENTES - COLECTIVO CAZADOR COMPLET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COLECTIVO CAZADOR PLUS</masterLabel>
+        <translation><!-- ACCIDENTES - COLECTIVO CAZADOR PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COLECTIVO CERRAJERO Y LLAVES</masterLabel>
+        <translation><!-- ACCIDENTES - COLECTIVO CERRAJERO Y LLAVES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - COLECTIVO GUARDERIAS</masterLabel>
+        <translation><!-- ACCIDENTES - COLECTIVO GUARDERIAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - FAMILIAS JOVENES</masterLabel>
+        <translation><!-- ACCIDENTES - FAMILIAS JOVENES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - HOSPITALIZACIÓN</masterLabel>
+        <translation><!-- ACCIDENTES - HOSPITALIZACIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - NUEVO RAMO ACCIDENTES</masterLabel>
+        <translation><!-- ACCIDENTES - NUEVO RAMO ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PLAN ESPECIAL ACCIDENTES</masterLabel>
+        <translation><!-- ACCIDENTES - PLAN ESPECIAL ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECC. PAGOS C. FINANCIEROS</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECC. PAGOS C. FINANCIEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCION DEL CONDUCTOR</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCION DEL CONDUCTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCION JURIDICA MODULAR</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCION JURIDICA MODULAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCIÓN AUTÓNOMOS</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCIÓN AUTÓNOMOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCIÓN DE PAGOS</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCIÓN DE PAGOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCIÓN HOSPITALIZACIÓN</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCIÓN HOSPITALIZACIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - PROTECCIÓN SENIOR</masterLabel>
+        <translation><!-- ACCIDENTES - PROTECCIÓN SENIOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - REPATRIACION</masterLabel>
+        <translation><!-- ACCIDENTES - REPATRIACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - REPATRIACIÓN</masterLabel>
+        <translation><!-- ACCIDENTES - REPATRIACIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - RESP. CIVIL</masterLabel>
+        <translation><!-- ACCIDENTES - RESP. CIVIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - RESP. CIVIL Y ACCIDENTES</masterLabel>
+        <translation><!-- ACCIDENTES - RESP. CIVIL Y ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - SIENTE LA FINAL</masterLabel>
+        <translation><!-- ACCIDENTES - SIENTE LA FINAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - SIN UTILIZAR</masterLabel>
+        <translation><!-- ACCIDENTES - SIN UTILIZAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES - SUPERGARANTIA</masterLabel>
+        <translation><!-- ACCIDENTES - SUPERGARANTIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES GANADO OVINO</masterLabel>
+        <translation><!-- ACCIDENTES GANADO OVINO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACCIDENTES INDIVIDUALES</masterLabel>
+        <translation><!-- ACCIDENTES INDIVIDUALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AON @ LAGUN ARO PYME</masterLabel>
+        <translation><!-- AON @ LAGUN ARO PYME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CANCELACION ESPECTÁCULO</masterLabel>
+        <translation><!-- CANCELACION ESPECTÁCULO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COLECTIVO DE ACCIDENTES</masterLabel>
+        <translation><!-- COLECTIVO DE ACCIDENTES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMBINADO INDUSTRIAL</masterLabel>
+        <translation><!-- COMBINADO INDUSTRIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIO INCENDIO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIO INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIO Y OFICINAS</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIO Y OFICINAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIOS AMPLIADO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIOS AMPLIADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIOS BÁSICO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIOS BÁSICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIOS COMPROMISO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIOS COMPROMISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIOS PLUS</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIOS PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - COMERCIOS Y OFICINAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - DESPACHOS Y OFICINAS</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - DESPACHOS Y OFICINAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - FINANCIERO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - FINANCIERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - HOSTELERIA</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - HOSTELERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - INCENDIO</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - PROTECCION COMERCIOS</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - PROTECCION COMERCIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - ROBO Y EXPOLIACION</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - ROBO Y EXPOLIACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIO Y OFICINAS - Robo viviendas</masterLabel>
+        <translation><!-- COMERCIO Y OFICINAS - Robo viviendas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - C.COMUNIDAD- Fcia 180 -</masterLabel>
+        <translation><!-- COMUNIDADES - C.COMUNIDAD- Fcia 180 - --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMB. COMUNIDAD (Com/priv)</masterLabel>
+        <translation><!-- COMUNIDADES - COMB. COMUNIDAD (Com/priv) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMB. COMUNIDAD (Comunes)</masterLabel>
+        <translation><!-- COMUNIDADES - COMB. COMUNIDAD (Comunes) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMB.COMUNIDAD (Incendio)</masterLabel>
+        <translation><!-- COMUNIDADES - COMB.COMUNIDAD (Incendio) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMB.COMUNIDAD -Fcia 300-</masterLabel>
+        <translation><!-- COMUNIDADES - COMB.COMUNIDAD -Fcia 300- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMBINADO COMUNIDAD</masterLabel>
+        <translation><!-- COMUNIDADES - COMBINADO COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMBINADO COMUNIDAD-</masterLabel>
+        <translation><!-- COMUNIDADES - COMBINADO COMUNIDAD- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMUNIDAD PLUS 1,2-3</masterLabel>
+        <translation><!-- COMUNIDADES - COMUNIDAD PLUS 1,2-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMUNIDAD PLUS&gt;3</masterLabel>
+        <translation><!-- COMUNIDADES - COMUNIDAD PLUS&gt;3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - COMUNIDADES RAMO 18</masterLabel>
+        <translation><!-- COMUNIDADES - COMUNIDADES RAMO 18 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - NUEVA MODALIDAD</masterLabel>
+        <translation><!-- COMUNIDADES - NUEVA MODALIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMUNIDADES - PROTECCION COMUNIDADES</masterLabel>
+        <translation><!-- COMUNIDADES - PROTECCION COMUNIDADES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Asist. Básica</masterLabel>
+        <translation><!-- ComPym - Asist. Básica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Asist. Informática</masterLabel>
+        <translation><!-- ComPym - Asist. Informática --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Asist. No Cobertura</masterLabel>
+        <translation><!-- ComPym - Asist. No Cobertura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Asist. Plus</masterLabel>
+        <translation><!-- ComPym - Asist. Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Protección Digital</masterLabel>
+        <translation><!-- ComPym - Protección Digital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ComPym - Siniestros</masterLabel>
+        <translation><!-- ComPym - Siniestros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comercio Conexión Profesionales</masterLabel>
+        <translation><!-- Comercio Conexión Profesionales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comercio Urgencias</masterLabel>
+        <translation><!-- Comercio Urgencias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMBARCACIONES DE RECREO</masterLabel>
+        <translation><!-- EMBARCACIONES DE RECREO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EQUIPOS ELECTRÓNICOS</masterLabel>
+        <translation><!-- EQUIPOS ELECTRÓNICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GARANTIA DECENAL</masterLabel>
+        <translation><!-- GARANTIA DECENAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - 5+1 VIVIENDA VACACIONES</masterLabel>
+        <translation><!-- HOGAR - 5+1 VIVIENDA VACACIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - COMBINADO HOGAR</masterLabel>
+        <translation><!-- HOGAR - COMBINADO HOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - CONFORTHOGAR</masterLabel>
+        <translation><!-- HOGAR - CONFORTHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - CONFORTHOGAR 5+1</masterLabel>
+        <translation><!-- HOGAR - CONFORTHOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR (hipot)</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR (hipot) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR INQUILINOS</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR INQUILINOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR PLATA</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR PLATA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR PLATA (hipot)</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR PLATA (hipot) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - EUROHOGAR PROP.C/P.COMUN.</masterLabel>
+        <translation><!-- HOGAR - EUROHOGAR PROP.C/P.COMUN. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 2ª VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - HOGAR 2ª VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 2ª VIVIENDA ONLINE</masterLabel>
+        <translation><!-- HOGAR - HOGAR 2ª VIVIENDA ONLINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 4.0</masterLabel>
+        <translation><!-- HOGAR - HOGAR 4.0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 (hipot.)</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 (hipot.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 -INTERNET-</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 -INTERNET- --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 2ª VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 2ª VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 AZUL</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 AZUL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 AZUL (hipot.)</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 AZUL (hipot.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 HIPOTECAS</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 HIPOTECAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 INQUILINOS</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 INQUILINOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 PLUS</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR 5+1 PROP.C/P.COMUN.</masterLabel>
+        <translation><!-- HOGAR - HOGAR 5+1 PROP.C/P.COMUN. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR ALC-028</masterLabel>
+        <translation><!-- HOGAR - HOGAR ALC-028 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR BASIC</masterLabel>
+        <translation><!-- HOGAR - HOGAR BASIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR BASICO</masterLabel>
+        <translation><!-- HOGAR - HOGAR BASICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR BÁSICO</masterLabel>
+        <translation><!-- HOGAR - HOGAR BÁSICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR BÁSICO ONLINE</masterLabel>
+        <translation><!-- HOGAR - HOGAR BÁSICO ONLINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR CAI</masterLabel>
+        <translation><!-- HOGAR - HOGAR CAI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR CAJA ESPAÑA</masterLabel>
+        <translation><!-- HOGAR - HOGAR CAJA ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR CAJAMAR</masterLabel>
+        <translation><!-- HOGAR - HOGAR CAJAMAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR CAJAMAR 5+1</masterLabel>
+        <translation><!-- HOGAR - HOGAR CAJAMAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR CLASSIC</masterLabel>
+        <translation><!-- HOGAR - HOGAR CLASSIC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPLEX</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPLEX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPROMISO</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPROMISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPROMISO 2ª VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPROMISO 2ª VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPROMISO 2ªVIVIEND</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPROMISO 2ªVIVIEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPROMISO ESENCIAL</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPROMISO ESENCIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR COMPROMISO(*)</masterLabel>
+        <translation><!-- HOGAR - HOGAR COMPROMISO(*) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR FAMILIAS JOVENES</masterLabel>
+        <translation><!-- HOGAR - HOGAR FAMILIAS JOVENES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR FAMILIAS JÓVENES</masterLabel>
+        <translation><!-- HOGAR - HOGAR FAMILIAS JÓVENES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR INCENDIO</masterLabel>
+        <translation><!-- HOGAR - HOGAR INCENDIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR MAS</masterLabel>
+        <translation><!-- HOGAR - HOGAR MAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR PLANET 5+1</masterLabel>
+        <translation><!-- HOGAR - HOGAR PLANET 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR PLUS</masterLabel>
+        <translation><!-- HOGAR - HOGAR PLUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR PLUS ONLINE</masterLabel>
+        <translation><!-- HOGAR - HOGAR PLUS ONLINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR PREMIUM</masterLabel>
+        <translation><!-- HOGAR - HOGAR PREMIUM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR PREMIUM ONLINE</masterLabel>
+        <translation><!-- HOGAR - HOGAR PREMIUM ONLINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR ROBO</masterLabel>
+        <translation><!-- HOGAR - HOGAR ROBO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR SEGUNDA VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - HOGAR SEGUNDA VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR SOLUCION BASICO</masterLabel>
+        <translation><!-- HOGAR - HOGAR SOLUCION BASICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR SUPERBONUS</masterLabel>
+        <translation><!-- HOGAR - HOGAR SUPERBONUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR SUPERBONUS 2ª VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - HOGAR SUPERBONUS 2ª VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGAR TU OTRA CASA</masterLabel>
+        <translation><!-- HOGAR - HOGAR TU OTRA CASA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 2014</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 2014 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 2015</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 2015 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 2016</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 2016 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 2017</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 2017 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 BIO</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 BIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 BIO 2014</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 BIO 2014 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 BIO 2015</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 BIO 2015 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 BIO 2016</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 BIO 2016 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - HOGARALIA 3.0 BIO 2017</masterLabel>
+        <translation><!-- HOGAR - HOGARALIA 3.0 BIO 2017 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - MASTER HOGAR</masterLabel>
+        <translation><!-- HOGAR - MASTER HOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - MASTER HOGAR HIPOTECARIO</masterLabel>
+        <translation><!-- HOGAR - MASTER HOGAR HIPOTECARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - PELAYO HOGAR 5+1</masterLabel>
+        <translation><!-- HOGAR - PELAYO HOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - POLIZA COMPROMISO</masterLabel>
+        <translation><!-- HOGAR - POLIZA COMPROMISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - PRUEBA</masterLabel>
+        <translation><!-- HOGAR - PRUEBA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SEGUNDA VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - SEGUNDA VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SEGUNDOHOGAR</masterLabel>
+        <translation><!-- HOGAR - SEGUNDOHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SEGURHOGAR</masterLabel>
+        <translation><!-- HOGAR - SEGURHOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SEGURHOGAR 5+1</masterLabel>
+        <translation><!-- HOGAR - SEGURHOGAR 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SUPERBONUS 2ª VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - SUPERBONUS 2ª VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SUPERBONUS 2¿ VIVIENDA</masterLabel>
+        <translation><!-- HOGAR - SUPERBONUS 2¿ VIVIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - SUPERBONUS HIPOTECAS</masterLabel>
+        <translation><!-- HOGAR - SUPERBONUS HIPOTECAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - TU OTRA CASA</masterLabel>
+        <translation><!-- HOGAR - TU OTRA CASA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - VIVIENDA 5+1</masterLabel>
+        <translation><!-- HOGAR - VIVIENDA 5+1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOGAR - VIVIENDAS COMUNIDAD ASEGU.</masterLabel>
+        <translation><!-- HOGAR - VIVIENDAS COMUNIDAD ASEGU. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Asist. No Cobertura</masterLabel>
+        <translation><!-- Hogar - Asist. No Cobertura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Básico</masterLabel>
+        <translation><!-- Hogar - Básico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Extracontractual</masterLabel>
+        <translation><!-- Hogar - Extracontractual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Limpieza Vivienda</masterLabel>
+        <translation><!-- Hogar - Limpieza Vivienda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Plus</masterLabel>
+        <translation><!-- Hogar - Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Segunda Residencia</masterLabel>
+        <translation><!-- Hogar - Segunda Residencia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar - Siniestros</masterLabel>
+        <translation><!-- Hogar - Siniestros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar Conexión Profesionales</masterLabel>
+        <translation><!-- Hogar Conexión Profesionales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar Regreso Anticipado</masterLabel>
+        <translation><!-- Hogar Regreso Anticipado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar Reparación Electrodomésticos</masterLabel>
+        <translation><!-- Hogar Reparación Electrodomésticos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogar Urgencias</masterLabel>
+        <translation><!-- Hogar Urgencias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L.A HOGAR</masterLabel>
+        <translation><!-- L.A HOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAGUN ARO COMBINADA AGRÍCOLA</masterLabel>
+        <translation><!-- LAGUN ARO COMBINADA AGRÍCOLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAGUN ARO COMERCIO</masterLabel>
+        <translation><!-- LAGUN ARO COMERCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAGUN ARO COMUNIDAD</masterLabel>
+        <translation><!-- LAGUN ARO COMUNIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAGUN ARO NEGOCIO</masterLabel>
+        <translation><!-- LAGUN ARO NEGOCIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lovys Asistencias</masterLabel>
+        <translation><!-- Lovys Asistencias --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lovys Siniestros</masterLabel>
+        <translation><!-- Lovys Siniestros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PATINETES ELECTRICOS Y BICICLETAS</masterLabel>
+        <translation><!-- PATINETES ELECTRICOS Y BICICLETAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERDIDA DE BENEFICIOS</masterLabel>
+        <translation><!-- PERDIDA DE BENEFICIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROTECCION DE PAGOS</masterLabel>
+        <translation><!-- PROTECCION DE PAGOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - AVERIA DE MAQUINARIA</masterLabel>
+        <translation><!-- PYMES - AVERIA DE MAQUINARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - INCENDIOS</masterLabel>
+        <translation><!-- PYMES - INCENDIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - INVERNADEROS</masterLabel>
+        <translation><!-- PYMES - INVERNADEROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - PROTECCION PYME</masterLabel>
+        <translation><!-- PYMES - PROTECCION PYME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - ROTURAS LUNAS/CRISTALES</masterLabel>
+        <translation><!-- PYMES - ROTURAS LUNAS/CRISTALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PYMES - TALLER AUTOMOCIÓN</masterLabel>
+        <translation><!-- PYMES - TALLER AUTOMOCIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESPONSABILIDAD CIVIL</masterLabel>
+        <translation><!-- RESPONSABILIDAD CIVIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESPONSABILIDAD CIVIL - Modalidad RC</masterLabel>
+        <translation><!-- RESPONSABILIDAD CIVIL - Modalidad RC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESPONSABILIDAD CIVIL CAZADOR</masterLabel>
+        <translation><!-- RESPONSABILIDAD CIVIL CAZADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROBO Y EXPOLIACIÓN</masterLabel>
+        <translation><!-- ROBO Y EXPOLIACIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROTURA DE LUNAS Y CRISTALES</masterLabel>
+        <translation><!-- ROTURA DE LUNAS Y CRISTALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROTURA DE MAQUINARIA</masterLabel>
+        <translation><!-- ROTURA DE MAQUINARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGURO DE INCENDIOS</masterLabel>
+        <translation><!-- SEGURO DE INCENDIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Siniestros Hogar</masterLabel>
+        <translation><!-- Siniestros Hogar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Siniestros reparable Comercio</masterLabel>
+        <translation><!-- Siniestros reparable Comercio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Siniestros reparable Hogar</masterLabel>
+        <translation><!-- Siniestros reparable Hogar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T. R. CONSTRUCCIÓN</masterLabel>
+        <translation><!-- T. R. CONSTRUCCIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODO  RIESGO DE  DAÑOS MATERIALES</masterLabel>
+        <translation><!-- TODO  RIESGO DE  DAÑOS MATERIALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TODO RIESGO MONTAJE</masterLabel>
+        <translation><!-- TODO RIESGO MONTAJE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRANSPORTE DE MERCANCÍAS</masterLabel>
+        <translation><!-- TRANSPORTE DE MERCANCÍAS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

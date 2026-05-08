@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>SLA_Ingration</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>true</isOauthPluginEnabled>
+    <label>SLA_Ingration_plcy</label>
+    <startPage>None</startPage>
+</ExtlClntAppConfigurablePolicies>

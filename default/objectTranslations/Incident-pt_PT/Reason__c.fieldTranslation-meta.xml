@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason --></label>
+    <name>Reason__c</name>
+    <picklistValues>
+        <masterLabel>Adjuster Coordination</masterLabel>
+        <translation><!-- Adjuster Coordination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment</masterLabel>
+        <translation><!-- Appointment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate Conduct or Presence</masterLabel>
+        <translation><!-- Inappropriate Conduct or Presence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Network Issues</masterLabel>
+        <translation><!-- Network Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repair</masterLabel>
+        <translation><!-- Repair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report</masterLabel>
+        <translation><!-- Report --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

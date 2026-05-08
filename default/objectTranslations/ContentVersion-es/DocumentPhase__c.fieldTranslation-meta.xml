@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fase Documental</label>
+    <name>DocumentPhase__c</name>
+    <picklistValues>
+        <masterLabel>Comunicaciones Diversos</masterLabel>
+        <translation><!-- Comunicaciones Diversos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación Judicial</masterLabel>
+        <translation><!-- Documentación Judicial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación Proveedores</masterLabel>
+        <translation><!-- Documentación Proveedores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación VTS</masterLabel>
+        <translation><!-- Documentación VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación adicional</masterLabel>
+        <translation><!-- Documentación adicional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturas o documentos de pago</masterLabel>
+        <translation><!-- Facturas o documentos de pago --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

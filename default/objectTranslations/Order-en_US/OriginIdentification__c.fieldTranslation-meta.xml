@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Origin Identification --></label>
+    <name>OriginIdentification__c</name>
+    <picklistValues>
+        <masterLabel>Abnormal, negligent or inappropriate use</masterLabel>
+        <translation><!-- Abnormal, negligent or inappropriate use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental breakage of sanitary fixtures/sinks</masterLabel>
+        <translation><!-- Accidental breakage of sanitary fixtures/sinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental cause: fall, impact and liquid spill</masterLabel>
+        <translation><!-- Accidental cause: fall, impact and liquid spill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesthetic defect</masterLabel>
+        <translation><!-- Aesthetic defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesthetic defects</masterLabel>
+        <translation><!-- Aesthetic defects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal collision</masterLabel>
+        <translation><!-- Animal collision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance fire including computer, TV, coffee maker…</masterLabel>
+        <translation><!-- Appliance fire including computer, TV, coffee maker… --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance glass breakage</masterLabel>
+        <translation><!-- Appliance glass breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance leaks</masterLabel>
+        <translation><!-- Appliance leaks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance older than 10 years</masterLabel>
+        <translation><!-- Appliance older than 10 years --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bathtub joint seepage</masterLabel>
+        <translation><!-- Bathtub joint seepage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blockage, cleaning, obstructions</masterLabel>
+        <translation><!-- Blockage, cleaning, obstructions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakage in third-party installation</masterLabel>
+        <translation><!-- Breakage in third-party installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capillarity</masterLabel>
+        <translation><!-- Capillarity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceramic hob glass breakage</masterLabel>
+        <translation><!-- Ceramic hob glass breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chipping</masterLabel>
+        <translation><!-- Chipping --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community blockage</masterLabel>
+        <translation><!-- Community blockage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community downpipe breakage</masterLabel>
+        <translation><!-- Community downpipe breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condensation</masterLabel>
+        <translation><!-- Condensation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction defect</masterLabel>
+        <translation><!-- Construction defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuous hose leak</masterLabel>
+        <translation><!-- Continuous hose leak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuous radiator leak</masterLabel>
+        <translation><!-- Continuous radiator leak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion</masterLabel>
+        <translation><!-- Corrosion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion, oxidation</masterLabel>
+        <translation><!-- Corrosion, oxidation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defects due to exposure to FM</masterLabel>
+        <translation><!-- Defects due to exposure to FM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defects due to supply failure</masterLabel>
+        <translation><!-- Defects due to supply failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic activities</masterLabel>
+        <translation><!-- Domestic activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Door glass</masterLabel>
+        <translation><!-- Door glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drain blockage with damage</masterLabel>
+        <translation><!-- Drain blockage with damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drain blockage without damage</masterLabel>
+        <translation><!-- Drain blockage without damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Earthquake</masterLabel>
+        <translation><!-- Earthquake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electric bicycle, electric scooter</masterLabel>
+        <translation><!-- Electric bicycle, electric scooter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facade/roof seepage</masterLabel>
+        <translation><!-- Facade/roof seepage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fall of aerolites/aircraft</masterLabel>
+        <translation><!-- Fall of aerolites/aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Falling trees, poles and antennas</masterLabel>
+        <translation><!-- Falling trees, poles and antennas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire</masterLabel>
+        <translation><!-- Fire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flood</masterLabel>
+        <translation><!-- Flood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frost</masterLabel>
+        <translation><!-- Frost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture glass/mirrors and methacrylates</masterLabel>
+        <translation><!-- Furniture glass/mirrors and methacrylates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gas, butane and flammable products</masterLabel>
+        <translation><!-- Gas, butane and flammable products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic breakdown</masterLabel>
+        <translation><!-- Generic breakdown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glass railings and steps</masterLabel>
+        <translation><!-- Glass railings and steps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground movements</masterLabel>
+        <translation><!-- Ground movements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hail</masterLabel>
+        <translation><!-- Hail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heating and combustion systems, boiler, stove, fireplace</masterLabel>
+        <translation><!-- Heating and combustion systems, boiler, stove, fireplace --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home electrical installation short circuit</masterLabel>
+        <translation><!-- Home electrical installation short circuit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home glass/mirrors and methacrylates</masterLabel>
+        <translation><!-- Home glass/mirrors and methacrylates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hose breakage</masterLabel>
+        <translation><!-- Hose breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact</masterLabel>
+        <translation><!-- Impact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation defect</masterLabel>
+        <translation><!-- Installation defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation does not comply with regulations</masterLabel>
+        <translation><!-- Installation does not comply with regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of maintenance</masterLabel>
+        <translation><!-- Lack of maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of maintenance and use - short circuit</masterLabel>
+        <translation><!-- Lack of maintenance and use - short circuit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lightning</masterLabel>
+        <translation><!-- Lightning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manhole or well blockage</masterLabel>
+        <translation><!-- Manhole or well blockage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturer defects</masterLabel>
+        <translation><!-- Manufacturer defects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing defect</masterLabel>
+        <translation><!-- Manufacturing defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marble countertop breakage in bathroom and kitchen</masterLabel>
+        <translation><!-- Marble countertop breakage in bathroom and kitchen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mechanical and electrical breakdown</masterLabel>
+        <translation><!-- Mechanical and electrical breakdown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission of taps</masterLabel>
+        <translation><!-- Omission of taps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outdoor polycarbonate and methacrylate, pergolas, pool covers, terrace covers</masterLabel>
+        <translation><!-- Outdoor polycarbonate and methacrylate, pergolas, pool covers, terrace covers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overvoltage caused by public grid</masterLabel>
+        <translation><!-- Overvoltage caused by public grid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paving blocks</masterLabel>
+        <translation><!-- Paving blocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe breakage with damage</masterLabel>
+        <translation><!-- Pipe breakage with damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe breakage without damage</masterLabel>
+        <translation><!-- Pipe breakage without damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiator breakage</masterLabel>
+        <translation><!-- Radiator breakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain</masterLabel>
+        <translation><!-- Rain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shop window</masterLabel>
+        <translation><!-- Shop window --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short circuit in home installation</masterLabel>
+        <translation><!-- Short circuit in home installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shower screen</masterLabel>
+        <translation><!-- Shower screen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signboard</masterLabel>
+        <translation><!-- Signboard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skylight seepage</masterLabel>
+        <translation><!-- Skylight seepage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smoke</masterLabel>
+        <translation><!-- Smoke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Snow</masterLabel>
+        <translation><!-- Snow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spills in fire extinguishing installations (building)</masterLabel>
+        <translation><!-- Spills in fire extinguishing installations (building) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structural movements</masterLabel>
+        <translation><!-- Structural movements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structural movements/cracks</masterLabel>
+        <translation><!-- Structural movements/cracks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telephony, image, sound and IT equipment</masterLabel>
+        <translation><!-- Telephony, image, sound and IT equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terrace blockage</masterLabel>
+        <translation><!-- Terrace blockage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tile seepage</masterLabel>
+        <translation><!-- Tile seepage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tree roots</masterLabel>
+        <translation><!-- Tree roots --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use</masterLabel>
+        <translation><!-- Use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use, wear and deterioration</masterLabel>
+        <translation><!-- Use, wear and deterioration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle collision</masterLabel>
+        <translation><!-- Vehicle collision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wearable, deteriorable elements</masterLabel>
+        <translation><!-- Wearable, deteriorable elements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind</masterLabel>
+        <translation><!-- Wind --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Window glass</masterLabel>
+        <translation><!-- Window glass --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

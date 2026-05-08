@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <assignments>
+        <name>AssignmentPriceBookId</name>
+        <label>Assignment Price Book Id</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Pricebook2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>GetPricebook.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>DecisionGetPricebookIsNull</name>
+        <label>Decision Get Pricebook Is Null</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>True</defaultConnectorLabel>
+        <rules>
+            <name>False</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>GetPricebook</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssignmentPriceBookId</targetReference>
+            </connector>
+            <label>False</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Before Create | {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Before Create | Encargo</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>GetPricebook</name>
+        <label>Get Pricebook</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>DecisionGetPricebookIsNull</targetReference>
+        </connector>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Pricebook2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetPricebook</targetReference>
+        </connector>
+        <object>Order</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
