@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Realizar asignación manual de reparador</label>
+    <protected>false</protected>
+    <values>
+        <field>ChildSubject__c</field>
+        <value xsi:type="xsd:string">A la espera de recibir respuesta de red con reparador</value>
+    </values>
+    <values>
+        <field>ParentSubject__c</field>
+        <value xsi:type="xsd:string">Realizar asignación manual de reparador</value>
+    </values>
+</CustomMetadata>

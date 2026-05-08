@@ -1,0 +1,139 @@
+.c-pointer {
+    cursor: pointer;
+}
+
+.slds-input__icon.iconpointerevetns {
+    pointer-events: all
+}
+
+.slds-nubbin_top-right.show {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: unset;
+    top: 55px;
+    width: 50%;
+    z-index: 1;
+}
+
+.slds-nubbin_top-right:before {
+    right: 75px;
+    border-top: 1px solid rgb(201, 201, 201);
+    border-left: 1px solid rgb(201, 201, 201);
+}
+
+.slds-nubbin_top-right:after {
+    display: none;
+}
+
+lightning-card[c-case-timeline-component]>article {
+    padding-right: unset;
+    padding-left: unset;
+    border: unset;
+    box-shadow: unset;
+}
+
+.slds-theme_shade .slds-timeline__trigger:hover {
+    background: unset;
+}
+
+.slds-media__body {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.slds-is-open .slds-theme_alert-texture.slds-theme_shade.slds-media__body {
+    padding-bottom: 1rem;
+}
+
+.slds-is-open .slds-theme_alert-texture.slds-theme_shade article.slds-box {
+    background-color: #ffffff !important;
+}
+
+.bookMarkTexture{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, .025) 25%, transparent 0, transparent 50%, rgba(0, 0, 0, .025) 0, rgba(0, 0, 0, .025) 75%, transparent 0, transparent);
+    background-size: 64px 64px;
+}
+
+.titleLinkNoBold {
+    text-decoration: none;
+    color: var(--lwc-brandTextLink);
+    cursor: pointer;
+}
+
+.titleLinkNoBold:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: var(--lwc-brandTextLink);
+    cursor: default;
+}
+
+.emailAction,
+.recepient {
+    color: #54698d
+}
+
+.emailActionIcons {
+    --sds-c-icon-color-foreground-default: #54698d;
+    position: relative;
+    top: -2px;
+    right: 2px;
+}
+
+.slds-timeline__item_expandable::before{
+    margin-inline-start: auto;
+}
+
+/* TIMELINE VERTICAL LINE COLORS*/
+.slds-timeline__item_CaseHistory::before,
+.slds-timeline__item_Cobertura_do_Processo__c::before {
+    background: #f2cf5b
+}
+
+.slds-timeline__item_Comments__c::before {
+    background: #6b92dc
+}
+
+.slds-timeline__item_Provisoes__c::before,
+.slds-timeline__item_Historico_de_Sinistros__c::before,
+.slds-timeline__item_Terceiros__c::before {
+    background: #747e96
+}
+
+.slds-timeline__item_MessagingSession::before {
+    background: #34BECD
+}
+
+.slds-timeline__item_Event::before {
+    background: #eb7092
+}
+
+.slds-timeline__item_Task::before,
+.slds-timeline__item_ProcessInstanceHistory::before {
+    background: #4bc076
+}
+
+.slds-timeline__item_EmailMessage::before {
+    background: #95AEC5
+}
+
+.slds-timeline__item_Order::before {
+    background: #769ed9
+}
+
+.UseLink {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--lwc-brandTextLink);
+    cursor: pointer;
+}
+
+/* .slds-timeline__item_ProcessInstanceHistory::before {
+    background: #dcd861
+}
+
+.slds-icon-standard-approval {
+    background: #dcd861
+} */

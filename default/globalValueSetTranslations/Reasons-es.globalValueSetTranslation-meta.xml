@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>All-risk accidental</masterLabel>
+        <translation>Todo riesgo accidental</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance Windows, Mirrors, And Glass</masterLabel>
+        <translation>Lunas, Espejos Y Cristales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance breakdown</masterLabel>
+        <translation>Avería de electrodomésticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance windows</masterLabel>
+        <translation>Lunas de electrodomésticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Assistance Service</masterLabel>
+        <translation>Servicio de Asistencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bodily injuries</masterLabel>
+        <translation>Accidentes corporales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boiler</masterLabel>
+        <translation>Caldera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil Liability Activity</masterLabel>
+        <translation>Responsabilidad Civil Actividad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Civil liability</masterLabel>
+        <translation>Responsabilidad civil</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Community</masterLabel>
+        <translation>Comunitarios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Complementary Damages</masterLabel>
+        <translation>Daños Complementarios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consortium coverage</masterLabel>
+        <translation>Consorciable</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Damage claim/legal protection</masterLabel>
+        <translation>Reclamación de daños/protección jurídica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Death</masterLabel>
+        <translation>Fallecimiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Displaced Goods</masterLabel>
+        <translation>Bienes Desplazados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Domestic animals</masterLabel>
+        <translation>Animales domésticos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical Damages</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical assistance</masterLabel>
+        <translation>Asistencia eléctrica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electrical damage</masterLabel>
+        <translation>Daños eléctricos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electronic Equipment</masterLabel>
+        <translation>Equipos electrónicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergencies</masterLabel>
+        <translation>Urgencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Emergency assistance</masterLabel>
+        <translation>Asistencia (urg)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employer&apos;s Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Patronal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Extraordinary Assistance</masterLabel>
+        <translation>Asistencia Extraordinaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire</masterLabel>
+        <translation>Incendio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fire, lightning, explosion</masterLabel>
+        <translation>Incendio, rayo, explosión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Garden deterioration</masterLabel>
+        <translation>Deterioro de jardines</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil General</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Glass breakage</masterLabel>
+        <translation>Rotura de cristales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guide dog accidents</masterLabel>
+        <translation>Accidentes de perros guía</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hail / Snow</masterLabel>
+        <translation>Pedrisco / Nieve</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Handyman</masterLabel>
+        <translation>Manitas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Handyman Plus Service</masterLabel>
+        <translation>Servicio Manitas Plus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Handyman Service</masterLabel>
+        <translation>Servicio Manitas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Healthcare Assistance</masterLabel>
+        <translation>Asistencia Sanitaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Home assistance</masterLabel>
+        <translation>Asistencia a la vivienda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hospitalization</masterLabel>
+        <translation>Hospitalizacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hunter Accidents</masterLabel>
+        <translation>Accidentes Cazador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hunter And Fisherman Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Cazador Y Pescador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT assistance</masterLabel>
+        <translation>Asistencia informática</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Impact</masterLabel>
+        <translation>Impacto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Legal Protection</masterLabel>
+        <translation>Protección Jurídica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>License Withdrawal</masterLabel>
+        <translation>Retirada De Carnet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loss Of Benefits</masterLabel>
+        <translation>Perdida De Beneficios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lost luggage</masterLabel>
+        <translation>Pérdida de equipaje</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Machinery Breakdown</masterLabel>
+        <translation>Avería de Maquinaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mugging</masterLabel>
+        <translation>Atraco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Payment protection</masterLabel>
+        <translation>Protección de pagos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permanent Disability</masterLabel>
+        <translation>Invalidez Permanente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Civil Liability</masterLabel>
+        <translation>Responsabilidad Civil Productos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rain</masterLabel>
+        <translation>Lluvia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refrigerated Goods</masterLabel>
+        <translation>Bienes refrigerados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refrigerated food</masterLabel>
+        <translation>Alimentos refrigerados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sanitary ware</masterLabel>
+        <translation>Loza sanitaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Stock Transport</masterLabel>
+        <translation>Transporte De Existencias</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Temporary Disability</masterLabel>
+        <translation>Incapacidad Temporal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft</masterLabel>
+        <translation>Robo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Theft (Burglary)</masterLabel>
+        <translation>Hurto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VIP assistance</masterLabel>
+        <translation>Asistencia VIP</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vandalism Acts</masterLabel>
+        <translation>Actos vandálicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Water</masterLabel>
+        <translation>Agua</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Weather events</masterLabel>
+        <translation>Fenómenos meteorológicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wind</masterLabel>
+        <translation>Viento</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Sinistros Reparables</name>
+    <queueMembers>
+        <roles>
+            <role>Tramitador</role>
+        </roles>
+        <users>
+            <user>daniel.flores@peopletopeople.pt.dev.elba</user>
+            <user>miguel.marques@peopletopeople.pt.elba</user>
+            <user>steve@m24.elba</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>cases_Routing_config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

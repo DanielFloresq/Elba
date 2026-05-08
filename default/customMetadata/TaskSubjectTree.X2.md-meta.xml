@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Revisar no contacto con asegurado &gt;24 h</label>
+    <protected>false</protected>
+    <values>
+        <field>ChildSubject__c</field>
+        <value xsi:type="xsd:string">Reintentar contacto &gt;24h</value>
+    </values>
+    <values>
+        <field>ParentSubject__c</field>
+        <value xsi:type="xsd:string">Revisar no contacto con asegurado &gt;24 h</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>https://mobilityorg4--dev.sandbox.lightning.force.com/</callbackUrl>
+    <consumerKey>3MVG90biqdLHqqMRk6EzL8OXNIQ7Io8MloIXGqx7T6T.6ijbTGjsg9tjO8ZApLCKDW4W2b4PjzfDm8BpvGAVB</consumerKey>
+    <externalClientApplication>ElbaIntegration</externalClientApplication>
+    <isClientCredentialsFlowEnabled>true</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
+    <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+    <isPkceRequired>true</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+    <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+    <label>ElbaIntegration_glbloauth</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>

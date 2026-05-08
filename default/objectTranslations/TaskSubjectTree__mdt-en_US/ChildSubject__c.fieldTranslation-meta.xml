@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ChildSubject --></label>
+    <name>ChildSubject__c</name>
+    <picklistValues>
+        <masterLabel>A la espera de recibir respuesta de red con reparador</masterLabel>
+        <translation><!-- A la espera de recibir respuesta de red con reparador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Child Dummy 1</masterLabel>
+        <translation><!-- Child Dummy 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Child Dummy 2</masterLabel>
+        <translation><!-- Child Dummy 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Child Dummy 3</masterLabel>
+        <translation><!-- Child Dummy 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reintentar contacto &gt;24h</masterLabel>
+        <translation><!-- Reintentar contacto &gt;24h --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reintentar contacto &gt;3 días</masterLabel>
+        <translation><!-- Reintentar contacto &gt;3 días --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusClosedMandatoryFields</fullName>
+    <active>true</active>
+    <description>If Status = Closed,you have some mandatory fields that need to be filled, with the exception for Profile = System Administrator.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;RP&quot;),
+ISCHANGED(Status),
+ISBLANK(TEXT(Result__c)),
+CustomerSatisfaction__c = FALSE,
+NOT($Permission.IsAdmin)
+)</errorConditionFormula>
+    <errorMessage>To close the incident, the Result and Customer Satisfaction fields must be filled in!</errorMessage>
+</ValidationRule>

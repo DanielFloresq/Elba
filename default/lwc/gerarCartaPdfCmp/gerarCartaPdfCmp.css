@@ -1,0 +1,73 @@
+:host {
+    display: block;
+    width: 100%;
+    --slds-c-textarea-sizing-min-height: 100%;
+    --slds-c-textarea-sizing-max-height: 100%;
+}
+
+.containerLarge {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 8px 12px;
+    overflow: visible;
+}
+
+.editorLarge {
+    width: 100%;
+    min-height: 420px;
+    height: 50vh;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.comboboxWrapper {
+    width: 100%;
+    margin-bottom: 12px;
+    overflow: visible;
+    position: relative;
+    z-index: 2000;
+}
+
+.picklistSpacer {
+    width: 100%;
+    transition: height 120ms ease-out;
+}
+
+/* ensure SLDS dropdowns render above modal */
+:host ::slotted(.slds-dropdown),
+:host .slds-dropdown,
+.comboboxWrapper .slds-dropdown,
+.comboboxWrapper .slds-listbox {
+    z-index: 20000 !important;
+}
+
+.fullScreenOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--lwc-colorBackground, #fff);
+    z-index: 1000; /* lowered so picklist dropdowns can render above */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.overlayHeader {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.overlayCloseBtn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

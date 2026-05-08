@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Compañia</label>
+    <name>GrandAccount__c</name>
+    <picklistValues>
+        <masterLabel>PLYO</masterLabel>
+        <translation><!-- PLYO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SLA</masterLabel>
+        <translation><!-- SLA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

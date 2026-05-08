@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NotificationSubType__c</fullName>
+    <label>Notification SubType</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NotificationType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pendiente de asegurado</fullName>
+                <default>false</default>
+                <label>Pendiente de asegurado</label>
+            </value>
+            <value>
+                <fullName>Pendiente de perito</fullName>
+                <default>false</default>
+                <label>Pendiente de perito</label>
+            </value>
+            <value>
+                <fullName>Pendiente de compañia</fullName>
+                <default>false</default>
+                <label>Pendiente de compañia</label>
+            </value>
+            <value>
+                <fullName>Pendiente de plataforma</fullName>
+                <default>false</default>
+                <label>Pendiente de plataforma</label>
+            </value>
+            <value>
+                <fullName>Pendiente de causante</fullName>
+                <default>false</default>
+                <label>Pendiente de causante</label>
+            </value>
+            <value>
+                <fullName>Pendiente de perjudicado</fullName>
+                <default>false</default>
+                <label>Pendiente de perjudicado</label>
+            </value>
+            <value>
+                <fullName>Pendiete de otro reparador</fullName>
+                <default>false</default>
+                <label>Pendiete de otro reparador</label>
+            </value>
+            <value>
+                <fullName>Pendiente de material</fullName>
+                <default>false</default>
+                <label>Pendiente de material</label>
+            </value>
+            <value>
+                <fullName>Pendiente de secado</fullName>
+                <default>false</default>
+                <label>Pendiente de secado</label>
+            </value>
+            <value>
+                <fullName>Pendiente reparacion origen</fullName>
+                <default>false</default>
+                <label>Pendiente reparacion origen</label>
+            </value>
+            <value>
+                <fullName>Pendiente reparacion asegurado</fullName>
+                <default>false</default>
+                <label>Pendiente reparacion asegurado</label>
+            </value>
+            <value>
+                <fullName>Fin pendiente</fullName>
+                <default>false</default>
+                <label>Fin pendiente</label>
+            </value>
+            <value>
+                <fullName>Detección de VTS</fullName>
+                <default>false</default>
+                <label>Detección de VTS</label>
+            </value>
+            <value>
+                <fullName>Detección de Rehuse</fullName>
+                <default>false</default>
+                <label>Detección de Rehuse</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Perito</fullName>
+                <default>false</default>
+                <label>Solicitud de Perito</label>
+            </value>
+            <value>
+                <fullName>Observaciones a gestionar por tramitador</fullName>
+                <default>false</default>
+                <label>Observaciones a gestionar por tramitador</label>
+            </value>
+            <value>
+                <fullName>Aclaración cobertura póliza</fullName>
+                <default>false</default>
+                <label>Aclaración cobertura póliza</label>
+            </value>
+            <value>
+                <fullName>Soporte tecnico</fullName>
+                <default>false</default>
+                <label>Soporte tecnico</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de asegurado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de perito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de compañia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de plataforma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de causante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de perjudicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiete de otro reparador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente de secado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente reparacion origen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Pendiente reparacion asegurado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplaziamento</controllingFieldValue>
+            <valueName>Fin pendiente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Detección de VTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Detección de Rehuse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Solicitud de Perito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Observaciones a gestionar por tramitador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Aclaración cobertura póliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros</controllingFieldValue>
+            <valueName>Soporte tecnico</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

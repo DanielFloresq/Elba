@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentSubject__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Parent Subject</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Realizar asignación manual de reparador</fullName>
+                <default>false</default>
+                <label>Realizar asignación manual de reparador</label>
+            </value>
+            <value>
+                <fullName>Ofrezco reembolso a asegurado</fullName>
+                <default>false</default>
+                <label>Ofrezco reembolso a asegurado</label>
+            </value>
+            <value>
+                <fullName>Revisar no contacto con asegurado &gt;24 h</fullName>
+                <default>false</default>
+                <label>Revisar no contacto con asegurado &gt;24 h</label>
+            </value>
+            <value>
+                <fullName>Revisar no contacto con asegurado &gt; 3 días</fullName>
+                <default>false</default>
+                <label>Revisar no contacto con asegurado &gt; 3 días</label>
+            </value>
+            <value>
+                <fullName>Revisar no contacto con asegurado &gt;10 días</fullName>
+                <default>false</default>
+                <label>Revisar no contacto con asegurado &gt;10 días</label>
+            </value>
+            <value>
+                <fullName>Parent Dummy 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parent Dummy 1</label>
+            </value>
+            <value>
+                <fullName>Parent Dummy 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parent Dummy 2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

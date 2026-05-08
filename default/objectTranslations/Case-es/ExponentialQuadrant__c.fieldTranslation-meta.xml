@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Cuadrante exponencial</label>
+    <name>ExponentialQuadrant__c</name>
+    <picklistValues>
+        <masterLabel>Catastrophe</masterLabel>
+        <translation>Catástrofe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconvenience</masterLabel>
+        <translation>Inconveniente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injury</masterLabel>
+        <translation>Molestia</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Problem</masterLabel>
+        <translation>Problema</translation>
+    </picklistValues>
+</CustomFieldTranslation>

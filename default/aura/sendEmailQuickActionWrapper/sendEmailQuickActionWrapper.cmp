@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 08-01-2026
+  @last modified by  : Daniel Flores
+-->
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    <aura:attribute name="documentIds" type="List"/>
+    <lightning:quickActionAPI aura:id="quickActionAPI"/>
+
+    <!-- Escuta o evento do LWC dentro do Aura -->
+    <aura:method name="openEmailFromLWC" action="{!c.openEmailModal}">
+        <aura:attribute name="documentIds" type="List"/>
+    </aura:method>
+
+    <!-- LWC dentro do Aura -->
+    <c:documentManager recordId="{!v.recordId}"/>
+</aura:component>

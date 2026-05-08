@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de la reapertura</label>
+    <name>ReopeningReason__c</name>
+    <picklistValues>
+        <masterLabel>Error cierre reparador</masterLabel>
+        <translation><!-- Error cierre reparador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error cierre tramitación</masterLabel>
+        <translation><!-- Error cierre tramitación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error sistema</masterLabel>
+        <translation><!-- Error sistema --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modificación facturación</masterLabel>
+        <translation><!-- Modificación facturación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuevos daños detectados</masterLabel>
+        <translation><!-- Nuevos daños detectados --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otros</masterLabel>
+        <translation><!-- Otros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reclamación</masterLabel>
+        <translation><!-- Reclamación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solicitud cliente</masterLabel>
+        <translation><!-- Solicitud cliente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solicitud compañía</masterLabel>
+        <translation><!-- Solicitud compañía --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solicitud perito</masterLabel>
+        <translation><!-- Solicitud perito --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

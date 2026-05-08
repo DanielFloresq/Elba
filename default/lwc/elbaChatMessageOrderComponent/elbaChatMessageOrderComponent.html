@@ -1,0 +1,154 @@
+<!--
+  @description       : Chat message component for order-related communication in ELBA
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 14-01-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+    <section role="log" class="slds-chat" style="position: relative">
+        <template if:true={showSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+        <ul class="slds-chat-list" style="position: relative; padding-bottom: 30px">
+            <template for:each={allActivities} for:item="actv">
+                <template if:false={actv.Agente}>
+                    <li key={actv.Id} class="slds-chat-listitem slds-chat-listitem_inbound message-item message-item_inbound">
+                        <div class="message-stack message-stack_inbound">
+                            <template if:true={actv.MensagemBool}>
+                                <div class="message-row message-row_inbound">
+                                    <div class="message-favorite">
+                                        <template if:true={actv.Favorito}>
+                                            <lightning-button-icon icon-name="utility:favorite" variant="bare"
+                                                alternative-text="Favorito" title="Favorito"
+                                                onclick={onClickBottomNotFavorite}
+                                                value={actv.ComentarioId}></lightning-button-icon>
+                                        </template>
+                                        <template if:false={actv.Favorito}>
+                                            <lightning-button-icon icon-name="utility:favorite_alt" variant="bare"
+                                                alternative-text="Favorito" title="Favorito"
+                                                onclick={onClickBottomNotFavorite}
+                                                value={actv.ComentarioId}></lightning-button-icon>
+                                        </template>
+                                    </div>
+                                    <div class="slds-chat-message__text slds-chat-message__text_inbound message-bubble message-bubble_inbound">
+                                        <span>{actv.MensagemDoCliente}</span>
+                                    </div>
+                                </div>
+                            </template>
+                            <template if:true={actv.Document}>
+                                <div class="file-pills-group file-pills-group_inbound">
+                                    <template for:each={actv.Files} for:item="fileItem">
+                                        <button key={fileItem.URL} class="file-pill" data-fileid={fileItem.URL} onclick={onClickFile}>
+                                            <span class="file-pill__icon-wrapper">
+                                                <lightning-icon icon-name={fileItem.pillIcon} size="x-small"
+                                                    alternative-text={fileItem.Title}></lightning-icon>
+                                            </span>
+                                            <span class="file-pill__label">{fileItem.Title}</span>
+                                            <lightning-icon icon-name="utility:open" size="xx-small"
+                                                alternative-text="Abrir" class="file-pill__open-icon"></lightning-icon>
+                                        </button>
+                                    </template>
+                                </div>
+                            </template>
+                            <div class="slds-chat-message__meta message-meta message-meta_inbound">
+                                Fornecedor • {actv.DataDaMensagem}
+                            </div>
+                        </div>
+                    </li>
+                </template>
+                <template if:true={actv.Agente}>
+                    <li key={actv.Id} class="slds-chat-listitem slds-chat-listitem_outbound message-item message-item_outbound">
+                        <div class="message-stack message-stack_outbound">
+                            <template if:false={actv.isNull}>
+                                <div class="message-row message-row_outbound">
+                                    <div class="message-favorite">
+                                        <template if:true={actv.Favorito}>
+                                            <lightning-button-icon icon-name="utility:favorite" variant="bare"
+                                                alternative-text="Favorito" title="Favorito"
+                                                onclick={onClickBottomNotFavorite}
+                                                value={actv.ComentarioId}></lightning-button-icon>
+                                        </template>
+                                        <template if:false={actv.Favorito}>
+                                            <lightning-button-icon icon-name="utility:favorite_alt" variant="bare"
+                                                alternative-text="Favorito" title="Favorito"
+                                                onclick={onClickBottomNotFavorite}
+                                                value={actv.ComentarioId}></lightning-button-icon>
+                                        </template>
+                                    </div>
+                                    <template if:true={actv.AccountQueCriouAOrder}>
+                                        <div class="slds-chat-message__text slds-chat-message__text_outbound-agent message-bubble message-bubble_outbound">
+                                            <span>{actv.MensagemDoAgente}</span>
+                                        </div>
+                                    </template>
+                                    <template if:false={actv.AccountQueCriouAOrder}>
+                                        <div class="slds-chat-message__text slds-chat-message__text_outbound message-bubble message-bubble_outbound">
+                                            <span>{actv.MensagemDoAgente}</span>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                            <template if:true={actv.Document}>
+                                <div class="file-pills-group file-pills-group_outbound">
+                                    <template for:each={actv.Files} for:item="fileItem">
+                                        <button key={fileItem.URL} class="file-pill" data-fileid={fileItem.URL} onclick={onClickFile}>
+                                            <span class="file-pill__icon-wrapper">
+                                                <lightning-icon icon-name={fileItem.pillIcon} size="x-small"
+                                                    alternative-text={fileItem.Title}></lightning-icon>
+                                            </span>
+                                            <span class="file-pill__label">{fileItem.Title}</span>
+                                            <lightning-icon icon-name="utility:open" size="xx-small"
+                                                alternative-text="Abrir" class="file-pill__open-icon"></lightning-icon>
+                                        </button>
+                                    </template>
+                                </div>
+                            </template>
+                            <div class="slds-chat-message__meta message-meta message-meta_outbound">
+                                {actv.NomeDoUtilizador} • {actv.DataDaMensagem}
+                            </div>
+                        </div>
+                    </li>
+                </template>
+            </template>
+            <br />
+            <template if:true={hasPendingFiles}>
+                <div class="pending-files-wrapper">
+                    <template for:each={emailsFiles} for:item="file">
+                        <div key={file.id} class="pending-file-card">
+                            <div class="pending-file-card__preview-wrapper">
+                                <template if:true={file.isImage}>
+                                    <img class="pending-file-card__preview" src={file.previewUrl} alt={file.name} />
+                                </template>
+                                <template if:false={file.isImage}>
+                                    <div class="pending-file-card__icon-wrapper">
+                                        <lightning-icon icon-name={file.iconName} size="medium"
+                                            alternative-text={file.name}></lightning-icon>
+                                    </div>
+                                </template>
+                            </div>
+                            <div class="pending-file-card__details">
+                                <span class="pending-file-card__name">{file.name}</span>
+                                <span class="pending-file-card__meta">{file.sizeLabel}</span>
+                            </div>
+                            <lightning-button-icon icon-name="utility:close" variant="bare"
+                                alternative-text="Remover ficheiro" title="Remover ficheiro"
+                                data-fileid={file.id} onclick={handleRemovePendingFile}></lightning-button-icon>
+                        </div>
+                    </template>
+                </div>
+            </template>
+
+            <lightning-textarea name="input1" style="width: 100%" value={message}
+                onchange={HandleChange}></lightning-textarea>
+            <div style="display: flex">
+                <lightning-input type="file" accept={acceptedFormatsString} onchange={handleUploadFile}></lightning-input>
+                <div style="position: absolute; right: 13px; bottom: 31px">
+
+                    <lightning-button variant="brand" label="Send Message" title="Primary action" onclick={handleClick}
+                        class="slds-m-left_x-small" disabled={disable}></lightning-button>
+
+                </div>
+            </div>
+        </ul>
+    </section>
+</template>

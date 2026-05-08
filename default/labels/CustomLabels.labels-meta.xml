@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountName</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountName</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>AddAtLeastOneEmailAddressInTheToField</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add at least one email address in the &quot;To&quot; field.</shortDescription>
+        <value>Add at least one email address in the &quot;To&quot; field.</value>
+    </labels>
+    <labels>
+        <fullName>AddDocuments</fullName>
+        <categories>Add Documents</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Documents</shortDescription>
+        <value>Add Documents</value>
+    </labels>
+    <labels>
+        <fullName>AddToList</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add to list</shortDescription>
+        <value>Add to list</value>
+    </labels>
+    <labels>
+        <fullName>AddedFiles</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Added Files</shortDescription>
+        <value>Added Files</value>
+    </labels>
+    <labels>
+        <fullName>AddressFieldLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressFieldLabel</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>AdministrativeClosure</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AdministrativeClosure</shortDescription>
+        <value>Administrative Closure</value>
+    </labels>
+    <labels>
+        <fullName>Applicationforapprovalsubmitted</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Applicationforapprovalsubmitted</shortDescription>
+        <value>Application for approval submitted</value>
+    </labels>
+    <labels>
+        <fullName>Apply</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apply</shortDescription>
+        <value>Apply</value>
+    </labels>
+    <labels>
+        <fullName>ApprovalHistory</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApprovalHistory</shortDescription>
+        <value>Approval History</value>
+    </labels>
+    <labels>
+        <fullName>AssignTypeLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AssignTypeLabel</shortDescription>
+        <value>Type of Assignment:</value>
+    </labels>
+    <labels>
+        <fullName>AutomaticLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutomaticLabel</shortDescription>
+        <value>Automatic</value>
+    </labels>
+    <labels>
+        <fullName>CancelF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Case</fullName>
+        <categories>Case</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case</shortDescription>
+        <value>Case</value>
+    </labels>
+    <labels>
+        <fullName>CaseComments</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseComments</shortDescription>
+        <value>Case Comments</value>
+    </labels>
+    <labels>
+        <fullName>CaseF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case</shortDescription>
+        <value>Case</value>
+    </labels>
+    <labels>
+        <fullName>CaseHistory</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CaseHistory</shortDescription>
+        <value>Case History</value>
+    </labels>
+    <labels>
+        <fullName>Cases</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cases</shortDescription>
+        <value>Cases</value>
+    </labels>
+    <labels>
+        <fullName>ChooseOrder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Choose Order</shortDescription>
+        <value>Choose Order</value>
+    </labels>
+    <labels>
+        <fullName>Closed</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>Comment</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>Comments</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>CommentsF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>ConfirmDeleteMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Are you sure you want to delete the selected documents?</shortDescription>
+        <value>Are you sure you want to delete the selected documents?</value>
+    </labels>
+    <labels>
+        <fullName>ConfirmDeletion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Deletion</shortDescription>
+        <value>Confirm Deletion</value>
+    </labels>
+    <labels>
+        <fullName>ConfirmationScreenLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConfirmationScreenLabel</shortDescription>
+        <value>Provider Selected:</value>
+    </labels>
+    <labels>
+        <fullName>ContactRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>ContactTheAdministratorIfTheProblemPersists</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact the administrator if the problem persists.</shortDescription>
+        <value>Contact the administrator if the problem persists.</value>
+    </labels>
+    <labels>
+        <fullName>CreateNewService</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create New Service</shortDescription>
+        <value>Create New Service</value>
+    </labels>
+    <labels>
+        <fullName>CreatedBy</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Created by</shortDescription>
+        <value>Created by</value>
+    </labels>
+    <labels>
+        <fullName>CreationDate</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Creation date</shortDescription>
+        <value>Creation date</value>
+    </labels>
+    <labels>
+        <fullName>DateRange</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DateRange</shortDescription>
+        <value>Date Range</value>
+    </labels>
+    <labels>
+        <fullName>DeleteSelectedDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete Selected Documents</shortDescription>
+        <value>Delete Selected Documents</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>DeselectAll</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeselectAll</shortDescription>
+        <value>Deselect All</value>
+    </labels>
+    <labels>
+        <fullName>Designation</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Designation</shortDescription>
+        <value>Designation</value>
+    </labels>
+    <labels>
+        <fullName>DocumentSuccessfullyDeleted</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Documents successfully deleted</shortDescription>
+        <value>Documents successfully deleted</value>
+    </labels>
+    <labels>
+        <fullName>DocumentalType</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Documental Type</shortDescription>
+        <value>Documental Type</value>
+    </labels>
+    <labels>
+        <fullName>DocumentaryType</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Documentary Type</shortDescription>
+        <value>Documentary Type</value>
+    </labels>
+    <labels>
+        <fullName>DocumentsSuccessfullyReassigned</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Documents successfully reassigned.</shortDescription>
+        <value>Documents successfully reassigned.</value>
+    </labels>
+    <labels>
+        <fullName>DownloadSelectedDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DownloadSelectedDocuments</shortDescription>
+        <value>Download Selected Documents</value>
+    </labels>
+    <labels>
+        <fullName>Eligibility</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eligibility</shortDescription>
+        <value>Eligibility</value>
+    </labels>
+    <labels>
+        <fullName>EmailFieldLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailFieldLabel</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>EmailSentSuccessfully</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email sent successfully</shortDescription>
+        <value>Email sent successfully</value>
+    </labels>
+    <labels>
+        <fullName>EmailTemplate</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template</shortDescription>
+        <value>Email Template</value>
+    </labels>
+    <labels>
+        <fullName>Email_body</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_body</shortDescription>
+        <value>Email body</value>
+    </labels>
+    <labels>
+        <fullName>End</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>End</shortDescription>
+        <value>End</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>ErrorApplyingTemplate</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error applying template</shortDescription>
+        <value>Error applying template</value>
+    </labels>
+    <labels>
+        <fullName>ErrorDeletingDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error deleting documents</shortDescription>
+        <value>Error deleting documents</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMarkingAsFavorite</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorMarkingAsFavorite</shortDescription>
+        <value>Error Marking As Favorite</value>
+    </labels>
+    <labels>
+        <fullName>ErrorReassigningDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Reassigning Documents</shortDescription>
+        <value>Error Reassigning Documents</value>
+    </labels>
+    <labels>
+        <fullName>ErrorRemovingFavorite</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorRemovingFavorite</shortDescription>
+        <value>Error Removing Favorite</value>
+    </labels>
+    <labels>
+        <fullName>ErrorSendingEmail</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Sending Email</shortDescription>
+        <value>Error sending email</value>
+    </labels>
+    <labels>
+        <fullName>Escalated</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Escalated</shortDescription>
+        <value>Escalated</value>
+    </labels>
+    <labels>
+        <fullName>Events</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Events</shortDescription>
+        <value>Events</value>
+    </labels>
+    <labels>
+        <fullName>ExpertAssessmentTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expert assessment title suffix</shortDescription>
+        <value>Assessment</value>
+    </labels>
+    <labels>
+        <fullName>FailureToUploadFiles</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Failure to upload files.</shortDescription>
+        <value>Failure to upload files.</value>
+    </labels>
+    <labels>
+        <fullName>Favorites</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Favorites</shortDescription>
+        <value>Favorites</value>
+    </labels>
+    <labels>
+        <fullName>Field</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field label</shortDescription>
+        <value>Field</value>
+    </labels>
+    <labels>
+        <fullName>Files</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files</shortDescription>
+        <value>Files</value>
+    </labels>
+    <labels>
+        <fullName>FilesSuccessfullyUploaded</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files Successfully Uploaded</shortDescription>
+        <value>Files successfully uploaded</value>
+    </labels>
+    <labels>
+        <fullName>FinishButtonLabel</fullName>
+        <categories>Flow</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FinishButtonLabel</shortDescription>
+        <value>Finalizar</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_ErrorGeneric</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic error message</shortDescription>
+        <value>An error occurred.</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_ErrorTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error toast title</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Justify</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Justify button label</shortDescription>
+        <value>Justify</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_JustifyText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Justify text action label</shortDescription>
+        <value>Justify Text</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Loading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading text</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next button</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_PdfCreated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PDF created link message</shortDescription>
+        <value>Carta criada: {0}</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_PdfSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PDF created success message</shortDescription>
+        <value>Letter generated successfully!</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous button</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_SelectTemplate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select template placeholder</shortDescription>
+        <value>Select Template</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_SuccessTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success toast title</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>GerarCarta_TemplateLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template label</shortDescription>
+        <value>Template</value>
+    </labels>
+    <labels>
+        <fullName>HistoryNew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>History created label</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>HistoryUpdated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>History updated label</shortDescription>
+        <value>Updated</value>
+    </labels>
+    <labels>
+        <fullName>InvalidEmailAddress</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid email address</shortDescription>
+        <value>Invalid email address</value>
+    </labels>
+    <labels>
+        <fullName>LoadingOrders</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading orders</shortDescription>
+        <value>Loading orders</value>
+    </labels>
+    <labels>
+        <fullName>Location</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>ManualLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManualLabel</shortDescription>
+        <value>Manual</value>
+    </labels>
+    <labels>
+        <fullName>MarkFavorite</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarkFavorite</shortDescription>
+        <value>Mark Favorite</value>
+    </labels>
+    <labels>
+        <fullName>MarkedAsFavorite</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarkedAsFavorite</shortDescription>
+        <value>Marked As Favorite</value>
+    </labels>
+    <labels>
+        <fullName>Messagingsessions</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Messagingsessions</shortDescription>
+        <value>Messaging sessions</value>
+    </labels>
+    <labels>
+        <fullName>Milestones</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Milestones</shortDescription>
+        <value>Milestones</value>
+    </labels>
+    <labels>
+        <fullName>MissingRecipient</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing recipient</shortDescription>
+        <value>Missing recipient</value>
+    </labels>
+    <labels>
+        <fullName>MoreOptions</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MoreOptions</shortDescription>
+        <value>More Options</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>NameF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>New</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>New_Claim</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Claim</shortDescription>
+        <value>New Claim</value>
+    </labels>
+    <labels>
+        <fullName>Newcommentary</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Newcommentary</shortDescription>
+        <value>New commentary</value>
+    </labels>
+    <labels>
+        <fullName>Newmessage</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Newmessage</shortDescription>
+        <value>New message</value>
+    </labels>
+    <labels>
+        <fullName>Newprocesscommentary</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Newprocesscommentary</shortDescription>
+        <value>New process commentary</value>
+    </labels>
+    <labels>
+        <fullName>NextButtonLabel</fullName>
+        <categories>Flow</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NextButtonLabel</shortDescription>
+        <value>Siguiente</value>
+    </labels>
+    <labels>
+        <fullName>NoProvidersLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoProvidersLabel</shortDescription>
+        <value>No available providers found.</value>
+    </labels>
+    <labels>
+        <fullName>NoTasksFound</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No tasks found. Try another search criterion.</shortDescription>
+        <value>No tasks found. Try another search criterion.</value>
+    </labels>
+    <labels>
+        <fullName>ObjectsDisplay</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ObjectsDisplay</shortDescription>
+        <value>Objects Display</value>
+    </labels>
+    <labels>
+        <fullName>OnHold</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>On Hold</shortDescription>
+        <value>On Hold</value>
+    </labels>
+    <labels>
+        <fullName>OpenClose</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpenClose</shortDescription>
+        <value>Open Close</value>
+    </labels>
+    <labels>
+        <fullName>Opening</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opening</shortDescription>
+        <value>Opening</value>
+    </labels>
+    <labels>
+        <fullName>Order</fullName>
+        <categories>Order</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>OrderCreation</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Creation</shortDescription>
+        <value>Order Creation</value>
+    </labels>
+    <labels>
+        <fullName>Originalmessage</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Originalmessage</shortDescription>
+        <value>Original message</value>
+    </labels>
+    <labels>
+        <fullName>PhoneFieldLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PhoneFieldLabel</shortDescription>
+        <value>Phones</value>
+    </labels>
+    <labels>
+        <fullName>Pre_Valuation_Opening</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pre_Valuation_Opening</shortDescription>
+        <value>Pre-Valuation Opening</value>
+    </labels>
+    <labels>
+        <fullName>PreviousButtonLabel</fullName>
+        <categories>Flow</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>PreviousButtonLabel</shortDescription>
+        <value>Anterior</value>
+    </labels>
+    <labels>
+        <fullName>ProcessCreated</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProcessCreated</shortDescription>
+        <value>Process Created</value>
+    </labels>
+    <labels>
+        <fullName>Processvalidation</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processvalidation</shortDescription>
+        <value>Process Validation</value>
+    </labels>
+    <labels>
+        <fullName>ProvisionHistory</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProvisionHistory</shortDescription>
+        <value>Provision History</value>
+    </labels>
+    <labels>
+        <fullName>ReasonComment</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReasonComment</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>ReasonFieldLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReasonFieldLabel</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>Reassign</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reassign</shortDescription>
+        <value>Reassign</value>
+    </labels>
+    <labels>
+        <fullName>ReassignDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reassign documents</shortDescription>
+        <value>Reassign documents</value>
+    </labels>
+    <labels>
+        <fullName>ReassignSelectedDocumentsToOtherClaims</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reassign Selected Documents To Other Claims</shortDescription>
+        <value>Reassign Selected Documents To Other Claims</value>
+    </labels>
+    <labels>
+        <fullName>RelatedCase</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related case</shortDescription>
+        <value>Case / Related order</value>
+    </labels>
+    <labels>
+        <fullName>RelatedRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Record</shortDescription>
+        <value>Related Record</value>
+    </labels>
+    <labels>
+        <fullName>RelatedRecord_es</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta Registro Relacionado</shortDescription>
+        <value>Registro Relacionado</value>
+    </labels>
+    <labels>
+        <fullName>Related_to</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_to</shortDescription>
+        <value>Related to</value>
+    </labels>
+    <labels>
+        <fullName>Remove</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>RemovedFromFavorites</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RemovedFromFavorites</shortDescription>
+        <value>Removed From Favorites</value>
+    </labels>
+    <labels>
+        <fullName>Reopening</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reopening</shortDescription>
+        <value>Reopening</value>
+    </labels>
+    <labels>
+        <fullName>Reply</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reply</shortDescription>
+        <value>Reply</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Alias_Case</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Alias Case</shortDescription>
+        <value>Cases</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Alias_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess_Alias_Notification</shortDescription>
+        <value>Rejected Participation</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Alias_Order</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Alias Order</shortDescription>
+        <value>Services</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Alias_Service</fullName>
+        <categories>Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess_Alias_Service</shortDescription>
+        <value>Service</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Button_Back</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Button Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Button_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Button Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Button_ExecuteBatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Button ExecuteBatch</shortDescription>
+        <value>Reprocess</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Button_Finish</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Button Finish</shortDescription>
+        <value>Finish</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Button_Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Button Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Component_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Component Title</shortDescription>
+        <value>Integration Reprocessing</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Case_CaseNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Case CaseNumber</shortDescription>
+        <value>Case Number</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Case_ContactName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Case ContactName</shortDescription>
+        <value>Contact Name</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Case_Descritivo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Case Descritivo</shortDescription>
+        <value>Last Integration Description</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Case_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Case Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Order_CodigoServico</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Order CodigoServico</shortDescription>
+        <value>Service Code</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Order_Descritivo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Order Descritivo</shortDescription>
+        <value>Last Integration Description</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Order_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Order Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Datatable_Order_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Datatable Order Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Label_ObjectType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Label ObjectType</shortDescription>
+        <value>Object Type</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Ongoing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Ongoing</shortDescription>
+        <value>Reprocessing in progress...</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Placeholder_ObjectType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Placeholder ObjectType</shortDescription>
+        <value>Select Object Type</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Select_One_Object</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Select One Object</shortDescription>
+        <value>Select an object type.</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_Select_Record</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess Select Record</shortDescription>
+        <value>Select at least one record.</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess failed</shortDescription>
+        <value>Reprocessing failed!</value>
+    </labels>
+    <labels>
+        <fullName>Reprocess_finished</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reprocess finished</shortDescription>
+        <value>Reprocessing completed!</value>
+    </labels>
+    <labels>
+        <fullName>RequiredFieldsError</fullName>
+        <categories>CreateOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RequiredFieldsError</shortDescription>
+        <value>You need to fill all required fields before continuing.</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchDocuments</shortDescription>
+        <value>Search Documents</value>
+    </labels>
+    <labels>
+        <fullName>SearchResults</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Results</shortDescription>
+        <value>Search Results</value>
+    </labels>
+    <labels>
+        <fullName>SearchTasks</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Tasks</shortDescription>
+        <value>Search Tasks</value>
+    </labels>
+    <labels>
+        <fullName>SearchTasksExample</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>E.g.: ABC-001, John Doe...</shortDescription>
+        <value>E.g.: ABC-001, John Doe...</value>
+    </labels>
+    <labels>
+        <fullName>SearchTasksPlaceholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search by Subject, Case, Order or Contact</shortDescription>
+        <value>Search by Subject, Case, Order or Contact</value>
+    </labels>
+    <labels>
+        <fullName>SearchTimeline</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Searching</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Searching...</shortDescription>
+        <value>Searching...</value>
+    </labels>
+    <labels>
+        <fullName>SearchingTasks</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Searching tasks...</shortDescription>
+        <value>Searching tasks...</value>
+    </labels>
+    <labels>
+        <fullName>SelectAll</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectAll</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>SelectAtLeastOneDocument</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select at least one document.</shortDescription>
+        <value>Select at least one document.</value>
+    </labels>
+    <labels>
+        <fullName>SelectDocumentsAndTargetBeforeConfirming</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select documents and target before confirming.</shortDescription>
+        <value>Select documents and target before confirming.</value>
+    </labels>
+    <labels>
+        <fullName>SelectFiles</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select  Files</shortDescription>
+        <value>Select Files</value>
+    </labels>
+    <labels>
+        <fullName>SelectScreenLabel</fullName>
+        <categories>AssignProvider</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectScreenLabel</shortDescription>
+        <value>Select the provider to assign:</value>
+    </labels>
+    <labels>
+        <fullName>SelectedAttachments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected attachments</shortDescription>
+        <value>Selected attachments</value>
+    </labels>
+    <labels>
+        <fullName>SelectedTask</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectedTask</shortDescription>
+        <value>Task Selected</value>
+    </labels>
+    <labels>
+        <fullName>SendEmail</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Email</shortDescription>
+        <value>Send Email</value>
+    </labels>
+    <labels>
+        <fullName>SendEmailF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Email</shortDescription>
+        <value>Send Email</value>
+    </labels>
+    <labels>
+        <fullName>SendF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>SendingSelectedDocuments</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send selected documents</shortDescription>
+        <value>Send selected documents</value>
+    </labels>
+    <labels>
+        <fullName>Service</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service</shortDescription>
+        <value>Service</value>
+    </labels>
+    <labels>
+        <fullName>ServiceCode</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceCode</shortDescription>
+        <value>Service Code</value>
+    </labels>
+    <labels>
+        <fullName>ServiceManagement</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceManagement</shortDescription>
+        <value>Service Management</value>
+    </labels>
+    <labels>
+        <fullName>Services</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Services</shortDescription>
+        <value>Services</value>
+    </labels>
+    <labels>
+        <fullName>Showall</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Showall</shortDescription>
+        <value>Show All</value>
+    </labels>
+    <labels>
+        <fullName>StackholdersContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stackholders Contact</shortDescription>
+        <value>Stackholders Contact</value>
+    </labels>
+    <labels>
+        <fullName>Stakeholders</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stakeholders</shortDescription>
+        <value>Stakeholders</value>
+    </labels>
+    <labels>
+        <fullName>Start</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>State</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>Subject</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>SubjectComment</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubjectComment</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>SubjectF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Task</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task</shortDescription>
+        <value>Task</value>
+    </labels>
+    <labels>
+        <fullName>TechnicalClosing</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TechnicalClosing</shortDescription>
+        <value>Technical Closing</value>
+    </labels>
+    <labels>
+        <fullName>TheSelectedTemplateCouldNotBeLoaded</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The selected template could not be loaded.</shortDescription>
+        <value>The selected template could not be loaded.</value>
+    </labels>
+    <labels>
+        <fullName>Timeline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Timeline</shortDescription>
+        <value>Timeline</value>
+    </labels>
+    <labels>
+        <fullName>TimelineActivities</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TimelineActivities</shortDescription>
+        <value>Timeline Activities</value>
+    </labels>
+    <labels>
+        <fullName>To</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>ToF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>Type</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>TypeF</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>Typeoforder</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Typeoforder</shortDescription>
+        <value>Type Of Order</value>
+    </labels>
+    <labels>
+        <fullName>Updated_process_status</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Updated_process_status</shortDescription>
+        <value>Updated Process Status</value>
+    </labels>
+    <labels>
+        <fullName>ViewDocument</fullName>
+        <categories>FICHEIROS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View document</shortDescription>
+        <value>View Document</value>
+    </labels>
+    <labels>
+        <fullName>Yes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_account</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account field label</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_button</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Credit Note button label</shortDescription>
+        <value>New Credit Note</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_cancel</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel button label</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_colAmount</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Amount column header</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_colDate</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date column header</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_colInvoice</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice column header</shortDescription>
+        <value>Invoice</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_errorRequired</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required fields error</shortDescription>
+        <value>Please fill in all required fields.</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_errorSelectInvoice</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select invoice error</shortDescription>
+        <value>Please select at least one invoice.</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_noInvoices</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No invoices available message</shortDescription>
+        <value>No invoices available for this order.</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_order</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order label in invoice table group header</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_rectificationReason</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rectification Reason field label</shortDescription>
+        <value>Credit Note Reason</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_relatedOrder</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Order field label</shortDescription>
+        <value>Related Order</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_save</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save button label</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_selectInvoice</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Invoice section label</shortDescription>
+        <value>Select Invoice</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_selectOption</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select an option placeholder</shortDescription>
+        <value>Select an option</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_success</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Credit note created success message</shortDescription>
+        <value>Credit note created successfully.</value>
+    </labels>
+    <labels>
+        <fullName>newCreditNote_title</fullName>
+        <categories>CreditNote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Credit Note modal title</shortDescription>
+        <value>New Credit Note</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_account</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account field label</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_cancel</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel button label</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colBaseAmount</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: Base Amount</shortDescription>
+        <value>Base Amount</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colName</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colStakeholder</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: Stakeholder</shortDescription>
+        <value>Stakeholder</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colTotalAmount</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: Total Amount</shortDescription>
+        <value>Total Amount</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colType</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_colVATAmount</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service table column: VAT Amount</shortDescription>
+        <value>VAT Amount</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_error</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic error toast title</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_errorSelectService</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation error when no service is selected</shortDescription>
+        <value>Please select at least one service.</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_headerGuild</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order group header: Guild</shortDescription>
+        <value>Guild</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_headerOrderNumber</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order group header: Order Number</shortDescription>
+        <value>Order Number</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_headerProviderType</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order group header: Provider Type</shortDescription>
+        <value>Provider Type</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_headerType</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order group header: Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_instructions</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instructions text above service table</shortDescription>
+        <value>Select the orders and services you want to invoice.</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_noServices</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty state message when no services available</shortDescription>
+        <value>No services available to invoice.</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_relatedOrder</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related order field label</shortDescription>
+        <value>Related Order</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_save</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save button label</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_selectAll</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select all checkbox label</shortDescription>
+        <value>Select all</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_success</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success toast message after invoice creation</shortDescription>
+        <value>Invoice created successfully.</value>
+    </labels>
+    <labels>
+        <fullName>newInvoice_title</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Invoice modal title</shortDescription>
+        <value>New Invoice</value>
+    </labels>
+    <labels>
+        <fullName>received</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>received</shortDescription>
+        <value>Received</value>
+    </labels>
+    <labels>
+        <fullName>sent</fullName>
+        <categories>Timeline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sent</shortDescription>
+        <value>Sent</value>
+    </labels>
+</CustomLabels>

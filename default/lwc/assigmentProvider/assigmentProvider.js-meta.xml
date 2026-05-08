@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordAction</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordAction">
+            <actionType>ScreenAction</actionType>
+        </targetConfig>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="objectType" type="String" label="Record Object" description="Record Object"/>
+            <property name="recordId" type="String" label="Record Id" description="Record Id to use in the component"/>
+            <property name="encargoId" type="String" label="Encargo Id" description="Encargo Id to use in the component" role="outputOnly"/>
+            <property name="selectedProviderId" type="String" label="Selected Provider Id" description="Selected Provider Id" role="outputOnly"/>
+            <property name="isFirstScreen" type="Boolean" label="Is First Screen" description="Indicates if this is the first screen" role="inputOnly" />
+            <property name="isLastScreen" type="Boolean" label="Is Last Screen" description="Indicates if this is the last screen" role="inputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

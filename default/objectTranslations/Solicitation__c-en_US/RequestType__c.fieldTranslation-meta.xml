@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Type --></label>
+    <name>RequestType__c</name>
+    <picklistValues>
+        <masterLabel>Solicitud de autorización de perito</masterLabel>
+        <translation><!-- Solicitud de autorización de perito --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solicitud de servicio de peritacion</masterLabel>
+        <translation><!-- Solicitud de servicio de peritacion --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

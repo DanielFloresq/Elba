@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreferredLanguage__c</fullName>
+    <description>Preferred language for contacting the insurer.</description>
+    <label>Preferred Language</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CAS</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>EUS</fullName>
+                <default>false</default>
+                <label>Basque</label>
+            </value>
+            <value>
+                <fullName>CAT</fullName>
+                <default>false</default>
+                <label>Catalan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

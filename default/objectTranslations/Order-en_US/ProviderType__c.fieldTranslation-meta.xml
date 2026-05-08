@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Provider Type --></label>
+    <name>ProviderType__c</name>
+    <picklistValues>
+        <masterLabel>Boiler Technician</masterLabel>
+        <translation><!-- Boiler Technician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carpentry</masterLabel>
+        <translation><!-- Carpentry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drain Unblocking</masterLabel>
+        <translation><!-- Drain Unblocking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electrical</masterLabel>
+        <translation><!-- Electrical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flooring (Parquet)</masterLabel>
+        <translation><!-- Flooring (Parquet) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glazing</masterLabel>
+        <translation><!-- Glazing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handyman</masterLabel>
+        <translation><!-- Handyman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locksmith</masterLabel>
+        <translation><!-- Locksmith --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-trade</masterLabel>
+        <translation><!-- Multi-trade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanitary Ware</masterLabel>
+        <translation><!-- Sanitary Ware --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Service</masterLabel>
+        <translation><!-- Technical Service --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

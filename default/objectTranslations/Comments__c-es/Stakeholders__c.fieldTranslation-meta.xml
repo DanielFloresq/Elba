@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Partes interesadas</label>
+    <name>Stakeholders__c</name>
+    <relationshipLabel>Comentario</relationshipLabel>
+</CustomFieldTranslation>

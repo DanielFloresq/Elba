@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Nota de proceso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notas de proceso</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <name>feed_filter_case_note</name>
+</CustomFieldTranslation>

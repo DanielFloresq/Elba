@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Parent Subject --></label>
+    <name>ParentSubject__c</name>
+    <picklistValues>
+        <masterLabel>Ofrezco reembolso a asegurado</masterLabel>
+        <translation><!-- Ofrezco reembolso a asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Realizar asignación manual de reparador</masterLabel>
+        <translation><!-- Realizar asignación manual de reparador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revisar no contacto con asegurado &gt; 3 días</masterLabel>
+        <translation><!-- Revisar no contacto con asegurado &gt; 3 días --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revisar no contacto con asegurado &gt;10 días</masterLabel>
+        <translation><!-- Revisar no contacto con asegurado &gt;10 días --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revisar no contacto con asegurado &gt;24 h</masterLabel>
+        <translation><!-- Revisar no contacto con asegurado &gt;24 h --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

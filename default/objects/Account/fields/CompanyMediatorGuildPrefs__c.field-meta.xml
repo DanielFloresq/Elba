@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyMediatorGuildPrefs__c</fullName>
+    <description>Preferencias por compañía/mediador/gremio</description>
+    <label>Company/Mediator/Guild Preferences</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abanca</fullName>
+                <default>false</default>
+                <label>Abanca</label>
+            </value>
+            <value>
+                <fullName>Abanca, mediador A Pelayo</fullName>
+                <default>false</default>
+                <label>Abanca, mediador A Pelayo</label>
+            </value>
+            <value>
+                <fullName>Lagun Aro</fullName>
+                <default>false</default>
+                <label>Lagun Aro</label>
+            </value>
+            <value>
+                <fullName>mediador A Lagun Aro</fullName>
+                <default>false</default>
+                <label>mediador A Lagun Aro</label>
+            </value>
+            <value>
+                <fullName>mediador A Lagun Aro, Abanca</fullName>
+                <default>false</default>
+                <label>mediador A Lagun Aro, Abanca</label>
+            </value>
+            <value>
+                <fullName>mediador A Pelayo</fullName>
+                <default>false</default>
+                <label>mediador A Pelayo</label>
+            </value>
+            <value>
+                <fullName>mediador A y B Lagun Aro</fullName>
+                <default>false</default>
+                <label>mediador A y B Lagun Aro</label>
+            </value>
+            <value>
+                <fullName>mediador A y B Pelayo</fullName>
+                <default>false</default>
+                <label>mediador A y B Pelayo</label>
+            </value>
+            <value>
+                <fullName>mediador B Lagun Aro</fullName>
+                <default>false</default>
+                <label>mediador B Lagun Aro</label>
+            </value>
+            <value>
+                <fullName>mediador B Pelayo</fullName>
+                <default>false</default>
+                <label>mediador B Pelayo</label>
+            </value>
+            <value>
+                <fullName>Pelayo</fullName>
+                <default>false</default>
+                <label>Pelayo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

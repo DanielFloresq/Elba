@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>OrderStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Assignment</fullName>
+        <default>false</default>
+        <label>Order Assignment</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>FirstContact</fullName>
+        <default>false</default>
+        <label>First Contact</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Primer Avance</fullName>
+        <default>false</default>
+        <label>Primer Avance</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Avance</fullName>
+        <default>false</default>
+        <label>Avance</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Presupuestación</fullName>
+        <default>false</default>
+        <label>Presupuestación</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Operational Closure</fullName>
+        <default>false</default>
+        <label>Operational Closure</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Cancelled</fullName>
+        <default>false</default>
+        <label>Order Cancelled</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Completed</fullName>
+        <default>false</default>
+        <label>Order Completed</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>

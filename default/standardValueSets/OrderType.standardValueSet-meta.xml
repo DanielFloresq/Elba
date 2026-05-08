@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CT</fullName>
+        <default>false</default>
+        <label>Cash</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AS</fullName>
+        <default>false</default>
+        <label>Assistance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR</fullName>
+        <default>false</default>
+        <label>Repair</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RE</fullName>
+        <default>false</default>
+        <label>Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PE</fullName>
+        <default>false</default>
+        <label>Peritación</label>
+    </standardValue>
+</StandardValueSet>

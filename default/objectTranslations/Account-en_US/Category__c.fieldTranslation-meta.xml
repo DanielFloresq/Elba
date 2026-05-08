@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Información</masterLabel>
+        <translation><!-- Información --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocasional</masterLabel>
+        <translation><!-- Ocasional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prospecto</masterLabel>
+        <translation><!-- Prospecto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red</masterLabel>
+        <translation><!-- Red --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

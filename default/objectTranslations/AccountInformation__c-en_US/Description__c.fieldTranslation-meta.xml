@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Description --></label>
+    <name>Description__c</name>
+    <picklistValues>
+        <masterLabel>AGENCY</masterLabel>
+        <translation><!-- AGENCY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIRPORT</masterLabel>
+        <translation><!-- AIRPORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALPHAPAGE</masterLabel>
+        <translation><!-- ALPHAPAGE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASSISTANCE UNIT</masterLabel>
+        <translation><!-- ASSISTANCE UNIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administratif</masterLabel>
+        <translation><!-- Administratif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CALLCENTER</masterLabel>
+        <translation><!-- CALLCENTER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARDIOLOGY</masterLabel>
+        <translation><!-- CARDIOLOGY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CENTRAL SUPPORT</masterLabel>
+        <translation><!-- CENTRAL SUPPORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTACT CRI</masterLabel>
+        <translation><!-- CONTACT CRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comptabilité</masterLabel>
+        <translation><!-- Comptabilité --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMERGENCY</masterLabel>
+        <translation><!-- EMERGENCY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROSIGNAL</masterLabel>
+        <translation><!-- EUROSIGNAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FA</masterLabel>
+        <translation><!-- FA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAX 2*</masterLabel>
+        <translation><!-- FAX 2* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAX AGENCY</masterLabel>
+        <translation><!-- FAX AGENCY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOME</masterLabel>
+        <translation><!-- HOME --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOSPITAL(STANDARD)</masterLabel>
+        <translation><!-- HOSPITAL(STANDARD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOSPITAL(STANDARD) CL</masterLabel>
+        <translation><!-- HOSPITAL(STANDARD) CL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTERNATIONAL FAX</masterLabel>
+        <translation><!-- INTERNATIONAL FAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTERNATIONAL PHONE</masterLabel>
+        <translation><!-- INTERNATIONAL PHONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGNE 24/24</masterLabel>
+        <translation><!-- LIGNE 24/24 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGNE 6J/7</masterLabel>
+        <translation><!-- LIGNE 6J/7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIGNE 7J/7</masterLabel>
+        <translation><!-- LIGNE 7J/7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MATERNITY</masterLabel>
+        <translation><!-- MATERNITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICINE</masterLabel>
+        <translation><!-- MEDICINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILE</masterLabel>
+        <translation><!-- MOBILE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOBILE PO</masterLabel>
+        <translation><!-- MOBILE PO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NATIONAL FAX</masterLabel>
+        <translation><!-- NATIONAL FAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NATIONAL PHONE</masterLabel>
+        <translation><!-- NATIONAL PHONE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NEUROSURGERY</masterLabel>
+        <translation><!-- NEUROSURGERY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NONITORING</masterLabel>
+        <translation><!-- NONITORING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OFFICE</masterLabel>
+        <translation><!-- OFFICE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OFFICE CA</masterLabel>
+        <translation><!-- OFFICE CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ON-CAL</masterLabel>
+        <translation><!-- ON-CAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPERATOR</masterLabel>
+        <translation><!-- OPERATOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORTHOPEDIC SURGERY</masterLabel>
+        <translation><!-- ORTHOPEDIC SURGERY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opérationnel</masterLabel>
+        <translation><!-- Opérationnel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEDIATRICS</masterLabel>
+        <translation><!-- PEDIATRICS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PHONE FROM ABROAD</masterLabel>
+        <translation><!-- PHONE FROM ABROAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECEPTION</masterLabel>
+        <translation><!-- RECEPTION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RECEPTION ST</masterLabel>
+        <translation><!-- RECEPTION ST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESUSCITATION</masterLabel>
+        <translation><!-- RESUSCITATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESUSCITATION 112</masterLabel>
+        <translation><!-- RESUSCITATION 112 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RETURN</masterLabel>
+        <translation><!-- RETURN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>STATION</masterLabel>
+        <translation><!-- STATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UTILITY</masterLabel>
+        <translation><!-- UTILITY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VISCERAL SURGERY</masterLabel>
+        <translation><!-- VISCERAL SURGERY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WORKSHOP</masterLabel>
+        <translation><!-- WORKSHOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WORKSHOP AT</masterLabel>
+        <translation><!-- WORKSHOP AT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,167 @@
+﻿<!--
+  @description       : New Credit Note component â€” Quick Action on the Order record page.
+  @author            : Daniel Flores
+  @group             : Invoice
+  @last modified on  : 28-04-2026
+-->
+<template>
+
+    <template if:true={isLoading}>
+        <div class="slds-align_absolute-center slds-p-vertical_large">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+    </template>
+
+    <template if:false={isLoading}>
+        <!-- Header -->
+        <div class="slds-modal__header">
+            <h2 class="slds-modal__title slds-hyphenate">{labels.title}</h2>
+        </div>
+
+        <div class="slds-p-around_medium">
+
+            <!-- Related Order -->
+            <div class="slds-form-element slds-m-bottom_small">
+                <label class="slds-form-element__label">{labels.relatedOrder}</label>
+                <div class="slds-form-element__control">
+                    <lightning-input
+                        value={orderName}
+                        disabled
+                        label={labels.relatedOrder}
+                        variant="label-hidden"
+                    ></lightning-input>
+                </div>
+            </div>
+
+            <!-- Account -->
+            <div class="slds-form-element slds-m-bottom_small">
+                <label class="slds-form-element__label">{labels.account}</label>
+                <div class="slds-form-element__control">
+                    <lightning-input
+                        value={accountName}
+                        disabled
+                        label={labels.account}
+                        variant="label-hidden"
+                    ></lightning-input>
+                </div>
+            </div>
+
+            <!-- Rectification Reason -->
+            <div class="slds-form-element slds-m-bottom_medium">
+                <label class="slds-form-element__label">
+                    <abbr class="slds-required" title="required">*</abbr>
+                    {labels.rectificationReason}
+                </label>
+                <div class="slds-form-element__control">
+                    <lightning-combobox
+                        name="rectificationReason"
+                        label={labels.rectificationReason}
+                        variant="label-hidden"
+                        placeholder={labels.selectOption}
+                        options={reasonOptions}
+                        value={selectedReason}
+                        onchange={handleReasonChange}
+                        class={reasonClass}
+                    ></lightning-combobox>
+                    <template if:true={showReasonError}>
+                        <p class="slds-form-error">{labels.errorRequired}</p>
+                    </template>
+                </div>
+            </div>
+
+            <!-- Select Invoice -->
+            <div class="slds-form-element">
+                <label class="slds-form-element__label">
+                    <abbr class="slds-required" title="required">*</abbr>
+                    {labels.selectInvoice}
+                </label>
+
+                <template if:true={showInvoiceError}>
+                    <p class="slds-form-error slds-m-bottom_x-small">{labels.errorSelectInvoice}</p>
+                </template>
+
+                <template if:true={hasInvoices}>
+                    <div class="invoice-table-container slds-m-top_x-small">
+                        <div class="invoice-group-header slds-grid slds-grid_vertical-align-center slds-p-vertical_xx-small slds-p-horizontal_small">
+                            <lightning-icon icon-name="utility:chevrondown" size="xx-small" class="slds-m-right_x-small"></lightning-icon>
+                            <span class="slds-text-body_small slds-text-color_weak">{labels.order} {orderName}</span>
+                            <span class="slds-col_bump-left">
+                                <lightning-input
+                                    type="checkbox"
+                                    label="Select all"
+                                    variant="label-hidden"
+                                    checked={allSelected}
+                                    onchange={handleSelectAll}
+                                ></lightning-input>
+                            </span>
+                        </div>
+                        <table class="slds-table slds-table_cell-buffer slds-no-row-hover invoice-table">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th class="col-check" scope="col"></th>
+                                    <th scope="col"><div class="slds-truncate slds-text-title_caps">{labels.colInvoice}</div></th>
+                                    <th scope="col"><div class="slds-truncate slds-text-title_caps">{labels.colDate}</div></th>
+                                    <th scope="col" class="slds-text-align_right"><div class="slds-truncate slds-text-title_caps">{labels.colAmount}</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template for:each={invoices} for:item="inv">
+                                    <tr key={inv.id} class="slds-hint-parent">
+                                        <td class="col-check">
+                                            <lightning-input
+                                                type="checkbox"
+                                                label={inv.name}
+                                                variant="label-hidden"
+                                                data-id={inv.id}
+                                                checked={inv.selected}
+                                                onchange={handleRowSelect}
+                                            ></lightning-input>
+                                        </td>
+                                        <td>
+                                            <div class="slds-truncate invoice-link" data-id={inv.id} onclick={navigateToInvoice}>{inv.name}</div>
+                                        </td>
+                                        <td>
+                                            <div class="slds-truncate">{inv.invoiceDate}</div>
+                                        </td>
+                                        <td class="slds-text-align_right">
+                                            <lightning-formatted-number
+                                                value={inv.totalAmountWithVAT}
+                                                format-style="currency"
+                                                currency-code="EUR"
+                                                maximum-fraction-digits="2"
+                                            ></lightning-formatted-number>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </template>
+
+                <template if:false={hasInvoices}>
+                    <div class="slds-box slds-theme_shade slds-align_absolute-center slds-p-vertical_medium slds-m-top_x-small">
+                        <p class="slds-text-color_weak">{labels.noInvoices}</p>
+                    </div>
+                </template>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="slds-modal__footer">
+            <lightning-button
+                label={labels.cancel}
+                onclick={closeModal}
+                class="slds-m-right_x-small"
+            ></lightning-button>
+            <lightning-button
+                variant="brand"
+                label={labels.save}
+                icon-name="utility:check"
+                onclick={handleSave}
+            ></lightning-button>
+        </div>
+
+    </template>
+
+</template>

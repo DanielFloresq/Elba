@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Management Team --></label>
+    <name>ManagementTeam__c</name>
+    <picklistValues>
+        <masterLabel>Experts</masterLabel>
+        <translation><!-- Experts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation><!-- Insurance Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing</masterLabel>
+        <translation><!-- Processing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality</masterLabel>
+        <translation><!-- Quality --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

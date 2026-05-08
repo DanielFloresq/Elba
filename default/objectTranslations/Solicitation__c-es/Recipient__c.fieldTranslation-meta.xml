@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Destinatario</label>
+    <name>Recipient__c</name>
+    <picklistValues>
+        <masterLabel>Adjuster</masterLabel>
+        <translation>Perito</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation>Compañia</translation>
+    </picklistValues>
+</CustomFieldTranslation>

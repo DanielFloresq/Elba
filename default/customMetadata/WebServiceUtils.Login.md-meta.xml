@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Login</label>
+    <protected>false</protected>
+    <values>
+        <field>ClientId__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ClientSecret__c</field>
+        <value xsi:type="xsd:string">soUiDE7hGfCP86Lfm4zt5XEbiYJio2NL</value>
+    </values>
+    <values>
+        <field>Email__c</field>
+        <value xsi:type="xsd:string">p2p@tooltoelba.es</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://dev.tooltoelba.es/api/auth/token</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">SP7gqcaDdifa5v</value>
+    </values>
+    <values>
+        <field>isSandbox__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

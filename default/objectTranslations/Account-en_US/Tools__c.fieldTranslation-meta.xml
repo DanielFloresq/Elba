@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tools --></label>
+    <name>Tools__c</name>
+    <picklistValues>
+        <masterLabel>Camión cuba</masterLabel>
+        <translation><!-- Camión cuba --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gas traza</masterLabel>
+        <translation><!-- Gas traza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gas traza, geófono</masterLabel>
+        <translation><!-- Gas traza, geófono --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trabajos en altura</masterLabel>
+        <translation><!-- Trabajos en altura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>termográfico</masterLabel>
+        <translation><!-- termográfico --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

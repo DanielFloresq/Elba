@@ -1,0 +1,42 @@
+<!--
+  @description       : Guild flow selector component for choosing guild options during order processing
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 13-04-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+    <lightning-card>
+        <div class="slds-p-around_medium">
+            <template if:true={hasOptions}>
+                <template if:true={isSingleSelect}>
+                    <lightning-combobox
+                        name="guildSelectionSingle"
+                        label={label}
+                        options={options}
+                        value={selectedValue}
+                        required={required}
+                        onchange={handleSingleChange}>
+                    </lightning-combobox>
+                </template>
+
+                <template if:false={isSingleSelect}>
+                    <lightning-dual-listbox
+                        name="guildSelectionMultiple"
+                        label={label}
+                        source-label="Disponíveis"
+                        selected-label="Selecionados"
+                        options={options}
+                        value={selectedValuesArray}
+                        required={required}
+                        onchange={handleMultiChange}>
+                    </lightning-dual-listbox>
+                </template>
+            </template>
+
+            <template if:false={hasOptions}>
+                <div class="slds-text-color_weak">{displayMessage}</div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

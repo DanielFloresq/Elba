@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A1</fullName>
+        <default>false</default>
+        <label>Masonry</label>
+    </customValue>
+    <customValue>
+        <fullName>A2</fullName>
+        <default>false</default>
+        <label>Refrigerated food</label>
+    </customValue>
+    <customValue>
+        <fullName>A3</fullName>
+        <default>false</default>
+        <label>Animals</label>
+    </customValue>
+    <customValue>
+        <fullName>A4</fullName>
+        <default>false</default>
+        <label>Vision and sound devices</label>
+    </customValue>
+    <customValue>
+        <fullName>A5</fullName>
+        <default>false</default>
+        <label>Landlord /owner of the house//owner/co-owner</label>
+    </customValue>
+    <customValue>
+        <fullName>A6</fullName>
+        <default>false</default>
+        <label>Settlements or land movements due to third-party works</label>
+    </customValue>
+    <customValue>
+        <fullName>A7</fullName>
+        <default>false</default>
+        <label>Telephone advice in case of theft</label>
+    </customValue>
+    <customValue>
+        <fullName>A8</fullName>
+        <default>false</default>
+        <label>Electrical assistance (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>A9</fullName>
+        <default>false</default>
+        <label>On-site IT assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A10</fullName>
+        <default>false</default>
+        <label>Remote IT assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A11</fullName>
+        <default>false</default>
+        <label>Home technology assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A12</fullName>
+        <default>false</default>
+        <label>Veterinary assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A13</fullName>
+        <default>false</default>
+        <label>Guide dog veterinary assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A14</fullName>
+        <default>false</default>
+        <label>Blockages with damage</label>
+    </customValue>
+    <customValue>
+        <fullName>A15</fullName>
+        <default>false</default>
+        <label>Blockages without damage</label>
+    </customValue>
+    <customValue>
+        <fullName>A16</fullName>
+        <default>false</default>
+        <label>Mugging outside the home</label>
+    </customValue>
+    <customValue>
+        <fullName>A17</fullName>
+        <default>false</default>
+        <label>Vandalism</label>
+    </customValue>
+    <customValue>
+        <fullName>A18</fullName>
+        <default>false</default>
+        <label>Tenant vandalism</label>
+    </customValue>
+    <customValue>
+        <fullName>B1</fullName>
+        <default>false</default>
+        <label>Bicycles</label>
+    </customValue>
+    <customValue>
+        <fullName>C1</fullName>
+        <default>false</default>
+        <label>Boilers and heaters</label>
+    </customValue>
+    <customValue>
+        <fullName>C2</fullName>
+        <default>false</default>
+        <label>Meteorite fall</label>
+    </customValue>
+    <customValue>
+        <fullName>C3</fullName>
+        <default>false</default>
+        <label>Fall of trees, poles, and antennas</label>
+    </customValue>
+    <customValue>
+        <fullName>C4</fullName>
+        <default>false</default>
+        <label>Aircraft crash</label>
+    </customValue>
+    <customValue>
+        <fullName>C5</fullName>
+        <default>false</default>
+        <label>Lightning strike</label>
+    </customValue>
+    <customValue>
+        <fullName>C6</fullName>
+        <default>false</default>
+        <label>Emergency locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>C7</fullName>
+        <default>false</default>
+        <label>Locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>C8</fullName>
+        <default>false</default>
+        <label>Animal collision</label>
+    </customValue>
+    <customValue>
+        <fullName>C9</fullName>
+        <default>false</default>
+        <label>Vehicle collision</label>
+    </customValue>
+    <customValue>
+        <fullName>C10</fullName>
+        <default>false</default>
+        <label>Condensation</label>
+    </customValue>
+    <customValue>
+        <fullName>C11</fullName>
+        <default>false</default>
+        <label>Remote backup</label>
+    </customValue>
+    <customValue>
+        <fullName>C12</fullName>
+        <default>false</default>
+        <label>Corrosion</label>
+    </customValue>
+    <customValue>
+        <fullName>C13</fullName>
+        <default>false</default>
+        <label>Short circuit</label>
+    </customValue>
+    <customValue>
+        <fullName>C14</fullName>
+        <default>false</default>
+        <label>Appliance glass</label>
+    </customValue>
+    <customValue>
+        <fullName>C15</fullName>
+        <default>false</default>
+        <label>Furniture glass</label>
+    </customValue>
+    <customValue>
+        <fullName>C16</fullName>
+        <default>false</default>
+        <label>Door glass</label>
+    </customValue>
+    <customValue>
+        <fullName>C17</fullName>
+        <default>false</default>
+        <label>Window glass</label>
+    </customValue>
+    <customValue>
+        <fullName>C18</fullName>
+        <default>false</default>
+        <label>Glazing</label>
+    </customValue>
+    <customValue>
+        <fullName>D1</fullName>
+        <default>false</default>
+        <label>Electrical damage</label>
+    </customValue>
+    <customValue>
+        <fullName>D2</fullName>
+        <default>false</default>
+        <label>Aesthetic damage</label>
+    </customValue>
+    <customValue>
+        <fullName>D3</fullName>
+        <default>false</default>
+        <label>Garden deterioration</label>
+    </customValue>
+    <customValue>
+        <fullName>D4</fullName>
+        <default>false</default>
+        <label>Athlete</label>
+    </customValue>
+    <customValue>
+        <fullName>D5</fullName>
+        <default>false</default>
+        <label>Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>D6</fullName>
+        <default>false</default>
+        <label>Spills in fire extinguishing installations (building)</label>
+    </customValue>
+    <customValue>
+        <fullName>D7</fullName>
+        <default>false</default>
+        <label>Building damage from attempted theft</label>
+    </customValue>
+    <customValue>
+        <fullName>D8</fullName>
+        <default>false</default>
+        <label>Rockfalls and avalanches</label>
+    </customValue>
+    <customValue>
+        <fullName>E1</fullName>
+        <default>false</default>
+        <label>Electricity</label>
+    </customValue>
+    <customValue>
+        <fullName>E2</fullName>
+        <default>false</default>
+        <label>Emergency electricity</label>
+    </customValue>
+    <customValue>
+        <fullName>E3</fullName>
+        <default>false</default>
+        <label>Appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>E4</fullName>
+        <default>false</default>
+        <label>Kitchen countertop</label>
+    </customValue>
+    <customValue>
+        <fullName>E5</fullName>
+        <default>false</default>
+        <label>Mirror</label>
+    </customValue>
+    <customValue>
+        <fullName>E6</fullName>
+        <default>false</default>
+        <label>Water leak / isolated leak</label>
+    </customValue>
+    <customValue>
+        <fullName>E7</fullName>
+        <default>false</default>
+        <label>Appliance leak</label>
+    </customValue>
+    <customValue>
+        <fullName>E8</fullName>
+        <default>false</default>
+        <label>Shop window</label>
+    </customValue>
+    <customValue>
+        <fullName>E9</fullName>
+        <default>false</default>
+        <label>Explosion</label>
+    </customValue>
+    <customValue>
+        <fullName>F1</fullName>
+        <default>false</default>
+        <label>Death and funeral expenses (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>F2</fullName>
+        <default>false</default>
+        <label>Localized rainwater leak</label>
+    </customValue>
+    <customValue>
+        <fullName>F3</fullName>
+        <default>false</default>
+        <label>Leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>F4</fullName>
+        <default>false</default>
+        <label>Leaks through roofs / covers / facades / terraces / patios</label>
+    </customValue>
+    <customValue>
+        <fullName>F5</fullName>
+        <default>false</default>
+        <label>Tile leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>F6</fullName>
+        <default>false</default>
+        <label>Evident internal leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>F7</fullName>
+        <default>false</default>
+        <label>Leaks in patios, terraces, or covers</label>
+    </customValue>
+    <customValue>
+        <fullName>F8</fullName>
+        <default>false</default>
+        <label>Ground leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>F9</fullName>
+        <default>false</default>
+        <label>Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>F10</fullName>
+        <default>false</default>
+        <label>Boiler leak</label>
+    </customValue>
+    <customValue>
+        <fullName>F11</fullName>
+        <default>false</default>
+        <label>Radiator/visible pipe/shut-off valve leak</label>
+    </customValue>
+    <customValue>
+        <fullName>G1</fullName>
+        <default>false</default>
+        <label>Continuous dripping</label>
+    </customValue>
+    <customValue>
+        <fullName>H1</fullName>
+        <default>false</default>
+        <label>House inhabitant</label>
+    </customValue>
+    <customValue>
+        <fullName>H2</fullName>
+        <default>false</default>
+        <label>Smoke</label>
+    </customValue>
+    <customValue>
+        <fullName>H3</fullName>
+        <default>false</default>
+        <label>Theft in the home</label>
+    </customValue>
+    <customValue>
+        <fullName>I1</fullName>
+        <default>false</default>
+        <label>Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>I2</fullName>
+        <default>false</default>
+        <label>Tenant</label>
+    </customValue>
+    <customValue>
+        <fullName>I3</fullName>
+        <default>false</default>
+        <label>Employee dishonesty</label>
+    </customValue>
+    <customValue>
+        <fullName>I4</fullName>
+        <default>false</default>
+        <label>Flooding from public network</label>
+    </customValue>
+    <customValue>
+        <fullName>I5</fullName>
+        <default>false</default>
+        <label>Flooding from overflowing channels, ditches</label>
+    </customValue>
+    <customValue>
+        <fullName>I6</fullName>
+        <default>false</default>
+        <label>Permanant and total disability (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>L1</fullName>
+        <default>false</default>
+        <label>Home cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>L2</fullName>
+        <default>false</default>
+        <label>Rain</label>
+    </customValue>
+    <customValue>
+        <fullName>M1</fullName>
+        <default>false</default>
+        <label>Shower screen</label>
+    </customValue>
+    <customValue>
+        <fullName>M2</fullName>
+        <default>false</default>
+        <label>Tech handyman</label>
+    </customValue>
+    <customValue>
+        <fullName>M3</fullName>
+        <default>false</default>
+        <label>Refrigerated medicines</label>
+    </customValue>
+    <customValue>
+        <fullName>M4</fullName>
+        <default>false</default>
+        <label>Guide dog death (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>N1</fullName>
+        <default>false</default>
+        <label>Snow</label>
+    </customValue>
+    <customValue>
+        <fullName>O1</fullName>
+        <default>false</default>
+        <label>Minor works</label>
+    </customValue>
+    <customValue>
+        <fullName>O2</fullName>
+        <default>false</default>
+        <label>Omission to close valves or taps</label>
+    </customValue>
+    <customValue>
+        <fullName>O3</fullName>
+        <default>false</default>
+        <label>Sonic waves</label>
+    </customValue>
+    <customValue>
+        <fullName>O4</fullName>
+        <default>false</default>
+        <label>Other building glass</label>
+    </customValue>
+    <customValue>
+        <fullName>O5</fullName>
+        <default>false</default>
+        <label>Other contents glass</label>
+    </customValue>
+    <customValue>
+        <fullName>O6</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>P1</fullName>
+        <default>false</default>
+        <label>Proportional part of common elements</label>
+    </customValue>
+    <customValue>
+        <fullName>P2</fullName>
+        <default>false</default>
+        <label>Private / family</label>
+    </customValue>
+    <customValue>
+        <fullName>P3</fullName>
+        <default>false</default>
+        <label>Pedestrian</label>
+    </customValue>
+    <customValue>
+        <fullName>P4</fullName>
+        <default>false</default>
+        <label>Hail</label>
+    </customValue>
+    <customValue>
+        <fullName>P5</fullName>
+        <default>false</default>
+        <label>Loss of contents luggage</label>
+    </customValue>
+    <customValue>
+        <fullName>P6</fullName>
+        <default>false</default>
+        <label>Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>P7</fullName>
+        <default>false</default>
+        <label>Due to unemployment (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>P8</fullName>
+        <default>false</default>
+        <label>Due to temporary disability (self-employed) (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>R1</fullName>
+        <default>false</default>
+        <label>Domestic personal liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R2</fullName>
+        <default>false</default>
+        <label>Pipe repair with damage</label>
+    </customValue>
+    <customValue>
+        <fullName>R3</fullName>
+        <default>false</default>
+        <label>Pipe repair without damage / location without damage up to €400</label>
+    </customValue>
+    <customValue>
+        <fullName>R4</fullName>
+        <default>false</default>
+        <label>Appliance repair</label>
+    </customValue>
+    <customValue>
+        <fullName>R5</fullName>
+        <default>false</default>
+        <label>Appliance repair with parts</label>
+    </customValue>
+    <customValue>
+        <fullName>R6</fullName>
+        <default>false</default>
+        <label>Appliance repair without parts</label>
+    </customValue>
+    <customValue>
+        <fullName>R7</fullName>
+        <default>false</default>
+        <label>Animal liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R8</fullName>
+        <default>false</default>
+        <label>Theft of contents with building damage</label>
+    </customValue>
+    <customValue>
+        <fullName>R9</fullName>
+        <default>false</default>
+        <label>Theft of contents without building damage</label>
+    </customValue>
+    <customValue>
+        <fullName>R10</fullName>
+        <default>false</default>
+        <label>Theft in other annexes</label>
+    </customValue>
+    <customValue>
+        <fullName>R11</fullName>
+        <default>false</default>
+        <label>Theft in storage rooms</label>
+    </customValue>
+    <customValue>
+        <fullName>R12</fullName>
+        <default>false</default>
+        <label>Breakage of fixed sanitary appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>R13</fullName>
+        <default>false</default>
+        <label>Breakage of ceramic glass</label>
+    </customValue>
+    <customValue>
+        <fullName>R14</fullName>
+        <default>false</default>
+        <label>Breakage of marble, granite</label>
+    </customValue>
+    <customValue>
+        <fullName>R15</fullName>
+        <default>false</default>
+        <label>Sign</label>
+    </customValue>
+    <customValue>
+        <fullName>R16</fullName>
+        <default>false</default>
+        <label>Data recovery</label>
+    </customValue>
+    <customValue>
+        <fullName>S1</fullName>
+        <default>false</default>
+        <label>Overvoltage</label>
+    </customValue>
+    <customValue>
+        <fullName>S2</fullName>
+        <default>false</default>
+        <label>Lock replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>T1</fullName>
+        <default>false</default>
+        <label>Possession/use of weapons (liability)</label>
+    </customValue>
+    <customValue>
+        <fullName>T2</fullName>
+        <default>false</default>
+        <label>Storm</label>
+    </customValue>
+    <customValue>
+        <fullName>T3</fullName>
+        <default>false</default>
+        <label>Accidental glass breakage</label>
+    </customValue>
+    <customValue>
+        <fullName>U1</fullName>
+        <default>false</default>
+        <label>Use</label>
+    </customValue>
+    <customValue>
+        <fullName>V1</fullName>
+        <default>false</default>
+        <label>Wind</label>
+    </customValue>
+    <customValue>
+        <fullName>A19</fullName>
+        <default>false</default>
+        <label>Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>A20</fullName>
+        <default>false</default>
+        <label>Traffic Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>A21</fullName>
+        <default>false</default>
+        <label>Common/Private Water 11-20 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>A22</fullName>
+        <default>false</default>
+        <label>Common/Private Water Frcia 150</label>
+    </customValue>
+    <customValue>
+        <fullName>A23</fullName>
+        <default>false</default>
+        <label>Common/Private Water Up To 10 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>A24</fullName>
+        <default>false</default>
+        <label>Common Water 11-20 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>A25</fullName>
+        <default>false</default>
+        <label>Common Water Frcia 150</label>
+    </customValue>
+    <customValue>
+        <fullName>A26</fullName>
+        <default>false</default>
+        <label>Common Water Frcia 300</label>
+    </customValue>
+    <customValue>
+        <fullName>A27</fullName>
+        <default>false</default>
+        <label>Common Water Up To 10 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>A28</fullName>
+        <default>false</default>
+        <label>Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A29</fullName>
+        <default>false</default>
+        <label>Extraordinary Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A30</fullName>
+        <default>false</default>
+        <label>In-Person Legal Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A31</fullName>
+        <default>false</default>
+        <label>Health Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A32</fullName>
+        <default>false</default>
+        <label>Health Assistance 100</label>
+    </customValue>
+    <customValue>
+        <fullName>A33</fullName>
+        <default>false</default>
+        <label>Health Assistance 1503</label>
+    </customValue>
+    <customValue>
+        <fullName>A34</fullName>
+        <default>false</default>
+        <label>Health Assistance 1800</label>
+    </customValue>
+    <customValue>
+        <fullName>A35</fullName>
+        <default>false</default>
+        <label>Health Assistance 1803</label>
+    </customValue>
+    <customValue>
+        <fullName>A36</fullName>
+        <default>false</default>
+        <label>Health Assistance 200</label>
+    </customValue>
+    <customValue>
+        <fullName>A37</fullName>
+        <default>false</default>
+        <label>Health Assistance 250</label>
+    </customValue>
+    <customValue>
+        <fullName>A38</fullName>
+        <default>false</default>
+        <label>Health Assistance 300</label>
+    </customValue>
+    <customValue>
+        <fullName>A39</fullName>
+        <default>false</default>
+        <label>Health Assistance 3000</label>
+    </customValue>
+    <customValue>
+        <fullName>A40</fullName>
+        <default>false</default>
+        <label>Health Assistance 3005</label>
+    </customValue>
+    <customValue>
+        <fullName>A41</fullName>
+        <default>false</default>
+        <label>Health Assistance 4800</label>
+    </customValue>
+    <customValue>
+        <fullName>A42</fullName>
+        <default>false</default>
+        <label>Health Assistance 4808</label>
+    </customValue>
+    <customValue>
+        <fullName>A43</fullName>
+        <default>false</default>
+        <label>Health Assistance 500</label>
+    </customValue>
+    <customValue>
+        <fullName>A44</fullName>
+        <default>false</default>
+        <label>Health Assistance 6000</label>
+    </customValue>
+    <customValue>
+        <fullName>A45</fullName>
+        <default>false</default>
+        <label>Health Assistance 602</label>
+    </customValue>
+    <customValue>
+        <fullName>A46</fullName>
+        <default>false</default>
+        <label>Health Assistance 800</label>
+    </customValue>
+    <customValue>
+        <fullName>A47</fullName>
+        <default>false</default>
+        <label>Unlimited Health Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A48</fullName>
+        <default>false</default>
+        <label>Limited Health Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>A49</fullName>
+        <default>false</default>
+        <label>Machinery Breakdown</label>
+    </customValue>
+    <customValue>
+        <fullName>A50</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>A51</fullName>
+        <default>false</default>
+        <label>Insured</label>
+    </customValue>
+    <customValue>
+        <fullName>A52</fullName>
+        <default>false</default>
+        <label>Insured spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>A53</fullName>
+        <default>false</default>
+        <label>Insured children</label>
+    </customValue>
+    <customValue>
+        <fullName>A54</fullName>
+        <default>false</default>
+        <label>Mugging in public</label>
+    </customValue>
+    <customValue>
+        <fullName>A55</fullName>
+        <default>false</default>
+        <label>Mugging in public 10%</label>
+    </customValue>
+    <customValue>
+        <fullName>A56</fullName>
+        <default>false</default>
+        <label>Mugging in public 20%</label>
+    </customValue>
+    <customValue>
+        <fullName>A57</fullName>
+        <default>false</default>
+        <label>Mugging in public 25%</label>
+    </customValue>
+    <customValue>
+        <fullName>B2</fullName>
+        <default>false</default>
+        <label>Temporarily Displaced Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>B3</fullName>
+        <default>false</default>
+        <label>Refrigerated Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>B4</fullName>
+        <default>false</default>
+        <label>Entrusted Goods Or Objects</label>
+    </customValue>
+    <customValue>
+        <fullName>C39</fullName>
+        <default>false</default>
+        <label>Aircraft Fall</label>
+    </customValue>
+    <customValue>
+        <fullName>C19</fullName>
+        <default>false</default>
+        <label>Aircraft Fall First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>C20</fullName>
+        <default>false</default>
+        <label>Aircraft Fall Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>C21</fullName>
+        <default>false</default>
+        <label>Aircraft Fall Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>C22</fullName>
+        <default>false</default>
+        <label>Meat And Race Point</label>
+    </customValue>
+    <customValue>
+        <fullName>C23</fullName>
+        <default>false</default>
+        <label>Carpentry</label>
+    </customValue>
+    <customValue>
+        <fullName>C24</fullName>
+        <default>false</default>
+        <label>Locksmith Building</label>
+    </customValue>
+    <customValue>
+        <fullName>C25</fullName>
+        <default>false</default>
+        <label>Locksmith Works</label>
+    </customValue>
+    <customValue>
+        <fullName>C26</fullName>
+        <default>false</default>
+        <label>Locksmith First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>C27</fullName>
+        <default>false</default>
+        <label>Locksmith Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>C28</fullName>
+        <default>false</default>
+        <label>Vehicle Collision Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>C29</fullName>
+        <default>false</default>
+        <label>Vehicle Collision First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>C30</fullName>
+        <default>false</default>
+        <label>Vehicle Collision Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>C31</fullName>
+        <default>false</default>
+        <label>Vehicle Collision</label>
+    </customValue>
+    <customValue>
+        <fullName>C32</fullName>
+        <default>false</default>
+        <label>Vehicle Collision Building</label>
+    </customValue>
+    <customValue>
+        <fullName>C33</fullName>
+        <default>false</default>
+        <label>Vehicle Collision Renovation Works</label>
+    </customValue>
+    <customValue>
+        <fullName>C34</fullName>
+        <default>false</default>
+        <label>Vehicle Collision New Value</label>
+    </customValue>
+    <customValue>
+        <fullName>C35</fullName>
+        <default>false</default>
+        <label>As Dog Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>C36</fullName>
+        <default>false</default>
+        <label>Consumption</label>
+    </customValue>
+    <customValue>
+        <fullName>C37</fullName>
+        <default>false</default>
+        <label>Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>C38</fullName>
+        <default>false</default>
+        <label>Locative Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>C40</fullName>
+        <default>false</default>
+        <label>Metal shutters</label>
+    </customValue>
+    <customValue>
+        <fullName>D9</fullName>
+        <default>false</default>
+        <label>Third Party Damages</label>
+    </customValue>
+    <customValue>
+        <fullName>D10</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Common Frcia)</label>
+    </customValue>
+    <customValue>
+        <fullName>D11</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Common/Private)</label>
+    </customValue>
+    <customValue>
+        <fullName>D12</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>D13</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>D14</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>D15</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>D16</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Private Frcia)</label>
+    </customValue>
+    <customValue>
+        <fullName>D17</fullName>
+        <default>false</default>
+        <label>Third Party Damages (Private)</label>
+    </customValue>
+    <customValue>
+        <fullName>D18</fullName>
+        <default>false</default>
+        <label>Third Party Damages C/F</label>
+    </customValue>
+    <customValue>
+        <fullName>D19</fullName>
+        <default>false</default>
+        <label>Third Party Damages Com/Priv</label>
+    </customValue>
+    <customValue>
+        <fullName>D20</fullName>
+        <default>false</default>
+        <label>Third Party Damages Com/Priv 11-20 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>D21</fullName>
+        <default>false</default>
+        <label>Third Party Damages Com/Priv Frcia 150</label>
+    </customValue>
+    <customValue>
+        <fullName>D22</fullName>
+        <default>false</default>
+        <label>Third Party Damages Com/Priv Up To 10 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>D23</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common</label>
+    </customValue>
+    <customValue>
+        <fullName>D24</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common 11-20 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>D25</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common Frcia 150</label>
+    </customValue>
+    <customValue>
+        <fullName>D26</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common Frcia 181</label>
+    </customValue>
+    <customValue>
+        <fullName>D27</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common Frcia 300</label>
+    </customValue>
+    <customValue>
+        <fullName>D28</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common Frcia 301</label>
+    </customValue>
+    <customValue>
+        <fullName>D29</fullName>
+        <default>false</default>
+        <label>Third Party Damages Common Up To 10 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>D30</fullName>
+        <default>false</default>
+        <label>Third Party Damages Excl. Patr. &amp; Prod.</label>
+    </customValue>
+    <customValue>
+        <fullName>D31</fullName>
+        <default>false</default>
+        <label>Third Party Damages Excl. Employer Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>D32</fullName>
+        <default>false</default>
+        <label>Third Party Damages Excl. Product Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>D33</fullName>
+        <default>false</default>
+        <label>Third Party Damages Frca 180</label>
+    </customValue>
+    <customValue>
+        <fullName>D34</fullName>
+        <default>false</default>
+        <label>Third Party Damages Frcia 300</label>
+    </customValue>
+    <customValue>
+        <fullName>D35</fullName>
+        <default>false</default>
+        <label>Third Party Damages S/F</label>
+    </customValue>
+    <customValue>
+        <fullName>D36</fullName>
+        <default>false</default>
+        <label>Direct Damage To Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>D37</fullName>
+        <default>false</default>
+        <label>Damage During Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>D38</fullName>
+        <default>false</default>
+        <label>Electrical Damage Building</label>
+    </customValue>
+    <customValue>
+        <fullName>D39</fullName>
+        <default>false</default>
+        <label>Electrical Damage Renovation Works</label>
+    </customValue>
+    <customValue>
+        <fullName>D40</fullName>
+        <default>false</default>
+        <label>Electrical Damage First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>D41</fullName>
+        <default>false</default>
+        <label>Electrical Damage Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>D42</fullName>
+        <default>false</default>
+        <label>Frost Damage</label>
+    </customValue>
+    <customValue>
+        <fullName>D46</fullName>
+        <default>false</default>
+        <label>Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>D47</fullName>
+        <default>false</default>
+        <label>Civil Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>D48</fullName>
+        <default>false</default>
+        <label>Defense Against Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>D49</fullName>
+        <default>false</default>
+        <label>Labor Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>D50</fullName>
+        <default>false</default>
+        <label>Criminal Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>D51</fullName>
+        <default>false</default>
+        <label>Criminal Defense In Private Life</label>
+    </customValue>
+    <customValue>
+        <fullName>D43</fullName>
+        <default>false</default>
+        <label>Accidental Spill</label>
+    </customValue>
+    <customValue>
+        <fullName>D44</fullName>
+        <default>false</default>
+        <label>Accidental Spill First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>D45</fullName>
+        <default>false</default>
+        <label>Homeowner</label>
+    </customValue>
+    <customValue>
+        <fullName>E10</fullName>
+        <default>false</default>
+        <label>Emergency Electricity</label>
+    </customValue>
+    <customValue>
+        <fullName>E11</fullName>
+        <default>false</default>
+        <label>Emergency Electricity Works</label>
+    </customValue>
+    <customValue>
+        <fullName>E12</fullName>
+        <default>false</default>
+        <label>Electricity First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>E13</fullName>
+        <default>false</default>
+        <label>Electricity Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>E14</fullName>
+        <default>false</default>
+        <label>Electronic Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>F12</fullName>
+        <default>false</default>
+        <label>Annual Traffic Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F13</fullName>
+        <default>false</default>
+        <label>Summer Traffic Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F14</fullName>
+        <default>false</default>
+        <label>Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F15</fullName>
+        <default>false</default>
+        <label>Death 24 Hours</label>
+    </customValue>
+    <customValue>
+        <fullName>F16</fullName>
+        <default>false</default>
+        <label>Death Traffic Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F17</fullName>
+        <default>false</default>
+        <label>Death Accident 24 Hours</label>
+    </customValue>
+    <customValue>
+        <fullName>F18</fullName>
+        <default>false</default>
+        <label>Death Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F19</fullName>
+        <default>false</default>
+        <label>Death Non-Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F20</fullName>
+        <default>false</default>
+        <label>Death By Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F21</fullName>
+        <default>false</default>
+        <label>Death By Traffic Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F22</fullName>
+        <default>false</default>
+        <label>Death By Non-Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>F23</fullName>
+        <default>false</default>
+        <label>Death By Occupational Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>F24</fullName>
+        <default>false</default>
+        <label>Death By Professional Illness</label>
+    </customValue>
+    <customValue>
+        <fullName>F25</fullName>
+        <default>false</default>
+        <label>Death By Spouse Heart Attack</label>
+    </customValue>
+    <customValue>
+        <fullName>F26</fullName>
+        <default>false</default>
+        <label>Work-Related Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F27</fullName>
+        <default>false</default>
+        <label>Death In Locality</label>
+    </customValue>
+    <customValue>
+        <fullName>F28</fullName>
+        <default>false</default>
+        <label>Natural Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F29</fullName>
+        <default>false</default>
+        <label>Non-Work Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F30</fullName>
+        <default>false</default>
+        <label>Death Outside Locality</label>
+    </customValue>
+    <customValue>
+        <fullName>F31</fullName>
+        <default>false</default>
+        <label>Death By Heart Attack</label>
+    </customValue>
+    <customValue>
+        <fullName>F32</fullName>
+        <default>false</default>
+        <label>Simultaneous Death</label>
+    </customValue>
+    <customValue>
+        <fullName>F33</fullName>
+        <default>false</default>
+        <label>Plumbing Not Covered</label>
+    </customValue>
+    <customValue>
+        <fullName>F34</fullName>
+        <default>false</default>
+        <label>Urgent Plumbing Without Damage</label>
+    </customValue>
+    <customValue>
+        <fullName>F35</fullName>
+        <default>false</default>
+        <label>Recovery Training</label>
+    </customValue>
+    <customValue>
+        <fullName>F36</fullName>
+        <default>false</default>
+        <label>Serious Fractures</label>
+    </customValue>
+    <customValue>
+        <fullName>F37</fullName>
+        <default>false</default>
+        <label>Fractures, Burns, Dislocations</label>
+    </customValue>
+    <customValue>
+        <fullName>F38</fullName>
+        <default>false</default>
+        <label>Fire Ext. Installation Leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>F39</fullName>
+        <default>false</default>
+        <label>Fire Ext. Installation Leaks Building</label>
+    </customValue>
+    <customValue>
+        <fullName>F40</fullName>
+        <default>false</default>
+        <label>Fire Ext. Installation Leaks Renovation</label>
+    </customValue>
+    <customValue>
+        <fullName>G6</fullName>
+        <default>false</default>
+        <label>General Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>G2</fullName>
+        <default>false</default>
+        <label>Funeral Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>G3</fullName>
+        <default>false</default>
+        <label>Major Disability Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>G4</fullName>
+        <default>false</default>
+        <label>Major Disability Non-Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>G5</fullName>
+        <default>false</default>
+        <label>Major Disability Occupational Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>H4</fullName>
+        <default>false</default>
+        <label>Children</label>
+    </customValue>
+    <customValue>
+        <fullName>H5</fullName>
+        <default>false</default>
+        <label>Hospitalization</label>
+    </customValue>
+    <customValue>
+        <fullName>H6</fullName>
+        <default>false</default>
+        <label>Hospitalization 1 Day</label>
+    </customValue>
+    <customValue>
+        <fullName>H7</fullName>
+        <default>false</default>
+        <label>Hospitalization 16 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>H8</fullName>
+        <default>false</default>
+        <label>Hospitalization 31 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>H9</fullName>
+        <default>false</default>
+        <label>Hospitalization 8 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>H10</fullName>
+        <default>false</default>
+        <label>Hospitalization Insured</label>
+    </customValue>
+    <customValue>
+        <fullName>H11</fullName>
+        <default>false</default>
+        <label>Hospitalization Insured ICU</label>
+    </customValue>
+    <customValue>
+        <fullName>H12</fullName>
+        <default>false</default>
+        <label>Hospitalization Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>H13</fullName>
+        <default>false</default>
+        <label>Hospitalization Spouse/Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>H14</fullName>
+        <default>false</default>
+        <label>Hospitalization Spouse/Partner ICU</label>
+    </customValue>
+    <customValue>
+        <fullName>H15</fullName>
+        <default>false</default>
+        <label>Hospitalization From 16th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>H16</fullName>
+        <default>false</default>
+        <label>Hospitalization From 1st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>H17</fullName>
+        <default>false</default>
+        <label>Hospitalization From 31st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>H18</fullName>
+        <default>false</default>
+        <label>Hospitalization From 8th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>H19</fullName>
+        <default>false</default>
+        <label>Hospitalization ICU Insured</label>
+    </customValue>
+    <customValue>
+        <fullName>H20</fullName>
+        <default>false</default>
+        <label>Hospitalization ICU Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>H21</fullName>
+        <default>false</default>
+        <label>Theft</label>
+    </customValue>
+    <customValue>
+        <fullName>H22</fullName>
+        <default>false</default>
+        <label>Theft In Private Annexes</label>
+    </customValue>
+    <customValue>
+        <fullName>H23</fullName>
+        <default>false</default>
+        <label>Theft Inside The Home</label>
+    </customValue>
+    <customValue>
+        <fullName>I7</fullName>
+        <default>false</default>
+        <label>Temp. Incapacity From 16th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I8</fullName>
+        <default>false</default>
+        <label>Temp. Incapacity From 31st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I9</fullName>
+        <default>false</default>
+        <label>Temp. Incapacity From 8th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I10</fullName>
+        <default>false</default>
+        <label>Temp. Incapacity From 1st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I11</fullName>
+        <default>false</default>
+        <label>Disability</label>
+    </customValue>
+    <customValue>
+        <fullName>I12</fullName>
+        <default>false</default>
+        <label>Daily Temporary Disability</label>
+    </customValue>
+    <customValue>
+        <fullName>I13</fullName>
+        <default>false</default>
+        <label>Daily Compensation</label>
+    </customValue>
+    <customValue>
+        <fullName>I14</fullName>
+        <default>false</default>
+        <label>Heart Attack</label>
+    </customValue>
+    <customValue>
+        <fullName>I15</fullName>
+        <default>false</default>
+        <label>Public Network Flood</label>
+    </customValue>
+    <customValue>
+        <fullName>I16</fullName>
+        <default>false</default>
+        <label>Public Network Flood Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>I17</fullName>
+        <default>false</default>
+        <label>Public Network Flood First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>I18</fullName>
+        <default>false</default>
+        <label>Public Network Flood Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>I19</fullName>
+        <default>false</default>
+        <label>Floods</label>
+    </customValue>
+    <customValue>
+        <fullName>I20</fullName>
+        <default>false</default>
+        <label>Floods (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>I21</fullName>
+        <default>false</default>
+        <label>Public Network Floods (Common)</label>
+    </customValue>
+    <customValue>
+        <fullName>I22</fullName>
+        <default>false</default>
+        <label>Public Network Floods (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>I23</fullName>
+        <default>false</default>
+        <label>Temp. Hosp. Incapacity From 16th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I24</fullName>
+        <default>false</default>
+        <label>Temp. Hosp. Incapacity From 1st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I25</fullName>
+        <default>false</default>
+        <label>Temp. Hosp. Incapacity From 31st Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I26</fullName>
+        <default>false</default>
+        <label>Temp. Hosp. Incapacity From 8th Day</label>
+    </customValue>
+    <customValue>
+        <fullName>I27</fullName>
+        <default>false</default>
+        <label>Accident Disability</label>
+    </customValue>
+    <customValue>
+        <fullName>I28</fullName>
+        <default>false</default>
+        <label>Partial Permanent Disability Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>I29</fullName>
+        <default>false</default>
+        <label>Partial Permanent Disability Non-Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>I30</fullName>
+        <default>false</default>
+        <label>Partial Permanent Disability Occupational Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>I31</fullName>
+        <default>false</default>
+        <label>Total Permanent Disability Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>I32</fullName>
+        <default>false</default>
+        <label>Total Permanent Disability Non-Work Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>I33</fullName>
+        <default>false</default>
+        <label>Total Permanent Disability Occupational Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>I34</fullName>
+        <default>false</default>
+        <label>Total And Absolute Permanent Disability</label>
+    </customValue>
+    <customValue>
+        <fullName>I35</fullName>
+        <default>false</default>
+        <label>IT, Unemployment</label>
+    </customValue>
+    <customValue>
+        <fullName>I36</fullName>
+        <default>false</default>
+        <label>Breach of contracts</label>
+    </customValue>
+    <customValue>
+        <fullName>L3</fullName>
+        <default>false</default>
+        <label>Windows/Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>L4</fullName>
+        <default>false</default>
+        <label>Common Windows/Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>L5</fullName>
+        <default>false</default>
+        <label>Common Windows/Glass (Common/Private)</label>
+    </customValue>
+    <customValue>
+        <fullName>L6</fullName>
+        <default>false</default>
+        <label>Common Windows/Glass (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>L7</fullName>
+        <default>false</default>
+        <label>Common Windows/Glass (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>L8</fullName>
+        <default>false</default>
+        <label>Furniture Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>L9</fullName>
+        <default>false</default>
+        <label>Furniture Glass New Value</label>
+    </customValue>
+    <customValue>
+        <fullName>L10</fullName>
+        <default>false</default>
+        <label>Furniture Glass Real Value</label>
+    </customValue>
+    <customValue>
+        <fullName>L11</fullName>
+        <default>false</default>
+        <label>Private Windows/Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>L12</fullName>
+        <default>false</default>
+        <label>Windows, Glass, Signs</label>
+    </customValue>
+    <customValue>
+        <fullName>L13</fullName>
+        <default>false</default>
+        <label>Windows, Glass, Signs Building</label>
+    </customValue>
+    <customValue>
+        <fullName>L14</fullName>
+        <default>false</default>
+        <label>Windows, Glass, Signs Renovation</label>
+    </customValue>
+    <customValue>
+        <fullName>L15</fullName>
+        <default>false</default>
+        <label>Windows, Mirror, Glass Building</label>
+    </customValue>
+    <customValue>
+        <fullName>L16</fullName>
+        <default>false</default>
+        <label>Windows, Mirror, Glass Renovation</label>
+    </customValue>
+    <customValue>
+        <fullName>L17</fullName>
+        <default>false</default>
+        <label>Windows, Mirrors, Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>L18</fullName>
+        <default>false</default>
+        <label>Windows, Mirrors, Glass Building</label>
+    </customValue>
+    <customValue>
+        <fullName>L19</fullName>
+        <default>false</default>
+        <label>Windows, Mirrors, Glass First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>M5</fullName>
+        <default>false</default>
+        <label>Marble/Granite New Value</label>
+    </customValue>
+    <customValue>
+        <fullName>M6</fullName>
+        <default>false</default>
+        <label>Marble/Granite Real Value</label>
+    </customValue>
+    <customValue>
+        <fullName>M7</fullName>
+        <default>false</default>
+        <label>Garden Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>M8</fullName>
+        <default>false</default>
+        <label>Earth Movements, Origin In Adjacent Building</label>
+    </customValue>
+    <customValue>
+        <fullName>M9</fullName>
+        <default>false</default>
+        <label>Earth Movements, Origin In Adjacent Renovation</label>
+    </customValue>
+    <customValue>
+        <fullName>M10</fullName>
+        <default>false</default>
+        <label>Death of the dog or cat</label>
+    </customValue>
+    <customValue>
+        <fullName>O7</fullName>
+        <default>false</default>
+        <label>Objects Thrown From Outside</label>
+    </customValue>
+    <customValue>
+        <fullName>O8</fullName>
+        <default>false</default>
+        <label>Omission (Common Water)</label>
+    </customValue>
+    <customValue>
+        <fullName>O9</fullName>
+        <default>false</default>
+        <label>Omission Common (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>O10</fullName>
+        <default>false</default>
+        <label>Omission Common (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>O11</fullName>
+        <default>false</default>
+        <label>Omission Common (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>O12</fullName>
+        <default>false</default>
+        <label>Omission Common (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>O13</fullName>
+        <default>false</default>
+        <label>Omission Common And Private</label>
+    </customValue>
+    <customValue>
+        <fullName>O14</fullName>
+        <default>false</default>
+        <label>Sonic Waves Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>O15</fullName>
+        <default>false</default>
+        <label>Sonic Waves First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>O16</fullName>
+        <default>false</default>
+        <label>Sonic Waves Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>O17</fullName>
+        <default>false</default>
+        <label>Other Appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>O18</fullName>
+        <default>false</default>
+        <label>Renovation works - locative</label>
+    </customValue>
+    <customValue>
+        <fullName>P9</fullName>
+        <default>false</default>
+        <label>Loss Of Profits</label>
+    </customValue>
+    <customValue>
+        <fullName>P10</fullName>
+        <default>false</default>
+        <label>Loss Of Keys</label>
+    </customValue>
+    <customValue>
+        <fullName>P11</fullName>
+        <default>false</default>
+        <label>Physical And Functional Losses</label>
+    </customValue>
+    <customValue>
+        <fullName>P12</fullName>
+        <default>false</default>
+        <label>Hobby Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>P13</fullName>
+        <default>false</default>
+        <label>Due To Third Party Works</label>
+    </customValue>
+    <customValue>
+        <fullName>P14</fullName>
+        <default>false</default>
+        <label>Benefit For Separation Or Divorce</label>
+    </customValue>
+    <customValue>
+        <fullName>P15</fullName>
+        <default>false</default>
+        <label>Minor Protection</label>
+    </customValue>
+    <customValue>
+        <fullName>P16</fullName>
+        <default>false</default>
+        <label>Rental Protection</label>
+    </customValue>
+    <customValue>
+        <fullName>P17</fullName>
+        <default>false</default>
+        <label>Fixed track blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>P18</fullName>
+        <default>false</default>
+        <label>Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Q1</fullName>
+        <default>false</default>
+        <label>Breaks, Burns, Dislocations</label>
+    </customValue>
+    <customValue>
+        <fullName>R17</fullName>
+        <default>false</default>
+        <label>Civil Liability Weather Events</label>
+    </customValue>
+    <customValue>
+        <fullName>R18</fullName>
+        <default>false</default>
+        <label>Civil Liability (Common/Private)</label>
+    </customValue>
+    <customValue>
+        <fullName>R19</fullName>
+        <default>false</default>
+        <label>Civil Liability (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>R20</fullName>
+        <default>false</default>
+        <label>Civil Liability (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>R21</fullName>
+        <default>false</default>
+        <label>Activity Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R22</fullName>
+        <default>false</default>
+        <label>Activity Civil Liability (With Employees)</label>
+    </customValue>
+    <customValue>
+        <fullName>R23</fullName>
+        <default>false</default>
+        <label>Activity Civil Liability (Without Employees)</label>
+    </customValue>
+    <customValue>
+        <fullName>R24</fullName>
+        <default>false</default>
+        <label>Product And Service Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R25</fullName>
+        <default>false</default>
+        <label>Employer Civil Liability Excluded</label>
+    </customValue>
+    <customValue>
+        <fullName>R26</fullName>
+        <default>false</default>
+        <label>Product Civil Liability Excluded</label>
+    </customValue>
+    <customValue>
+        <fullName>R27</fullName>
+        <default>false</default>
+        <label>Operation Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R28</fullName>
+        <default>false</default>
+        <label>Family Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R29</fullName>
+        <default>false</default>
+        <label>Agricultural Machinery Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R30</fullName>
+        <default>false</default>
+        <label>Employer Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R31</fullName>
+        <default>false</default>
+        <label>Civil Liability For Personal Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>R32</fullName>
+        <default>false</default>
+        <label>Product Civil Liability (With Employees)</label>
+    </customValue>
+    <customValue>
+        <fullName>R33</fullName>
+        <default>false</default>
+        <label>Product Civil Liability (Without Employees)</label>
+    </customValue>
+    <customValue>
+        <fullName>R34</fullName>
+        <default>false</default>
+        <label>Employer/Product Civil Liability Excluded</label>
+    </customValue>
+    <customValue>
+        <fullName>R35</fullName>
+        <default>false</default>
+        <label>Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>R36</fullName>
+        <default>false</default>
+        <label>Damage Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>R37</fullName>
+        <default>false</default>
+        <label>Private Life Damage Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>R38</fullName>
+        <default>false</default>
+        <label>Garden Reconstruction</label>
+    </customValue>
+    <customValue>
+        <fullName>R39</fullName>
+        <default>false</default>
+        <label>Repatriation</label>
+    </customValue>
+    <customValue>
+        <fullName>R40</fullName>
+        <default>false</default>
+        <label>Lock Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>R41</fullName>
+        <default>false</default>
+        <label>Civil Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R42</fullName>
+        <default>false</default>
+        <label>Civil Liability (Basic)</label>
+    </customValue>
+    <customValue>
+        <fullName>R43</fullName>
+        <default>false</default>
+        <label>Civil Liability (Common)</label>
+    </customValue>
+    <customValue>
+        <fullName>R44</fullName>
+        <default>false</default>
+        <label>Civil Liability (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>R45</fullName>
+        <default>false</default>
+        <label>Civil Liability (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>R46</fullName>
+        <default>false</default>
+        <label>Civil Liability C/F</label>
+    </customValue>
+    <customValue>
+        <fullName>R47</fullName>
+        <default>false</default>
+        <label>Civil Liability Content</label>
+    </customValue>
+    <customValue>
+        <fullName>R48</fullName>
+        <default>false</default>
+        <label>Civil Liability Building</label>
+    </customValue>
+    <customValue>
+        <fullName>R49</fullName>
+        <default>false</default>
+        <label>Civil Liability Works</label>
+    </customValue>
+    <customValue>
+        <fullName>R50</fullName>
+        <default>false</default>
+        <label>Civil Liability Renovation Works</label>
+    </customValue>
+    <customValue>
+        <fullName>R51</fullName>
+        <default>false</default>
+        <label>Civil Liability S/F</label>
+    </customValue>
+    <customValue>
+        <fullName>R52</fullName>
+        <default>false</default>
+        <label>Boiler Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>R53</fullName>
+        <default>false</default>
+        <label>Contract Review And Drafting</label>
+    </customValue>
+    <customValue>
+        <fullName>R54</fullName>
+        <default>false</default>
+        <label>Robbery</label>
+    </customValue>
+    <customValue>
+        <fullName>R55</fullName>
+        <default>false</default>
+        <label>Robbery Private Annexes</label>
+    </customValue>
+    <customValue>
+        <fullName>R56</fullName>
+        <default>false</default>
+        <label>Robbery C/F</label>
+    </customValue>
+    <customValue>
+        <fullName>R57</fullName>
+        <default>false</default>
+        <label>Robbery Common Areas</label>
+    </customValue>
+    <customValue>
+        <fullName>R58</fullName>
+        <default>false</default>
+        <label>Robbery Common/Private</label>
+    </customValue>
+    <customValue>
+        <fullName>R59</fullName>
+        <default>false</default>
+        <label>Robbery Building</label>
+    </customValue>
+    <customValue>
+        <fullName>R60</fullName>
+        <default>false</default>
+        <label>Robbery (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>R61</fullName>
+        <default>false</default>
+        <label>Robbery (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>R62</fullName>
+        <default>false</default>
+        <label>Robbery (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>R63</fullName>
+        <default>false</default>
+        <label>Robbery (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>R64</fullName>
+        <default>false</default>
+        <label>Robbery Renovation Works</label>
+    </customValue>
+    <customValue>
+        <fullName>R65</fullName>
+        <default>false</default>
+        <label>Partial Robbery 10%</label>
+    </customValue>
+    <customValue>
+        <fullName>R66</fullName>
+        <default>false</default>
+        <label>Partial Robbery 15%</label>
+    </customValue>
+    <customValue>
+        <fullName>R67</fullName>
+        <default>false</default>
+        <label>Partial Robbery 20%</label>
+    </customValue>
+    <customValue>
+        <fullName>R68</fullName>
+        <default>false</default>
+        <label>Partial Robbery 25%</label>
+    </customValue>
+    <customValue>
+        <fullName>R69</fullName>
+        <default>false</default>
+        <label>Robbery S/F</label>
+    </customValue>
+    <customValue>
+        <fullName>R70</fullName>
+        <default>false</default>
+        <label>Robbery Sports Center Lockers</label>
+    </customValue>
+    <customValue>
+        <fullName>R71</fullName>
+        <default>false</default>
+        <label>Robbery/Vandalism</label>
+    </customValue>
+    <customValue>
+        <fullName>R72</fullName>
+        <default>false</default>
+        <label>Robbery/Vandalism 25%</label>
+    </customValue>
+    <customValue>
+        <fullName>R73</fullName>
+        <default>false</default>
+        <label>Robbery/Vandalism Building</label>
+    </customValue>
+    <customValue>
+        <fullName>R74</fullName>
+        <default>false</default>
+        <label>Robbery/Vandalism Renovation Works</label>
+    </customValue>
+    <customValue>
+        <fullName>R75</fullName>
+        <default>false</default>
+        <label>Clothing, Helmet And Gloves</label>
+    </customValue>
+    <customValue>
+        <fullName>R76</fullName>
+        <default>false</default>
+        <label>Domestic Personal Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>R77</fullName>
+        <default>false</default>
+        <label>Recovery</label>
+    </customValue>
+    <customValue>
+        <fullName>R78</fullName>
+        <default>false</default>
+        <label>License withdrawal</label>
+    </customValue>
+    <customValue>
+        <fullName>S3</fullName>
+        <default>false</default>
+        <label>Building Sanitary Ware</label>
+    </customValue>
+    <customValue>
+        <fullName>S4</fullName>
+        <default>false</default>
+        <label>Renovation Sanitary Ware</label>
+    </customValue>
+    <customValue>
+        <fullName>S5</fullName>
+        <default>false</default>
+        <label>Mandatory Hunting And Fishing Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>S6</fullName>
+        <default>false</default>
+        <label>Voluntary Hunting And Fishing Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>S7</fullName>
+        <default>false</default>
+        <label>Technical Assistance Service +500</label>
+    </customValue>
+    <customValue>
+        <fullName>S8</fullName>
+        <default>false</default>
+        <label>Technical Assistance Service 250/500</label>
+    </customValue>
+    <customValue>
+        <fullName>S9</fullName>
+        <default>false</default>
+        <label>Technical Assistance Service &lt;250</label>
+    </customValue>
+    <customValue>
+        <fullName>S10</fullName>
+        <default>false</default>
+        <label>Monthly Subsidy</label>
+    </customValue>
+    <customValue>
+        <fullName>S11</fullName>
+        <default>false</default>
+        <label>Private Monthly Subsidy</label>
+    </customValue>
+    <customValue>
+        <fullName>S12</fullName>
+        <default>false</default>
+        <label>Professional Monthly Subsidy</label>
+    </customValue>
+    <customValue>
+        <fullName>T4</fullName>
+        <default>false</default>
+        <label>Vehicle Workshops</label>
+    </customValue>
+    <customValue>
+        <fullName>T5</fullName>
+        <default>false</default>
+        <label>Funds Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>T6</fullName>
+        <default>false</default>
+        <label>Funds Transport 10%</label>
+    </customValue>
+    <customValue>
+        <fullName>T7</fullName>
+        <default>false</default>
+        <label>Funds Transport 15%</label>
+    </customValue>
+    <customValue>
+        <fullName>T8</fullName>
+        <default>false</default>
+        <label>Funds Transport 20%</label>
+    </customValue>
+    <customValue>
+        <fullName>T9</fullName>
+        <default>false</default>
+        <label>Funds Transport 25%</label>
+    </customValue>
+    <customValue>
+        <fullName>T10</fullName>
+        <default>false</default>
+        <label>Offsite Work</label>
+    </customValue>
+    <customValue>
+        <fullName>T11</fullName>
+        <default>false</default>
+        <label>Private Pipes In Insured Community</label>
+    </customValue>
+    <customValue>
+        <fullName>T12</fullName>
+        <default>false</default>
+        <label>Vehicle workshops</label>
+    </customValue>
+    <customValue>
+        <fullName>V2</fullName>
+        <default>false</default>
+        <label>Vandalismo</label>
+    </customValue>
+    <customValue>
+        <fullName>V3</fullName>
+        <default>false</default>
+        <label>Vandalism (Common)</label>
+    </customValue>
+    <customValue>
+        <fullName>V4</fullName>
+        <default>false</default>
+        <label>Vandalism (Frcia 180)</label>
+    </customValue>
+    <customValue>
+        <fullName>V5</fullName>
+        <default>false</default>
+        <label>Vandalism (Frcia 181)</label>
+    </customValue>
+    <customValue>
+        <fullName>V6</fullName>
+        <default>false</default>
+        <label>Vandalism (Frcia 300)</label>
+    </customValue>
+    <customValue>
+        <fullName>V7</fullName>
+        <default>false</default>
+        <label>Vandalism (Frcia 301)</label>
+    </customValue>
+    <customValue>
+        <fullName>V8</fullName>
+        <default>false</default>
+        <label>Vandalism C/F</label>
+    </customValue>
+    <customValue>
+        <fullName>V9</fullName>
+        <default>false</default>
+        <label>Vandalism Common</label>
+    </customValue>
+    <customValue>
+        <fullName>V10</fullName>
+        <default>false</default>
+        <label>Vandalism Common/Private</label>
+    </customValue>
+    <customValue>
+        <fullName>V11</fullName>
+        <default>false</default>
+        <label>Vandalism Inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>V12</fullName>
+        <default>false</default>
+        <label>Vandalism First Risk</label>
+    </customValue>
+    <customValue>
+        <fullName>V13</fullName>
+        <default>false</default>
+        <label>Vandalism S/F</label>
+    </customValue>
+    <customValue>
+        <fullName>V14</fullName>
+        <default>false</default>
+        <label>Vandalism Total Value</label>
+    </customValue>
+    <customValue>
+        <fullName>R79</fullName>
+        <default>false</default>
+        <label>Dog owner liability (AD)</label>
+    </customValue>
+    <masterLabel>Sub-Reasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

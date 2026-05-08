@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Resultado</label>
+    <name>Result__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation>Estimada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disapproved</masterLabel>
+        <translation>Desestimada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially approved</masterLabel>
+        <translation>Estimada Parcial</translation>
+    </picklistValues>
+</CustomFieldTranslation>

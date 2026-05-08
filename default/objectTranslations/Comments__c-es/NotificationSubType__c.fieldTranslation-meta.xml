@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Subtipo de Notificación</label>
+    <name>NotificationSubType__c</name>
+    <picklistValues>
+        <masterLabel>Aclaración cobertura póliza</masterLabel>
+        <translation><!-- Aclaración cobertura póliza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detección de Rehuse</masterLabel>
+        <translation><!-- Detección de Rehuse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detección de VTS</masterLabel>
+        <translation><!-- Detección de VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin pendiente</masterLabel>
+        <translation><!-- Fin pendiente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observaciones a gestionar por tramitador</masterLabel>
+        <translation><!-- Observaciones a gestionar por tramitador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de asegurado</masterLabel>
+        <translation><!-- Pendiente de asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de causante</masterLabel>
+        <translation><!-- Pendiente de causante --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de compañia</masterLabel>
+        <translation><!-- Pendiente de compañia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de material</masterLabel>
+        <translation><!-- Pendiente de material --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de perito</masterLabel>
+        <translation><!-- Pendiente de perito --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de perjudicado</masterLabel>
+        <translation><!-- Pendiente de perjudicado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de plataforma</masterLabel>
+        <translation><!-- Pendiente de plataforma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente de secado</masterLabel>
+        <translation><!-- Pendiente de secado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente reparacion asegurado</masterLabel>
+        <translation><!-- Pendiente reparacion asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiente reparacion origen</masterLabel>
+        <translation><!-- Pendiente reparacion origen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pendiete de otro reparador</masterLabel>
+        <translation><!-- Pendiete de otro reparador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solicitud de Perito</masterLabel>
+        <translation><!-- Solicitud de Perito --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soporte tecnico</masterLabel>
+        <translation><!-- Soporte tecnico --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

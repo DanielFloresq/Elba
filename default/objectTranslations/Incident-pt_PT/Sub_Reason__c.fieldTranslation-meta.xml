@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Reason --></label>
+    <name>Sub_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Appointment Scheduled Without Policyholder Contact</masterLabel>
+        <translation><!-- Appointment Scheduled Without Policyholder Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication or Availability Issues</masterLabel>
+        <translation><!-- Communication or Availability Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage Caused by Repairer</masterLabel>
+        <translation><!-- Damage Caused by Repairer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defective Work Execution</masterLabel>
+        <translation><!-- Defective Work Execution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay in Follow-Up Appointments</masterLabel>
+        <translation><!-- Delay in Follow-Up Appointments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay in Reports or Estimates</masterLabel>
+        <translation><!-- Delay in Reports or Estimates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay in Scheduling Appointments</masterLabel>
+        <translation><!-- Delay in Scheduling Appointments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay in Sending Reports to Adjuster</masterLabel>
+        <translation><!-- Delay in Sending Reports to Adjuster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failure to Follow Adjuster Instructions</masterLabel>
+        <translation><!-- Failure to Follow Adjuster Instructions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failure to Meet Drying Timeframes</masterLabel>
+        <translation><!-- Failure to Meet Drying Timeframes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate Conduct or Behavior</masterLabel>
+        <translation><!-- Inappropriate Conduct or Behavior --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete Visit Report</masterLabel>
+        <translation><!-- Incomplete Visit Report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorrect Billing</masterLabel>
+        <translation><!-- Incorrect Billing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorrect Closure</masterLabel>
+        <translation><!-- Incorrect Closure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorrect Coverage Application</masterLabel>
+        <translation><!-- Incorrect Coverage Application --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorrect Material Timeframes</masterLabel>
+        <translation><!-- Incorrect Material Timeframes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of Adjuster Coordination</masterLabel>
+        <translation><!-- Lack of Adjuster Coordination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing Photographs</masterLabel>
+        <translation><!-- Missing Photographs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Contact from Repairer</masterLabel>
+        <translation><!-- No Contact from Repairer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Repairer Available in Area</masterLabel>
+        <translation><!-- No Repairer Available in Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Show</masterLabel>
+        <translation><!-- No Show --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Work or Incomplete Repair</masterLabel>
+        <translation><!-- Pending Work or Incomplete Repair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repairer Without Proper Equipment</masterLabel>
+        <translation><!-- Repairer Without Proper Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repeated Information in Successive Updates</masterLabel>
+        <translation><!-- Repeated Information in Successive Updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade Coordination Issues</masterLabel>
+        <translation><!-- Trade Coordination Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade Unavailability</masterLabel>
+        <translation><!-- Trade Unavailability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgency Cancelled Due to Network Issues</masterLabel>
+        <translation><!-- Urgency Cancelled Due to Network Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgent Requests Not Attended</masterLabel>
+        <translation><!-- Urgent Requests Not Attended --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use of Low-Quality Materials</masterLabel>
+        <translation><!-- Use of Low-Quality Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Visit Without Proper Tools</masterLabel>
+        <translation><!-- Visit Without Proper Tools --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

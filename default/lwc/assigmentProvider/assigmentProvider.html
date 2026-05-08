@@ -1,0 +1,282 @@
+<!--
+  @description       : Provider assignment component for displaying and managing provider assignments
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 13-02-2026
+  @last modified by  : Afonso Duque
+-->
+<template>
+
+    <template if:true={isLoading}>
+        <lightning-spinner alternative-text="Loading" size="small" variant="base"></lightning-spinner>
+    </template>
+
+    <div class="slds-p-bottom_medium">
+
+      <template if:true={createOrderScreen}>
+
+        <div class="slds-m-vertical_small slds-form-element">
+          <div class="slds-grid slds-gutters slds-m-bottom_small">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_x-small">
+              <abbr class="slds-required" title="required">*</abbr> <b> {typeFieldLabel}:</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4">
+              <lightning-combobox
+                class="slds-m-right_small"
+                name="orderType"
+                label={typeFieldLabel}
+                value={encargo.type}
+                options={orderTypePicklistValues}
+                onchange={handleOrderTypeChange}
+                variant="label-hidden"
+              ></lightning-combobox>
+            </div>
+          </div>
+          <div class="slds-grid slds-gutters slds-p-top_xx-small">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_x-small">
+              <abbr class="slds-required" title="required"> </abbr> <b> {urgentFieldLabel}:</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4">
+              <lightning-input
+                class="slds-m-left_xxx-small"
+                type="checkbox-button"
+                label={urgentFieldLabel}
+                checked={encargo.urgent}
+                onchange={handleUrgentChange}
+                variant="label-hidden"
+              ></lightning-input>
+            </div>
+          </div>
+        </div>
+
+      </template>
+
+      <template if:true={selectProviderGuildScreen}>
+
+        <div class="slds-m-vertical_small slds-form-element">
+          <div class="slds-grid slds-gutters slds-m-bottom_small">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_x-small">
+              <abbr class="slds-required" title="required">*</abbr> <b> {providerTypeFieldLabel}:</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4">
+              <lightning-combobox
+                class="slds-m-right_small"
+                name="providerType"
+                label={providerTypeFieldLabel}
+                value={encargo.providerType}
+                options={providerTypePicklistValues}
+                onchange={handleProviderTypeChange}
+                variant="label-hidden"
+              ></lightning-combobox>
+            </div>
+          </div>
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_x-small">
+              <abbr class="slds-required" title="required">*</abbr> <b> {guildFieldLabel}:</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4">
+              <lightning-dual-listbox
+                name="guild"
+                label={guildFieldLabel}
+                source-label="Disponible"
+                selected-label="Seleccionado"
+                value={encargo.guild}
+                options={guildOptions}
+                onchange={handleGuildChange}
+                variant="label-hidden"
+              ></lightning-dual-listbox>
+            </div>
+          </div>
+          <div class="slds-grid slds-gutters slds-m-top_large">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_small">
+              <abbr class="slds-required" title="required">*</abbr> <b> {descriptionFieldLabel}:</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4 slds-m-top_x-small">
+              <lightning-textarea
+                class="slds-m-right_small"
+                name="description"
+                label={descriptionFieldLabel}
+                placeholder="Escribe una descripción..."
+                value={encargo.description}
+                onchange={handleDescriptionChange}
+                variant="label-hidden"
+              ></lightning-textarea>
+            </div>
+          </div>
+        </div>
+
+      </template>
+
+      <template if:true={typeAssignmentScreen}>
+        <div class="slds-m-vertical_small slds-form-element">
+          <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_1-of-4 slds-m-top_x-small">
+              <abbr class="slds-required" title="required">*</abbr> <b> {assignTypeLabel}</b>
+            </div>
+            <div class="slds-col slds-size_3-of-4">
+              <lightning-radio-group
+                name="type-assignment-group"
+                type="button"
+                options={assignmentOptions}
+                value={assigmentValue}
+                onchange={handleTypeChange}
+                variant="label-hidden"
+              >
+              </lightning-radio-group>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <template if:true={selectProviderScreen}>
+
+        <div class="slds-m-bottom_medium">
+          <lightning-formatted-text value={selectProviderScreenLabel}></lightning-formatted-text>
+        </div>
+
+        <template if:true={hasProviders}>
+          <template for:each={providerList} for:item="provider">
+            <article key={provider.id} class="slds-card">
+
+              <div class="slds-grid slds-gutters slds-border_top slds-p-top_x-small">
+                <div class="slds-col slds-size_11-of-12 slds-p-right_small">
+
+                  <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                      <div class="slds-media__figure">
+                        <lightning-icon icon-name="standard:person_account" size="small"></lightning-icon>
+                        <span class="slds-assistive-text">account</span>
+                      </div>
+                      <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">
+                          <a class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span data-id={provider.id} data-checked={provider.isSelected} class="c-pointer"
+                              onclick={selectProvider}>{provider.name}</span>
+                          </a>
+                        </h2>
+                      </div>
+                    </header>
+                  </div>
+                  <div style="font-size: 12px;">
+                    <div style="display: flex">
+                      <template if:true={provider.reason}>
+                        <div class="slds-m-vertical_x-small slds-m-left_x-small">
+                          <b>{reasonFieldLabel}:</b> {provider.reason}
+                        </div>
+                      </template>
+                    </div>
+                    <div style="display: flex">
+                      <template if:true={provider.emails}>
+                        <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                          <b>{emailFieldLabel}:</b> {provider.emails}
+                        </div>
+                      </template>
+                      <template if:true={provider.phones}>
+                        <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                          <b>{phoneFieldLabel}:</b> {provider.phones}
+                        </div>
+                      </template>
+                    </div>
+                    <div style="display: flex">
+                      <template if:true={provider.address}>
+                        <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                          <b>{addressFieldLabel}:</b> {provider.address}
+                        </div>
+                      </template>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-12 slds-text-align_right slds-p-right_small slds-grid slds-grid_vertical-align-center">
+                  <lightning-input type="checkbox-button" label="Select Provider" name="selectProvider" data-id={provider.id} data-checked={provider.isSelected} checked={provider.isSelected} onchange={selectProvider}></lightning-input>
+                </div>
+
+              </div>
+            </article>
+          </template>
+        </template>
+        <template if:false={hasProviders}>
+
+          <article class="slds-card">
+            <div class="slds-border_top slds-p-top_x-small">
+              <div class="slds-card__body slds-card__body_inner slds-align_absolute-center slds-p-vertical_medium">
+                <lightning-formatted-text value={noProvidersLabel}></lightning-formatted-text>
+              </div>
+            </div>
+          </article>
+
+        </template>
+      </template>
+
+      <template if:true={confirmationScreen}>
+
+        <div class="slds-m-bottom_medium">
+          <b><lightning-formatted-text value={confirmationScreenLabel}></lightning-formatted-text></b>
+        </div>
+
+        <article class="slds-card">
+          <div class="slds-border_top slds-p-top_x-small">
+            <div class="slds-card__header slds-grid">
+              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                  <lightning-icon icon-name="standard:person_account" size="small"></lightning-icon>
+                  <span class="slds-assistive-text">account</span>
+                </div>
+                <div class="slds-media__body">
+                  <h2 class="slds-card__header-title">
+                    <a class="slds-card__header-link slds-truncate" title="Accounts">
+                      <span class="c-pointer">{selectedProvider.name}</span>
+                    </a>
+                  </h2>
+                </div>
+              </header>
+            </div>
+            <div style="font-size: 12px;">
+              <div style="display: flex">
+                <template if:true={selectedProvider.reason}>
+                  <div class="slds-m-vertical_x-small slds-m-left_x-small">
+                    <b>{reasonFieldLabel}:</b> {selectedProvider.reason}
+                  </div>
+                </template>
+              </div>
+              <div style="display: flex">
+                <template if:true={selectedProvider.emails}>
+                  <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                    <b>{emailFieldLabel}:</b> {selectedProvider.emails}
+                  </div>
+                </template>
+                <template if:true={selectedProvider.phones}>
+                  <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                    <b>{phoneFieldLabel}:</b> {selectedProvider.phones}
+                  </div>
+                </template>
+              </div>
+              <div style="display: flex">
+                <template if:true={selectedProvider.address}>
+                  <div class="slds-m-bottom_x-small slds-m-left_x-small">
+                    <b>{addressFieldLabel}:</b> {selectedProvider.address}
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </template>
+
+    </div>
+
+    <div class="slds-border_top slds-p-vertical_medium" style="background: #fff;">
+      <div class="slds-float_right">
+        <template if:true={showPreviousButton}>
+          <lightning-button label={previousButtonLabel} onclick={onClickPrevious}></lightning-button>
+        </template>
+        <template if:true={showFinishButton}>
+          <lightning-button class="slds-p-left_xx-small" variant="brand" label={finishButtonLabel} onclick={onClickNext}></lightning-button>
+        </template>
+        <template if:true={showNextButton}>
+          <lightning-button class="slds-p-left_xx-small" variant="brand" label={nextButtonLabel} onclick={onClickNext}></lightning-button>
+        </template>
+      </div>
+    </div>
+</template>

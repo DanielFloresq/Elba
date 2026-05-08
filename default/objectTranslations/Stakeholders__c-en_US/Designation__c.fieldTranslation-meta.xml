@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Designation --></label>
+    <name>Designation__c</name>
+    <picklistValues>
+        <masterLabel>Policyholder</masterLabel>
+        <translation><!-- Policyholder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party</masterLabel>
+        <translation><!-- Third Party --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

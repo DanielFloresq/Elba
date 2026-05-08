@@ -1,0 +1,348 @@
+.c-pointer {
+    cursor: pointer;
+}
+
+.slds-input__icon.iconpointerevetns {
+    pointer-events: all
+}
+
+.slds-nubbin_top-right.show {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: unset;
+    top: 55px;
+    width: 50%;
+    z-index: 1;
+}
+
+.slds-nubbin_top-right:before {
+    right: 75px;
+    border-top: 1px solid rgb(201, 201, 201);
+    border-left: 1px solid rgb(201, 201, 201);
+}
+
+.slds-nubbin_top-right:after {
+    display: none;
+}
+
+lightning-card[c-case-timeline-component]>article {
+    padding-right: unset;
+    padding-left: unset;
+    border: unset;
+    box-shadow: unset;
+}
+
+.slds-theme_shade .slds-timeline__trigger:hover {
+    background: unset;
+}
+
+.slds-media__body {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+/*.slds-is-open .slds-theme_alert-texture.slds-theme_shade.slds-media__body {
+    padding-bottom: 1rem;
+}*/
+
+.slds-is-open .slds-theme_alert-texture.slds-theme_shade article.slds-box {
+    background-color: #ffffff !important;
+}
+
+.bookMarkTexture{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, .025) 25%, transparent 0, transparent 50%, rgba(0, 0, 0, .025) 0, rgba(0, 0, 0, .025) 75%, transparent 0, transparent);
+    background-size: 64px 64px;
+}
+
+.titleLinkNoBold {
+    text-decoration: none;
+    color: var(--lwc-brandTextLink);
+    cursor: pointer;
+}
+
+.titleLinkNoBold:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: var(--lwc-brandTextLink);
+    cursor: default;
+}
+
+.emailAction,
+.recepient {
+    color: #54698d
+}
+
+.emailActionIcons {
+    --sds-c-icon-color-foreground-default: #54698d;
+    position: relative;
+    top: -2px;
+    right: 2px;
+}
+
+.slds-timeline__item_expandable::before{
+    margin-inline-start: auto;
+}
+
+/* TIMELINE VERTICAL LINE COLORS*/
+.slds-timeline__item_CaseHistory::before,
+.slds-timeline__item_Cobertura_do_Processo__c::before {
+    background: #f2cf5b
+}
+
+/* Continuous vertical line connecting parent nodes for this component */
+.showRelatedTasksTimeline {
+  position: relative;
+}
+
+.showRelatedTasksTimeline::before {
+  content: '';
+  position: absolute;
+  left: 37px; /* nudged left 1px */
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #e6eef6; /* subtle line color */
+  z-index: 1;
+  border-radius: 2px;
+}
+
+/* Make sure parent icons sit above the line and nudge them slightly left for perfect centering */
+.showRelatedTasksTimeline > li .slds-icon_container.slds-timeline__icon {
+  position: relative;
+  z-index: 2;
+  transform: translateX(-1px) !important;
+}
+
+/* Adjust nested child icons slightly right so they center on the line */
+.showRelatedTasksTimeline li li .slds-icon_container.slds-timeline__icon {
+  transform: translateX(1px) !important;
+}
+
+/* Hide per-item short connector to avoid double-lines inside this component */
+.showRelatedTasksTimeline li::before { display: none !important; }
+
+/* For better contrast, color parent icons with the Task color */
+.showRelatedTasksTimeline .slds-timeline__icon { background: transparent; }
+
+.slds-timeline__item_Comments__c::before {
+    background: #6b92dc
+}
+
+.slds-timeline__item_Provisoes__c::before,
+.slds-timeline__item_Historico_de_Sinistros__c::before,
+.slds-timeline__item_Terceiros__c::before {
+    background: #747e96
+}
+
+.slds-timeline__item_MessagingSession::before {
+    background: #34BECD
+}
+
+.slds-timeline__item_Event::before {
+    background: #eb7092
+}
+
+.slds-timeline__item_Task::before,
+.slds-timeline__item_ProcessInstanceHistory::before {
+    background: #4bc076
+}
+
+/* Remove the green Task marker inside this component to avoid visual clash with the continuous line */
+.showRelatedTasksTimeline .slds-timeline__item_Task::before {
+    background: transparent !important;
+    border: none !important;
+}
+
+.slds-timeline__item_EmailMessage::before {
+    background: #95AEC5
+}
+
+.slds-timeline__item_Order::before {
+    background: #769ed9
+}
+
+.UseLink {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--lwc-brandTextLink);
+    cursor: pointer;
+}
+
+.completedSubject {
+    text-decoration: line-through;
+    color: #6b6b6b;
+}
+
+/* Modal adjustments for embedded LWC */
+.slds-modal__container {
+  width: 60vw;
+  max-width: 700px;
+}
+.addButton {
+  --sds-c-button-brand-background-color: #2e7d32;
+}
+
+.create-modal-header .slds-icon_container.slds-icon-standard-task {
+  background: transparent;
+  border-radius: 50%;
+}
+
+.modalError {
+  background: #fdecea;
+  border: 1px solid #f2cbd0;
+  color: #9b1c1c;
+  border-radius: 6px;
+}
+
+.create-task-form .subjectInput .slds-input {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Minimal modal styles - simplified */
+.slds-modal__container {
+  width: 600px;
+  max-width: 95vw;
+  border-radius: 6px;
+  overflow: visible;
+}
+
+.slds-backdrop.slds-backdrop_open {
+  background-color: rgba(0,0,0,0.45);
+}
+
+.slds-modal__header {
+  padding: 10px 16px;
+  border-bottom: 1px solid #ebeef2;
+}
+
+.create-task-form {
+  padding: 12px 16px;
+}
+
+.form-grid { display: block; }
+.form-row { display:flex; gap: 12px; align-items: center; }
+.form-row.full-width { display:block; }
+.form-col { flex: 1; }
+.small-label { font-size: 12px; color: #546674; margin-bottom:6px; }
+
+/* Align date control and assigned box on same baseline */
+.slds-grid.slds-grid_align-spread { align-items: center; }
+.slds-grid.slds-grid_align-spread .slds-col { display: flex; flex-direction: column; }
+.slds-grid.slds-grid_align-spread .slds-col .slds-form-element__control { margin-top: 0; }
+.ownerValueContainer { margin-top: 0; height: 40px; display: flex; align-items: center; }
+.lockedRelated { height: 40px; display: inline-flex; align-items: center; padding: 6px 10px; }
+
+.subjectInput .slds-input { height: 40px; border-radius: 4px; }
+
+.form-row > .form-col:first-child { max-width: 50%; }
+.form-row > .form-col:last-child { max-width: 50%; }
+
+.slds-box { padding: 8px; background: #f9fafb; border: 1px solid #e6eef6; border-radius: 4px; word-wrap: break-word; }
+
+/* Fine alignment: align Assigned box with the date input */
+.ownerValueContainer { margin-top: 4px; height: 36px; display: flex; align-items: center; }
+.lockedRelated { height: 36px; padding: 6px 10px; box-sizing: border-box; }
+/* locked box for Assigned To */
+.lockedRelated { display: inline-block; min-width: 160px; padding: 6px 10px; background: #fff; border: 1px solid #e0e6ef; border-radius: 4px; color: #16325c; }
+
+.modal-footer { padding: 10px 16px 6px 16px; text-align: right; }
+
+@media (max-width:640px) {
+  .slds-modal__container { width: 95vw; }
+  .form-row { flex-direction: column; }
+  .slds-box { width: 100%; }
+}
+
+.modal-footer { padding: 12px 0 6px; }
+.btn-cancel { border: 1px solid #dfe6ef; background: #fff; color:#344563; border-radius: 18px; height:34px; padding: 0 14px; }
+.btn-save { --sds-c-button-brand-background-color: #5b4e86; border-radius: 18px; padding: 0 16px; height:34px; }
+
+/* make related box more compact and aligned */
+.lockedRelated-block { margin-top: 6px; }
+
+/* prevent modal content overflow horizontally */
+.modal-content, .create-task-form { overflow: visible; }
+.form-grid { width: 100%; box-sizing: border-box; }
+.form-row { width: 100%; box-sizing: border-box; }
+
+@media (max-width:640px) {
+  .slds-modal__container.modal-modern { width: 95vw; }
+  .form-row { flex-direction: column; }
+  .lockedRelated { min-width: auto; width: 100%; }
+}.lockedRelated {
+  display: inline-block;
+  padding: .375rem .75rem;
+  border: 1px solid #d8dde6;
+  border-radius: 6px;
+  background: #f4f6f9;
+  color: var(--lwc-brandTextColor, #16325c);
+  text-decoration: none;
+  min-width: 220px;
+}
+
+.lockedRelated.placeholder {
+  color: #7b8190;
+}
+
+/* .slds-timeline__item_ProcessInstanceHistory::before {
+    background: #dcd861
+}
+
+.slds-icon-standard-approval {
+    background: #dcd861
+} */
+
+/* Additional alignment polish for create modal */
+.lockedRelated {
+  display: inline-flex;
+  align-items: center;
+  padding: .35rem .65rem;
+  border: 1px solid #d8dde6;
+  border-radius: 6px;
+  background: #f4f6f9;
+  color: var(--lwc-brandTextColor, #16325c);
+  text-decoration: none;
+  min-width: 220px;
+  height: 34px;
+}
+
+/* Subject suggestions dropdown */
+.subject-suggestions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  max-height: 220px;
+  overflow: auto;
+  padding: 0;
+  margin: 6px 0 0 0;
+  list-style: none;
+  border: 1px solid #e6eef6;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(16,24,40,0.08);
+}
+
+.subject-suggestions li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.subject-suggestions li:hover,
+.subject-suggestions li[aria-selected="true"] {
+  background: #f4f6f9;
+}
+
+.owner-row .owner-col .ownerValueContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.owner-row label.slds-form-element__label {
+  margin-bottom: .25rem;
+}

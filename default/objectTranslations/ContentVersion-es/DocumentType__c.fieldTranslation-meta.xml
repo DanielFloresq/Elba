@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tipo de Documento</label>
+    <name>DocumentType__c</name>
+    <picklistValues>
+        <masterLabel>Albaranes</masterLabel>
+        <translation><!-- Albaranes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cartas de reclamación de cia contraria</masterLabel>
+        <translation><!-- Cartas de reclamación de cia contraria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comunicaciones Enviadas</masterLabel>
+        <translation><!-- Comunicaciones Enviadas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comunicaciones a cliente Corrosión o Rehúse</masterLabel>
+        <translation><!-- Comunicaciones a cliente Corrosión o Rehúse  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comunicaciones a cliente Propuesta indemnización</masterLabel>
+        <translation><!-- Comunicaciones a cliente Propuesta indemnización --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comunicaciones de clientes</masterLabel>
+        <translation><!-- Comunicaciones de clientes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declaración del contrario</masterLabel>
+        <translation><!-- Declaración del contrario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denuncias Robo/Actos Vandálicos</masterLabel>
+        <translation><!-- Denuncias Robo/Actos Vandálicos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doc. adjuntada por el mediador</masterLabel>
+        <translation><!-- Doc. adjuntada por el mediador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación judicial</masterLabel>
+        <translation><!-- Documentación judicial  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentación/Reclamación Contrario</masterLabel>
+        <translation><!-- Documentación/Reclamación Contrario  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentos Varios VTS</masterLabel>
+        <translation><!-- Documentos Varios VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Escrituras vivienda</masterLabel>
+        <translation><!-- Escrituras vivienda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturas Otros Colaboradores</masterLabel>
+        <translation><!-- Facturas Otros Colaboradores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturas abogados</masterLabel>
+        <translation><!-- Facturas abogados --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturas asegurado</masterLabel>
+        <translation><!-- Facturas asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturas reparador</masterLabel>
+        <translation><!-- Facturas reparador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fotografias colaborador</masterLabel>
+        <translation><!-- Fotografias colaborador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fotografias perjudicado</masterLabel>
+        <translation><!-- Fotografias perjudicado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fotografías VTS</masterLabel>
+        <translation><!-- Fotografías VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fotografías del asegurado</masterLabel>
+        <translation><!-- Fotografías del asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incidencias/Reclamaciones GISS</masterLabel>
+        <translation><!-- Incidencias/Reclamaciones GISS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informe pericial Diversos</masterLabel>
+        <translation><!-- Informe pericial Diversos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informes Meteorología</masterLabel>
+        <translation><!-- Informes Meteorología --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informes periciales cia. Contraria</masterLabel>
+        <translation><!-- Informes periciales cia. Contraria  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informes/Certificado Cia. Eléctrica</masterLabel>
+        <translation><!-- Informes/Certificado Cia. Eléctrica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Justificantes de pago</masterLabel>
+        <translation><!-- Justificantes de pago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Llamadas VTS</masterLabel>
+        <translation><!-- Llamadas VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail VTS</masterLabel>
+        <translation><!-- Mail VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail a cliente</masterLabel>
+        <translation><!-- Mail a cliente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minutas perito</masterLabel>
+        <translation><!-- Minutas perito --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ordenes de trabajo</masterLabel>
+        <translation><!-- Ordenes de trabajo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otra documentación</masterLabel>
+        <translation><!-- Otra documentación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parte de trabajo</masterLabel>
+        <translation><!-- Parte de trabajo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presupuesto asegurado</masterLabel>
+        <translation><!-- Presupuesto asegurado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reclamaciones de clientes</masterLabel>
+        <translation><!-- Reclamaciones de clientes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resolución SAC/DEC</masterLabel>
+        <translation><!-- Resolución SAC/DEC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS a cliente</masterLabel>
+        <translation><!-- SMS a cliente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMS recibido</masterLabel>
+        <translation><!-- SMS recibido --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Videos VTS</masterLabel>
+        <translation><!-- Videos VTS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WhatsApp</masterLabel>
+        <translation><!-- WhatsApp  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>emails internos</masterLabel>
+        <translation><!-- emails internos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>informe investigación VTS</masterLabel>
+        <translation><!-- informe investigación VTS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

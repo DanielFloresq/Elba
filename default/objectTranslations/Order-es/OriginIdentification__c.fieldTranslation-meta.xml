@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Identificacion Origen</label>
+    <name>OriginIdentification__c</name>
+    <picklistValues>
+        <masterLabel>Abnormal, negligent or inappropriate use</masterLabel>
+        <translation>USO ANORMAL, NEGLIGENTE O INADECUADO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental breakage of sanitary fixtures/sinks</masterLabel>
+        <translation>ROTURAS ACCIDENTALES SANITARIOS/FREGADEROS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidental cause: fall, impact and liquid spill</masterLabel>
+        <translation>CAUSA ACCIEDNTAL. CAIDA, GOLPE Y VERTIDO LIQUIDOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesthetic defect</masterLabel>
+        <translation>DEFECTO ESTÉTICO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aesthetic defects</masterLabel>
+        <translation>DEFECTOS ESTÉTICOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal collision</masterLabel>
+        <translation>CHOQUE DE ANIMALES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance fire including computer, TV, coffee maker…</masterLabel>
+        <translation>INCENDIO DE ELECTROMÉSTICOS INCLUYE ORDENADOR, TV, CAFETERA…</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance glass breakage</masterLabel>
+        <translation>ROTURA CRISTAL ELECTRODOMÉSTICO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance leaks</masterLabel>
+        <translation>ESCAPE ELECTRODOMÉSTICOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appliance older than 10 years</masterLabel>
+        <translation>APARATO ANTIGÜEDAD SUPERIOR 10 AÑOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bathtub joint seepage</masterLabel>
+        <translation>FILTRACIONES JUNTA BAÑERA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blockage, cleaning, obstructions</masterLabel>
+        <translation>ATASCO, LIMPIEZA, OBSTRUCCIONES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakage in third-party installation</masterLabel>
+        <translation>ROTURA INSTALACIÓN TERCERO CAUSANTE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capillarity</masterLabel>
+        <translation>CAPILARIDAD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ceramic hob glass breakage</masterLabel>
+        <translation>ROTURA CRISTAL VITROCERÁMICA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chipping</masterLabel>
+        <translation>DESCONCHÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community blockage</masterLabel>
+        <translation>ATASCO COMUNITARIO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community downpipe breakage</masterLabel>
+        <translation>ROTURA BAJANTE COMUNITARIO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condensation</masterLabel>
+        <translation>CONDENSACIONES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction defect</masterLabel>
+        <translation>DEFECTO CONSTRUCTIVO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuous hose leak</masterLabel>
+        <translation>GOTEO CONTINUADO LATIGUILLO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continuous radiator leak</masterLabel>
+        <translation>GOTEO CONTINUADO DE RADIADOR</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion</masterLabel>
+        <translation>CORROSIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corrosion, oxidation</masterLabel>
+        <translation>CORROSIÓN, OXIDACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defects due to exposure to FM</masterLabel>
+        <translation>DEFECTOS POR EXPOSICIÓN A FM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defects due to supply failure</masterLabel>
+        <translation>DEFECTOS POR FALLO SUMINISTROS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic activities</masterLabel>
+        <translation>ACTIVIDADES DOMÉSTICAS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Door glass</masterLabel>
+        <translation>CRISTAL PUERTA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drain blockage with damage</masterLabel>
+        <translation>ATASCO DESAGÜE CON DAÑOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drain blockage without damage</masterLabel>
+        <translation>ATASCO DESAGÜE SIN DAÑOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Earthquake</masterLabel>
+        <translation>TERREMOTO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electric bicycle, electric scooter</masterLabel>
+        <translation>BICICLETA ELÉCTRICA, PATINETE ELÉCTRICO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facade/roof seepage</masterLabel>
+        <translation>FILTRACIONES FACHADA/CUBIERTA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fall of aerolites/aircraft</masterLabel>
+        <translation>CAIDA DE AEROLITOS/AERONAVES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Falling trees, poles and antennas</masterLabel>
+        <translation>CAIDA DE ARBOLES, POSTES Y ANTENAS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire</masterLabel>
+        <translation>INCENDIO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flood</masterLabel>
+        <translation>INUNDACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frost</masterLabel>
+        <translation>HELADAS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture glass/mirrors and methacrylates</masterLabel>
+        <translation>CRISTAL/ESPEJOS Y METACRILATOS MOBILIARIO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gas, butane and flammable products</masterLabel>
+        <translation>GAS, BUTANO Y PRODUCTOS INFLAMABLES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic breakdown</masterLabel>
+        <translation>AVERÍA GENÉRICA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glass railings and steps</masterLabel>
+        <translation>BARANDILLAS Y ESCALONES DE CRISTAL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground movements</masterLabel>
+        <translation>MOVIMIENTOS TERRENO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hail</masterLabel>
+        <translation>GRANIZO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heating and combustion systems, boiler, stove, fireplace</masterLabel>
+        <translation>SISTEMAS CALEFACCIÓN Y COMBUSTIÓN, CALDERA, ESTUFA, CHIMENEA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home electrical installation short circuit</masterLabel>
+        <translation>INSTALACIÓN ELÉCTRICA VIVIENDA. CORTOCIRCUITO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home glass/mirrors and methacrylates</masterLabel>
+        <translation>CRISTAL/ESPEJOS Y METACRILATOS VIVIENDA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hose breakage</masterLabel>
+        <translation>ROTURA DE LATIGUILLOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impact</masterLabel>
+        <translation>IMPACTO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation defect</masterLabel>
+        <translation>DEFECTO INSTALACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation does not comply with regulations</masterLabel>
+        <translation>INSTALACIÓN INCUMPLE NORMATIVA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of maintenance</masterLabel>
+        <translation>FALTA MANTENIMIENTO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of maintenance and use - short circuit</masterLabel>
+        <translation>FALTA MANTENIMIENTO Y USO-CORTOCIRCUITO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lightning</masterLabel>
+        <translation>RAYO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manhole or well blockage</masterLabel>
+        <translation>ATASCO ARQUETAS o POZO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturer defects</masterLabel>
+        <translation>DEFECTOS FABRICANTE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing defect</masterLabel>
+        <translation>DEFECTO FABRICACIÓN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marble countertop breakage in bathroom and kitchen</masterLabel>
+        <translation>ROTURAS MÁRMOLES ENCIMERA BAÑO Y COCINA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mechanical and electrical breakdown</masterLabel>
+        <translation>AVERIA MÉCÁNICA Y ELÉCTRICA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Omission of taps</masterLabel>
+        <translation>OMISIÓN DE GRIFOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>OTROS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outdoor polycarbonate and methacrylate, pergolas, pool covers, terrace covers</masterLabel>
+        <translation>POLICARBONATO Y METACRILATO DE EXTERIORES, PÉRGOLAS, CUBIERTAS PISCINA, CUBIERTAS TERRAZA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overvoltage caused by public grid</masterLabel>
+        <translation>SOBRETENSIÓN CAUSADA POR RED PÚBLICA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paving blocks</masterLabel>
+        <translation>BLOQUES DE PAVES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe breakage with damage</masterLabel>
+        <translation>ROTURA TUBERIA CON DAÑOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipe breakage without damage</masterLabel>
+        <translation>ROTURA TUBERIA SIN DAÑOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiator breakage</masterLabel>
+        <translation>ROTURA DE RADIADORES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain</masterLabel>
+        <translation>LLUVIA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shop window</masterLabel>
+        <translation>ESCAPARATE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short circuit in home installation</masterLabel>
+        <translation>CORTOCIRCUITO INSTALACIÓN DE VIVIENDA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shower screen</masterLabel>
+        <translation>MAMPARA BAÑO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signboard</masterLabel>
+        <translation>RÓTULO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skylight seepage</masterLabel>
+        <translation>FILTRACIONES CLARABOYA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smoke</masterLabel>
+        <translation>HUMO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Snow</masterLabel>
+        <translation>NIEVE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spills in fire extinguishing installations (building)</masterLabel>
+        <translation>DERRAMES EN INSTALACIONES DE EXTINCION INCENDIOS CONTINENTE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structural movements</masterLabel>
+        <translation>MOVIMIENTOS ESTRUCTURALES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structural movements/cracks</masterLabel>
+        <translation>MOVIMIENTOS ESTRUCTURALES/GRIETAS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telephony, image, sound and IT equipment</masterLabel>
+        <translation>APARATO TELEFONIA, IMAGEN Y SONIDO E INFORMÁTICA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terrace blockage</masterLabel>
+        <translation>ATASCO TERRAZA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tile seepage</masterLabel>
+        <translation>FILTRACIONES ALICATADO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tree roots</masterLabel>
+        <translation>RAICES DE ARBOLES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use</masterLabel>
+        <translation>USO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use, wear and deterioration</masterLabel>
+        <translation>USO, DESGASTE Y DETERIORO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle collision</masterLabel>
+        <translation>CHOQUE DE VEHICULOS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wearable, deteriorable elements</masterLabel>
+        <translation>ELEMENTOS DESHGASTABLES, DETERIORABLES</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind</masterLabel>
+        <translation>VIENTO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Window glass</masterLabel>
+        <translation>CRISTAL VENTANA</translation>
+    </picklistValues>
+</CustomFieldTranslation>

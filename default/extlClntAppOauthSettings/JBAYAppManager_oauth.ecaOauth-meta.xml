@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, Full</commaSeparatedOauthScopes>
+    <externalClientApplication>JBAYAppManager</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>JBAYAppManager_oauth</label>
+    <oauthLink>00DRR00000GQoV1:888RR00000096cT</oauthLink>
+</ExtlClntAppOauthSettings>

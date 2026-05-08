@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastUpdateDateTimeCustom__c</fullName>
+    <description>Task Logic
+Desde o Last Modified Date do Encargo tem Check Box Urgente a True</description>
+    <label>Last Update Date Time Custom</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

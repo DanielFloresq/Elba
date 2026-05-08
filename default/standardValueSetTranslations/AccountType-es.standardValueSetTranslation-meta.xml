@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Carpinteria</masterLabel>
+        <translation><!-- Carpinteria --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cerrajería</masterLabel>
+        <translation><!-- Cerrajería --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cristalería</masterLabel>
+        <translation><!-- Cristalería --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Desatascos</masterLabel>
+        <translation><!-- Desatascos --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electricidad</masterLabel>
+        <translation><!-- Electricidad --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loza sanitaria</masterLabel>
+        <translation><!-- Loza sanitaria --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manitas</masterLabel>
+        <translation><!-- Manitas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Multigremio</masterLabel>
+        <translation><!-- Multigremio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Multistakeholder</masterLabel>
+        <translation>Multinterveniente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Otros</masterLabel>
+        <translation><!-- Otros --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Parquetista</masterLabel>
+        <translation><!-- Parquetista --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicio tecnico</masterLabel>
+        <translation><!-- Servicio tecnico --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tecnico calderas</masterLabel>
+        <translation><!-- Tecnico calderas --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

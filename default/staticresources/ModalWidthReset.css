@@ -1,0 +1,12 @@
+body.gerar-carta-step-1 .slds-modal__container {
+    width: 65% !important;
+    max-width: 65% !important;
+    padding: 1.5rem 0 1.5rem 0 !important;
+    height: auto !important;
+    max-height: 90vh !important;
+}
+
+body.gerar-carta-step-1 .slds-modal__content {
+    max-height: none !important;
+    overflow: visible !important;
+}

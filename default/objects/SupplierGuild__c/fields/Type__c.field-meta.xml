@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FONTANERO</fullName>
+                <default>false</default>
+                <label>FONTANERO</label>
+            </value>
+            <value>
+                <fullName>ALBAÑIL</fullName>
+                <default>false</default>
+                <label>ALBAÑIL</label>
+            </value>
+            <value>
+                <fullName>PINTOR</fullName>
+                <default>false</default>
+                <label>PINTOR</label>
+            </value>
+            <value>
+                <fullName>PARQUETISTA</fullName>
+                <default>false</default>
+                <label>PARQUETISTA</label>
+            </value>
+            <value>
+                <fullName>CERRAJERO</fullName>
+                <default>false</default>
+                <label>CERRAJERO</label>
+            </value>
+            <value>
+                <fullName>CRISTALERO</fullName>
+                <default>false</default>
+                <label>CRISTALERO</label>
+            </value>
+            <value>
+                <fullName>PERSIANISTA</fullName>
+                <default>false</default>
+                <label>PERSIANISTA</label>
+            </value>
+            <value>
+                <fullName>ELECTRICISTA</fullName>
+                <default>false</default>
+                <label>ELECTRICISTA</label>
+            </value>
+            <value>
+                <fullName>VITROCERAMICA DE TECNICO</fullName>
+                <default>false</default>
+                <label>VITROCERAMICA DE TECNICO</label>
+            </value>
+            <value>
+                <fullName>MARMOLISTA</fullName>
+                <default>false</default>
+                <label>MARMOLISTA</label>
+            </value>
+            <value>
+                <fullName>LIMPIADOR</fullName>
+                <default>false</default>
+                <label>LIMPIADOR</label>
+            </value>
+            <value>
+                <fullName>ORDENADORES DE TECNICO</fullName>
+                <default>false</default>
+                <label>ORDENADORES DE TECNICO</label>
+            </value>
+            <value>
+                <fullName>ELECTRODOMEST GAMA BLANCA</fullName>
+                <default>false</default>
+                <label>ELECTRODOMEST GAMA BLANCA</label>
+            </value>
+            <value>
+                <fullName>ELECTRODOMEST GAMA MARRON</fullName>
+                <default>false</default>
+                <label>ELECTRODOMEST GAMA MARRON</label>
+            </value>
+            <value>
+                <fullName>TAPICERO</fullName>
+                <default>false</default>
+                <label>TAPICERO</label>
+            </value>
+            <value>
+                <fullName>POCERO</fullName>
+                <default>false</default>
+                <label>POCERO</label>
+            </value>
+            <value>
+                <fullName>ROTULISTA</fullName>
+                <default>false</default>
+                <label>ROTULISTA</label>
+            </value>
+            <value>
+                <fullName>PERITO</fullName>
+                <default>false</default>
+                <label>PERITO</label>
+            </value>
+            <value>
+                <fullName>CARPINTERO</fullName>
+                <default>false</default>
+                <label>CARPINTERO</label>
+            </value>
+            <value>
+                <fullName>PROCURADOR</fullName>
+                <default>false</default>
+                <label>PROCURADOR</label>
+            </value>
+            <value>
+                <fullName>DETECTIVE</fullName>
+                <default>false</default>
+                <label>DETECTIVE</label>
+            </value>
+            <value>
+                <fullName>CLINICA MEDICA</fullName>
+                <default>false</default>
+                <label>CLINICA MEDICA</label>
+            </value>
+            <value>
+                <fullName>HOSPITAL</fullName>
+                <default>false</default>
+                <label>HOSPITAL</label>
+            </value>
+            <value>
+                <fullName>ABOGADO</fullName>
+                <default>false</default>
+                <label>ABOGADO</label>
+            </value>
+            <value>
+                <fullName>CARPINT ALUMINIO</fullName>
+                <default>false</default>
+                <label>CARPINT ALUMINIO</label>
+            </value>
+            <value>
+                <fullName>AIRE ACONDICIONADO</fullName>
+                <default>false</default>
+                <label>AIRE ACONDICIONADO</label>
+            </value>
+            <value>
+                <fullName>ANTENISTA</fullName>
+                <default>false</default>
+                <label>ANTENISTA</label>
+            </value>
+            <value>
+                <fullName>ESCAYOLISTA</fullName>
+                <default>false</default>
+                <label>ESCAYOLISTA</label>
+            </value>
+            <value>
+                <fullName>LIMPIEZA FACHADAS</fullName>
+                <default>false</default>
+                <label>LIMPIEZA FACHADAS</label>
+            </value>
+            <value>
+                <fullName>LOZA SANITARIA</fullName>
+                <default>false</default>
+                <label>LOZA SANITARIA</label>
+            </value>
+            <value>
+                <fullName>MOQUETA</fullName>
+                <default>false</default>
+                <label>MOQUETA</label>
+            </value>
+            <value>
+                <fullName>PARTIDAS NO BAREMIZADAS</fullName>
+                <default>false</default>
+                <label>PARTIDAS NO BAREMIZADAS</label>
+            </value>
+            <value>
+                <fullName>TOLDERO</fullName>
+                <default>false</default>
+                <label>TOLDERO</label>
+            </value>
+            <value>
+                <fullName>MEDICO VALORADOR</fullName>
+                <default>false</default>
+                <label>MEDICO VALORADOR</label>
+            </value>
+            <value>
+                <fullName>REASIGNACION</fullName>
+                <default>false</default>
+                <label>REASIGNACION</label>
+            </value>
+            <value>
+                <fullName>HACIENDA</fullName>
+                <default>false</default>
+                <label>HACIENDA</label>
+            </value>
+            <value>
+                <fullName>VARIOS1</fullName>
+                <default>false</default>
+                <label>VARIOS1</label>
+            </value>
+            <value>
+                <fullName>VARIOS3</fullName>
+                <default>false</default>
+                <label>VARIOS3</label>
+            </value>
+            <value>
+                <fullName>VARIOS</fullName>
+                <default>false</default>
+                <label>VARIOS</label>
+            </value>
+            <value>
+                <fullName>GESTOR</fullName>
+                <default>false</default>
+                <label>GESTOR</label>
+            </value>
+            <value>
+                <fullName>S.A.T. ALCAMPO</fullName>
+                <default>false</default>
+                <label>S.A.T. ALCAMPO</label>
+            </value>
+            <value>
+                <fullName>REPARADOR SSCC</fullName>
+                <default>false</default>
+                <label>REPARADOR SSCC</label>
+            </value>
+            <value>
+                <fullName>TECNICO INSTALADOR DE CALDERAS</fullName>
+                <default>false</default>
+                <label>TECNICO INSTALADOR DE CALDERAS</label>
+            </value>
+            <value>
+                <fullName>ASITENCIA INFORMATICA REMOTA</fullName>
+                <default>false</default>
+                <label>ASITENCIA INFORMATICA REMOTA</label>
+            </value>
+            <value>
+                <fullName>VARIOS2</fullName>
+                <default>false</default>
+                <label>VARIOS2</label>
+            </value>
+            <value>
+                <fullName>PORTEROS ELEC.</fullName>
+                <default>false</default>
+                <label>PORTEROS ELEC.</label>
+            </value>
+            <value>
+                <fullName>PUERTAS AUTOM.</fullName>
+                <default>false</default>
+                <label>PUERTAS AUTOM.</label>
+            </value>
+            <value>
+                <fullName>MEDICO</fullName>
+                <default>false</default>
+                <label>MEDICO</label>
+            </value>
+            <value>
+                <fullName>VARIOS IPAS</fullName>
+                <default>false</default>
+                <label>VARIOS IPAS</label>
+            </value>
+            <value>
+                <fullName>CONTADOS</fullName>
+                <default>false</default>
+                <label>CONTADOS</label>
+            </value>
+            <value>
+                <fullName>NOTARIO</fullName>
+                <default>false</default>
+                <label>NOTARIO</label>
+            </value>
+            <value>
+                <fullName>INVESTIGADOR DE CAUSAS</fullName>
+                <default>false</default>
+                <label>INVESTIGADOR DE CAUSAS</label>
+            </value>
+            <value>
+                <fullName>CONSULTOR GFK</fullName>
+                <default>false</default>
+                <label>CONSULTOR GFK</label>
+            </value>
+            <value>
+                <fullName>VIGILANTE DE SEGURIDAD</fullName>
+                <default>false</default>
+                <label>VIGILANTE DE SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>ESTUDIOS TECNICOS</fullName>
+                <default>false</default>
+                <label>ESTUDIOS TECNICOS</label>
+            </value>
+            <value>
+                <fullName>ALARMAS</fullName>
+                <default>false</default>
+                <label>ALARMAS</label>
+            </value>
+            <value>
+                <fullName>MEDICO CIRUJANO</fullName>
+                <default>false</default>
+                <label>MEDICO CIRUJANO</label>
+            </value>
+            <value>
+                <fullName>ARQUITECTO</fullName>
+                <default>false</default>
+                <label>ARQUITECTO</label>
+            </value>
+            <value>
+                <fullName>CONSULTORA METEO</fullName>
+                <default>false</default>
+                <label>CONSULTORA METEO</label>
+            </value>
+            <value>
+                <fullName>COMPAÑIA RECOBROS</fullName>
+                <default>false</default>
+                <label>COMPAÑIA RECOBROS</label>
+            </value>
+            <value>
+                <fullName>MATERIAL</fullName>
+                <default>false</default>
+                <label>MATERIAL</label>
+            </value>
+            <value>
+                <fullName>TINTORERIA</fullName>
+                <default>false</default>
+                <label>TINTORERIA</label>
+            </value>
+            <value>
+                <fullName>AGENDAVTT</fullName>
+                <default>false</default>
+                <label>AGENDAVTT</label>
+            </value>
+            <value>
+                <fullName>REPARACION DE VALVULAS</fullName>
+                <default>false</default>
+                <label>REPARACION DE VALVULAS</label>
+            </value>
+            <value>
+                <fullName>TEJADOS</fullName>
+                <default>false</default>
+                <label>TEJADOS</label>
+            </value>
+            <value>
+                <fullName>AGENDAVTP</fullName>
+                <default>false</default>
+                <label>AGENDAVTP</label>
+            </value>
+            <value>
+                <fullName>VIDEOTASADOR</fullName>
+                <default>false</default>
+                <label>VIDEOTASADOR</label>
+            </value>
+            <value>
+                <fullName>VT ASEGURADO</fullName>
+                <default>false</default>
+                <label>VT ASEGURADO</label>
+            </value>
+            <value>
+                <fullName>VENTA E INSTALACION AIRE ACONDICIONADO</fullName>
+                <default>false</default>
+                <label>VENTA E INSTALACION AIRE ACONDICIONADO</label>
+            </value>
+            <value>
+                <fullName>TELEFONO REPARADOR</fullName>
+                <default>false</default>
+                <label>TELEFONO REPARADOR</label>
+            </value>
+            <value>
+                <fullName>AVERIA ELECTRODOMESTICOS</fullName>
+                <default>false</default>
+                <label>AVERIA ELECTRODOMESTICOS</label>
+            </value>
+            <value>
+                <fullName>MANITAS</fullName>
+                <default>false</default>
+                <label>MANITAS</label>
+            </value>
+            <value>
+                <fullName>BOMBERO</fullName>
+                <default>false</default>
+                <label>BOMBERO</label>
+            </value>
+            <value>
+                <fullName>PAE</fullName>
+                <default>false</default>
+                <label>PAE</label>
+            </value>
+            <value>
+                <fullName>ASISTENCIA JURIDICA</fullName>
+                <default>false</default>
+                <label>ASISTENCIA JURIDICA</label>
+            </value>
+            <value>
+                <fullName>VT REPARADOR</fullName>
+                <default>false</default>
+                <label>VT REPARADOR</label>
+            </value>
+            <value>
+                <fullName>PERITACIÓN</fullName>
+                <default>false</default>
+                <label>PERITACIÓN</label>
+            </value>
+            <value>
+                <fullName>CARPINTERO ALUMINIO</fullName>
+                <default>false</default>
+                <label>CARPINTERO ALUMINIO</label>
+            </value>
+            <value>
+                <fullName>LINEA BLANCA</fullName>
+                <default>false</default>
+                <label>LINEA BLANCA</label>
+            </value>
+            <value>
+                <fullName>LINEA MARRON</fullName>
+                <default>false</default>
+                <label>LINEA MARRON</label>
+            </value>
+            <value>
+                <fullName>LINEA GRIS</fullName>
+                <default>false</default>
+                <label>LINEA GRIS</label>
+            </value>
+            <value>
+                <fullName>DESATASCADOR</fullName>
+                <default>false</default>
+                <label>DESATASCADOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

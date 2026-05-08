@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RevisionDateCannotPostpone</fullName>
+    <active>true</active>
+    <description>Revision Date can only be moved earlier, never later.</description>
+    <errorConditionFormula>AND(ISCHANGED(Revision_date__c), NOT(ISBLANK(PRIORVALUE(Revision_date__c))), OR(ISBLANK(Revision_date__c), Revision_date__c &gt; PRIORVALUE(Revision_date__c)))</errorConditionFormula>
+    <errorDisplayField>Revision_date__c</errorDisplayField>
+    <errorMessage>La Fecha de Revisión solo puede anticiparse; no se puede atrasar ni posponer.</errorMessage>
+</ValidationRule>

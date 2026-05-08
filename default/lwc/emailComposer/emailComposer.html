@@ -1,0 +1,157 @@
+<!--
+  @description       : Email composer custom
+  @author            : Daniel Flores
+  @group             :
+  @last modified on  : 01-12-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+    <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+            <header class="slds-modal__header">
+                <h2 class="slds-text-heading_medium">{label.SENDEMAILF}</h2>
+                <button class="slds-button slds-button_icon slds-modal__close"
+                        title="Fechar"
+                        onclick={handleClose}>
+                    <lightning-icon icon-name="utility:close" alternative-text="Fechar"></lightning-icon>
+                </button>
+            </header>
+
+            <div class="slds-modal__content slds-p-around_medium">
+                
+                <!-- FROM -->
+                <lightning-combobox
+                    label="From"
+                    value={selectedFrom}
+                    options={fromOptions}
+                    onchange={handleFromChange}
+                    disabled={isFromLocked}
+                    class="slds-m-top_small">
+                </lightning-combobox>
+
+                <!-- PARA -->
+                <lightning-input
+                    type="email"
+                    label={label.TOF}
+                    value={toInput}
+                    onchange={handleToInputChange}
+                    onkeydown={handleToKeyDown}>
+                </lightning-input>
+
+                <template if:true={toList.length}>
+                    <div class="slds-m-top_x-small">
+                        <template for:each={toList} for:item="addr">
+                            <lightning-pill
+                                key={addr}
+                                label={addr}
+                                name={addr}
+                                onremove={handleRemoveTo}>
+                            </lightning-pill>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- CC -->
+                <lightning-input
+                    type="email"
+                    label="Cc"
+                    value={ccInput}
+                    onchange={handleCcInputChange}
+                    onkeydown={handleCcKeyDown}
+                    class="slds-m-top_small">
+                </lightning-input>
+
+                <template if:true={ccList.length}>
+                    <div class="slds-m-top_x-small">
+                        <template for:each={ccList} for:item="addr">
+                            <lightning-pill
+                                key={addr}
+                                label={addr}
+                                name={addr}
+                                onremove={handleRemoveCc}>
+                            </lightning-pill>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- BCC -->
+                <lightning-input
+                    type="email"
+                    label="Bcc"
+                    value={bccInput}
+                    onchange={handleBccInputChange}
+                    onkeydown={handleBccKeyDown}
+                    class="slds-m-top_small">
+                </lightning-input>
+
+                <template if:true={bccList.length}>
+                    <div class="slds-m-top_x-small">
+                        <template for:each={bccList} for:item="addr">
+                            <lightning-pill
+                                key={addr}
+                                label={addr}
+                                name={addr}
+                                onremove={handleRemoveBcc}>
+                            </lightning-pill>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- TEMPLATE (AGORA MAIS ABAIXO, DEPOIS DOS DESTINATÁRIOS) -->
+                <lightning-combobox
+                    name="emailTemplate"
+                    label={label.EMAILTEMPLATE}
+                    value={selectedTemplateId}
+                    options={templateOptions}
+                    placeholder="Selecione um modelo"
+                    onchange={handleTemplateChange}
+                    class="slds-m-top_small">
+                </lightning-combobox>
+
+                <!-- ASSUNTO -->
+                <lightning-textarea
+                    label={label.SUBJECTF}
+                    value={subject}
+                    onchange={handleSubjectChange}
+                    class="slds-m-top_small">
+                </lightning-textarea>
+                <!-- MENSAGEM + BOTÃO EXPANDIR -->
+                <div class="body-wrapper slds-m-top_small">
+                    <div class={bodyContainerClass}>
+                        <lightning-input-rich-text
+                            value={body}
+                            onchange={handleBodyChange}>
+                        </lightning-input-rich-text>
+                    </div>
+                </div>
+
+                <!-- ANEXOS -->
+                <template if:true={files.length}>
+                    <div class="slds-m-top_medium">
+                        <p class="slds-text-title_caps">{label.SELECTEDATTACHMENTS}</p>
+                        <ul class="slds-list_dotted slds-m-top_x-small">
+                            <template for:each={files} for:item="file">
+                                <li key={file.id}>{file.name}</li>
+                            </template>
+                        </ul>
+                    </div>
+                </template>
+            </div>
+
+            <footer class="slds-modal__footer">
+                <lightning-button
+                    label={label.CANCELF}
+                    onclick={handleClose}>
+                </lightning-button>
+                <lightning-button
+                    variant="brand"
+                    label={label.SENDF}
+                    class="slds-m-left_small"
+                    onclick={handleSend}
+                    disabled={isSending}>
+                </lightning-button>
+            </footer>
+        </div>
+    </section>
+    <div class="slds-backdrop slds-backdrop_open"></div>
+</template>

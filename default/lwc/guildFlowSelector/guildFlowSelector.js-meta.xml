@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="guildValues" type="String" label="Guild Values" description="Valor de Account.Guild__c com guilds separados por ;" role="inputOnly" />
+            <property name="stakeHolderSelected" type="String" label="StakeHolder Selecionado" description="StakeHolder Escolhido" role="inputOnly" />
+            <property name="relatedAccountIds" type="String[]" label="Related Account Ids" description="Ids de Accounts relacionadas (para obter guilds quando guildValues não é fornecido)" role="inputOnly" />
+            <property name="relatedServiceIds" type="String[]" label="Related Service Ids" description="Ids de Service__c relacionados (para excluir guilds já usados em Type__c)" role="inputOnly" />
+            <property name="orderId" type="String" label="Order Id (deprecated)" description="(Deprecated) Já não é utilizado. O componente não lê Order." role="inputOnly" />
+            <property name="providerId" type="String" label="Provider Id" description="Id do fornecedor para filtrar guilds que pode atender" role="inputOnly" />
+            <property name="label" type="String" label="Field Label" description="Label apresentado no Screen Flow" role="inputOnly" />
+            <property name="required" type="Boolean" label="Required" description="Indica se a seleção é obrigatória" role="inputOnly" />
+            <property name="selectionMode" type="String" label="Selection Mode" description="single ou multiple" role="inputOnly" default="single" />
+            <property name="emptyMessage" type="String" label="Empty Message" description="Mensagem mostrada quando não existem guilds" role="inputOnly" />
+            <property name="selectedValue" type="String" label="Selected Value" description="Guild selecionado em modo single" role="outputOnly" />
+            <property name="selectedValues" type="String" label="Selected Values" description="Guilds selecionados em modo multiple separados por ;" role="outputOnly" />
+            <property name="selectedApiValues" type="String[]" label="Selected API Values" description="Lista dos API names selecionados" role="outputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

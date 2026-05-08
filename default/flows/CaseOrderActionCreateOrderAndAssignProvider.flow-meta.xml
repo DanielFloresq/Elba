@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <decisions>
+        <name>Check_Object_Type</name>
+        <label>Check Object Type</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>is_Case_or_Order</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ObjectType</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Other</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Order_and_Assign_Providers</targetReference>
+            </connector>
+            <label>is Case or Order</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ObjectType</name>
+        <dataType>String</dataType>
+        <expression>IF(
+BEGINS({!recordId}, &quot;500&quot;),
+&quot;Case&quot;,
+IF(
+BEGINS({!recordId}, &quot;801&quot;),
+&quot;Order&quot;,
+&quot;Other&quot;
+)
+)</expression>
+    </formulas>
+    <interviewLabel>Case Order | Action | Create Order and Assign Provider {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Order | Action | Create Order and Assign Provider</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Create_Order_and_Assign_Providers</name>
+        <label>Create Order and Assign Providers</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>AssignProvidersLWC</name>
+            <extensionName>c:assigmentProvider</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>recordId</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isFirstScreen</name>
+                <value>
+                    <elementReference>isFirstScreen</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isLastScreen</name>
+                <value>
+                    <elementReference>isLastScreen</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>objectType</name>
+                <value>
+                    <elementReference>ObjectType</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>ResetValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>providerId</assignToReference>
+                <name>selectedProviderId</name>
+            </outputParameters>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Object_Type</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>encargoId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>isFirstScreen</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>isLastScreen</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>providerId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Order Id</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>UpdateEncargo</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </variables>
+</Flow>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonforAdjusterIntervention__c</fullName>
+    <label>Reason for Adjuster Intervention</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer request</fullName>
+                <default>false</default>
+                <label>Customer request</label>
+            </value>
+            <value>
+                <fullName>Difficulty locating origin</fullName>
+                <default>false</default>
+                <label>Difficulty locating origin</label>
+            </value>
+            <value>
+                <fullName>Fraud</fullName>
+                <default>false</default>
+                <label>Fraud</label>
+            </value>
+            <value>
+                <fullName>Based on damage amount</fullName>
+                <default>false</default>
+                <label>Based on damage amount</label>
+            </value>
+            <value>
+                <fullName>Content damage</fullName>
+                <default>false</default>
+                <label>Content damage</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

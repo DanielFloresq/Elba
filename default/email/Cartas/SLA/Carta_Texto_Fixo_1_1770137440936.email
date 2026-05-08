@@ -1,0 +1,34 @@
+<html style="background-color: white; overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto; line-height: 15px!important;"><span style="background-color: white; margin-left: 0!important; margin-right: 0!important; padding-left: 0!important; padding-right: 0!important;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:12px;"> <span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.Name}}}</span> </span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:12px;"> <span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.ComunicacionAddressStreet__c}}}</span> </span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:12px;"> <span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.ComunicacionAddressPostalCode__c}}}, {{{Case.ComunicacionAddressCity__c}}}</span> </span><br />
+<br />
+<br />
+<br />
+<br />
+<span style="font-size:12px;"><b style="font-family:Arial,Helvetica,sans-serif;">N&ordm; de Siniestro: </b>{{{Case.CaseNumber}}} </span><br />
+<span style="font-size:12px;"><b style="font-family:Arial,Helvetica,sans-serif;">N&ordm; de P&oacute;liza </b>{{{Case.PolicyNumber__c}}} </span><br />
+<span style="font-size:12px;"><b style="font-family:Arial,Helvetica,sans-serif;">Fecha de ocurrencia: </b>{{{Case.IncidentDate__c}}} </span><br />
+<span style="font-size:12px;"><b style="font-family:Arial,Helvetica,sans-serif;">Fecha de declaraci&oacute;n: </b>{{{Case.ClaimDate__c}}} </span> </span><br />
+<br />
+<span style="font-size:30px; font-weight: 500;line-height: 25px!important; font-family:Arial,Helvetica,sans-serif;">Resoluci&oacute;n de tu</span><br />
+<span style="font-size:30px; font-weight: 500;line-height: 25px!important; font-family:Arial,Helvetica,sans-serif;">solicitud de prestaci&oacute;n</span><br />
+<br />
+<br />
+<span style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:12px;"> <span style="font-family:Arial,Helvetica,sans-serif;">Madrid, a {{{Case.ComunicacionCurDate__c}}}</span> </span> </span><br />
+<br />
+<span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;"><span style="line-height:115%"><span style="color:black">Estimado cliente,</span> </span><br />
+<br />
+<span style="line-height:115%"><span style="color:black">Nos ponemos en contacto contigo, en relaci&oacute;n con el siniestro de referencia, una vez estudiados los informes que obran en nuestro poder relativos al mismo, para informarte que dever&aacute;s proceder al saneamiento de las tuber&iacute;as de la estancia afectada, debido a que su estado actual es de &quot;corrosi&oacute;n generalizada&quot;.</span> </span><br />
+<br />
+<span style="line-height:115%"><span style="color:black">Te comunicamos que no se atender&aacute;n m&aacute;s siniestros futuros cuyo origen sea el mismo, en tanto no se justifique la reparaci&oacute;n y mejora de las instalaciones de tu vivienda/comercio.</span> </span><br />
+<br />
+<span style="line-height:115%"><span style="color:black">Si necesitas cualquier aclaraci&oacute;n, puedes contactar en el tel&eacute;fono 91 520 05 00 en horario de 9 a 21 horas, de lunes a viernes, o a trav&eacute;s del email siniestroscdg@e-colaboradores.pelayo.com, indicando en el asunto del mismo tu n&uacute;mero de siniestro para facilitarnos su identificaci&oacute;n.</span> </span><br />
+<br />
+<span style="line-height:115%"><span style="color:black">Si necesitas cualquier aclaraci&oacute;n, puedes contactar en el tel&eacute;fono 91 520 05 00 en horario de 9 a 21 horas, de lunes a viernes.</span> </span><br />
+<br />
+<span style="line-height:115%"><span style="color:black">Cordialmente,</span> </span> </span></body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AS</fullName>
+        <default>false</default>
+        <label>Asegurado</label>
+    </customValue>
+    <customValue>
+        <fullName>RE</fullName>
+        <default>false</default>
+        <label>Reparador</label>
+    </customValue>
+    <customValue>
+        <fullName>PE</fullName>
+        <default>false</default>
+        <label>Perito</label>
+    </customValue>
+    <customValue>
+        <fullName>CA</fullName>
+        <default>false</default>
+        <label>Causante</label>
+    </customValue>
+    <customValue>
+        <fullName>PJ</fullName>
+        <default>false</default>
+        <label>Perjudicado</label>
+    </customValue>
+    <customValue>
+        <fullName>OT</fullName>
+        <default>false</default>
+        <label>Otro</label>
+    </customValue>
+    <masterLabel>Recipient</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

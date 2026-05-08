@@ -1,0 +1,504 @@
+<!--
+  @description       : Timeline component displaying case history, activities, emails and related records
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 12-02-2026
+  @last modified by  : Afonso Duque
+-->
+<template>
+  <lightning-card>
+
+    <div class="slds-card__header slds-m-bottom_large slds-border_bottom ">
+      <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center slds-m-bottom_small slds-m-right_medium">
+        <div class="slds-media">
+          <div class="slds-media__figure">
+            <lightning-icon icon-name="standard:business_hours" size="small"></lightning-icon>
+          </div>
+          <div class="slds-media__body slds-m-top_xxx-small">
+            <span class="slds-text-heading_small" style="color: var(--lwc-brandTextLink);">{TimelineAtividades}</span>
+          </div>
+        </div>
+        <div class="slds-grid slds-grid_align-end">
+          <lightning-input
+            type="search"
+            label="Pesquisar"
+            value={searchText}
+            placeholder={searchPlaceholder}
+            oncommit={handleSearchInput}
+            variant="label-hidden"
+            class="slds-m-right_small"
+            style="min-width: 250px;"
+          ></lightning-input>
+          <lightning-button-icon
+            class="slds-m-right_small"
+            icon-name="utility:expand"
+            variant="border-filled"
+            alternative-text="Expand All"
+            onclick={expandAllActivities}
+          ></lightning-button-icon>
+          <lightning-button-icon
+            class="slds-m-right_small"
+            icon-name="utility:filterList"
+            variant="border-filled"
+            alternative-text="Filtros"
+            onclick={toggleFilters}
+          ></lightning-button-icon>
+          <lightning-button-icon
+            icon-name="utility:refresh"
+            variant="border-filled"
+            alternative-text="Atualizar"
+            onclick={refreshAll}
+          ></lightning-button-icon>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="slds-p-horizontal_small"
+      style="max-height: 50vh; min-height: 250px; overflow-y: auto"
+    >
+      <template if:true={loading}>
+        <lightning-spinner
+          alternative-text="Loading"
+          size="small"
+        ></lightning-spinner>
+      </template>
+      <template if:false={loading}>
+        <!-- FILTROS -->
+        <div class={nubbinClass} style="height: 80%; overflow-y: auto">
+          <div class="slds-size_1-of-1 slds-grid slds-var-p-around_medium">
+            <p class="slds-text-title_caps" style="font-weight: bold">
+              {DateRange}
+            </p>
+          </div>
+          <div class="slds-size_1-of-1 slds-grid slds-var-p-around_medium">
+            <div
+              class="slds-form-element slds-size_5-of-12 slds-var-p-around_xx-small"
+            >
+              <!-- FILTRO POR DATA DE INICIO DO EVENTO -->
+              <lightning-input
+                type="date"
+                name="StartDate"
+                label={Start}
+                value={startDate}
+                onchange={handleDates}
+              ></lightning-input>
+            </div>
+            <div
+              class="slds-form-element slds-size_5-of-12 slds-var-p-around_xx-small"
+            >
+              <!-- FILTRO POR DATA DE FIM DO EVENTO -->
+              <lightning-input
+                class="slds-var-p-around_xx-small"
+                type="date"
+                name="EndDate"
+                label={End}
+                value={endDate}
+                onchange={handleDates}
+              >
+              </lightning-input>
+            </div>
+          </div>
+          <div
+            class="slds-grid slds-size_1-of-1 slds-var-p-around_medium slds-wrap"
+          >
+            <p
+              class="slds-text-title_caps slds-size--1-of-1"
+              style="font-weight: bold"
+            >
+              {ObjectsDisplay}
+            </p>
+            <template if:true={allSelected}>
+              <span
+                class="titleLinkNoBold slds-m-top--x-small"
+                onclick={unSelectAll}
+                >{DeselectAll}</span
+              >
+            </template>
+            <template if:false={allSelected}>
+              <span
+                class="titleLinkNoBold slds-m-top--x-small"
+                onclick={selectAll}
+                >{SelectAll}</span
+              >
+            </template>
+          </div>
+          <div class="slds-size_1-of-1 slds-grid slds-var-p-around_medium">
+            <div
+              class="slds-form-element slds-size_5-of-12 slds-var-p-around_xx-small"
+            >
+              <lightning-checkbox-group
+                class="slds-var-p-around_xx-small"
+                options={objects}
+                value={selectedObjects}
+                onchange={handleObjects}
+              >
+              </lightning-checkbox-group>
+            </div>
+          </div>
+          <div
+            class="slds-form-element slds-size_1-of-1 slds-var-p-around_medium"
+            style="
+              bottom: 0;
+              position: sticky;
+              background: #fff;
+              border-top: 1px solid #ccc;
+            "
+          >
+            <lightning-button
+              label={Apply}
+              variant="brand"
+              onclick={refreshWithFilters}
+            >
+            </lightning-button>
+          </div>
+        </div>
+        <!-- TIMELINE -->
+        <ul class="slds-timeline" style="position: relative">
+          <template for:each={filteredActivities} for:item="actv">
+            <li key={actv.obj.Id}>
+              <div class={actv.containerClass} data-id={actv.activityId}>
+                <span class="slds-assistive-text">{actv.sObjectType}</span>
+                <div class="slds-media">
+                  <div class="slds-media__figure">
+                    <button class="slds-button slds-button_icon" aria-expanded="true" style={actv.switchClass}>
+                      <lightning-icon
+                        icon-name="utility:switch"
+                        size="x-small"
+                        data-id={actv.activityId}
+                        data-expand={actv.hasContentToExpand}
+                        title={OpenClose}
+                        class="slds-button__icon slds-timeline__details-action-icon"
+                        onclick={toggleActivity}
+                        style="pointer-events: all"
+                      >
+                      </lightning-icon>
+                    </button>
+                    <div class="slds-icon_container slds-timeline__icon" title={actv.sObjectType}>
+                      <lightning-icon
+                        icon-name={actv.iconName}
+                        size="small"
+                        title={actv.sObjectType}
+                      >
+                      </lightning-icon>
+                    </div>
+                  </div>
+                  <div data-id={actv.obj.Id} class={actv.bodyClass}>
+                    <div data-id={actv.activityId} data-expand={actv.hasContentToExpand} onclick={toggleActivity} class="slds-grid slds-grid_align-spread slds-timeline__trigger" style="flex-wrap: wrap; align-items: start">
+                      <div class="slds-grid slds-grid_vertical-align-center slds-no-space">
+                        <template if:true={actv.hasAValidLink}>
+                          <h3
+                            class="slds-truncate"
+                            title={actv.title}
+                            data-id={actv.obj.Id}
+                            onclick={navigate}
+                          >
+                            <span class={actv.titleClass}>{actv.title}</span>
+                          </h3>
+                        </template>
+                        <template if:false={actv.hasAValidLink}>
+                          <h3 class="slds-truncate" title={actv.title}>
+                            <span class={actv.titleClass}>{actv.title}</span>
+                          </h3>
+                        </template>
+                        <template if:true={actv.hasAttachment}>
+                          <lightning-icon
+                            class="slds-m-left_x-small c-pointer"
+                            icon-name="utility:attach"
+                            size="x-small"
+                            title="Contem anexos"
+                            onclick={navigateToFiles}
+                            data-id={actv.obj.Id}
+                          >
+                          </lightning-icon>
+                        </template>
+                      </div>
+                      <span class="slds-m-horizontal_xx-small" style="margin-left: auto">
+                        <div style="display: flex; flex-direction: row;align-items: center;">
+                          <span data-id={actv.obj.CreatedById} onclick={navigate} class="UseLink slds-m-right_small" style="color: var(--lwc-colorTextLinkDisabled)">{actv.createdBy.Name}</span                          >
+                          <span class="slds-avatar slds-avatar_circle" style="height: unset">
+                            <img style="border-radius: 15px;padding: 1px;width: 25px;"
+                              alt={actv.createdBy.Name}
+                              src={actv.createdBy.SmallPhotoUrl}
+                              title={actv.createdBy.Name}
+                            />
+                          </span>
+                        </div>
+                      </span>
+                      <div class="slds-timeline__actions slds-timeline__actions_inline">
+                        <template if:false={actv.isEmail}>
+                          <p class="slds-timeline__date">
+                            {actv.itemDateString}
+                          </p>
+                        </template>
+                        <template if:true={actv.isEmail}>
+                          <p
+                            class="slds-timeline__date"
+                            data-id
+                            onclick={navigate}
+                          >
+                            {actv.itemDateString}
+                          </p>
+                        </template>
+                        <div
+                          data-id={actv.activityId}
+                          class="slds-dropdown-trigger slds-dropdown-trigger_click"
+                        >
+                          <lightning-button-icon
+                            icon-name="utility:down"
+                            alternative-text={MoreOptions}
+                            title={MoreOptions}
+                            size="x-small"
+                            data-id={actv.activityId}
+                            onclick={toggleDropDownActions}
+                            onblur={hideDropDownActions}
+                          >
+                          </lightning-button-icon>
+                          <div class="slds-dropdown slds-dropdown_right">
+                            <ul
+                              class="slds-dropdown__list"
+                              role="menu"
+                              aria-label="Show More"
+                            >
+                              <template if:true={loadingSpinnerActions}>
+                                <lightning-spinner
+                                  alternative-text="Loading"
+                                  size="small"
+                                ></lightning-spinner>
+                              </template>
+                              <template if:false={actv.isBookmarked}>
+                                <li
+                                  class="slds-dropdown__item"
+                                  role="presentation"
+                                  data-id={actv.activityId}
+                                  data-noclose="true"
+                                  tabindex="0"
+                                >
+                                  <a
+                                    role="menuitem"
+                                    tabindex="0"
+                                    onmousedown={markBookmarked}
+                                    data-id={actv.activityId}
+                                    data-recordid={actv.obj.Id}
+                                    data-noclose="true"
+                                  >
+                                    <span
+                                      data-id={actv.activityId}
+                                      data-noclose="true"
+                                      class="slds-truncate slds-m-right_small"
+                                      title={MarkFavorite}
+                                      tabindex="0"
+                                      >{MarkFavorite}</span
+                                    >
+                                    <lightning-icon
+                                      data-id={actv.activityId}
+                                      data-noclose="true"
+                                      icon-name="utility:bookmark_alt"
+                                      size="x-small"
+                                      tabindex="0"
+                                    >
+                                    </lightning-icon>
+                                  </a>
+                                </li>
+                              </template>
+                              <template if:true={actv.isBookmarked}>
+                                <li
+                                  class="slds-dropdown__item"
+                                  role="presentation"
+                                  data-noclose="true"
+                                  data-id={actv.activityId}
+                                >
+                                  <a
+                                    role="menuitem"
+                                    tabindex="0"
+                                    onmousedown={unmarkBookmarked}
+                                    data-id={actv.activityId}
+                                    data-recordid={actv.obj.Id}
+                                    data-noclose="true"
+                                  >
+                                    <span
+                                      class="slds-truncate slds-m-right_small"
+                                      title={RemoveMarker}
+                                      data-id={actv.activityId}
+                                      data-noclose="true"
+                                      >{RemoveMarker}</span
+                                    >
+                                    <lightning-icon
+                                      icon-name="utility:undo"
+                                      size="x-small"
+                                      data-id={actv.activityId}
+                                      data-noclose="true"
+                                    >
+                                    </lightning-icon>
+                                  </a>
+                                </li>
+                              </template>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <template if:true={actv.isEmail}>
+                        <span style="display: block; width: 100%">
+                          <span class="recepient" style="margin-right: 2px"
+                            >{To}</span
+                          >
+                          <template for:each={actv.emailToAddress} for:item="emailrelation">
+                            <span key={emailrelation.Id}>
+                              <span if:false={emailrelation.first} style="margin-right: 2px">,
+                              </span>
+                              <span if:true={emailrelation.Relation} class="titleLinkNoBold" data-id={emailrelation.RelationId} onclick={navigate}>{emailrelation.Relation.Name}</span>
+                              <span if:false={emailrelation.Relation} class="titleLinkNoBold">
+                                {emailrelation.RelationAddress}</span>
+                            </span>
+                          </template>
+                          <template if:true={actv.hasBcc}>
+                            <span
+                              class="recepient"
+                              style="margin-left: 5px; margin-right: 2px"
+                              >Bcc:</span
+                            >
+                          </template>
+                          <template
+                            iterator:emailrelation={actv.emailBccAddress}
+                          >
+                            <span
+                              key={emailrelation.Id}
+                              class="titleLinkNoBold"
+                              data-id={emailrelation.value.RelationId}
+                              onclick={navigate}
+                            >
+                              {emailrelation.value.RelationAddress}
+                            </span>
+                          </template>
+                        </span>
+                      </template>
+                      <template if:false={actv.isEmail}>
+                        <span style="display: block; width: 100%"
+                          >{actv.headerBody}</span
+                        >
+                      </template>
+                    </div>
+                    <article
+                      class="slds-p-top--none slds-box slds-timeline__item_details slds-theme_shade slds-m-top_x-small slds-m-horizontal_xx-small slds-p-around_medium"
+                      aria-hidden="false"
+                    >
+                      <ul class="slds-list_horizontal slds-wrap">
+                        <template for:each={actv.bodyFields} for:item="field">
+                          <template if:true={actv.bigField}>
+                            <li
+                              key={field.FieldId}
+                              class="slds-grid_vertical slds-size_1-of-1"
+                            >
+                              <template if:false={field.IsSplitedEmail}>
+                                <span
+                                  class="slds-m-top_medium slds-text-title slds-p-bottom_x-small"
+                                  style="
+                                    color: var(--lwc-brandTextLink);
+                                    display: block;
+                                  "
+                                  >{field.Name}</span
+                                >
+                                <lightning-formatted-rich-text
+                                  value={field.Value}
+                                >
+                                </lightning-formatted-rich-text>
+                              </template>
+                              <template if:true={field.IsSplitedEmail}>
+                                <div class="slds-section slds-m-around--none">
+                                  <lightning-formatted-rich-text
+                                    value={field.InitialHtml}
+                                  >
+                                  </lightning-formatted-rich-text>
+                                  <span
+                                    class="titleLinkNoBold showAll"
+                                    data-id={field.FieldId}
+                                    onclick={expandEmail}
+                                    >{ShowAll}</span
+                                  >
+                                  <div
+                                    aria-hidden="true"
+                                    class="slds-section__content"
+                                  >
+                                    <lightning-formatted-rich-text
+                                      value={field.FullHtml}
+                                    >
+                                    </lightning-formatted-rich-text>
+                                  </div>
+                                </div>
+                                <!-- <template if:false={field.showFullEmail}>
+                                                                    <lightning-formatted-rich-text
+                                                                        value={field.InitialHtml}>
+                                                                    </lightning-formatted-rich-text>
+                                                                    <br>
+                                                                    <span class="titleLinkNoBold"
+                                                                        data-id={field.FieldId}>Mostrar tudo</span>
+                                                                </template>
+                                                                <template if:true={field.showFullEmail}>
+                                                                    <lightning-formatted-rich-text value={field.Value}>
+                                                                    </lightning-formatted-rich-text>
+                                                                </template> -->
+                              </template>
+                              <template if:true={actv.isEmail}>
+                                <span class="emailAction c-pointer">
+                                  <lightning-icon
+                                    class="emailActionIcons"
+                                    icon-name="utility:reply"
+                                    size="xx-small"
+                                  >
+                                  </lightning-icon>
+                                  <span
+                                    style="display: inline-block"
+                                    class="slds-m-top_medium"
+                                    data-html={field.Value}
+                                    data-subject={actv.emailSubject}
+                                    data-toaddresses={actv.emailToAddressStr}
+                                    data-bccaddresses={actv.emailBccAddressStr}
+                                    onclick={openEmail}
+                                    >{Reply}</span
+                                  >
+                                </span>
+                              </template>
+                            </li>
+                          </template>
+                          <template if:false={actv.bigField}>
+                            <li
+                              key={field.FieldId}
+                              class="slds-p-top_medium slds-grid slds-grid_vertical slds-size_1-of-2 slds-p-bottom_small"
+                            >
+                              <span
+                                class="slds-text-title slds-p-bottom_x-small"
+                                style="color: var(--lwc-brandTextLink)"
+                                >{field.Name}</span
+                              >
+                              <span
+                                class="slds-text-body_medium"
+                                title={field.Value}
+                              >
+                                {field.Value}
+                              </span>
+                            </li>
+                          </template>
+                        </template>
+                      </ul>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </template>
+          <span
+            style="
+              width: 10px;
+              height: 10px;
+              background: #e5e5e5;
+              position: absolute;
+              border-radius: 10px;
+              bottom: -5px;
+              left: 33px;
+            "
+          ></span>
+        </ul>
+      </template>
+    </div>
+  </lightning-card>
+</template>

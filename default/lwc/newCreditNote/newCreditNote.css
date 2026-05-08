@@ -1,0 +1,72 @@
+/* newCreditNote.css */
+
+/* ── Modal width ─────────────────────────────────────────────────── */
+.slds-modal__container {
+    max-width: 44rem;
+    width: 90%;
+}
+
+/* ── Modal header icon badge ─────────────────────────────────────── */
+.modal-header-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Invoice table ───────────────────────────────────────────────── */
+.invoice-table-container {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.invoice-group-header {
+    background-color: #f3f2f2;
+    border-bottom: 1px solid #dddbda;
+    font-weight: 600;
+}
+
+.invoice-table {
+    width: 100%;
+    border: none;
+}
+
+.invoice-table thead tr th {
+    background-color: #fafaf9;
+    border-bottom: 1px solid #dddbda;
+    font-size: 0.75rem;
+    color: #706e6b;
+    padding: 0.5rem 0.75rem;
+}
+
+.invoice-table tbody tr td {
+    padding: 0.5rem 0.75rem;
+    border-top: 1px solid #f3f2f2;
+    font-size: 0.8125rem;
+}
+
+.invoice-table tbody tr:hover td {
+    background-color: #f3f2f2;
+}
+
+.col-check {
+    width: 2.5rem;
+}
+
+/* ── Invoice name as link ────────────────────────────────────────── */
+.invoice-link {
+    color: #0176d3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.invoice-link:hover {
+    text-decoration: underline;
+}
+
+/* ── Validation error ────────────────────────────────────────────── */
+.slds-form-error {
+    font-size: 0.75rem;
+    color: #ba0517;
+    margin-top: 0.25rem;
+}

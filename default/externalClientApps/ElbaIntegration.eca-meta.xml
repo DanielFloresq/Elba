@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>miguel.marques@peopletopeople.pt</contactEmail>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>Elba Integration</label>
+    <orgScopedExternalApp>00DRR00000GQoV1:ElbaIntegration</orgScopedExternalApp>
+</ExternalClientApplication>

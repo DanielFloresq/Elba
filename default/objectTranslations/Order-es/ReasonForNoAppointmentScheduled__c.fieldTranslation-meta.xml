@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de  Cita No Concertada</label>
+    <name>ReasonForNoAppointmentScheduled__c</name>
+    <picklistValues>
+        <masterLabel>Job Cancelled. Compensation Granted</masterLabel>
+        <translation>Anulacion del Encargo. Se indemniza</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Job Cancelled. Repaired by Third Party Responsible</masterLabel>
+        <translation>Anulacion del Encargo. Repara Causante</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Affected Party</masterLabel>
+        <translation>Pendiente de Perjudicado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Third Party Responsible</masterLabel>
+        <translation>Pendiente de Causante</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postponed by the Customer</masterLabel>
+        <translation>Aplazada por el Cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Not Insured</masterLabel>
+        <translation>Riesgo no Asegurado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

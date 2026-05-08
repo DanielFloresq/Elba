@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>INCENDIO</fullName>
+        <default>false</default>
+        <label>INCENDIO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>EXPLOSIÓN</fullName>
+        <default>false</default>
+        <label>EXPLOSIÓN</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CAÍDA DE RAYO</fullName>
+        <default>false</default>
+        <label>CAÍDA DE RAYO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS POR AGUA (Origen PROPIO)</fullName>
+        <default>false</default>
+        <label>DAÑOS POR AGUA (Origen PROPIO)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS POR AGUA (Origen AJENO)</fullName>
+        <default>false</default>
+        <label>DAÑOS POR AGUA (Origen AJENO)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS ELÉCTRICOS</fullName>
+        <default>false</default>
+        <label>DAÑOS ELÉCTRICOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AGENTES ATMOSFÉRICOS</fullName>
+        <default>false</default>
+        <label>AGENTES ATMOSFÉRICOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HUMO</fullName>
+        <default>false</default>
+        <label>HUMO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>IMPACTO DE VEHÍCULOS</fullName>
+        <default>false</default>
+        <label>IMPACTO DE VEHÍCULOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ACTOS VANDÁLICOS INQUILINO</fullName>
+        <default>false</default>
+        <label>ACTOS VANDÁLICOS INQUILINO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>IMPACTO DE OBJETOS SÓLIDOS PROCEDENTES DEL EXTERIOR</fullName>
+        <default>false</default>
+        <label>IMPACTO DE OBJETOS SÓLIDOS PROCEDENTES DEL EXTERIOR</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ROBO</fullName>
+        <default>false</default>
+        <label>ROBO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ROTURA DE CRISTALES</fullName>
+        <default>false</default>
+        <label>ROTURA DE CRISTALES</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AVERÍA DE MAQUINARIA</fullName>
+        <default>false</default>
+        <label>AVERÍA DE MAQUINARIA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS A ISLAS DE FRÍO</fullName>
+        <default>false</default>
+        <label>DAÑOS A ISLAS DE FRÍO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS A CÁMARAS DE FRÍO</fullName>
+        <default>false</default>
+        <label>DAÑOS A CÁMARAS DE FRÍO</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DAÑOS A BIENES REFRIGERADOS</fullName>
+        <default>false</default>
+        <label>DAÑOS A BIENES REFRIGERADOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>RECLAMACIÓN DE DAÑOS</fullName>
+        <default>false</default>
+        <label>RECLAMACIÓN DE DAÑOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>RESPONSABILIDAD CIVIL</fullName>
+        <default>false</default>
+        <label>RESPONSABILIDAD CIVIL</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PARTE PROPORCIONAL ELEMENTOS COMUNES</fullName>
+        <default>false</default>
+        <label>PARTE PROPORCIONAL ELEMENTOS COMUNES</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>URGENCIAS</fullName>
+        <default>false</default>
+        <label>URGENCIAS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CONSORCIABLE</fullName>
+        <default>false</default>
+        <label>CONSORCIABLE</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>OTROS</fullName>
+        <default>false</default>
+        <label>OTROS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ACTOS VANDÁLICOS</fullName>
+        <default>false</default>
+        <label>ACTOS VANDÁLICOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DETERIORO DE ALIMENTOS EN CÁMARAS FRIGORÍFICAS</fullName>
+        <default>false</default>
+        <label>DETERIORO DE ALIMENTOS EN CÁMARAS FRIGORÍFICAS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>BIENES DESPLAZADOS</fullName>
+        <default>false</default>
+        <label>BIENES DESPLAZADOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DETERIORO DE JARDINES</fullName>
+        <default>false</default>
+        <label>DETERIORO DE JARDINES</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>TR ACCIDENTAL</fullName>
+        <default>false</default>
+        <label>TR ACCIDENTAL</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AVERÍA ELECTRODOMÉSTICOS</fullName>
+        <default>false</default>
+        <label>AVERÍA ELECTRODOMÉSTICOS</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ASISTENCIA VIP</fullName>
+        <default>false</default>
+        <label>ASISTENCIA VIP</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

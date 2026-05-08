@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoRepairReason__c</fullName>
+    <label>No Repair Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compensation - Preferred Repairer</fullName>
+                <default>false</default>
+                <label>Compensation - Preferred Repairer</label>
+            </value>
+            <value>
+                <fullName>Corrosion</fullName>
+                <default>false</default>
+                <label>Corrosion</label>
+            </value>
+            <value>
+                <fullName>Pending repair of originating cause</fullName>
+                <default>false</default>
+                <label>Pending repair of originating cause</label>
+            </value>
+            <value>
+                <fullName>Need for intervention of other trades before continuing work</fullName>
+                <default>false</default>
+                <label>Need for intervention of other trades before continuing work</label>
+            </value>
+            <value>
+                <fullName>No coverage</fullName>
+                <default>false</default>
+                <label>No coverage</label>
+            </value>
+            <value>
+                <fullName>Insured requests compensation. Trusted repairer</fullName>
+                <default>false</default>
+                <label>Insured requests compensation. Trusted repairer</label>
+            </value>
+            <value>
+                <fullName>Pending tools for localization</fullName>
+                <default>false</default>
+                <label>Pending tools for localization</label>
+            </value>
+            <value>
+                <fullName>Restricted hours for noise</fullName>
+                <default>false</default>
+                <label>Restricted hours for noise</label>
+            </value>
+            <value>
+                <fullName>Adverse weather conditions for repair</fullName>
+                <default>false</default>
+                <label>Adverse weather conditions for repair</label>
+            </value>
+            <value>
+                <fullName>Client request</fullName>
+                <default>false</default>
+                <label>Client request</label>
+            </value>
+            <value>
+                <fullName>Expert assessment intervention required</fullName>
+                <default>false</default>
+                <label>Expert assessment intervention required</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Lack of Maintenance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lack of Maintenance</label>
+            </value>
+            <value>
+                <fullName>Pending Material</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending Material</label>
+            </value>
+            <value>
+                <fullName>Schedules</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Schedules</label>
+            </value>
+            <value>
+                <fullName>Specialist Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialist Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Assistance</masterLabel>
+        <translation>Asistencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cash</masterLabel>
+        <translation>Contado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Claim</masterLabel>
+        <translation>Reclamación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Peritación</masterLabel>
+        <translation><!-- Peritación --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Repair</masterLabel>
+        <translation>Reparación</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeviceBrand__c</fullName>
+    <description>Aparato y Marca</description>
+    <label>Device and Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bosch</fullName>
+                <default>false</default>
+                <label>Bosch</label>
+            </value>
+            <value>
+                <fullName>Fagor</fullName>
+                <default>false</default>
+                <label>Fagor</label>
+            </value>
+            <value>
+                <fullName>Teka</fullName>
+                <default>false</default>
+                <label>Teka</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tipo</label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>ABOGADO</masterLabel>
+        <translation><!-- ABOGADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AGENDAVTP</masterLabel>
+        <translation><!-- AGENDAVTP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AGENDAVTT</masterLabel>
+        <translation><!-- AGENDAVTT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIRE ACONDICIONADO</masterLabel>
+        <translation><!-- AIRE ACONDICIONADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALARMAS</masterLabel>
+        <translation><!-- ALARMAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALBAÑIL</masterLabel>
+        <translation><!-- ALBAÑIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTENISTA</masterLabel>
+        <translation><!-- ANTENISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARQUITECTO</masterLabel>
+        <translation><!-- ARQUITECTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASISTENCIA JURIDICA</masterLabel>
+        <translation><!-- ASISTENCIA JURIDICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASITENCIA INFORMATICA REMOTA</masterLabel>
+        <translation><!-- ASITENCIA INFORMATICA REMOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AVERIA ELECTRODOMESTICOS</masterLabel>
+        <translation><!-- AVERIA ELECTRODOMESTICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BOMBERO</masterLabel>
+        <translation><!-- BOMBERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARPINT ALUMINIO</masterLabel>
+        <translation><!-- CARPINT ALUMINIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARPINTERO</masterLabel>
+        <translation><!-- CARPINTERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CARPINTERO ALUMINIO</masterLabel>
+        <translation><!-- CARPINTERO ALUMINIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CERRAJERO</masterLabel>
+        <translation><!-- CERRAJERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLINICA MEDICA</masterLabel>
+        <translation><!-- CLINICA MEDICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMPAÑIA RECOBROS</masterLabel>
+        <translation><!-- COMPAÑIA RECOBROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSULTOR GFK</masterLabel>
+        <translation><!-- CONSULTOR GFK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSULTORA METEO</masterLabel>
+        <translation><!-- CONSULTORA METEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONTADOS</masterLabel>
+        <translation><!-- CONTADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRISTALERO</masterLabel>
+        <translation><!-- CRISTALERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DESATASCADOR</masterLabel>
+        <translation><!-- DESATASCADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DETECTIVE</masterLabel>
+        <translation><!-- DETECTIVE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRICISTA</masterLabel>
+        <translation><!-- ELECTRICISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRODOMEST GAMA BLANCA</masterLabel>
+        <translation><!-- ELECTRODOMEST GAMA BLANCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRODOMEST GAMA MARRON</masterLabel>
+        <translation><!-- ELECTRODOMEST GAMA MARRON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESCAYOLISTA</masterLabel>
+        <translation><!-- ESCAYOLISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESTUDIOS TECNICOS</masterLabel>
+        <translation><!-- ESTUDIOS TECNICOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FONTANERO</masterLabel>
+        <translation><!-- FONTANERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GESTOR</masterLabel>
+        <translation><!-- GESTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HACIENDA</masterLabel>
+        <translation><!-- HACIENDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HOSPITAL</masterLabel>
+        <translation><!-- HOSPITAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INVESTIGADOR DE CAUSAS</masterLabel>
+        <translation><!-- INVESTIGADOR DE CAUSAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIMPIADOR</masterLabel>
+        <translation><!-- LIMPIADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIMPIEZA FACHADAS</masterLabel>
+        <translation><!-- LIMPIEZA FACHADAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LINEA BLANCA</masterLabel>
+        <translation><!-- LINEA BLANCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LINEA GRIS</masterLabel>
+        <translation><!-- LINEA GRIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LINEA MARRON</masterLabel>
+        <translation><!-- LINEA MARRON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOZA SANITARIA</masterLabel>
+        <translation><!-- LOZA SANITARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MANITAS</masterLabel>
+        <translation><!-- MANITAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MARMOLISTA</masterLabel>
+        <translation><!-- MARMOLISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MATERIAL</masterLabel>
+        <translation><!-- MATERIAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICO</masterLabel>
+        <translation><!-- MEDICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICO CIRUJANO</masterLabel>
+        <translation><!-- MEDICO CIRUJANO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDICO VALORADOR</masterLabel>
+        <translation><!-- MEDICO VALORADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOQUETA</masterLabel>
+        <translation><!-- MOQUETA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTARIO</masterLabel>
+        <translation><!-- NOTARIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ORDENADORES DE TECNICO</masterLabel>
+        <translation><!-- ORDENADORES DE TECNICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PAE</masterLabel>
+        <translation><!-- PAE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARQUETISTA</masterLabel>
+        <translation><!-- PARQUETISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PARTIDAS NO BAREMIZADAS</masterLabel>
+        <translation><!-- PARTIDAS NO BAREMIZADAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERITACIÓN</masterLabel>
+        <translation><!-- PERITACIÓN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERITO</masterLabel>
+        <translation><!-- PERITO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PERSIANISTA</masterLabel>
+        <translation><!-- PERSIANISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PINTOR</masterLabel>
+        <translation><!-- PINTOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POCERO</masterLabel>
+        <translation><!-- POCERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PORTEROS ELEC.</masterLabel>
+        <translation><!-- PORTEROS ELEC. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROCURADOR</masterLabel>
+        <translation><!-- PROCURADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PUERTAS AUTOM.</masterLabel>
+        <translation><!-- PUERTAS AUTOM. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REASIGNACION</masterLabel>
+        <translation><!-- REASIGNACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REPARACION DE VALVULAS</masterLabel>
+        <translation><!-- REPARACION DE VALVULAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REPARADOR SSCC</masterLabel>
+        <translation><!-- REPARADOR SSCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROTULISTA</masterLabel>
+        <translation><!-- ROTULISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S.A.T. ALCAMPO</masterLabel>
+        <translation><!-- S.A.T. ALCAMPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAPICERO</masterLabel>
+        <translation><!-- TAPICERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TECNICO INSTALADOR DE CALDERAS</masterLabel>
+        <translation><!-- TECNICO INSTALADOR DE CALDERAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TEJADOS</masterLabel>
+        <translation><!-- TEJADOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TELEFONO REPARADOR</masterLabel>
+        <translation><!-- TELEFONO REPARADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TINTORERIA</masterLabel>
+        <translation><!-- TINTORERIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOLDERO</masterLabel>
+        <translation><!-- TOLDERO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIOS</masterLabel>
+        <translation><!-- VARIOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIOS IPAS</masterLabel>
+        <translation><!-- VARIOS IPAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIOS1</masterLabel>
+        <translation><!-- VARIOS1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIOS2</masterLabel>
+        <translation><!-- VARIOS2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIOS3</masterLabel>
+        <translation><!-- VARIOS3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VENTA E INSTALACION AIRE ACONDICIONADO</masterLabel>
+        <translation><!-- VENTA E INSTALACION AIRE ACONDICIONADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIDEOTASADOR</masterLabel>
+        <translation><!-- VIDEOTASADOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIGILANTE DE SEGURIDAD</masterLabel>
+        <translation><!-- VIGILANTE DE SEGURIDAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VITROCERAMICA DE TECNICO</masterLabel>
+        <translation><!-- VITROCERAMICA DE TECNICO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VT ASEGURADO</masterLabel>
+        <translation><!-- VT ASEGURADO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VT REPARADOR</masterLabel>
+        <translation><!-- VT REPARADOR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

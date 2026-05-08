@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Encargo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Encargos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Order Layout</layout>
+        <sections>
+            <label><!-- Información del Pedido --></label>
+            <section>Información del Pedido</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Sistema --></label>
+            <section>Información del Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Preavance y Avance --></label>
+            <section>Preavance y Avance</section>
+        </sections>
+        <sections>
+            <label><!-- Primer Contacto --></label>
+            <section>Primer Contacto</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Assign Provider --></label>
+        <name>AssignProvider</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Credit Note --></label>
+        <name>CreateCreditNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Invoice --></label>
+        <name>CreateInvoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enviar a Urlink --></label>
+        <name>EnviarAUrlink</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Social --></label>
+        <name>ReopenEncargo1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reopen Encargo --></label>
+        <name>ReopenEncargo2</name>
+    </quickActions>
+</CustomObjectTranslation>

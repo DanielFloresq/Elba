@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Reason__c</fullName>
+    <label>Sub-Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>S01001</fullName>
+                <default>false</default>
+                <label>Inappropriate Conduct or Behavior</label>
+            </value>
+            <value>
+                <fullName>S01002</fullName>
+                <default>false</default>
+                <label>Visit Without Proper Tools</label>
+            </value>
+            <value>
+                <fullName>S02001</fullName>
+                <default>false</default>
+                <label>No Repairer Available in Area</label>
+            </value>
+            <value>
+                <fullName>S02002</fullName>
+                <default>false</default>
+                <label>Trade Unavailability</label>
+            </value>
+            <value>
+                <fullName>S02003</fullName>
+                <default>false</default>
+                <label>Communication or Availability Issues</label>
+            </value>
+            <value>
+                <fullName>S02004</fullName>
+                <default>false</default>
+                <label>Repairer Without Proper Equipment</label>
+            </value>
+            <value>
+                <fullName>S02005</fullName>
+                <default>false</default>
+                <label>Urgency Cancelled Due to Network Issues</label>
+            </value>
+            <value>
+                <fullName>S03001</fullName>
+                <default>false</default>
+                <label>No Show</label>
+            </value>
+            <value>
+                <fullName>S03002</fullName>
+                <default>false</default>
+                <label>Delay in Scheduling Appointments</label>
+            </value>
+            <value>
+                <fullName>S03003</fullName>
+                <default>false</default>
+                <label>Delay in Follow-Up Appointments</label>
+            </value>
+            <value>
+                <fullName>S03004</fullName>
+                <default>false</default>
+                <label>Trade Coordination Issues</label>
+            </value>
+            <value>
+                <fullName>S03005</fullName>
+                <default>false</default>
+                <label>Urgent Requests Not Attended</label>
+            </value>
+            <value>
+                <fullName>S03006</fullName>
+                <default>false</default>
+                <label>No Contact from Repairer</label>
+            </value>
+            <value>
+                <fullName>S03007</fullName>
+                <default>false</default>
+                <label>Appointment Scheduled Without Policyholder Contact</label>
+            </value>
+            <value>
+                <fullName>S04001</fullName>
+                <default>false</default>
+                <label>Delay in Reports or Estimates</label>
+            </value>
+            <value>
+                <fullName>S04002</fullName>
+                <default>false</default>
+                <label>Missing Photographs</label>
+            </value>
+            <value>
+                <fullName>S04003</fullName>
+                <default>false</default>
+                <label>Incorrect Coverage Application</label>
+            </value>
+            <value>
+                <fullName>S04004</fullName>
+                <default>false</default>
+                <label>Delay in Sending Reports to Adjuster</label>
+            </value>
+            <value>
+                <fullName>S04005</fullName>
+                <default>false</default>
+                <label>Incorrect Billing</label>
+            </value>
+            <value>
+                <fullName>S04006</fullName>
+                <default>false</default>
+                <label>Incomplete Visit Report</label>
+            </value>
+            <value>
+                <fullName>S04007</fullName>
+                <default>false</default>
+                <label>Repeated Information in Successive Updates</label>
+            </value>
+            <value>
+                <fullName>S04008</fullName>
+                <default>false</default>
+                <label>Incorrect Closure</label>
+            </value>
+            <value>
+                <fullName>S05001</fullName>
+                <default>false</default>
+                <label>Use of Low-Quality Materials</label>
+            </value>
+            <value>
+                <fullName>S05002</fullName>
+                <default>false</default>
+                <label>Damage Caused by Repairer</label>
+            </value>
+            <value>
+                <fullName>S05003</fullName>
+                <default>false</default>
+                <label>Pending Work or Incomplete Repair</label>
+            </value>
+            <value>
+                <fullName>S05004</fullName>
+                <default>false</default>
+                <label>Defective Work Execution</label>
+            </value>
+            <value>
+                <fullName>S05005</fullName>
+                <default>false</default>
+                <label>Failure to Meet Drying Timeframes</label>
+            </value>
+            <value>
+                <fullName>S05006</fullName>
+                <default>false</default>
+                <label>Incorrect Material Timeframes</label>
+            </value>
+            <value>
+                <fullName>S06001</fullName>
+                <default>false</default>
+                <label>Lack of Adjuster Coordination</label>
+            </value>
+            <value>
+                <fullName>S06002</fullName>
+                <default>false</default>
+                <label>Failure to Follow Adjuster Instructions</label>
+            </value>
+            <value>
+                <fullName>Teste</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Teste</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>M01</controllingFieldValue>
+            <valueName>S01001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M01</controllingFieldValue>
+            <valueName>S01002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M02</controllingFieldValue>
+            <valueName>S02001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M02</controllingFieldValue>
+            <valueName>S02002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M02</controllingFieldValue>
+            <valueName>S02003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M02</controllingFieldValue>
+            <valueName>S02004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M02</controllingFieldValue>
+            <valueName>S02005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M03</controllingFieldValue>
+            <valueName>S03007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M04</controllingFieldValue>
+            <valueName>S04008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M05</controllingFieldValue>
+            <valueName>S05006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M06</controllingFieldValue>
+            <valueName>S06001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M06</controllingFieldValue>
+            <valueName>S06002</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

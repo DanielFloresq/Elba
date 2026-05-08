@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Complaint</masterLabel>
+        <translation>Reclamacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incident</masterLabel>
+        <translation>Incidencia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nonconformity</masterLabel>
+        <translation>Disconformidad</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

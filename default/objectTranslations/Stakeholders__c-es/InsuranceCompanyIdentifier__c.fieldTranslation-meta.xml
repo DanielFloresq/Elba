@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Identificador compañía aseguradora</label>
+    <name>InsuranceCompanyIdentifier__c</name>
+    <picklistValues>
+        <masterLabel>ABANCA GENERALES DE SEG,Y REASEGUROS,S.A - ABANCA GENERALES DE SEG,Y REASEGUROS,S.A</masterLabel>
+        <translation><!-- ABANCA GENERALES DE SEG,Y REASEGUROS,S.A - ABANCA GENERALES DE SEG,Y REASEGUROS,S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ABANCA GENERALES DE SEGUROS Y REASEGUROS, S.A.</masterLabel>
+        <translation><!-- ABANCA GENERALES DE SEGUROS Y REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ABEILLE PREVISORA RI</masterLabel>
+        <translation><!-- ABEILLE PREVISORA RI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACE EUROPE</masterLabel>
+        <translation><!-- ACE EUROPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACE EUROPEAN GROUP LIMITED - ACE EUROPEAN GROUP LIMITED</masterLabel>
+        <translation><!-- ACE EUROPEAN GROUP LIMITED - ACE EUROPEAN GROUP LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACHMEA SCHADEVERZEKERINGEN N.V.</masterLabel>
+        <translation><!-- ACHMEA SCHADEVERZEKERINGEN N.V. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ACM SEGUROS</masterLabel>
+        <translation><!-- ACM SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ADMIRAL EUROPE COMPAÑIA DE SEGUROS, S.A.U.</masterLabel>
+        <translation><!-- ADMIRAL EUROPE COMPAÑIA DE SEGUROS, S.A.U. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - BALUMBA (ADMIRAL INSURANCE COMPANY)</masterLabel>
+        <translation><!-- ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - BALUMBA (ADMIRAL INSURANCE COMPANY) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - QUALITAS AUTOS</masterLabel>
+        <translation><!-- ADMIRAL INSURANCE COMPANY SUC. EN ESPAÑA - QUALITAS AUTOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AEGON SANTANDER GENER SEG Y REASEG, S.A. - AEGON</masterLabel>
+        <translation><!-- AEGON SANTANDER GENER SEG Y REASEG, S.A. - AEGON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AEGON SEGUROS GENERALES S.A. DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- AEGON SEGUROS GENERALES S.A. DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AEGON UNION ASEGURADORA</masterLabel>
+        <translation><!-- AEGON UNION ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AGF / UNION FENIX</masterLabel>
+        <translation><!-- AGF / UNION FENIX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AGF / UNION FENIX SE</masterLabel>
+        <translation><!-- AGF / UNION FENIX SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AGRUPACION MUTUAL ASEGURADORA (A.M.A) - A.M.A.  AGRUPACION MUTUAL ASEGURADORA</masterLabel>
+        <translation><!-- AGRUPACION MUTUAL ASEGURADORA (A.M.A) - A.M.A.  AGRUPACION MUTUAL ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIDE ASISTENCIA SEGU</masterLabel>
+        <translation><!-- AIDE ASISTENCIA SEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIDE ASISTENCIA, S.A. - AIDE ASISTENCIA, S.A.</masterLabel>
+        <translation><!-- AIDE ASISTENCIA, S.A. - AIDE ASISTENCIA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIG EUROPE LIMITED</masterLabel>
+        <translation><!-- AIG EUROPE LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIG EUROPE S.A.</masterLabel>
+        <translation><!-- AIG EUROPE S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AIOI NISSAY DOWA INSURANCE (TOYOTA)</masterLabel>
+        <translation><!-- AIOI NISSAY DOWA INSURANCE (TOYOTA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALBA  COMPANIA GENER</masterLabel>
+        <translation><!-- ALBA  COMPANIA GENER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALIANZA ESPANOLA  S.</masterLabel>
+        <translation><!-- ALIANZA ESPANOLA  S. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALIANZA MEDICA, S.A. CIA. DE SEGUROS - DIVINA PASTORA SEGUROS</masterLabel>
+        <translation><!-- ALIANZA MEDICA, S.A. CIA. DE SEGUROS - DIVINA PASTORA SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALLIANZ - ALLIANZ</masterLabel>
+        <translation><!-- ALLIANZ - ALLIANZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALLIANZ DIRECT</masterLabel>
+        <translation><!-- ALLIANZ DIRECT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALLIANZ DIRECT VERSICHERUNGS - ALLIANZ DIRECT VERSICHERUNGS</masterLabel>
+        <translation><!-- ALLIANZ DIRECT VERSICHERUNGS - ALLIANZ DIRECT VERSICHERUNGS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALLIANZ INDUSTRIAL C</masterLabel>
+        <translation><!-- ALLIANZ INDUSTRIAL C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALLIANZ,  COMPAÑIA DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- ALLIANZ,  COMPAÑIA DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALMUDENA COMPAÑÍA DE SEGUROS Y REASEGUROS, S.A.</masterLabel>
+        <translation><!-- ALMUDENA COMPAÑÍA DE SEGUROS Y REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALMUDENA, S.A. DE SEGUROS - ALMUDENA, S.A. DE SEGUROS</masterLabel>
+        <translation><!-- ALMUDENA, S.A. DE SEGUROS - ALMUDENA, S.A. DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ALPHA INSURANCE A/S</masterLabel>
+        <translation><!-- ALPHA INSURANCE A/S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AM SEGUROS Y REASEGU</masterLabel>
+        <translation><!-- AM SEGUROS Y REASEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMA -AGRUPACION MUTUAL ASEGURADORA</masterLabel>
+        <translation><!-- AMA -AGRUPACION MUTUAL ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMAYA  CIA. DE SEGUR</masterLabel>
+        <translation><!-- AMAYA  CIA. DE SEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMERICAN LIFE INSURA</masterLabel>
+        <translation><!-- AMERICAN LIFE INSURA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMIC  SEGUROS GENERA</masterLabel>
+        <translation><!-- AMIC  SEGUROS GENERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMSYR  S. A. DE SEGU</masterLabel>
+        <translation><!-- AMSYR  S. A. DE SEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA) - AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA)</masterLabel>
+        <translation><!-- AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA) - AMSYR (AM AGRUP.MUTUA SEG.Y REASEG, SA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMV HISPANIA</masterLabel>
+        <translation><!-- AMV HISPANIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTARTIDA  CIA. ESPA</masterLabel>
+        <translation><!-- ANTARTIDA  CIA. ESPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AON REINSURANCE IBERIA, S.A.U CORREDURIA DE SEGUROS</masterLabel>
+        <translation><!-- AON REINSURANCE IBERIA, S.A.U CORREDURIA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>APOLO C.A. DE SEGURO</masterLabel>
+        <translation><!-- APOLO C.A. DE SEGURO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARAG CIA. INTERN. DE S. Y R.</masterLabel>
+        <translation><!-- ARAG CIA. INTERN. DE S. Y R. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA - ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA</masterLabel>
+        <translation><!-- ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA - ARAG CIA.INTERNACIONAL SEG.REASEGUROS,SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEFA, S.A. - ASEFA, S.A.</masterLabel>
+        <translation><!-- ASEFA, S.A. - ASEFA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEFA, S.A. SEGUROS Y REASEGUROS.</masterLabel>
+        <translation><!-- ASEFA, S.A. SEGUROS Y REASEGUROS. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEGRUP (ASEGURADORES AGRUPADOS S.A.</masterLabel>
+        <translation><!-- ASEGRUP (ASEGURADORES AGRUPADOS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEGURADORA GENERAL</masterLabel>
+        <translation><!-- ASEGURADORA GENERAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEGURADORES AGRUPADOS, S.A. - ASEGRUP ASEGURADORES AGRUPADOS, S.A.</masterLabel>
+        <translation><!-- ASEGURADORES AGRUPADOS, S.A. - ASEGRUP ASEGURADORES AGRUPADOS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEGURATOR COMPA#IA DE SE</masterLabel>
+        <translation><!-- ASEGURATOR COMPA#IA DE SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASEMAS MUTUA DE SEGUROS A PRIMA FIJA - ASEMAS MUTUA DE SEGUROS A PRIMA FIJA</masterLabel>
+        <translation><!-- ASEMAS MUTUA DE SEGUROS A PRIMA FIJA - ASEMAS MUTUA DE SEGUROS A PRIMA FIJA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ASSICURAZIONI GENERA</masterLabel>
+        <translation><!-- ASSICURAZIONI GENERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATHENA  CIA.IBERICA</masterLabel>
+        <translation><!-- ATHENA  CIA.IBERICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATLANTIDA S.A.</masterLabel>
+        <translation><!-- ATLANTIDA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATLANTIS CIA DE SEGUROS Y REASEG., S.A. - ATLANTIS (AMGEN)</masterLabel>
+        <translation><!-- ATLANTIS CIA DE SEGUROS Y REASEG., S.A. - ATLANTIS (AMGEN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATLANTIS CIA.SEGUROS Y RE</masterLabel>
+        <translation><!-- ATLANTIS CIA.SEGUROS Y RE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATOCHA SEGUROS, S.A. - ATOCHA SEGUROS, S.A.</masterLabel>
+        <translation><!-- ATOCHA SEGUROS, S.A. - ATOCHA SEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AURORA-POLAR S.A.SEGUROS</masterLabel>
+        <translation><!-- AURORA-POLAR S.A.SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AVIVA VIDA Y PENSIONES</masterLabel>
+        <translation><!-- AVIVA VIDA Y PENSIONES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA AURORA IBERICA,S.A. SEG.Y REASEG. - AXA</masterLabel>
+        <translation><!-- AXA AURORA IBERICA,S.A. SEG.Y REASEG. - AXA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA GLOBAL DIRECT SEGUROS Y REASEGUROS SAU</masterLabel>
+        <translation><!-- AXA GLOBAL DIRECT SEGUROS Y REASEGUROS SAU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA LIFE EUROPE</masterLabel>
+        <translation><!-- AXA LIFE EUROPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA SEGUROS GENERALES</masterLabel>
+        <translation><!-- AXA SEGUROS GENERALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AXA SEGUROS GENERALES, S.A. SEG Y REASEG - AXA SEGUROS GENERALES, S.A. SEG Y REASEG</masterLabel>
+        <translation><!-- AXA SEGUROS GENERALES, S.A. SEG Y REASEG - AXA SEGUROS GENERALES, S.A. SEG Y REASEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AZUR MULTIRRAMOS S.A</masterLabel>
+        <translation><!-- AZUR MULTIRRAMOS S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BALOISE (ESPAÑA) SEGURO Y REASEGURO S.A.</masterLabel>
+        <translation><!-- BALOISE (ESPAÑA) SEGURO Y REASEGURO S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BALOISE ASSURANCES LUXEMBOURG, S.A.</masterLabel>
+        <translation><!-- BALOISE ASSURANCES LUXEMBOURG, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BALOISE SEGUROS Y RE</masterLabel>
+        <translation><!-- BALOISE SEGUROS Y RE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BALUMBA (ADMIRAL INSURANCE COMPANY)</masterLabel>
+        <translation><!-- BALUMBA (ADMIRAL INSURANCE COMPANY) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BANCO VITALICIO</masterLabel>
+        <translation><!-- BANCO VITALICIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BANESTO SEGUROS.</masterLabel>
+        <translation><!-- BANESTO SEGUROS. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BANKINTER SEGUROS VIDA</masterLabel>
+        <translation><!-- BANKINTER SEGUROS VIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BANSABADELL SEGUROS GENERALES</masterLabel>
+        <translation><!-- BANSABADELL SEGUROS GENERALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAYERISCHE RUCK</masterLabel>
+        <translation><!-- BAYERISCHE RUCK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBVA ALLIANZ SEGUROS Y REASEGUROS S.A.</masterLabel>
+        <translation><!-- BBVA ALLIANZ SEGUROS Y REASEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIHARKO ASEGURADORA COMPAÑIA SEG. Y REAS - KUTXABANK ASEGURADORA</masterLabel>
+        <translation><!-- BIHARKO ASEGURADORA COMPAÑIA SEG. Y REAS - KUTXABANK ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BILBAO (COMPAÑIA ANONIMA DE SEGUROS) - SEGUROS BILBAO</masterLabel>
+        <translation><!-- BILBAO (COMPAÑIA ANONIMA DE SEGUROS) - SEGUROS BILBAO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C.R.M. S.L.(LLOYD´S</masterLabel>
+        <translation><!-- C.R.M. S.L.(LLOYD´S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAHISPA - CENTRAL DE SEGUROS</masterLabel>
+        <translation><!-- CAHISPA - CENTRAL DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAHISPA, S.A. SEGUROS DE VIDA - CAHISPA, S.A.</masterLabel>
+        <translation><!-- CAHISPA, S.A. SEGUROS DE VIDA - CAHISPA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A - CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A</masterLabel>
+        <translation><!-- CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A - CAI SEG.GRALES.DE SEGUROS Y REASEG., S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAI SEGUROS GENERALES</masterLabel>
+        <translation><!-- CAI SEGUROS GENERALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAIXA CREDIT DELS ENGINYERS SDAD.COOP.CREDITO</masterLabel>
+        <translation><!-- CAIXA CREDIT DELS ENGINYERS SDAD.COOP.CREDITO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAIXA SABADELL OP.BANCA ASSEG.VINCULAT,S - CAIXA SABADELL</masterLabel>
+        <translation><!-- CAIXA SABADELL OP.BANCA ASSEG.VINCULAT,S - CAIXA SABADELL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAIXA TERRASSA MEDIACIO O.B.S.V., S.A. - CAIXA TERRASSA MEDIACIO</masterLabel>
+        <translation><!-- CAIXA TERRASSA MEDIACIO O.B.S.V., S.A. - CAIXA TERRASSA MEDIACIO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAJA DE PREVISION Y</masterLabel>
+        <translation><!-- CAJA DE PREVISION Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAJA ESPAÑA VIDA, CÍA DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- CAJA ESPAÑA VIDA, CÍA DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA - CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA</masterLabel>
+        <translation><!-- CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA - CAJA SOL SEG.GRALES.,SOC.SEG. Y REAS.,SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAJAMAR SEGUROS GENERALES S.A.</masterLabel>
+        <translation><!-- CAJAMAR SEGUROS GENERALES S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAJASOL VIDA Y PENSIONES DE SEGUROS Y REASEGUROS,S.A.</masterLabel>
+        <translation><!-- CAJASOL VIDA Y PENSIONES DE SEGUROS Y REASEGUROS,S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAN SEGUROS GENERALES</masterLabel>
+        <translation><!-- CAN SEGUROS GENERALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CANTABRIA VIDA Y PENSIONES, S.A. DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- CANTABRIA VIDA Y PENSIONES, S.A. DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CASER S.A. SEGUROS</masterLabel>
+        <translation><!-- CASER S.A. SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CATALANA OCCIDENTE</masterLabel>
+        <translation><!-- CATALANA OCCIDENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CATALUNYACAIXA ASSEGURANCES GENERALS</masterLabel>
+        <translation><!-- CATALUNYACAIXA ASSEGURANCES GENERALS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAUDAL  S. A. DE SEG</masterLabel>
+        <translation><!-- CAUDAL  S. A. DE SEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CENTRO ASEGURADOR CI</masterLabel>
+        <translation><!-- CENTRO ASEGURADOR CI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEP D&apos;ASSEGURANCES GENERALS, S.A. - CAIXA DEL PENEDES</masterLabel>
+        <translation><!-- CEP D&apos;ASSEGURANCES GENERALS, S.A. - CAIXA DEL PENEDES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHARTIS EUROPE</masterLabel>
+        <translation><!-- CHARTIS EUROPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHC ENERGIA, S.A. - VIESGO ENERGIA S.L.</masterLabel>
+        <translation><!-- CHC ENERGIA, S.A. - VIESGO ENERGIA S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHUBB INSURANCE COMP</masterLabel>
+        <translation><!-- CHUBB INSURANCE COMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIA. DESCONOCIDA</masterLabel>
+        <translation><!-- CIA. DESCONOCIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIA. EXTRANJERA</masterLabel>
+        <translation><!-- CIA. EXTRANJERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIA. INEXISTENTE</masterLabel>
+        <translation><!-- CIA. INEXISTENTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIGNA</masterLabel>
+        <translation><!-- CIGNA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CLICKSEGUROS SEG. Y REAG. S.A.U.</masterLabel>
+        <translation><!-- CLICKSEGUROS SEG. Y REAG. S.A.U. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIAL UNION ESPA</masterLabel>
+        <translation><!-- COMERCIAL UNION ESPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMERCIAL UNION VIDA</masterLabel>
+        <translation><!-- COMERCIAL UNION VIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COMPANHIA DE SEGUROS FIDELIDADE, S.A. - FIDELIDADE COMPAÑIA DE SEGUROS , S.A.</masterLabel>
+        <translation><!-- COMPANHIA DE SEGUROS FIDELIDADE, S.A. - FIDELIDADE COMPAÑIA DE SEGUROS , S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSORCIO DE COMPENSACION DE SEGUROS</masterLabel>
+        <translation><!-- CONSORCIO DE COMPENSACION DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COVADONGA S.A. DE SE</masterLabel>
+        <translation><!-- COVADONGA S.A. DE SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRESA ASEGURADORA IBERICA</masterLabel>
+        <translation><!-- CRESA ASEGURADORA IBERICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAS LEX ASSITANCE - ONLYGAL SERVICIOS LEGALES S.L</masterLabel>
+        <translation><!-- DAS LEX ASSITANCE - ONLYGAL SERVICIOS LEGALES S.L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAS, S.A. DE SEGUROS - ONLYGAL SEGUROS Y REASEGUROS, S.A.</masterLabel>
+        <translation><!-- DAS, S.A. DE SEGUROS - ONLYGAL SEGUROS Y REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEPSA S.A. DE SEGURO</masterLabel>
+        <translation><!-- DEPSA S.A. DE SEGURO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIFERENCIAS SALDOS DEPOSITOS POR PRIMAS (LAGUN ARO)</masterLabel>
+        <translation><!-- DIFERENCIAS SALDOS DEPOSITOS POR PRIMAS (LAGUN ARO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIVINA PASTORA SEGUROS GENERALES SAU</masterLabel>
+        <translation><!-- DIVINA PASTORA SEGUROS GENERALES SAU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DKV PREVIASA, S.A - DKV PREVIASA, S.A</masterLabel>
+        <translation><!-- DKV PREVIASA, S.A - DKV PREVIASA, S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DKV SEGUROS, SOCIEDAD ANONIMA DE SEGUROS</masterLabel>
+        <translation><!-- DKV SEGUROS, SOCIEDAD ANONIMA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-ON DISTRIBUCION, S.L. - E-ON DISTRIBUCION, S.L.</masterLabel>
+        <translation><!-- E-ON DISTRIBUCION, S.L. - E-ON DISTRIBUCION, S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EAGLE STAR</masterLabel>
+        <translation><!-- EAGLE STAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ELECTRA DE VIESGO DISTRIBUCION, S.L. - VIESGO ENERGIA S.L.</masterLabel>
+        <translation><!-- ELECTRA DE VIESGO DISTRIBUCION, S.L. - VIESGO ENERGIA S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENDESA (FECSA) - E-distribucion Redes Digitales S.L.</masterLabel>
+        <translation><!-- ENDESA (FECSA) - E-distribucion Redes Digitales S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EQUITATIVA  S.A. RIE</masterLabel>
+        <translation><!-- EQUITATIVA  S.A. RIE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ETERNA ASEGURADORA UNIVERSAL</masterLabel>
+        <translation><!-- ETERNA ASEGURADORA UNIVERSAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EURO INSURANCES LIMITED</masterLabel>
+        <translation><!-- EURO INSURANCES LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROINS INSURANCE PLC</masterLabel>
+        <translation><!-- EUROINS INSURANCE PLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROMUTUA SEGUROS Y REASEGUROS A P. FIJA</masterLabel>
+        <translation><!-- EUROMUTUA SEGUROS Y REASEGUROS A P. FIJA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROPA ASSISTANCE ESPAÑA, S.A.</masterLabel>
+        <translation><!-- EUROPA ASSISTANCE ESPAÑA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROPA SEGUROS  S.A.</masterLabel>
+        <translation><!-- EUROPA SEGUROS  S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROSEGUROS, S.A. - BBVA SEGUROS ( UNNIM)</masterLabel>
+        <translation><!-- EUROSEGUROS, S.A. - BBVA SEGUROS ( UNNIM) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUROVIDA.S.A. CÍA DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- EUROVIDA.S.A. CÍA DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FENIX DIRECTO</masterLabel>
+        <translation><!-- FENIX DIRECTO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIATC (MUTUA DE SEGUROS GENERALES)</masterLabel>
+        <translation><!-- FIATC (MUTUA DE SEGUROS GENERALES) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIDELIDADE CIA. SEGUROS S.A.</masterLabel>
+        <translation><!-- FIDELIDADE CIA. SEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FIRST EUROPE (MUNAUT</masterLabel>
+        <translation><!-- FIRST EUROPE (MUNAUT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GACM SEGUROS GENERALES (RACC, ATLANTIS, UNIVERSAR,..)</masterLabel>
+        <translation><!-- GACM SEGUROS GENERALES (RACC, ATLANTIS, UNIVERSAR,..) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GAN ESPANA SEGUROS G</masterLabel>
+        <translation><!-- GAN ESPANA SEGUROS G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GAN SEGUROS S.A.</masterLabel>
+        <translation><!-- GAN SEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GAS NATURAL S.U.R. SDG, S.A. - NATURGY</masterLabel>
+        <translation><!-- GAS NATURAL S.U.R. SDG, S.A. - NATURGY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GE FRANKONA RE</masterLabel>
+        <translation><!-- GE FRANKONA RE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERAL REINSURANCE AG</masterLabel>
+        <translation><!-- GENERAL REINSURANCE AG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERALI ESPAÑA, S.A. SEG.Y REASEGUROS - GENERALI CENTRO OPERATIVO</masterLabel>
+        <translation><!-- GENERALI ESPAÑA, S.A. SEG.Y REASEGUROS - GENERALI CENTRO OPERATIVO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENERALI SEGUROS Y REASEGUROS, SAU</masterLabel>
+        <translation><!-- GENERALI SEGUROS Y REASEGUROS, SAU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENESIS SEGUROS GENERALES, S.A. - GENESIS SEGUROS GENERALES, S.A.</masterLabel>
+        <translation><!-- GENESIS SEGUROS GENERALES, S.A. - GENESIS SEGUROS GENERALES, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GERLING - KONZERN</masterLabel>
+        <translation><!-- GERLING - KONZERN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GES SEGUROS Y REASEG</masterLabel>
+        <translation><!-- GES SEGUROS Y REASEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GLOBAL VIDA</masterLabel>
+        <translation><!-- GLOBAL VIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GREAT LAKES INSURANCE, SE</masterLabel>
+        <translation><!-- GREAT LAKES INSURANCE, SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GREENVAL INSURANCE COMPANY LIMITED</masterLabel>
+        <translation><!-- GREENVAL INSURANCE COMPANY LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GROUPAMA ESPANA DE S</masterLabel>
+        <translation><!-- GROUPAMA ESPANA DE S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GROUPAMA PLUS ULTRA</masterLabel>
+        <translation><!-- GROUPAMA PLUS ULTRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GRUPO GENERALI</masterLabel>
+        <translation><!-- GRUPO GENERALI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HANNOVER INTERNACION</masterLabel>
+        <translation><!-- HANNOVER INTERNACION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HC ENERGIA, S.A. - EDP- HC ENERGIA, S.A.</masterLabel>
+        <translation><!-- HC ENERGIA, S.A. - EDP- HC ENERGIA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HDI GLOBAL SPECIALITY, SE</masterLabel>
+        <translation><!-- HDI GLOBAL SPECIALITY, SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HELLO INSURANCE GROUP, CÍA DE SEGUROS SA</masterLabel>
+        <translation><!-- HELLO INSURANCE GROUP, CÍA DE SEGUROS SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HELVETIA CERVANTES VASCONAVARRA, S.A.</masterLabel>
+        <translation><!-- HELVETIA CERVANTES VASCONAVARRA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HELVETIA CVN SEGUROS</masterLabel>
+        <translation><!-- HELVETIA CVN SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HELVETIA PREVISION S.A.</masterLabel>
+        <translation><!-- HELVETIA PREVISION S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HERCULES HISPANO S.A</masterLabel>
+        <translation><!-- HERCULES HISPANO S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HERMES S.A. DE SEGUR</masterLabel>
+        <translation><!-- HERMES S.A. DE SEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HILO DIRECT SEGUROS Y REASEGUROS, S.A. - HILO DIRECT SEGUROS Y REASEGUROS, S.A.</masterLabel>
+        <translation><!-- HILO DIRECT SEGUROS Y REASEGUROS, S.A. - HILO DIRECT SEGUROS Y REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HISCOX, S.A. SUC.ESPAÑA - HISCOX, S.A. SUC.ESPAÑA</masterLabel>
+        <translation><!-- HISCOX, S.A. SUC.ESPAÑA - HISCOX, S.A. SUC.ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HISPANO ALSACIANA S.</masterLabel>
+        <translation><!-- HISPANO ALSACIANA S. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBERCAJA VIDA COMPAÑÍA DE SEGUROS</masterLabel>
+        <translation><!-- IBERCAJA VIDA COMPAÑÍA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBERDROLA DISTRIBUCION ELECTRICA, S.A.U - I-DE Redes Eléctricas Inteligentes, S.A.U</masterLabel>
+        <translation><!-- IBERDROLA DISTRIBUCION ELECTRICA, S.A.U - I-DE Redes Eléctricas Inteligentes, S.A.U --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBERDROLA, S.A. - IBERDROLA COMERCIALIZADORA</masterLabel>
+        <translation><!-- IBERDROLA, S.A. - IBERDROLA COMERCIALIZADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBERIA CIA. DE SEGUR</masterLabel>
+        <translation><!-- IBERIA CIA. DE SEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMA IBERICA SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- IMA IBERICA SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMPERIO S.A.</masterLabel>
+        <translation><!-- IMPERIO S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ING NATIONALE NEDERLANDER</masterLabel>
+        <translation><!-- ING NATIONALE NEDERLANDER --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTER PARTNER ASSISTANCE ESPAÑA, S.A.</masterLabel>
+        <translation><!-- INTER PARTNER ASSISTANCE ESPAÑA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IPTIQ EMEA P&amp;C S.A, SUCURSAL EN ALEMANIA</masterLabel>
+        <translation><!-- IPTIQ EMEA P&amp;C S.A, SUCURSAL EN ALEMANIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IPTIQ EMEA P&amp;C S.A., SUCURSAL EN ITALIA</masterLabel>
+        <translation><!-- IPTIQ EMEA P&amp;C S.A., SUCURSAL EN ITALIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS - IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS</masterLabel>
+        <translation><!-- IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS - IRIS GLOBAL SOLUC.DE PROTECC.SEG. Y REAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ITAL IBERIA CIA. ESP</masterLabel>
+        <translation><!-- ITAL IBERIA CIA. ESP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAIROS CIA. DE SEGUR</masterLabel>
+        <translation><!-- KAIROS CIA. DE SEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KUTXABANK ASEGURADORA</masterLabel>
+        <translation><!-- KUTXABANK ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA PARISIENNE ASSURANCES</masterLabel>
+        <translation><!-- LA PARISIENNE ASSURANCES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA PATERNAL S.I.C.A.</masterLabel>
+        <translation><!-- LA PATERNAL S.I.C.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA PREVISION NACIONA</masterLabel>
+        <translation><!-- LA PREVISION NACIONA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA SUIZA CIA.DE SEGUROS Y</masterLabel>
+        <translation><!-- LA SUIZA CIA.DE SEGUROS Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA UNION ALCOYANA  S</masterLabel>
+        <translation><!-- LA UNION ALCOYANA  S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LE MANS SEGUROS ESPA</masterLabel>
+        <translation><!-- LE MANS SEGUROS ESPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEGALITAS COMPAÑIA DE SEG. Y REASEG., SA</masterLabel>
+        <translation><!-- LEGALITAS COMPAÑIA DE SEG. Y REASEG., SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LEPANTO, S.A.</masterLabel>
+        <translation><!-- LEPANTO, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIBERBANK VIDA Y PENSIONES, SEGUROS Y REASEGUROS S.A.</masterLabel>
+        <translation><!-- LIBERBANK VIDA Y PENSIONES, SEGUROS Y REASEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIBERTY INSURANCE SEG. Y REASEG, S.A. - GENERALI (ANTIGUA LIBERTY)</masterLabel>
+        <translation><!-- LIBERTY INSURANCE SEG. Y REASEG, S.A. - GENERALI (ANTIGUA LIBERTY) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LINEA DIRECTA ASEGUR</masterLabel>
+        <translation><!-- LINEA DIRECTA ASEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LLOYD ADRIATICO ESPA</masterLabel>
+        <translation><!-- LLOYD ADRIATICO ESPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LLOYD´S ESPAÑA</masterLabel>
+        <translation><!-- LLOYD´S ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LLOYD´S INSURANCE COMPANY SA/NV</masterLabel>
+        <translation><!-- LLOYD´S INSURANCE COMPANY SA/NV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LVBTA SUSCRIPCION S.L.</masterLabel>
+        <translation><!-- LVBTA SUSCRIPCION S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M M HOGAR</masterLabel>
+        <translation><!-- M M HOGAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.M.A. (MUTUA MADRILEÑA AUTOMOVILISTA) - M.M. (MUTUA MADRILEÑA )</masterLabel>
+        <translation><!-- M.M.A. (MUTUA MADRILEÑA AUTOMOVILISTA) - M.M. (MUTUA MADRILEÑA ) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.M.T. SEGUROS - M.M.T. SEGUROS</masterLabel>
+        <translation><!-- M.M.T. SEGUROS - M.M.T. SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAAF CIA. ESPAÑOLA</masterLabel>
+        <translation><!-- MAAF CIA. ESPAÑOLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MADES FONDO ASEGURAD</masterLabel>
+        <translation><!-- MADES FONDO ASEGURAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MADRILEÑA SUMINISTRO DE GAS, S.L. - GALP ENERGIA (MADRILEÑA SUMINISTRO DE GAS, S.L.)</masterLabel>
+        <translation><!-- MADRILEÑA SUMINISTRO DE GAS, S.L. - GALP ENERGIA (MADRILEÑA SUMINISTRO DE GAS, S.L.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE</masterLabel>
+        <translation><!-- MAPFRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE AGROPECUARIA</masterLabel>
+        <translation><!-- MAPFRE AGROPECUARIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE AUTOMOVILES SA. DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- MAPFRE AUTOMOVILES SA. DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE EMPRESAS - MAPFRE EMPRESAS</masterLabel>
+        <translation><!-- MAPFRE EMPRESAS - MAPFRE EMPRESAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE FAMILIAR</masterLabel>
+        <translation><!-- MAPFRE FAMILIAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE GLOBAL RISK</masterLabel>
+        <translation><!-- MAPFRE GLOBAL RISK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE GUANARTEME  S</masterLabel>
+        <translation><!-- MAPFRE GUANARTEME  S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE INDUSTRIAL  S</masterLabel>
+        <translation><!-- MAPFRE INDUSTRIAL  S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE RE COMPAÑIA DE REASEGUROS S.A</masterLabel>
+        <translation><!-- MAPFRE RE COMPAÑIA DE REASEGUROS S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAPFRE SEGUROS GENERALES, S.A.</masterLabel>
+        <translation><!-- MAPFRE SEGUROS GENERALES, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDIOLANUM</masterLabel>
+        <translation><!-- MEDIOLANUM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEDITERRANEO SEGUROS DIVERSOS</masterLabel>
+        <translation><!-- MEDITERRANEO SEGUROS DIVERSOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MERCURIO  S.A.  SEGU</masterLabel>
+        <translation><!-- MERCURIO  S.A.  SEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MERIDIANO, S.A. CIA ESP. SEG.</masterLabel>
+        <translation><!-- MERIDIANO, S.A. CIA ESP. SEG. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MESAI-MUTUA DE SEG.</masterLabel>
+        <translation><!-- MESAI-MUTUA DE SEG. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METLIFE EUROPE LIMITED SUCURSAL EN ESPAÑA</masterLabel>
+        <translation><!-- METLIFE EUROPE LIMITED SUCURSAL EN ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METROPOLIS S.A. CIA.</masterLabel>
+        <translation><!-- METROPOLIS S.A. CIA. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MGS SEGUROS Y REASEGUROS SA.</masterLabel>
+        <translation><!-- MGS SEGUROS Y REASEGUROS SA. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MM GLOBALIS</masterLabel>
+        <translation><!-- MM GLOBALIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MONUMENT ASSURANCE LUXEMBOURG, S.A. SUC ESPAÑA</masterLabel>
+        <translation><!-- MONUMENT ASSURANCE LUXEMBOURG, S.A. SUC ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUDESPA S. A. DE SEG</masterLabel>
+        <translation><!-- MUDESPA S. A. DE SEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MULTIASISTENCIA, S.A.</masterLabel>
+        <translation><!-- MULTIASISTENCIA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MULTINACIONAL ASEGUR</masterLabel>
+        <translation><!-- MULTINACIONAL ASEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MULTISEGUR, S.L. - MULTISEGUR, S.L.</masterLabel>
+        <translation><!-- MULTISEGUR, S.L. - MULTISEGUR, S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUNAT SEGUROS, S.A.</masterLabel>
+        <translation><!-- MUNAT SEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUNDSER SEGUROS</masterLabel>
+        <translation><!-- MUNDSER SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUNICH RE SUCURSAL EN ESPAÑA</masterLabel>
+        <translation><!-- MUNICH RE SUCURSAL EN ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUSAAT - MUSAAT</masterLabel>
+        <translation><!-- MUSAAT - MUSAAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUSSAP MUTUALIDAD SE</masterLabel>
+        <translation><!-- MUSSAP MUTUALIDAD SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTRAL  SEGUROS GENE</masterLabel>
+        <translation><!-- MUTRAL  SEGUROS GENE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA CATALANA DE SE</masterLabel>
+        <translation><!-- MUTUA CATALANA DE SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA DE PAMPLONA SEG.Y REASEG.P.FIJA - MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA</masterLabel>
+        <translation><!-- MUTUA DE PAMPLONA SEG.Y REASEG.P.FIJA - MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F. - MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F.</masterLabel>
+        <translation><!-- MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F. - MUTUA DE PROPIETARIOS, SEG.Y REASEG.P.F. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA FLEQUERA DE CA</masterLabel>
+        <translation><!-- MUTUA FLEQUERA DE CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA GENERAL DE SEGUROS</masterLabel>
+        <translation><!-- MUTUA GENERAL DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA ILICITANA DE S</masterLabel>
+        <translation><!-- MUTUA ILICITANA DE S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA LERIDANA S.SEG</masterLabel>
+        <translation><!-- MUTUA LERIDANA S.SEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA MADRILENA DE T</masterLabel>
+        <translation><!-- MUTUA MADRILENA DE T --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA MADRILEÑA</masterLabel>
+        <translation><!-- MUTUA MADRILEÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA SEGORBINA DE S</masterLabel>
+        <translation><!-- MUTUA SEGORBINA DE S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA SEVILLANA DE T</masterLabel>
+        <translation><!-- MUTUA SEVILLANA DE T --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA TINERFEÑA</masterLabel>
+        <translation><!-- MUTUA TINERFEÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA TINERFEÑA DE SEGUROS - MUTUA TINERFEÑA DE SEGUROS</masterLabel>
+        <translation><!-- MUTUA TINERFEÑA DE SEGUROS - MUTUA TINERFEÑA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUA VALENCIANA AUTOMOVILISTA</masterLabel>
+        <translation><!-- MUTUA VALENCIANA AUTOMOVILISTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUAL DE SEGUROS  S</masterLabel>
+        <translation><!-- MUTUAL DE SEGUROS  S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUAL.SEG.PANADERIA DE VALENCIA</masterLabel>
+        <translation><!-- MUTUAL.SEG.PANADERIA DE VALENCIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUALIDAD DE LEVANT</masterLabel>
+        <translation><!-- MUTUALIDAD DE LEVANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUALIDAD DE LEVANTE - MUTUALIDAD DE LEVANTE</masterLabel>
+        <translation><!-- MUTUALIDAD DE LEVANTE - MUTUALIDAD DE LEVANTE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUALIDAD GENERAL DE LA ABOGACÍA</masterLabel>
+        <translation><!-- MUTUALIDAD GENERAL DE LA ABOGACÍA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUASPORT</masterLabel>
+        <translation><!-- MUTUASPORT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA</masterLabel>
+        <translation><!-- MUTUAVENIR MUTUA DE S.R.P.F. DE PAMPLONA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NACIONAL DE REASEGUROS, S.A.</masterLabel>
+        <translation><!-- NACIONAL DE REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NACIONAL HISPANICA S</masterLabel>
+        <translation><!-- NACIONAL HISPANICA S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NACIONAL SUIZA  CIA.</masterLabel>
+        <translation><!-- NACIONAL SUIZA  CIA. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A. - NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A.</masterLabel>
+        <translation><!-- NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A. - NACIONAL SUIZA CIA.DE SEG.Y REASEG.,S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NATIONALE-NEDERLANDEN GRALES.CIA.SEG.REA</masterLabel>
+        <translation><!-- NATIONALE-NEDERLANDEN GRALES.CIA.SEG.REA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NATIONALE-NERDERLANDEN VIDA</masterLabel>
+        <translation><!-- NATIONALE-NERDERLANDEN VIDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NORTEHISPANA DE SEGU</masterLabel>
+        <translation><!-- NORTEHISPANA DE SEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCASO S.A. DE SEGURO</masterLabel>
+        <translation><!-- OCASO S.A. DE SEGURO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCCIDENT GCO, S.A.U. DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- OCCIDENT GCO, S.A.U. DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ONLYGAL(D.A.S.)</masterLabel>
+        <translation><!-- ONLYGAL(D.A.S.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PATRIA HISPANA  S.A.</masterLabel>
+        <translation><!-- PATRIA HISPANA  S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PELAYO MUTUA DE SEG. Y REASEG. A  P.F.</masterLabel>
+        <translation><!-- PELAYO MUTUA DE SEG. Y REASEG. A  P.F. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PLUS ULTRA/GROUPAMA SEGUROS Y REASEGUROS S.A.</masterLabel>
+        <translation><!-- PLUS ULTRA/GROUPAMA SEGUROS Y REASEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PREVENTIVA, S.A. CIA SEG Y REASEGUROS - PREVENTIVA, S.A. CIA SEG Y REASEGUROS</masterLabel>
+        <translation><!-- PREVENTIVA, S.A. CIA SEG Y REASEGUROS - PREVENTIVA, S.A. CIA SEG Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROBUS INSURANCE CO. EUROPE</masterLabel>
+        <translation><!-- PROBUS INSURANCE CO. EUROPE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROSPERITY S.A. DE S</masterLabel>
+        <translation><!-- PROSPERITY S.A. DE S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QBE EUROPE SA/NV SUCURSAL EN ESPAÑA</masterLabel>
+        <translation><!-- QBE EUROPE SA/NV SUCURSAL EN ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QBE INSURANCE EUROPE LIMITED</masterLabel>
+        <translation><!-- QBE INSURANCE EUROPE LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QIC EUROPE LIMITED</masterLabel>
+        <translation><!-- QIC EUROPE LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QUDOS INSURANCE AS</masterLabel>
+        <translation><!-- QUDOS INSURANCE AS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RACC SEGUROS CIA DE SEG.Y REASEG., S.A. - GACM SEGUR GENERALES (ANGEM)</masterLabel>
+        <translation><!-- RACC SEGUROS CIA DE SEG.Y REASEG., S.A. - GACM SEGUR GENERALES (ANGEM) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REALE</masterLabel>
+        <translation><!-- REALE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REALE ASISTENCIA</masterLabel>
+        <translation><!-- REALE ASISTENCIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REALE AUTOS Y SEGUROS GENERALES, S.A. - REALE SEGUROS GENERALES, S.A.</masterLabel>
+        <translation><!-- REALE AUTOS Y SEGUROS GENERALES, S.A. - REALE SEGUROS GENERALES, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REALE SEGUROS GENERA</masterLabel>
+        <translation><!-- REALE SEGUROS GENERA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REDDIS MUTUA DE SEG.</masterLabel>
+        <translation><!-- REDDIS MUTUA DE SEG. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REGAL INSURANCE CLUB</masterLabel>
+        <translation><!-- REGAL INSURANCE CLUB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RELIANCE NATIONAL IN</masterLabel>
+        <translation><!-- RELIANCE NATIONAL IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU - REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU</masterLabel>
+        <translation><!-- REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU - REPSOL COMERCIALIZ.DE ELECTRIC.Y GAS,SLU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGA INTERNATIONAL REINSURANCE COMPANY DAC, SUC ESPAÑA</masterLabel>
+        <translation><!-- RGA INTERNATIONAL REINSURANCE COMPANY DAC, SUC ESPAÑA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RGA RURAL VIDA S.A. DE SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- RGA RURAL VIDA S.A. DE SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SA NOSTRA COMPAÑÍA DE SEGUROS DE VIDA S.A.</masterLabel>
+        <translation><!-- SA NOSTRA COMPAÑÍA DE SEGUROS DE VIDA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SADYR S.A.</masterLabel>
+        <translation><!-- SADYR S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SANTA LUCIA S.A.</masterLabel>
+        <translation><!-- SANTA LUCIA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SANTANDER GENERALES SEGUROS Y REASEGUROS, S.A.</masterLabel>
+        <translation><!-- SANTANDER GENERALES SEGUROS Y REASEGUROS, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SANTANDER MAPFRE SEGUROS Y REASEGUROS S.A.</masterLabel>
+        <translation><!-- SANTANDER MAPFRE SEGUROS Y REASEGUROS S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCHWEIZ C.A.E. SEGUR</masterLabel>
+        <translation><!-- SCHWEIZ C.A.E. SEGUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCOR IBERICA</masterLabel>
+        <translation><!-- SCOR IBERICA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGURAUTO  S.A.CIA.D</masterLabel>
+        <translation><!-- SEGURAUTO  S.A.CIA.D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGURCAIXA ADESLAS</masterLabel>
+        <translation><!-- SEGURCAIXA ADESLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS   BILBAO GRUPO FORTI</masterLabel>
+        <translation><!-- SEGUROS   BILBAO GRUPO FORTI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS AXA</masterLabel>
+        <translation><!-- SEGUROS AXA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS CATALANA OCCIDENTE, S.A.,S. Y R. - OCCIDENT GCO</masterLabel>
+        <translation><!-- SEGUROS CATALANA OCCIDENTE, S.A.,S. Y R. - OCCIDENT GCO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS FINISTERRE</masterLabel>
+        <translation><!-- SEGUROS FINISTERRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS GENERALES RURAL S.A.</masterLabel>
+        <translation><!-- SEGUROS GENERALES RURAL S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS LAGUN ARO S.A</masterLabel>
+        <translation><!-- SEGUROS LAGUN ARO S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS LAGUN ARO VIDA, S.A.</masterLabel>
+        <translation><!-- SEGUROS LAGUN ARO VIDA, S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEGUROS ORBITA S.A.</masterLabel>
+        <translation><!-- SEGUROS ORBITA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SLE WORLDWIDE LTD EU</masterLabel>
+        <translation><!-- SLE WORLDWIDE LTD EU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOCIEDAD ANDALUZA DE</masterLabel>
+        <translation><!-- SOCIEDAD ANDALUZA DE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOLISS MUTUALIDAD SE</masterLabel>
+        <translation><!-- SOLISS MUTUALIDAD SE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOLISS.MUTUALIDAD INTERPROV. DE SEGUROS</masterLabel>
+        <translation><!-- SOLISS.MUTUALIDAD INTERPROV. DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SOVAG</masterLabel>
+        <translation><!-- SOVAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SPAIN&amp;PORTUGAL, S.L. - ARAG SPAIN&amp;PORTUGAL, S.L.</masterLabel>
+        <translation><!-- SPAIN&amp;PORTUGAL, S.L. - ARAG SPAIN&amp;PORTUGAL, S.L. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUD AMERICA VIDA Y P</masterLabel>
+        <translation><!-- SUD AMERICA VIDA Y P --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUIZA  SDAD. SEG. C/</masterLabel>
+        <translation><!-- SUIZA  SDAD. SEG. C/ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUN ALLIANCE S.A. CI</masterLabel>
+        <translation><!-- SUN ALLIANCE S.A. CI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUR S.A. DE SEGUROS</masterLabel>
+        <translation><!-- SUR S.A. DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SURNE MUTUA DE SEGUROS</masterLabel>
+        <translation><!-- SURNE MUTUA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TECNICA ASEGURADORA</masterLabel>
+        <translation><!-- TECNICA ASEGURADORA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOKIO MARINE EUROPE INDURANCE</masterLabel>
+        <translation><!-- TOKIO MARINE EUROPE INDURANCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRADEWISE INSURANCE COMPANY LIMITED</masterLabel>
+        <translation><!-- TRADEWISE INSURANCE COMPANY LIMITED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UAP IBERICA  CIA. DE</masterLabel>
+        <translation><!-- UAP IBERICA  CIA. DE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UMA  UNION DE MUTUAS</masterLabel>
+        <translation><!-- UMA  UNION DE MUTUAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UMAS</masterLabel>
+        <translation><!-- UMAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UMES  S.A. DE SEG. Y</masterLabel>
+        <translation><!-- UMES  S.A. DE SEG. Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNASYR-UNION ALICANT</masterLabel>
+        <translation><!-- UNASYR-UNION ALICANT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNHIS UNION HISPANA</masterLabel>
+        <translation><!-- UNHIS UNION HISPANA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNIAL SOCIAL DE SEGU</masterLabel>
+        <translation><!-- UNIAL SOCIAL DE SEGU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNIBER CIA / ZURICH</masterLabel>
+        <translation><!-- UNIBER CIA / ZURICH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION ALCOYANA, S.A. (LA) - UNION ALCOYANA SEGUROS</masterLabel>
+        <translation><!-- UNION ALCOYANA, S.A. (LA) - UNION ALCOYANA SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION CONDAL  S.A.</masterLabel>
+        <translation><!-- UNION CONDAL  S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION EUROPEA DE SEG</masterLabel>
+        <translation><!-- UNION EUROPEA DE SEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION IBERICA DE SEG</masterLabel>
+        <translation><!-- UNION IBERICA DE SEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION MUTUA ASISTENCIAL DE SEGUROS - UMAS MUTUA DE SEGUROS</masterLabel>
+        <translation><!-- UNION MUTUA ASISTENCIAL DE SEGUROS - UMAS MUTUA DE SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION MUTUA SEG.  SD</masterLabel>
+        <translation><!-- UNION MUTUA SEG.  SD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNION PENINSULAR DE</masterLabel>
+        <translation><!-- UNION PENINSULAR DE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNIPOL ASSICURAZIONI</masterLabel>
+        <translation><!-- UNIPOL ASSICURAZIONI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNIÓN DEL DUERO CÍA. DE SEGUROS DE VIDA S.A.</masterLabel>
+        <translation><!-- UNIÓN DEL DUERO CÍA. DE SEGUROS DE VIDA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNNIM PROTECCIO (ANTES CAIXA TERRASSA)</masterLabel>
+        <translation><!-- UNNIM PROTECCIO (ANTES CAIXA TERRASSA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS - UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS</masterLabel>
+        <translation><!-- UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS - UNNIM PROTECCIO, SA DE SEG.Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USAA LIMITED (UNITED SERVICES AUTOMOBILE ASOCIATION)</masterLabel>
+        <translation><!-- USAA LIMITED (UNITED SERVICES AUTOMOBILE ASOCIATION) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USAA S.A</masterLabel>
+        <translation><!-- USAA S.A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAN AMEYDE ESPAÑA S.A.</masterLabel>
+        <translation><!-- VAN AMEYDE ESPAÑA S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAN CALCAR ESPAÑA CI</masterLabel>
+        <translation><!-- VAN CALCAR ESPAÑA CI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VARIAS CIAS.</masterLabel>
+        <translation><!-- VARIAS CIAS. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VERTI ASEGURADORA COMPAÑIA SEG.Y REAS,SA</masterLabel>
+        <translation><!-- VERTI ASEGURADORA COMPAÑIA SEG.Y REAS,SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VICTORIA MERIDIONAL, S. A. - ERGO SEGUROS</masterLabel>
+        <translation><!-- VICTORIA MERIDIONAL, S. A. - ERGO SEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIDACAIXA ADESLAS, S.A. SEG.GRALES Y REA - SEGURCAIXA ADESLAS</masterLabel>
+        <translation><!-- VIDACAIXA ADESLAS, S.A. SEG.GRALES Y REA - SEGURCAIXA ADESLAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIDACAIXA SA SEGUROS Y REASEGUROS</masterLabel>
+        <translation><!-- VIDACAIXA SA SEGUROS Y REASEGUROS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VIMAR  SEGUROS Y REA</masterLabel>
+        <translation><!-- VIMAR  SEGUROS Y REA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WELCOME SEGUROS 2020 S.A.</masterLabel>
+        <translation><!-- WELCOME SEGUROS 2020 S.A. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WINTERTHUR</masterLabel>
+        <translation><!-- WINTERTHUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZURICH CIA - EROSKI</masterLabel>
+        <translation><!-- ZURICH CIA - EROSKI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZURICH CIA. DE SEG.</masterLabel>
+        <translation><!-- ZURICH CIA. DE SEG. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZURICH ESPAÑA CIA SEGUROS Y REASEGUROS - ZURICH</masterLabel>
+        <translation><!-- ZURICH ESPAÑA CIA SEGUROS Y REASEGUROS - ZURICH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZURICH INSURANCE PUBLIC LIMITED COMPANY</masterLabel>
+        <translation><!-- ZURICH INSURANCE PUBLIC LIMITED COMPANY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ZURICH INTERNACIONAL</masterLabel>
+        <translation><!-- ZURICH INTERNACIONAL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

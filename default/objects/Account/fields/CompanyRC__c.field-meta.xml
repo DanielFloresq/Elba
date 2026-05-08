@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyRC__c</fullName>
+    <label>Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AIG Europe</fullName>
+                <default>false</default>
+                <label>AIG Europe</label>
+            </value>
+            <value>
+                <fullName>Allianz Seguros</fullName>
+                <default>false</default>
+                <label>Allianz Seguros</label>
+            </value>
+            <value>
+                <fullName>AXA Seguros Generales</fullName>
+                <default>false</default>
+                <label>AXA Seguros Generales</label>
+            </value>
+            <value>
+                <fullName>Berkley España</fullName>
+                <default>false</default>
+                <label>Berkley España</label>
+            </value>
+            <value>
+                <fullName>Caser Seguros</fullName>
+                <default>false</default>
+                <label>Caser Seguros</label>
+            </value>
+            <value>
+                <fullName>Catalana Occidente</fullName>
+                <default>false</default>
+                <label>Catalana Occidente</label>
+            </value>
+            <value>
+                <fullName>Chubb European Group</fullName>
+                <default>false</default>
+                <label>Chubb European Group</label>
+            </value>
+            <value>
+                <fullName>Generali Seguros</fullName>
+                <default>false</default>
+                <label>Generali Seguros</label>
+            </value>
+            <value>
+                <fullName>HDI Global</fullName>
+                <default>false</default>
+                <label>HDI Global</label>
+            </value>
+            <value>
+                <fullName>Hiscox Europe</fullName>
+                <default>false</default>
+                <label>Hiscox Europe</label>
+            </value>
+            <value>
+                <fullName>Liberty Seguros</fullName>
+                <default>false</default>
+                <label>Liberty Seguros</label>
+            </value>
+            <value>
+                <fullName>Mapfre España</fullName>
+                <default>false</default>
+                <label>Mapfre España</label>
+            </value>
+            <value>
+                <fullName>Occident (Grupo Catalana)</fullName>
+                <default>false</default>
+                <label>Occident (Grupo Catalana)</label>
+            </value>
+            <value>
+                <fullName>Plus Ultra Seguros</fullName>
+                <default>false</default>
+                <label>Plus Ultra Seguros</label>
+            </value>
+            <value>
+                <fullName>QBE Seguros</fullName>
+                <default>false</default>
+                <label>QBE Seguros</label>
+            </value>
+            <value>
+                <fullName>RSA España</fullName>
+                <default>false</default>
+                <label>RSA España</label>
+            </value>
+            <value>
+                <fullName>Santalucía Empresas</fullName>
+                <default>false</default>
+                <label>Santalucía Empresas</label>
+            </value>
+            <value>
+                <fullName>Zurich Insurance</fullName>
+                <default>false</default>
+                <label>Zurich Insurance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

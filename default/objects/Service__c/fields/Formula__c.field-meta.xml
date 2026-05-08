@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+  Type__c,
+  &quot;A1&quot;, &quot;ALBAÑIL&quot;,
+  &quot;A2&quot;, &quot;ASITENCIA INFORMATICA&quot;,
+  &quot;A3&quot;, &quot;CALDERISTA&quot;,
+  &quot;A4&quot;, &quot;CARPINTERO&quot;,
+  &quot;A5&quot;, &quot;CARPINTERO ALUMINIO&quot;,
+  &quot;A6&quot;, &quot;CERRAJERO&quot;,
+  &quot;A7&quot;, &quot;CONTROL DE PLAGAS&quot;,
+  &quot;A8&quot;, &quot;CRISTALERO&quot;,
+  &quot;A9&quot;, &quot;DESATASCADOR&quot;,
+  &quot;B1&quot;, &quot;ELECTRICISTA&quot;,
+  &quot;B2&quot;, &quot;ESCAYOLISTA&quot;,
+  &quot;B3&quot;, &quot;FONTANERO&quot;,
+  &quot;B4&quot;, &quot;LIMPIADOR&quot;,
+  &quot;B5&quot;, &quot;LINEA BLANCA&quot;,
+  &quot;B6&quot;, &quot;LINEA GRIS&quot;,
+  &quot;B7&quot;, &quot;LINEA MARRON&quot;,
+  &quot;B8&quot;, &quot;LOZA SANITARIA&quot;,
+  &quot;B9&quot;, &quot;MANITAS&quot;,
+  &quot;C1&quot;, &quot;MARMOLISTA&quot;,
+  &quot;C2&quot;, &quot;PARQUETISTA&quot;,
+  &quot;C3&quot;, &quot;PERSIANISTA&quot;,
+  &quot;C4&quot;, &quot;PINTOR&quot;,
+  &quot;C5&quot;, &quot;ROTULISTA&quot;,
+  &quot;C7&quot;, &quot;TOLDERO&quot;,
+  &quot;C8&quot;, &quot;VIGILANCIA&quot;,
+  &quot;C9&quot;, &quot;VITROCERAMICA DE TECNICO&quot;,
+  &quot;D1&quot;, &quot;VITROCHANGE&quot;,
+  &quot;C6&quot;, &quot;TEJADISTA&quot;,
+  &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

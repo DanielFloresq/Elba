@@ -1,0 +1,95 @@
+<html style="background-color: white;">
+    <head>
+        <title></title>
+    </head>
+
+    <body style="height: auto; min-height: auto; line-height: 15px!important;">
+        <span style="background-color: white; margin-left: 0!important; margin-right: 0!important; padding-left: 0!important; padding-right: 0!important;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="font-size:12px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.Name}}}</span>
+            </span>
+            <br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="font-size:12px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.ComunicacionAddressStreet__c}}}</span>
+            </span>
+            <br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="font-size:12px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.ComunicacionAddressPostalCode__c}}}, {{{Case.ComunicacionAddressCity__c}}}</span>
+            </span>
+            <br />
+
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <span style="font-size:12px;">
+                <b style="font-family:Arial,Helvetica,sans-serif;">Nº de Siniestro: </b>{{{Case.CaseNumber}}}
+            </span>
+            <br />
+            <span style="font-size:12px;">
+                <b style="font-family:Arial,Helvetica,sans-serif;">Nº de Póliza </b>{{{Case.PolicyNumber__c}}}
+            </span>
+            <br />
+            <span style="font-size:12px;">
+                <b style="font-family:Arial,Helvetica,sans-serif;">Fecha de ocurrencia: </b>{{{Case.IncidentDate__c}}}
+            </span>
+            <br />
+            <span style="font-size:12px;">
+                <b style="font-family:Arial,Helvetica,sans-serif;">Fecha de declaración: </b>{{{Case.ClaimDate__c}}}
+            </span>
+            <br />
+        </span>
+        <br />
+
+        <span style="font-size:30px; font-weight: 500;line-height: 25px!important; font-family:Arial,Helvetica,sans-serif;color: #1e90ff!important;"><font color="#1e90ff">Resolución de tu</font></span>
+        <br>
+        <span style="font-size:30px; font-weight: 500;line-height: 25px!important; font-family:Arial,Helvetica,sans-serif;color: #19d308!important;"><font color="#19d308">solicitud de prestación</font></span>
+        <br /><br /><br />
+
+        <span style="background-color: white;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="font-size:12px;">
+                <span style="font-family:Arial,Helvetica,sans-serif;">Madrid, a {{{Case.ComunicacionCurDate__c}}}</span>
+            </span>
+            <br />
+        </span>
+        <br />
+
+        <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;">
+            <span style="line-height:115%">
+                <span style="color:black">Estimado cliente,</span>
+            </span>
+            <br /><br />
+
+            <span style="line-height:115%">
+                <span style="color:black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ante vel erat laoreet porttitor. Aenean maximus, lacus non ullamcorper consectetur, felis magna aliquam lectus, ac consectetur nisi leo eget diam. In ullamcorper ullamcorper elementum. Pellentesque tempor, elit quis porta gravida, ex magna ultricies lectus, at aliquam diam erat et leo. Proin consequat viverra mollis. Aliquam quis accumsan urna. In hac habitasse platea dictumst. In eget libero ac mi cursus molestie et nec nulla. Morbi interdum sit amet felis nec auctor. Fusce non quam pulvinar, vulputate urna eget, tincidunt quam. Nam hendrerit lectus mi, non molestie massa placerat eget.</span>
+            </span>
+            <br /><br />
+
+            <span style="line-height:115%">
+                <span style="color:black">Phasellus sagittis aliquam enim. Etiam tempus dolor justo, vitae gravida nulla semper in. Etiam vitae purus venenatis, scelerisque magna eu, lacinia urna. Nulla sed lacus at elit sollicitudin pulvinar. Donec mi nibh, mollis sit amet nisl a, consequat lacinia purus. Nam porttitor magna eget nisi rutrum tincidunt. Vestibulum rutrum eu nisi at condimentum. Proin vehicula quam eget ligula hendrerit, vel ultricies elit porttitor. Donec non pharetra felis, quis dignissim lorem. Nullam tincidunt pretium elementum. In fermentum, odio nec tempor pellentesque, neque orci tristique purus, eget euismod ligula orci ac ex. Praesent egestas felis risus, quis ullamcorper turpis efficitur nec.</span>
+            </span>
+            <br /><br />
+
+            <span style="line-height:115%">
+                <span style="color:black">Sed congue eros nisi, eu volutpat justo convallis nec. Morbi volutpat dignissim lorem at fermentum. Sed nisl nisl, imperdiet a convallis et, volutpat mattis dui. Praesent sed mi commodo, varius ex non, posuere sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est ut arcu pharetra suscipit ac at dui. Quisque commodo pharetra tortor eu tristique. Nullam metus magna, placerat non interdum a, interdum eu tellus. Aliquam eget lacus quis purus tristique elementum sed et lacus. Mauris lobortis augue ut lorem blandit, sit amet pharetra nisl tincidunt. Phasellus non sem vulputate, aliquam purus placerat, pellentesque ipsum.</span>
+            </span>
+            <br /><br />
+
+            <span style="line-height:115%">
+                <span style="color:black">Si necesitas cualquier aclaración, puedes contactar en el teléfono 91 520 05 00 en horario de 9 a 21 horas, de lunes a viernes.</span>
+            </span>
+            <br /><br />
+
+            <span style="line-height:115%">
+                <span style="color:black">Cordialmente,</span>
+            </span>
+        </span>
+    </body>
+</html>

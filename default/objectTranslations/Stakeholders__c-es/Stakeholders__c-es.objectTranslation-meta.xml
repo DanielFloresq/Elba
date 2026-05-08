@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tercera parte</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Terceras partes</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Stakeholder Layout</layout>
+        <sections>
+            <label><!-- Aseguradora --></label>
+            <section>Aseguradora</section>
+        </sections>
+        <sections>
+            <label><!-- Contacto --></label>
+            <section>Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Dirección --></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label>Diseños personalizados</label>
+            <section>Diseños personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Interesados</nameFieldLabel>
+</CustomObjectTranslation>

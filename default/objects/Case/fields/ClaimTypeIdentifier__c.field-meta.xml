@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClaimTypeIdentifier__c</fullName>
+    <label>Claim Type Identifier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RE</fullName>
+                <default>false</default>
+                <label>Repairable</label>
+            </value>
+            <value>
+                <fullName>IN</fullName>
+                <default>false</default>
+                <label>Compensable</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>Mixed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

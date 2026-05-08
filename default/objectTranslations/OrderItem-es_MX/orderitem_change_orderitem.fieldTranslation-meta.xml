@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Producto de encargo de cambio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productos de encargos de cambio</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>orderitem_change_orderitem</name>
+</CustomFieldTranslation>

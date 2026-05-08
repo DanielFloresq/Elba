@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Opening</fullName>
+        <default>true</default>
+        <label>Opening</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejection</fullName>
+        <default>false</default>
+        <label>Rejection</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Operational Closure</fullName>
+        <default>false</default>
+        <label>Operational Closure</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Finished</fullName>
+        <default>false</default>
+        <label>Finished</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <color>#CC33CC</color>
+        <default>false</default>
+        <label>Canceled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

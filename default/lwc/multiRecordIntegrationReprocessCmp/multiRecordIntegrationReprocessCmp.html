@@ -1,0 +1,64 @@
+<!--
+  @description       : Multi-record integration reprocessing component for batch operations
+  @author            : Daniel Flores
+  @group             : 
+  @last modified on  : 04-03-2026
+  @last modified by  : Daniel Flores
+-->
+<template>
+
+    <lightning-card title={componentTitle} icon-name="standard:record_update" variant="Narrow">
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+
+        <div class="slds-m-around_large">
+
+            <div class="slds-m-around_medium">
+                <template if:true={showObjectTypeSelection}>
+                    <lightning-combobox label={objectTypeLabel} placeholder={objectTypePlaceholder} options={availableObjectTypes} onchange={handleTypeChange} required></lightning-combobox>
+                </template>
+                <template if:true={showDatatable}>
+                    <div class="slds-m-around_large" style="height: 60vh;">
+                        <lightning-datatable key-field="id" data={dataRecords} columns={dataColumns}></lightning-datatable>
+                    </div>
+                </template>
+                <template if:true={showProgressBar}>
+                    <div class="slds-m-around_large">
+                        <lightning-formatted-text value={runningMessage}></lightning-formatted-text>
+                    </div>
+                    <lightning-progress-bar value={currentPercentage} size={totalPercentage} variant="circular"></lightning-progress-bar>
+                </template>
+                <template if:true={showResults}>
+                    <div class="slds-m-around_large" style="height: 60vh;">
+                        <lightning-datatable key-field="id" data={dataRecords} columns={dataColumns} hide-checkbox-column="true"></lightning-datatable>
+                    </div>
+                </template>
+            </div>
+
+
+            <div class="slds-m-around_medium">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-align_absolute-center">
+                        <template if:true={showBackButton}>
+                            <lightning-button label={backButtonLabel} variant="brand" onclick={handleBackClick}></lightning-button>
+                        </template>
+                    </div>
+                    <div class="slds-col slds-align_absolute-center">
+                        <template if:true={showFinishButton}>
+                            <lightning-button label={finishButtonLabel} variant="brand" onclick={handleFinishClick}></lightning-button>
+                        </template>
+                    </div>
+                    <div class="slds-col slds-align_absolute-center">
+                        <template if:true={showExecuteBatchButton}>
+                            <lightning-button label={executeBatchButtonLabel} variant="brand" onclick={handleExecuteBatchClick}></lightning-button>
+                        </template>
+                        <template if:true={showNextButton}>
+                            <lightning-button label={nextButtonLabel} variant="brand" onclick={handleNextClick}></lightning-button>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

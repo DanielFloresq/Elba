@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Informativa</fullName>
+        <default>false</default>
+        <label>Informativa</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acción</fullName>
+        <default>false</default>
+        <label>Acción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Espera</fullName>
+        <default>false</default>
+        <label>Espera</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automática</fullName>
+        <default>false</default>
+        <label>Automática</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cambiar Descriptivo</fullName>
+        <default>false</default>
+        <label>Cambiar Descriptivo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sistema</fullName>
+        <default>false</default>
+        <label>Sistema</label>
+    </standardValue>
+</StandardValueSet>

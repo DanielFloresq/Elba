@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManagementTeam__c</fullName>
+    <label>Management Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TR</fullName>
+                <default>false</default>
+                <label>Processing</label>
+            </value>
+            <value>
+                <fullName>CA</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>CO</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <label>Experts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
